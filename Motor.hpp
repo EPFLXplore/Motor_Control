@@ -1,12 +1,12 @@
-#ifndef NAV_MOTORS_HPP
-#define NAV_MOTORS_HPP
+#ifndef MOTOR_HPP
+#define MOTOR_HPP
 
 #include <iostream>
 #include <math.h>
 
-#ifndef TESTING
-    #include "ros/ros.h"
-#endif
+//#ifndef TESTING
+//    #include "ros/ros.h"
+//#endif
 #include "EposCmd.h"
 //#include "thermal_modeling.hpp"
 
