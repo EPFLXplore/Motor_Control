@@ -271,3 +271,8 @@ int Motor::get_current_is()
     print_VCS_error(error_code, __FUNCTION__);
     return cur;
 }
+
+
+void Motor::error_test(){
+    error_code = 0;
+}
