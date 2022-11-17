@@ -89,19 +89,35 @@ Motor::Motor(void *KeyHandle, unsigned short node_id, signed char mode){
 
 // UTILITY FUNCTIONS
 
-
-bool Motor::set_operational_mode(signed char mode){
+bool Motor::set_op_mode(ControlMode control_mode){
     CONNECTION_CHECK;
 
-    unsigned int error_code = 0;
-    VCS_SetOperationMode(gateway, id, mode, &error_code);
-    if (error_code)
-    {
-        print_VCS_error(error_code, __FUNCTION__);
-        op_mode_ = 0;
-        return false;
+    switch (control_mode){
+        case POSISTION:
+            if(speed_limit_ and accel_limit_)
+                VCS_SetOperationMode(gateway, id, OMD_PROFILE_POSITION_MODE, 
+                                     &error_code);
+            else
+                VCS_SetOperationMode(gateway, id, OMD_POSITION_MODE, 
+                                     &error_code);
+        break;
+        case SPEED:
+            if(accel_limit_)
+                VCS_SetOperationMode(gateway, id, OMD_PROFILE_VELOCITY_MODE, 
+                                     &error_code);
+            else
+                VCS_SetOperationMode(gateway, id, OMD_VELOCITY_MODE, 
+                                     &error_code);
+        break;
+        case CURRENT:
+            VCS_SetOperationMode(gateway, id, OMD_CURRENT_MODE,
+                                 &error_code);
+            break;
     }
-    op_mode_ = mode;
+    
+    error_test();
+
+    control_mode_ = control_mode;
     return true;
 }
 
