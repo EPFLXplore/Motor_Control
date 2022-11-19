@@ -13,20 +13,15 @@ private :
     void*           gateway;
     unsigned short  id;
 
-    bool            is_connected;
-    bool            is_calibrated;
-
     ControlMode     control_mode_;
-    signed char     op_mode_;
-    long            pos_ref;
 
     unsigned int error_code;
 
 // Profil moteur
-    unsigned int max_pos_;
+    /*unsigned int max_pos_;
     unsigned int min_pos_;
-    bool pos_limit_;
-
+    bool pos_limit_;*/
+ 
     unsigned int max_speed_;
     bool speed_limit_;
 
@@ -50,10 +45,12 @@ public :
         * param    node_id     CAN Node ID of the controller
         * param    exp_type    expected motor type (0 for no expected type)
         */
-    Motor(void* KeyHandle, unsigned short node_id, signed char mode);
-    Motor(void* KeyHandle, unsigned short node_id) : Motor(KeyHandle, node_id, 0) {};
-
-
+    Motor(void* KeyHandle, unsigned short node_id, ControlMode mode,
+        unsigned int max_speed, unsigned int max_accel, unsigned int max_decel);
+    Motor(void* KeyHandle, unsigned short node_id, ControlMode mode,
+        unsigned int max_accel, unsigned int max_decel);
+    Motor(void* KeyHandle, unsigned short node_id, ControlMode mode);
+    
 // getter/setter simple
 
     /* get_id

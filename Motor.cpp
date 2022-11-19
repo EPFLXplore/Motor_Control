@@ -2,22 +2,7 @@
 
 using namespace std;
 
-#ifndef ROSCPP_ROS_H
-#define CONNECTION_CHECK                                      \
-    if (!is_connected)                                        \
-    {                                                         \
-        cerr << "Node " << id << " is not connected" << endl; \
-        return false;                                         \
-    }
-#else
-#define CONNECTION_CHECK                                        \
-    if (!is_connected)                                          \
-    {                                                           \
-        ROS_ERROR_STREAM("Node " << id << " is not connected"); \
-        return false;                                           \
-    }
-#endif
-
+/*
 // private functions
 void print_VCS_error(unsigned int error_code, const char *func){
     static char error_msg[100];
@@ -47,23 +32,23 @@ void close_gateway(void *gateway){
     VCS_CloseDevice(gateway, &error_code);
     print_VCS_error(error_code, __FUNCTION__);
 }
-
+*/
 // CONSTRUCTORS
-Motor::Motor(void *KeyHandle, unsigned short node_id, signed char mode){
-    error_code = 0;
+    Motor::Motor(void* KeyHandle, unsigned short node_id, ControlMode mode,
+        unsigned int max_speed, unsigned int max_accel, unsigned int max_decel){
     gateway = KeyHandle;
     id = node_id;
-    pos_ref = 0;
-    is_calibrated = false;
 
-    unsigned short* motor_type(0);
+    error_code = 0;
 
-    VCS_GetMotorType(gateway, id, motor_type, &error_code);
-    is_connected = (error_code) ? false : true; // SDO TIMEOUT  == 0x5040000
+    set_speed_limit(max_speed);
+    set_accel_limit(max_accel, max_decel);
+
+    
 
     error_test(); // test de connection
     
-    if (mode) {
+    /* if (mode) {
         
         VCS_SetOperationMode(gateway, id, mode, &error_code);
         
@@ -83,14 +68,14 @@ Motor::Motor(void *KeyHandle, unsigned short node_id, signed char mode){
         {
             print_VCS_error(error_code, __FUNCTION__);
         }
-    }
+    } */
     
 }
 
 // UTILITY FUNCTIONS
 
 bool Motor::set_op_mode(ControlMode control_mode){
-    CONNECTION_CHECK;
+    control_mode_ = control_mode;
 
     switch (control_mode){
         case POSISTION:
@@ -122,7 +107,7 @@ bool Motor::set_op_mode(ControlMode control_mode){
 }
 
 bool Motor::set_output_state(bool output_active){
-    CONNECTION_CHECK;
+    // CONNECTION_CHECK;
 
     unsigned int error_code = 0;
     VCS_ClearFault(gateway, id, &error_code); // clear fault just in case
@@ -141,7 +126,6 @@ bool Motor::is_faulty(bool verbose){
     if (!is_connected)
         return true;
 
-    unsigned int error_code = 0;
     int in_fault = false;
     VCS_GetFaultState(gateway, id, &in_fault, &error_code);
     print_VCS_error(error_code, __FUNCTION__);
@@ -169,9 +153,8 @@ bool Motor::is_faulty(bool verbose){
 }
 
 bool Motor::clear_fault(){
-    CONNECTION_CHECK;
+    // CONNECTION_CHECK;
 
-    unsigned int error_code = 0;
     VCS_ClearFault(gateway, id, &error_code); // clear fault just in case
     print_VCS_error(error_code, __FUNCTION__);
     return (bool)error_code;
@@ -184,23 +167,10 @@ void Motor::set_calibrated(bool calibrated){
 bool Motor::calibrated(){
     return is_calibrated;
 }
-// bool Motor::set_position_ref(long pos) {
-//     CONNECTION_CHECK;
-
-//     unsigned int    error_code  = 0;
-//     if ((op_mode_ != OMD_POSITION_MODE) &&
-//         !this->set_operational_mode(OMD_POSITION_MODE))
-//         return false;
-
-//     VCS_SetPositionMust(gateway, id, pos + pos_ref, &error_code);
-//     print_VCS_error(error_code, __FUNCTION__);
-//     return !error_code;
-// }
 
 bool Motor::set_position_ref(long pos){
-    CONNECTION_CHECK;
+    // CONNECTION_CHECK;
 
-    unsigned int error_code = 0;
     if ((op_mode_ != OMD_PROFILE_POSITION_MODE) &&
         !this->set_operational_mode(OMD_PROFILE_POSITION_MODE))
         return false;
@@ -211,9 +181,8 @@ bool Motor::set_position_ref(long pos){
 }
 
 bool Motor::reset_position_counter(){
-    CONNECTION_CHECK;
+    // CONNECTION_CHECK;
 
-    unsigned int error_code = 0;
     int pos;
     VCS_GetPositionIs(gateway, id, &pos, &error_code);
     print_VCS_error(error_code, __FUNCTION__);
@@ -225,9 +194,8 @@ bool Motor::reset_position_counter(){
 }
 
 int Motor::get_position_is(){
-    CONNECTION_CHECK;
+    // CONNECTION_CHECK;
 
-    unsigned int error_code = 0;
     int pos;
     VCS_GetPositionIs(gateway, id, &pos, &error_code);
     print_VCS_error(error_code, __FUNCTION__);
@@ -237,9 +205,8 @@ int Motor::get_position_is(){
 // Profile velocity mode
 
 bool Motor::set_velocity_ref(long vel){
-    CONNECTION_CHECK;
+    // CONNECTION_CHECK;
 
-    unsigned int error_code = 0;
     if ((op_mode_ != OMD_VELOCITY_MODE) &&
         !this->set_operational_mode(OMD_PROFILE_VELOCITY_MODE))
         return false;
@@ -250,9 +217,8 @@ bool Motor::set_velocity_ref(long vel){
 }
 
 int Motor::get_velocity_is(){
-    CONNECTION_CHECK;
+    // CONNECTION_CHECK;
 
-    unsigned int error_code = 0;
     int vel;
     VCS_GetVelocityIs(gateway, id, &vel, &error_code);
     print_VCS_error(error_code, __FUNCTION__);
@@ -260,9 +226,8 @@ int Motor::get_velocity_is(){
 }
 
 int Motor::get_current_is(){
-    CONNECTION_CHECK;
+    // CONNECTION_CHECK;
 
-    unsigned int error_code = 0;
     int cur;
     VCS_GetCurrentIsEx(gateway, id, &cur, &error_code);
     print_VCS_error(error_code, __FUNCTION__);
