@@ -6,7 +6,8 @@
 
 #include "EposCmd.h"
 
-enum ControlMode {POSISTION, SPEED, CURRENT};
+enum ControlMode {POSISTION, PROFILE_POSITION, VELOCITY, PROFILE_VELOCITY,
+                    CURRENT};
 
 class Motor {
 private :
@@ -31,7 +32,7 @@ private :
 
 
 // intern error managment
-    void error_test(void); // all that error related (to se later)
+    bool error_test(void); // all that error related (to se later)
 
 
 // intern fonction
