@@ -20,16 +20,32 @@ void close_gateway(void *gateway){
 }
 */
 // CONSTRUCTORS
-    Motor::Motor(void* KeyHandle, unsigned short node_id, ControlMode mode,
-        unsigned int max_speed, unsigned int max_accel, unsigned int max_decel){
+Motor::Motor(void* KeyHandle, unsigned short node_id, ControlMode mode){
     gateway = KeyHandle;
     id = node_id;
-
     error_code = 0;
 
-    set_speed_limit(max_speed);
-    set_accel_limit(max_accel, max_decel);
+    bool is_ppm_set = 0;
+    bool is_pvm_set = 0;
 
+    set_op_mode(mode);
+}
+
+Motor::Motor(void* KeyHandle, unsigned short node_id, ControlMode mode,
+                unsigned int max_accel, unsigned int max_decel){
+
+    init_pvm_mode(max_accel, max_decel);
+
+    Motor(KeyHandle, node_id, mode);
+}
+
+Motor::Motor(void* KeyHandle, unsigned short node_id, ControlMode mode,
+        unsigned int max_speed, unsigned int max_accel, unsigned int max_decel){
+    
+    init_ppm_mode(max_speed, max_accel, max_decel);
+    init_pvm_mode(max_accel, max_decel);
+
+    Motor(KeyHandle, node_id, mode);
     
 
     error_test(); // test de connection
@@ -68,6 +84,7 @@ bool Motor::set_op_mode(ControlMode control_mode){
             VCS_SetOperationMode(gateway, id, OMD_POSITION_MODE, &error_code);
             break;
         case PROFILE_POSITION:
+            if(!is_ppm_set) return 0;
             VCS_SetOperationMode(gateway, id, OMD_PROFILE_POSITION_MODE, 
                                     &error_code);
             break;
@@ -75,6 +92,7 @@ bool Motor::set_op_mode(ControlMode control_mode){
             VCS_SetOperationMode(gateway, id, OMD_VELOCITY_MODE, &error_code);
             break;
         case PROFILE_VELOCITY:
+            if(!is_pvm_set) return 0;
             VCS_SetOperationMode(gateway, id, OMD_PROFILE_VELOCITY_MODE, 
                                     &error_code);
             break;

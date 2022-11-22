@@ -19,6 +19,10 @@ private :
     unsigned int error_code;
 
 // Profil moteur
+    bool is_ppm_set = 0;
+    bool is_pvm_set = 0;
+
+
     /*unsigned int max_pos_;
     unsigned int min_pos_;
     bool pos_limit_;*/
@@ -36,6 +40,9 @@ private :
 
 
 // intern fonction
+/* set_op_mode
+* brief :  set the operational mode of the controller (position / velocity, etc)
+*/
     bool set_op_mode(ControlMode control_mode);
 
 
@@ -78,16 +85,16 @@ public :
     bool set_accel_limit(unsigned int max_accel, unsigned int max_decel);
     bool get_accel_limit(unsigned int &max_accel, unsigned int &max_decel);
     
+// initialisation des mode
+
+bool init_pvm_mode(unsigned int max_accel, unsigned int max_decel);
+
+bool init_ppm_mode(unsigned int max_speed, unsigned int max_accel,
+                    unsigned int max_decel);
 
 
 
 
-
-
-    /* set_operational_mode
-        * brief :  set the operational mode of the controller (position / velocity, etc)
-        */
-    bool set_operational_mode(signed char mode);
 
     /* set_output_state
         * brief :  set the output state to active / inactive
