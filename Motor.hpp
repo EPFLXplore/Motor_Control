@@ -51,7 +51,9 @@ public :
         * brief :  class of objects to represent a NAV motor
         * param    KeyHandle   handle to the USB gateway
         * param    node_id     CAN Node ID of the controller
-        * param    exp_type    expected motor type (0 for no expected type)
+        * param    max_speed   Max speed for ppm
+        * param    max_accel   Max acceleration for ppm & pvm
+        * param    max_decel   Max deceleration for ppm & pvm
         */
     Motor(void* KeyHandle, unsigned short node_id, ControlMode mode,
         unsigned int max_speed, unsigned int max_accel, unsigned int max_decel);
@@ -87,14 +89,30 @@ public :
     
 // initialisation des mode
 
-bool init_pvm_mode(unsigned int max_accel, unsigned int max_decel);
+    bool init_pvm_mode(unsigned int max_accel, unsigned int max_decel);
 
-bool init_ppm_mode(unsigned int max_speed, unsigned int max_accel,
-                    unsigned int max_decel);
+    bool init_ppm_mode(unsigned int max_speed, unsigned int max_accel,
+                       unsigned int max_decel);
 
+// make the motor move
+    /* set_position_ref
+        * brief :  set the position reference for the motor to track
+        *          if the motor is not yet in the correct mode, this function
+        *          automatically sets the controller into the right mode
+        */
+    bool set_position_ref(long pos);
 
+    /* set_velocity_ref
+        * brief :  set the position reference for the motor to track
+        *          if the motor is not yet in the correct mode, this function
+        *          automatically sets the controller into the right mode
+        */
+    bool set_velocity_ref(long vel);
 
-
+    /* set_current_ref
+        * brief :  
+        */
+    bool set_current_ref(int current);
 
     /* set_output_state
         * brief :  set the output state to active / inactive
@@ -113,12 +131,6 @@ bool init_ppm_mode(unsigned int max_speed, unsigned int max_accel,
     void set_calibrated(bool calibrated);
     bool calibrated();
 
-    /* set_position_ref
-        * brief :  set the position reference for the motor to track
-        *          if the motor is not yet in the correct mode, this function
-        *          automatically sets the controller into the right mode
-        */
-    bool set_position_ref(long pos);
 
     /* reset_position_counter
         * brief :  reset the internal position reference
@@ -130,12 +142,7 @@ bool init_ppm_mode(unsigned int max_speed, unsigned int max_accel,
         */
     int  get_position_is();
 
-    /* set_velocity_ref
-        * brief :  set the position reference for the motor to track
-        *          if the motor is not yet in the correct mode, this function
-        *          automatically sets the controller into the right mode
-        */
-    bool set_velocity_ref(long vel);
+
 
     /* get_velocity_is
         * brief :  get the current velocity

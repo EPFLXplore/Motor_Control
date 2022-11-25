@@ -29,6 +29,8 @@ Motor::Motor(void* KeyHandle, unsigned short node_id, ControlMode mode){
     bool is_pvm_set = 0;
 
     set_op_mode(mode);
+
+    error_test();
 }
 
 Motor::Motor(void* KeyHandle, unsigned short node_id, ControlMode mode,
@@ -44,6 +46,8 @@ Motor::Motor(void* KeyHandle, unsigned short node_id, ControlMode mode,
     init_pvm_mode(max_accel, max_decel);
 
     set_op_mode(mode);
+
+    error_test();
 
 }
 
@@ -63,28 +67,6 @@ Motor::Motor(void* KeyHandle, unsigned short node_id, ControlMode mode,
     set_op_mode(mode);
 
     error_test(); // test de connection
-    
-    /* if (mode) {
-        
-        VCS_SetOperationMode(gateway, id, mode, &error_code);
-        
-        
-        if (error_code)
-        {
-            print_VCS_error(error_code, __FUNCTION__);
-            op_mode_ = 0;
-        }
-        else
-            op_mode_ = mode;
-        if (mode == OMD_PROFILE_POSITION_MODE)
-            VCS_SetPositionProfile(gateway, id, max_speed_, max_accel_, max_decel_, &error_code);
-        else if (mode == OMD_PROFILE_VELOCITY_MODE)
-            VCS_SetVelocityProfile(gateway, id, max_accel_, max_decel_, &error_code);
-        if (error_code)
-        {
-            print_VCS_error(error_code, __FUNCTION__);
-        }
-    } */
     
 }
 
@@ -120,7 +102,7 @@ bool Motor::set_op_mode(ControlMode control_mode){
     return error_test();
 }
 
-
+// init mode ppm et pvm
 bool Motor::init_ppm_mode(unsigned int max_speed, unsigned int max_accel,
                             unsigned int max_decel){
     if(max_speed <= 0 || max_accel <=0 || max_decel <= 0){
@@ -149,26 +131,52 @@ bool Motor::init_pvm_mode(unsigned int max_accel, unsigned int max_decel){
     return error_test();
 }
 
+// to move the motor
+bool Motor::set_position_ref(long pos){
+    // CONNECTION_CHECK;
 
-/* void Motor::set_calibrated(bool calibrated){
+    if(control_mode_ == POSISTION){
+        VCS_SetPositionMust(gateway, id, pos, &error_code);
+    }
+    else if(control_mode_ == PROFILE_POSITION && is_ppm_set){
+        VCS_MoveToPosition(gateway, id, pos, true, true, &error_code);
+    }
+    else return 1;
+
+    return error_test();
+}
+
+bool Motor::set_velocity_ref(long vel){
+
+    if(control_mode_ == VELOCITY){
+        VCS_SetVelocityMust(gateway, id, vel, &error_code);
+    }
+    else if(control_mode_ == PROFILE_VELOCITY && is_pvm_set){
+        VCS_MoveWithVelocity(gateway, id, vel, &error_code);
+    }
+    else return 1;
+
+    return error_test();
+}
+
+bool Motor:: set_current_ref(int current){
+    if(control_mode_ == CURRENT){
+        VCS_SetCurrentMustEx(gateway, id, current, &error_code);
+        return error_test();
+    }
+
+    return 1;
+}
+
+
+/*
+void Motor::set_calibrated(bool calibrated){
     is_calibrated = calibrated;
 }
 
 bool Motor::calibrated(){
     return is_calibrated;
-} */
-
-/* bool Motor::set_position_ref(long pos){
-    // CONNECTION_CHECK;
-
-    if ((op_mode_ != OMD_PROFILE_POSITION_MODE) &&
-        !this->set_operational_mode(OMD_PROFILE_POSITION_MODE))
-        return false;
-
-    VCS_MoveToPosition(gateway, id, pos + pos_ref, true, true, &error_code);
-    //print_VCS_error(error_code, __FUNCTION__);
-    return !error_code;
-} */
+}
 
 bool Motor::reset_position_counter(){
     // CONNECTION_CHECK;
@@ -183,28 +191,7 @@ bool Motor::reset_position_counter(){
     return !error_code;
 }
 
-int Motor::get_position_is(){
-    // CONNECTION_CHECK;
-
-    int pos;
-    VCS_GetPositionIs(gateway, id, &pos, &error_code);
-    //print_VCS_error(error_code, __FUNCTION__);
-    return pos - pos_ref;
-}
-
 // Profile velocity mode
-
-bool Motor::set_velocity_ref(long vel){
-    // CONNECTION_CHECK;
-
-    if ((op_mode_ != OMD_VELOCITY_MODE) &&
-        !this->set_operational_mode(OMD_PROFILE_VELOCITY_MODE))
-        return false;
-
-    VCS_MoveWithVelocity(gateway, id, vel, &error_code);
-    //print_VCS_error(error_code, __FUNCTION__);
-    return !error_code;
-}
 
 int Motor::get_velocity_is(){
     // CONNECTION_CHECK;
@@ -222,4 +209,4 @@ int Motor::get_current_is(){
     VCS_GetCurrentIsEx(gateway, id, &cur, &error_code);
     //print_VCS_error(error_code, __FUNCTION__);
     return cur;
-}
+} */
