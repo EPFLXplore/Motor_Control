@@ -34,19 +34,33 @@ Motor::Motor(void* KeyHandle, unsigned short node_id, ControlMode mode){
 Motor::Motor(void* KeyHandle, unsigned short node_id, ControlMode mode,
                 unsigned int max_accel, unsigned int max_decel){
 
+    gateway = KeyHandle;
+    id = node_id;
+    error_code = 0;
+
+    bool is_ppm_set = 0;
+    bool is_pvm_set = 0;
+
     init_pvm_mode(max_accel, max_decel);
 
-    Motor(KeyHandle, node_id, mode);
+    set_op_mode(mode);
+
 }
 
 Motor::Motor(void* KeyHandle, unsigned short node_id, ControlMode mode,
         unsigned int max_speed, unsigned int max_accel, unsigned int max_decel){
     
+    gateway = KeyHandle;
+    id = node_id;
+    error_code = 0;
+
+    bool is_ppm_set = 0;
+    bool is_pvm_set = 0;
+
     init_ppm_mode(max_speed, max_accel, max_decel);
     init_pvm_mode(max_accel, max_decel);
 
-    Motor(KeyHandle, node_id, mode);
-    
+    set_op_mode(mode);
 
     error_test(); // test de connection
     
@@ -106,6 +120,34 @@ bool Motor::set_op_mode(ControlMode control_mode){
     return error_test();
 }
 
+
+bool Motor::init_ppm_mode(unsigned int max_speed, unsigned int max_accel,
+                            unsigned int max_decel){
+    if(max_speed <= 0 || max_accel <=0 || max_decel <= 0){
+        is_ppm_set = 0;
+        return 0;
+    }
+
+    VCS_SetPositionProfile(gateway, id, max_speed, max_accel, max_decel, 
+        &error_code);
+    
+    is_ppm_set = 1;
+
+    return error_test();
+}
+
+bool Motor::init_pvm_mode(unsigned int max_accel, unsigned int max_decel){
+    if(max_accel <=0 || max_decel <= 0){
+        is_pvm_set = 0;
+        return 0;
+    }
+
+    VCS_SetVelocityProfile(gateway, id, max_accel, max_decel, &error_code);
+    
+    is_pvm_set = 1;
+
+    return error_test();
+}
 
 
 /* void Motor::set_calibrated(bool calibrated){
