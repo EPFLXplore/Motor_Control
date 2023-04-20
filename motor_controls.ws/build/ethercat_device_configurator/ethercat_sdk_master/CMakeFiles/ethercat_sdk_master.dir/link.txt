@@ -1,0 +1,2 @@
+/usr/bin/ar qc libethercat_sdk_master.a  CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatMaster.cpp.o CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatDevice.cpp.o
+/usr/bin/ranlib libethercat_sdk_master.a

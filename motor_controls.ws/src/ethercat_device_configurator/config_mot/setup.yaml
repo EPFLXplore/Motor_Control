@@ -1,0 +1,11 @@
+ethercat_master:
+  time_step:                          0.005
+  update_rate_too_low_warn_threshold: 100
+
+ethercat_devices:
+  - type:               Maxon
+    name:               Mot1
+    configuration_file: device_configurations/maxon.yaml
+    ethercat_bus:       enp0s8
+    ethercat_address:   3
+

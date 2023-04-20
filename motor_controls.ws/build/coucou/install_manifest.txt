@@ -1,0 +1,15 @@
+/home/hd/Desktop/motor_controls.ws/install/coucou/lib/coucou/talker
+/home/hd/Desktop/motor_controls.ws/install/coucou/lib/coucou/suscriber
+/home/hd/Desktop/motor_controls.ws/install/coucou/share/ament_index/resource_index/package_run_dependencies/coucou
+/home/hd/Desktop/motor_controls.ws/install/coucou/share/ament_index/resource_index/parent_prefix_path/coucou
+/home/hd/Desktop/motor_controls.ws/install/coucou/share/coucou/environment/ament_prefix_path.dsv
+/home/hd/Desktop/motor_controls.ws/install/coucou/share/coucou/environment/path.dsv
+/home/hd/Desktop/motor_controls.ws/install/coucou/share/coucou/local_setup.bash
+/home/hd/Desktop/motor_controls.ws/install/coucou/share/coucou/local_setup.sh
+/home/hd/Desktop/motor_controls.ws/install/coucou/share/coucou/local_setup.zsh
+/home/hd/Desktop/motor_controls.ws/install/coucou/share/coucou/local_setup.dsv
+/home/hd/Desktop/motor_controls.ws/install/coucou/share/coucou/package.dsv
+/home/hd/Desktop/motor_controls.ws/install/coucou/share/ament_index/resource_index/packages/coucou
+/home/hd/Desktop/motor_controls.ws/install/coucou/share/coucou/cmake/coucouConfig.cmake
+/home/hd/Desktop/motor_controls.ws/install/coucou/share/coucou/cmake/coucouConfig-version.cmake
+/home/hd/Desktop/motor_controls.ws/install/coucou/share/coucou/package.xml
