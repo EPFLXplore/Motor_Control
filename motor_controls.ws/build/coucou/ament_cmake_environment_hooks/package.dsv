@@ -1,0 +1,4 @@
+source;share/coucou/local_setup.bash
+source;share/coucou/local_setup.dsv
+source;share/coucou/local_setup.sh
+source;share/coucou/local_setup.zsh

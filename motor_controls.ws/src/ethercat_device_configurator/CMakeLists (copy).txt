@@ -1,0 +1,120 @@
+cmake_minimum_required(VERSION 3.5)
+project(ethercat_device_configurator)
+
+# Default to C99
+if(NOT CMAKE_C_STANDARD)
+  set(CMAKE_C_STANDARD 99)
+endif()
+
+# Default to C++14
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 14)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+# find dependencies
+find_package(ament_cmake REQUIRED)
+# uncomment the following section in order to fill in
+# further dependencies manually.
+# find_package(<dependency> REQUIRED)
+
+
+
+find_program(CCACHE_PROGRAM ccache)
+if(CCACHE_PROGRAM)
+    message(STATUS "Using ccache")
+  set(CMAKE_CXX_COMPILER_LAUNCHER ${CCACHE_PROGRAM})
+  set(CMAKE_C_COMPILER_LAUNCHER   ${CCACHE_PROGRAM})
+endif()
+
+set(CMAKE_CXX_STANDARD 17)
+add_definitions(-Wall)
+add_definitions(-DMELO_USE_COUT)
+
+
+find_package(yaml-cpp REQUIRED)
+
+find_package(maxon_epos_ethercat_sdk )
+
+if(maxon_epos_ethercat_sdk_FOUND)
+  add_definitions(-D_MAXON_FOUND_)
+  set(PACKAGE_DEPENDENCIES
+    ${PACKAGE_DEPENDENCIES}
+    maxon_epos_ethercat_sdk
+  )
+endif()
+
+foreach(sdk ${PACKAGE_DEPENDENCIES})
+  message("Found EtherCAT device sdk: " ${sdk})
+endforeach()
+
+
+include_directories(
+  include
+  ../ethercat_sdk_master/include
+  ../soem_interface/soem_interface/include
+  ../soem_interface/soem/include
+  ../message_logger/include
+  ../maxon_epos_ethercat_sdk/include
+  ${maxon_epos_ethercat_sdk_INCLUDE_DIRS}
+)
+
+
+file(GLOB_RECURSE SRC_FILES ./src/*.c*)
+
+add_library(${PROJECT_NAME}
+  ${SRC_FILES}
+
+)
+
+target_link_libraries(
+  ${PROJECT_NAME}
+  ${maxon_epos_ethercat_sdk_LIBRARIES}
+  ${YAML_CPP_LIBRARIES}
+  stdc++fs
+)
+
+
+add_executable(
+  standalone
+  src/standalone.cpp
+)
+add_dependencies(
+  standalone
+  ${PROJECT_NAME}
+  ${maxon_epos_ethercat_sdk_EXPORTED_TARGETS}
+)
+target_link_libraries(
+  standalone
+  ${PROJECT_NAME}
+  ${maxon_epos_ethercat_sdk_LIBRARIES}
+  ${YAML_CPP_LIBRARIES}
+  -pthread
+  stdc++fs
+)
+
+install(TARGETS ${PROJECT_NAME} standalone
+  ARCHIVE DESTINATION lib
+  LIBRARY DESTINATION lib
+  RUNTIME DESTINATION lib/${PROJECT_NAME}
+)
+install(DIRECTORY include/${PROJECT_NAME}/
+  DESTINATION include/${PROJECT_NAME}
+)
+
+
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  # the following line skips the linter which checks for copyrights
+  # uncomment the line when a copyright and license is not present in all source files
+  #set(ament_cmake_copyright_FOUND TRUE)
+  # the following line skips cpplint (only works in a git repo)
+  # uncomment the line when this package is not in a git repo
+  #set(ament_cmake_cpplint_FOUND TRUE)
+  ament_lint_auto_find_test_dependencies()
+endif()
+
+ament_package()

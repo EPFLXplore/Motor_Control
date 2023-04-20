@@ -1,2 +1,3 @@
 # Motor_Control
-Standard class and node for the motor control using CANopen and maxon controller
+Standard class and node for the motor control using ethercat and maxon controller on ROS2 foxy
+
