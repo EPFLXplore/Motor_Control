@@ -35,7 +35,6 @@
 **   README.md for more details.
  */
 #include "ethercat_device_configurator/EthercatDeviceConfigurator.hpp"
-
 #include <maxon_epos_ethercat_sdk/Maxon.hpp>
 
 #include <iostream>
