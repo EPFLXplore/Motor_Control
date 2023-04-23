@@ -42,6 +42,13 @@ include_directories(
   ${rclcpp_INCLUDE_DIRS}
 )
 
+find_package(rosidl_default_generators REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/motor_command.msg"
+  "msg/motor_param.msg"
+)
+
 add_executable(standalone src/standalone.cpp src/EthercatDeviceConfigurator.cpp 
   include/ethercat_device_configurator/soem/soem/ethercatconfig.c
   include/ethercat_device_configurator/soem/soem/ethercatprint.c

@@ -1,0 +1,25 @@
+[0.917s] Invoking command in '/home/alex/Desktop/xplore/NAV_workspace/nav_ws/src/controller': PYTHONPATH=/home/alex/Desktop/xplore/NAV_workspace/nav_ws/src/controller/build/controller/prefix_override:/home/alex/Desktop/xplore/NAV_workspace/nav_ws/src/controller/install/controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/controller build --build-base /home/alex/Desktop/xplore/NAV_workspace/nav_ws/src/controller/build/controller/build install --record /home/alex/Desktop/xplore/NAV_workspace/nav_ws/src/controller/build/controller/install.log --install-scripts $base/lib/controller --single-version-externally-managed
+[1.101s] running egg_info
+[1.103s] writing build/controller/controller.egg-info/PKG-INFO
+[1.104s] writing dependency_links to build/controller/controller.egg-info/dependency_links.txt
+[1.104s] writing entry points to build/controller/controller.egg-info/entry_points.txt
+[1.105s] writing requirements to build/controller/controller.egg-info/requires.txt
+[1.106s] writing top-level names to build/controller/controller.egg-info/top_level.txt
+[1.144s] reading manifest file 'build/controller/controller.egg-info/SOURCES.txt'
+[1.145s] writing manifest file 'build/controller/controller.egg-info/SOURCES.txt'
+[1.146s] running build
+[1.146s] running build_py
+[1.147s] copying controller/CS_subscriber.py -> /home/alex/Desktop/xplore/NAV_workspace/nav_ws/src/controller/build/controller/build/lib/controller
+[1.148s] running install
+[1.149s] running install_lib
+[1.150s] copying /home/alex/Desktop/xplore/NAV_workspace/nav_ws/src/controller/build/controller/build/lib/controller/CS_subscriber.py -> /home/alex/Desktop/xplore/NAV_workspace/nav_ws/src/controller/install/controller/lib/python3.8/site-packages/controller
+[1.151s] byte-compiling /home/alex/Desktop/xplore/NAV_workspace/nav_ws/src/controller/install/controller/lib/python3.8/site-packages/controller/CS_subscriber.py to CS_subscriber.cpython-38.pyc
+[1.154s] running install_data
+[1.155s] running install_egg_info
+[1.159s] removing '/home/alex/Desktop/xplore/NAV_workspace/nav_ws/src/controller/install/controller/lib/python3.8/site-packages/controller-0.0.0-py3.8.egg-info' (and everything under it)
+[1.171s] Copying build/controller/controller.egg-info to /home/alex/Desktop/xplore/NAV_workspace/nav_ws/src/controller/install/controller/lib/python3.8/site-packages/controller-0.0.0-py3.8.egg-info
+[1.176s] running install_scripts
+[1.193s] Installing listener script to /home/alex/Desktop/xplore/NAV_workspace/nav_ws/src/controller/install/controller/lib/controller
+[1.194s] Installing talker script to /home/alex/Desktop/xplore/NAV_workspace/nav_ws/src/controller/install/controller/lib/controller
+[1.195s] writing list of installed files to '/home/alex/Desktop/xplore/NAV_workspace/nav_ws/src/controller/build/controller/install.log'
+[1.222s] Invoked command in '/home/alex/Desktop/xplore/NAV_workspace/nav_ws/src/controller' returned '0': PYTHONPATH=/home/alex/Desktop/xplore/NAV_workspace/nav_ws/src/controller/build/controller/prefix_override:/home/alex/Desktop/xplore/NAV_workspace/nav_ws/src/controller/install/controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/controller build --build-base /home/alex/Desktop/xplore/NAV_workspace/nav_ws/src/controller/build/controller/build install --record /home/alex/Desktop/xplore/NAV_workspace/nav_ws/src/controller/build/controller/install.log --install-scripts $base/lib/controller --single-version-externally-managed

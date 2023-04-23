@@ -1,0 +1,4 @@
+[console_scripts]
+listener = controller.CS_subscriber:main
+talker = controller.controller_publisher:main
+
