@@ -1,5 +1,0 @@
-  File "/home/alex/Desktop/xplore/NAV_workspace/nav_ws/src/controller/install/controller/lib/python3.8/site-packages/controller/controller_publisher.py", line 38
-    self.get_logger().info(f"buddyyyyy" : {joy_msg})
-                                        ^
-SyntaxError: invalid syntax
-

@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/coucou/talker")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/coucou/talker"
-         OLD_RPATH "/home/hd/ros2_foxy/install/rclcpp/lib:/home/hd/ros2_foxy/install/libstatistics_collector/lib:/home/hd/ros2_foxy/install/std_msgs/lib:/home/hd/ros2_foxy/install/rcl/lib:/home/hd/ros2_foxy/install/rcl_interfaces/lib:/home/hd/ros2_foxy/install/rmw_implementation/lib:/home/hd/ros2_foxy/install/rmw/lib:/home/hd/ros2_foxy/install/rcl_logging_spdlog/lib:/home/hd/ros2_foxy/install/rcl_yaml_param_parser/lib:/home/hd/ros2_foxy/install/libyaml_vendor/lib:/home/hd/ros2_foxy/install/rosgraph_msgs/lib:/home/hd/ros2_foxy/install/statistics_msgs/lib:/home/hd/ros2_foxy/install/builtin_interfaces/lib:/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_cpp/lib:/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_c/lib:/home/hd/ros2_foxy/install/rosidl_typesupport_cpp/lib:/home/hd/ros2_foxy/install/rosidl_typesupport_c/lib:/home/hd/ros2_foxy/install/rcpputils/lib:/home/hd/ros2_foxy/install/rosidl_runtime_c/lib:/home/hd/ros2_foxy/install/rcutils/lib:/home/hd/ros2_foxy/install/tracetools/lib:"
+         OLD_RPATH "/home/hd/ros2_foxy/install/rclcpp/lib:/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib:/home/hd/ros2_foxy/install/libstatistics_collector/lib:/home/hd/ros2_foxy/install/std_msgs/lib:/home/hd/ros2_foxy/install/rcl/lib:/home/hd/ros2_foxy/install/rcl_interfaces/lib:/home/hd/ros2_foxy/install/rmw_implementation/lib:/home/hd/ros2_foxy/install/rmw/lib:/home/hd/ros2_foxy/install/rcl_logging_spdlog/lib:/home/hd/ros2_foxy/install/rcl_yaml_param_parser/lib:/home/hd/ros2_foxy/install/libyaml_vendor/lib:/home/hd/ros2_foxy/install/rosgraph_msgs/lib:/home/hd/ros2_foxy/install/statistics_msgs/lib:/home/hd/ros2_foxy/install/builtin_interfaces/lib:/home/hd/ros2_foxy/install/tracetools/lib:/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_cpp/lib:/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_c/lib:/home/hd/ros2_foxy/install/rosidl_typesupport_cpp/lib:/home/hd/ros2_foxy/install/rosidl_typesupport_c/lib:/home/hd/ros2_foxy/install/rcpputils/lib:/home/hd/ros2_foxy/install/rosidl_runtime_c/lib:/home/hd/ros2_foxy/install/rcutils/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/coucou/talker")
@@ -73,6 +73,26 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/coucou/suscriber")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/coucou/suscriber_test" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/coucou/suscriber_test")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/coucou/suscriber_test"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/coucou" TYPE EXECUTABLE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/suscriber_test")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/coucou/suscriber_test" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/coucou/suscriber_test")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/coucou/suscriber_test"
+         OLD_RPATH "/home/hd/ros2_foxy/install/rclcpp/lib:/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib:/home/hd/ros2_foxy/install/libstatistics_collector/lib:/home/hd/ros2_foxy/install/std_msgs/lib:/home/hd/ros2_foxy/install/rcl/lib:/home/hd/ros2_foxy/install/rcl_interfaces/lib:/home/hd/ros2_foxy/install/rmw_implementation/lib:/home/hd/ros2_foxy/install/rmw/lib:/home/hd/ros2_foxy/install/rcl_logging_spdlog/lib:/home/hd/ros2_foxy/install/rcl_yaml_param_parser/lib:/home/hd/ros2_foxy/install/libyaml_vendor/lib:/home/hd/ros2_foxy/install/rosgraph_msgs/lib:/home/hd/ros2_foxy/install/statistics_msgs/lib:/home/hd/ros2_foxy/install/builtin_interfaces/lib:/home/hd/ros2_foxy/install/tracetools/lib:/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_cpp/lib:/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_c/lib:/home/hd/ros2_foxy/install/rosidl_typesupport_cpp/lib:/home/hd/ros2_foxy/install/rosidl_typesupport_c/lib:/home/hd/ros2_foxy/install/rcpputils/lib:/home/hd/ros2_foxy/install/rosidl_runtime_c/lib:/home/hd/ros2_foxy/install/rcutils/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/coucou/suscriber_test")
     endif()
   endif()
 endif()

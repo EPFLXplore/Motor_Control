@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/suscriber_test.dir/all
 all: CMakeFiles/suscriber.dir/all
 all: CMakeFiles/talker.dir/all
 
@@ -64,12 +65,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/suscriber_test.dir/clean
 clean: CMakeFiles/suscriber.dir/clean
 clean: CMakeFiles/talker.dir/clean
 clean: CMakeFiles/coucou_uninstall.dir/clean
 clean: CMakeFiles/uninstall.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/suscriber_test.dir
+
+# All Build rule for target.
+CMakeFiles/suscriber_test.dir/all:
+	$(MAKE) -f CMakeFiles/suscriber_test.dir/build.make CMakeFiles/suscriber_test.dir/depend
+	$(MAKE) -f CMakeFiles/suscriber_test.dir/build.make CMakeFiles/suscriber_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/CMakeFiles --progress-num=3,4 "Built target suscriber_test"
+.PHONY : CMakeFiles/suscriber_test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/suscriber_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/suscriber_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/CMakeFiles 0
+.PHONY : CMakeFiles/suscriber_test.dir/rule
+
+# Convenience name for target.
+suscriber_test: CMakeFiles/suscriber_test.dir/rule
+
+.PHONY : suscriber_test
+
+# clean rule for target.
+CMakeFiles/suscriber_test.dir/clean:
+	$(MAKE) -f CMakeFiles/suscriber_test.dir/build.make CMakeFiles/suscriber_test.dir/clean
+.PHONY : CMakeFiles/suscriber_test.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/suscriber.dir
@@ -105,7 +134,7 @@ CMakeFiles/suscriber.dir/clean:
 CMakeFiles/talker.dir/all:
 	$(MAKE) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/depend
 	$(MAKE) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/CMakeFiles --progress-num=3,4 "Built target talker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/CMakeFiles --progress-num=5,6 "Built target talker"
 .PHONY : CMakeFiles/talker.dir/all
 
 # Build rule for subdir invocation for target.

@@ -80,6 +80,10 @@ talker_EXTERNAL_OBJECTS =
 talker: CMakeFiles/talker.dir/src/send.cpp.o
 talker: CMakeFiles/talker.dir/build.make
 talker: /home/hd/ros2_foxy/install/rclcpp/lib/librclcpp.so
+talker: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_introspection_c.so
+talker: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_c.so
+talker: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_introspection_cpp.so
+talker: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_cpp.so
 talker: /home/hd/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector.so
 talker: /home/hd/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
 talker: /home/hd/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so
@@ -117,15 +121,16 @@ talker: /home/hd/ros2_foxy/install/builtin_interfaces/lib/libbuiltin_interfaces_
 talker: /home/hd/ros2_foxy/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_c.so
 talker: /home/hd/ros2_foxy/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 talker: /home/hd/ros2_foxy/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+talker: /home/hd/ros2_foxy/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+talker: /home/hd/ros2_foxy/install/tracetools/lib/libtracetools.so
+talker: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_generator_c.so
 talker: /home/hd/ros2_foxy/install/rosidl_typesupport_introspection_cpp/lib/librosidl_typesupport_introspection_cpp.so
 talker: /home/hd/ros2_foxy/install/rosidl_typesupport_introspection_c/lib/librosidl_typesupport_introspection_c.so
-talker: /home/hd/ros2_foxy/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 talker: /home/hd/ros2_foxy/install/rosidl_typesupport_cpp/lib/librosidl_typesupport_cpp.so
 talker: /home/hd/ros2_foxy/install/rosidl_typesupport_c/lib/librosidl_typesupport_c.so
 talker: /home/hd/ros2_foxy/install/rcpputils/lib/librcpputils.so
 talker: /home/hd/ros2_foxy/install/rosidl_runtime_c/lib/librosidl_runtime_c.so
 talker: /home/hd/ros2_foxy/install/rcutils/lib/librcutils.so
-talker: /home/hd/ros2_foxy/install/tracetools/lib/libtracetools.so
 talker: CMakeFiles/talker.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable talker"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/talker.dir/link.txt --verbose=$(VERBOSE)

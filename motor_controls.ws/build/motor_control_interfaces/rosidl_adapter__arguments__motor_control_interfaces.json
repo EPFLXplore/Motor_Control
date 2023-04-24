@@ -1,0 +1,6 @@
+{
+  "package_name": "motor_control_interfaces",
+  "non_idl_tuples": [
+    "/home/hd/Desktop/Motor_Control/motor_controls.ws/src/motor_control_interfaces:msg/MotorCommand.msg"
+  ]
+}

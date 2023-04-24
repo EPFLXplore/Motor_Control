@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named suscriber_test
+
+# Build rule for target.
+suscriber_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 suscriber_test
+.PHONY : suscriber_test
+
+# fast build rule for target.
+suscriber_test/fast:
+	$(MAKE) -f CMakeFiles/suscriber_test.dir/build.make CMakeFiles/suscriber_test.dir/build
+.PHONY : suscriber_test/fast
+
+#=============================================================================
 # Target rules for targets named suscriber
 
 # Build rule for target.
@@ -246,6 +259,33 @@ src/read.cpp.s:
 	$(MAKE) -f CMakeFiles/suscriber.dir/build.make CMakeFiles/suscriber.dir/src/read.cpp.s
 .PHONY : src/read.cpp.s
 
+src/read_test.o: src/read_test.cpp.o
+
+.PHONY : src/read_test.o
+
+# target to build an object file
+src/read_test.cpp.o:
+	$(MAKE) -f CMakeFiles/suscriber_test.dir/build.make CMakeFiles/suscriber_test.dir/src/read_test.cpp.o
+.PHONY : src/read_test.cpp.o
+
+src/read_test.i: src/read_test.cpp.i
+
+.PHONY : src/read_test.i
+
+# target to preprocess a source file
+src/read_test.cpp.i:
+	$(MAKE) -f CMakeFiles/suscriber_test.dir/build.make CMakeFiles/suscriber_test.dir/src/read_test.cpp.i
+.PHONY : src/read_test.cpp.i
+
+src/read_test.s: src/read_test.cpp.s
+
+.PHONY : src/read_test.s
+
+# target to generate assembly for a file
+src/read_test.cpp.s:
+	$(MAKE) -f CMakeFiles/suscriber_test.dir/build.make CMakeFiles/suscriber_test.dir/src/read_test.cpp.s
+.PHONY : src/read_test.cpp.s
+
 src/send.o: src/send.cpp.o
 
 .PHONY : src/send.o
@@ -286,6 +326,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... suscriber_test"
 	@echo "... suscriber"
 	@echo "... talker"
 	@echo "... coucou_uninstall"
@@ -293,6 +334,9 @@ help:
 	@echo "... src/read.o"
 	@echo "... src/read.i"
 	@echo "... src/read.s"
+	@echo "... src/read_test.o"
+	@echo "... src/read_test.i"
+	@echo "... src/read_test.s"
 	@echo "... src/send.o"
 	@echo "... src/send.i"
 	@echo "... src/send.s"

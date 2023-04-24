@@ -1,0 +1,7 @@
+{
+  "package_name": "ethercat_device_configurator",
+  "non_idl_tuples": [
+    "/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator:msg/motor_command.msg",
+    "/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator:msg/motor_param.msg"
+  ]
+}

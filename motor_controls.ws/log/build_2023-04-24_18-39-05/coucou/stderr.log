@@ -1,0 +1,60 @@
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou/src/read_test.cpp:21:31:[m[K [01;31m[Kerror: [m[K‘[01m[KMotorCommand[m[K’ does not name a type
+   21 |     void topic_callback(const [01;31m[KMotorCommand[m[K::SharedPtr msg) const
+      |                               [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou/src/read_test.cpp:21:55:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   21 |     void topic_callback(const MotorCommand::SharedPtr [01;31m[Kmsg[m[K) const
+      |                                                       [01;31m[K^~~[m[K
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou/src/read_test.cpp:21:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   21 |     void topic_callback[34m[K([m[Kconst MotorCommand::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) const
+      |                        [34m[K~[m[K                             [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                      [32m[K)[m[K
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou/src/read_test.cpp:21:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   21 |     void topic_callback(const MotorCommand::[01;31m[KSharedPtr[m[K msg) const
+      |                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                      [32m[K;[m[K
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou/src/read_test.cpp:21:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   21 |     void topic_callback(const MotorCommand::SharedPtr [01;31m[Kmsg[m[K) const
+      |                                                       [01;31m[K^~~[m[K
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou/src/read_test.cpp:25:26:[m[K [01;31m[Kerror: [m[K‘[01m[KMotorCommand[m[K’ was not declared in this scope
+   25 |     rclcpp::Subscription<[01;31m[KMotorCommand[m[K>::SharedPtr subscription_;
+      |                          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou/src/read_test.cpp:25:38:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   25 |     rclcpp::Subscription<MotorCommand[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                      [01;31m[K^[m[K
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou/src/read_test.cpp:25:38:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou/src/read_test.cpp:25:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   25 |     rclcpp::Subscription<MotorCommand>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                         [01;31m[K^~~~~~~~~[m[K
+      |                                                  [32m[K;[m[K
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou/src/read_test.cpp:25:51:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+   25 |     rclcpp::Subscription<MotorCommand>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                   [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                   [32m[Krcl_subscription_t[m[K
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou/src/read_test.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou/src/read_test.cpp:16:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+   16 |       [01;31m[Ksubscription_[m[K = this->create_subscription<MotorCommand>(
+      |       [01;31m[K^~~~~~~~~~~~~[m[K
+      |       [32m[Krcl_subscription_t[m[K
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou/src/read_test.cpp:16:49:[m[K [01;31m[Kerror: [m[K‘[01m[KMotorCommand[m[K’ was not declared in this scope
+   16 |       subscription_ = this->create_subscription<[01;31m[KMotorCommand[m[K>(
+      |                                                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou/src/read_test.cpp:17:86:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalSubscriber::create_subscription<<expression error> >(const char [17], int, std::_Bind_helper<false, void (MinimalSubscriber::*)(...), MinimalSubscriber*, const std::_Placeholder<1>&>::type)[m[K’
+   17 | , 10, std::bind(&MinimalSubscriber::topic_callback, this, _1)[01;31m[K)[m[K;
+      |                                                              [01;31m[K^[m[K
+
+In file included from [01m[K/home/hd/ros2_foxy/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/home/hd/ros2_foxy/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/home/hd/ros2_foxy/install/rclcpp/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou/src/read_test.cpp:3[m[K:
+[01m[K/home/hd/ros2_foxy/install/rclcpp/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  213 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hd/ros2_foxy/install/rclcpp/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou/src/read_test.cpp:17:86:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   17 | , 10, std::bind(&MinimalSubscriber::topic_callback, this, _1)[01;31m[K)[m[K;
+      |                                                              [01;31m[K^[m[K
+
+make[2]: *** [CMakeFiles/suscriber_test.dir/build.make:63: CMakeFiles/suscriber_test.dir/src/read_test.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:441: CMakeFiles/suscriber_test.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,22 @@
+[5.675s] Invoking command in '/home/hd/Desktop/Motor_Control/motor_controls.ws/src/controller': PYTHONPATH=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/controller/prefix_override:/home/hd/Desktop/Motor_Control/motor_controls.ws/install/controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/controller build --build-base /home/hd/Desktop/Motor_Control/motor_controls.ws/build/controller/build install --record /home/hd/Desktop/Motor_Control/motor_controls.ws/build/controller/install.log --install-scripts $base/lib/controller --single-version-externally-managed
+[7.835s] running egg_info
+[7.838s] writing ../../build/controller/controller.egg-info/PKG-INFO
+[7.839s] writing dependency_links to ../../build/controller/controller.egg-info/dependency_links.txt
+[7.840s] writing entry points to ../../build/controller/controller.egg-info/entry_points.txt
+[7.842s] writing requirements to ../../build/controller/controller.egg-info/requires.txt
+[7.843s] writing top-level names to ../../build/controller/controller.egg-info/top_level.txt
+[7.956s] reading manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[7.960s] writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[7.978s] running build
+[7.978s] running build_py
+[7.978s] running install
+[7.978s] running install_lib
+[7.984s] running install_data
+[7.992s] running install_egg_info
+[7.997s] removing '/home/hd/Desktop/Motor_Control/motor_controls.ws/install/controller/lib/python3.8/site-packages/controller-0.0.0-py3.8.egg-info' (and everything under it)
+[7.998s] Copying ../../build/controller/controller.egg-info to /home/hd/Desktop/Motor_Control/motor_controls.ws/install/controller/lib/python3.8/site-packages/controller-0.0.0-py3.8.egg-info
+[8.002s] running install_scripts
+[8.058s] Installing listener script to /home/hd/Desktop/Motor_Control/motor_controls.ws/install/controller/lib/controller
+[8.059s] Installing talker script to /home/hd/Desktop/Motor_Control/motor_controls.ws/install/controller/lib/controller
+[8.061s] writing list of installed files to '/home/hd/Desktop/Motor_Control/motor_controls.ws/build/controller/install.log'
+[8.128s] Invoked command in '/home/hd/Desktop/Motor_Control/motor_controls.ws/src/controller' returned '0': PYTHONPATH=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/controller/prefix_override:/home/hd/Desktop/Motor_Control/motor_controls.ws/install/controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/controller build --build-base /home/hd/Desktop/Motor_Control/motor_controls.ws/build/controller/build install --record /home/hd/Desktop/Motor_Control/motor_controls.ws/build/controller/install.log --install-scripts $base/lib/controller --single-version-externally-managed

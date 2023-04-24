@@ -1,0 +1,203 @@
+[0.197s] Invoking command in '/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hd/Desktop/Motor_Control/motor_controls.ws/install/controller:/opt/ros/foxy:/home/hd/ros2_foxy/install/ros2bag:/home/hd/ros2_foxy/install/tracetools_launch:/home/hd/ros2_foxy/install/topic_monitor:/home/hd/ros2_foxy/install/examples_tf2_py:/home/hd/ros2_foxy/install/sros2:/home/hd/ros2_foxy/install/rqt_topic:/home/hd/ros2_foxy/install/rqt_top:/home/hd/ros2_foxy/install/rqt_srv:/home/hd/ros2_foxy/install/rqt_shell:/home/hd/ros2_foxy/install/rqt_service_caller:/home/hd/ros2_foxy/install/rqt_reconfigure:/home/hd/ros2_foxy/install/rqt_py_console:/home/hd/ros2_foxy/install/rqt_publisher:/home/hd/ros2_foxy/install/rqt_plot:/home/hd/ros2_foxy/install/rqt_action:/home/hd/ros2_foxy/install/rqt_msg:/home/hd/ros2_foxy/install/rqt_console:/home/hd/ros2_foxy/install/rqt:/home/hd/ros2_foxy/install/rqt_graph:/home/hd/ros2_foxy/install/rqt_gui_py:/home/hd/ros2_foxy/install/rqt_gui:/home/hd/ros2_foxy/install/ros2trace:/home/hd/ros2_foxy/install/ros2topic:/home/hd/ros2_foxy/install/ros2test:/home/hd/ros2_foxy/install/ros2component:/home/hd/ros2_foxy/install/ros2param:/home/hd/ros2_foxy/install/ros2lifecycle:/home/hd/ros2_foxy/install/ros2service:/home/hd/ros2_foxy/install/ros2run:/home/hd/ros2_foxy/install/ros2launch:/home/hd/ros2_foxy/install/ros2pkg:/home/hd/ros2_foxy/install/ros2node:/home/hd/ros2_foxy/install/ros2multicast:/home/hd/ros2_foxy/install/ros2interface:/home/hd/ros2_foxy/install/ros2doctor:/home/hd/ros2_foxy/install/ros2action:/home/hd/ros2_foxy/install/ros2cli:/home/hd/ros2_foxy/install/quality_of_service_demo_py:/home/hd/ros2_foxy/install/launch_testing_ros:/home/hd/ros2_foxy/install/launch_ros:/home/hd/ros2_foxy/install/joystick_ros2:/home/hd/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/hd/ros2_foxy/install/examples_rclpy_minimal_service:/home/hd/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/hd/ros2_foxy/install/examples_rclpy_minimal_client:/home/hd/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/hd/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/hd/ros2_foxy/install/examples_rclpy_executors:/home/hd/ros2_foxy/install/demo_nodes_py:/home/hd/ros2_foxy/install/action_tutorials_py:/home/hd/ros2_foxy/install/ament_uncrustify:/home/hd/ros2_foxy/install/tracetools_trace:/home/hd/ros2_foxy/install/tracetools_read:/home/hd/ros2_foxy/install/test_launch_ros:/home/hd/ros2_foxy/install/sensor_msgs_py:/home/hd/ros2_foxy/install/rpyutils:/home/hd/ros2_foxy/install/rosidl_runtime_py:/home/hd/ros2_foxy/install/launch_yaml:/home/hd/ros2_foxy/install/launch_xml:/home/hd/ros2_foxy/install/launch_testing:/home/hd/ros2_foxy/install/launch:/home/hd/ros2_foxy/install/osrf_pycommon:/home/hd/ros2_foxy/install/domain_coordinator:/home/hd/ros2_foxy/install/ament_xmllint:/home/hd/ros2_foxy/install/ament_pyflakes:/home/hd/ros2_foxy/install/ament_pycodestyle:/home/hd/ros2_foxy/install/ament_pep257:/home/hd/ros2_foxy/install/ament_pclint:/home/hd/ros2_foxy/install/ament_package:/home/hd/ros2_foxy/install/ament_mypy:/home/hd/ros2_foxy/install/ament_lint_cmake:/home/hd/ros2_foxy/install/ament_flake8:/home/hd/ros2_foxy/install/ament_copyright:/home/hd/ros2_foxy/install/ament_lint:/home/hd/ros2_foxy/install/ament_index_python:/home/hd/ros2_foxy/install/ament_cpplint:/home/hd/ros2_foxy/install/ament_cppcheck:/home/hd/ros2_foxy/install/ament_clang_tidy:/home/hd/ros2_foxy/install/ament_clang_format /usr/bin/cmake /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator -DCMAKE_INSTALL_PREFIX=/home/hd/Desktop/Motor_Control/motor_controls.ws/install/ethercat_device_configurator
+[0.482s] -- The C compiler identification is GNU 9.4.0
+[0.759s] -- The CXX compiler identification is GNU 9.4.0
+[0.825s] -- Check for working C compiler: /usr/bin/cc
+[1.079s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.083s] -- Detecting C compiler ABI info
+[1.300s] -- Detecting C compiler ABI info - done
+[1.323s] -- Detecting C compile features
+[1.325s] -- Detecting C compile features - done
+[1.331s] -- Check for working CXX compiler: /usr/bin/c++
+[1.549s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.549s] -- Detecting CXX compiler ABI info
+[1.755s] -- Detecting CXX compiler ABI info - done
+[1.773s] -- Detecting CXX compile features
+[1.774s] -- Detecting CXX compile features - done
+[1.789s] -- Found rclcpp: 2.4.2 (/home/hd/ros2_foxy/install/rclcpp/share/rclcpp/cmake)
+[2.385s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.385s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.054s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.117s] -- Found rosidl_adapter: 1.3.0 (/home/hd/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[4.552s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.656s] -- Found FastRTPS: /home/hd/ros2_foxy/install/fastrtps/include  
+[5.003s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.218s] -- Found rmw_implementation_cmake: 1.0.4 (/home/hd/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+[5.269s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.271s] -- Looking for pthread.h
+[5.451s] -- Looking for pthread.h - found
+[5.451s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.632s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.633s] -- Looking for pthread_create in pthreads
+[5.817s] -- Looking for pthread_create in pthreads - not found
+[5.817s] -- Looking for pthread_create in pthread
+[6.050s] -- Looking for pthread_create in pthread - found
+[6.052s] -- Found Threads: TRUE  
+[6.621s] CMake Warning at CMakeLists.txt:27 (find_package):
+[6.621s]   By not providing "Findmessage_logger.cmake" in CMAKE_MODULE_PATH this
+[6.621s]   project has asked CMake to find a package configuration file provided by
+[6.621s]   "message_logger", but CMake did not find one.
+[6.621s] 
+[6.622s]   Could not find a package configuration file provided by "message_logger"
+[6.622s]   with any of the following names:
+[6.622s] 
+[6.622s]     message_loggerConfig.cmake
+[6.622s]     message_logger-config.cmake
+[6.623s] 
+[6.624s]   Add the installation prefix of "message_logger" to CMAKE_PREFIX_PATH or set
+[6.624s]   "message_logger_DIR" to a directory containing one of the above files.  If
+[6.624s]   "message_logger" provides a separate development package or SDK, be sure it
+[6.624s]   has been installed.
+[6.624s] 
+[6.624s] 
+[6.678s] CMake Warning at CMakeLists.txt:28 (find_package):
+[6.678s]   By not providing "Findsoem_interface.cmake" in CMAKE_MODULE_PATH this
+[6.678s]   project has asked CMake to find a package configuration file provided by
+[6.678s]   "soem_interface", but CMake did not find one.
+[6.679s] 
+[6.679s]   Could not find a package configuration file provided by "soem_interface"
+[6.679s]   with any of the following names:
+[6.679s] 
+[6.680s]     soem_interfaceConfig.cmake
+[6.680s]     soem_interface-config.cmake
+[6.680s] 
+[6.680s]   Add the installation prefix of "soem_interface" to CMAKE_PREFIX_PATH or set
+[6.680s]   "soem_interface_DIR" to a directory containing one of the above files.  If
+[6.680s]   "soem_interface" provides a separate development package or SDK, be sure it
+[6.680s]   has been installed.
+[6.681s] 
+[6.681s] 
+[6.737s] CMake Warning at CMakeLists.txt:29 (find_package):
+[6.737s]   By not providing "Findethercat_sdk_master.cmake" in CMAKE_MODULE_PATH this
+[6.738s]   project has asked CMake to find a package configuration file provided by
+[6.738s]   "ethercat_sdk_master", but CMake did not find one.
+[6.738s] 
+[6.738s]   Could not find a package configuration file provided by
+[6.738s]   "ethercat_sdk_master" with any of the following names:
+[6.738s] 
+[6.738s]     ethercat_sdk_masterConfig.cmake
+[6.738s]     ethercat_sdk_master-config.cmake
+[6.738s] 
+[6.738s]   Add the installation prefix of "ethercat_sdk_master" to CMAKE_PREFIX_PATH
+[6.738s]   or set "ethercat_sdk_master_DIR" to a directory containing one of the above
+[6.739s]   files.  If "ethercat_sdk_master" provides a separate development package or
+[6.739s]   SDK, be sure it has been installed.
+[6.739s] 
+[6.739s] 
+[6.786s] CMake Warning at CMakeLists.txt:30 (find_package):
+[6.786s]   By not providing "Findmaxon_epos_ethercat_sdk.cmake" in CMAKE_MODULE_PATH
+[6.786s]   this project has asked CMake to find a package configuration file provided
+[6.787s]   by "maxon_epos_ethercat_sdk", but CMake did not find one.
+[6.787s] 
+[6.787s]   Could not find a package configuration file provided by
+[6.787s]   "maxon_epos_ethercat_sdk" with any of the following names:
+[6.787s] 
+[6.787s]     maxon_epos_ethercat_sdkConfig.cmake
+[6.787s]     maxon_epos_ethercat_sdk-config.cmake
+[6.788s] 
+[6.788s]   Add the installation prefix of "maxon_epos_ethercat_sdk" to
+[6.788s]   CMAKE_PREFIX_PATH or set "maxon_epos_ethercat_sdk_DIR" to a directory
+[6.788s]   containing one of the above files.  If "maxon_epos_ethercat_sdk" provides a
+[6.788s]   separate development package or SDK, be sure it has been installed.
+[6.788s] 
+[6.788s] 
+[6.964s] -- Found ament_lint_auto: 0.9.8 (/home/hd/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+[8.164s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.166s] -- Configured cppcheck include dirs: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/../soem_interface/soem_interface/include;/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/../soem_interface/soem/include;/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/../message_logger/include;/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/include
+[8.166s] -- Configured cppcheck exclude dirs and/or files: 
+[8.181s] -- Added test 'lint_cmake' to check CMake code style
+[8.196s] -- Added test 'uncrustify' to check C / C++ code style
+[8.196s] -- Configured uncrustify additional arguments: 
+[8.212s] -- Added test 'xmllint' to check XML markup files
+[8.298s] -- Found ament_lint_auto: 0.9.8 (/home/hd/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+[8.976s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.977s] -- Configured cppcheck include dirs: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include;/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/../message_logger/include;/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/../ethercat_sdk_master/include;/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/../soem_interface/soem_interface/include;/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/../soem_interface/soem/include
+[8.977s] -- Configured cppcheck exclude dirs and/or files: 
+[8.980s] -- Added test 'lint_cmake' to check CMake code style
+[8.982s] -- Added test 'uncrustify' to check C / C++ code style
+[8.982s] -- Configured uncrustify additional arguments: 
+[8.984s] -- Added test 'xmllint' to check XML markup files
+[9.002s] -- Found rclcpp_components: 2.4.2 (/home/hd/ros2_foxy/install/rclcpp_components/share/rclcpp_components/cmake)
+[9.412s]  AHHHHHHHHHHHHHHHHHH message_logger
+[10.974s] CMake Warning at soem_interface/soem_interface/CMakeLists.txt:22 (find_package):
+[10.974s]   By not providing "Findsoem_rsl.cmake" in CMAKE_MODULE_PATH this project has
+[10.974s]   asked CMake to find a package configuration file provided by "soem_rsl",
+[10.974s]   but CMake did not find one.
+[10.974s] 
+[10.974s]   Could not find a package configuration file provided by "soem_rsl" with any
+[10.975s]   of the following names:
+[10.975s] 
+[10.975s]     soem_rslConfig.cmake
+[10.975s]     soem_rsl-config.cmake
+[10.975s] 
+[10.976s]   Add the installation prefix of "soem_rsl" to CMAKE_PREFIX_PATH or set
+[10.976s]   "soem_rsl_DIR" to a directory containing one of the above files.  If
+[10.976s]   "soem_rsl" provides a separate development package or SDK, be sure it has
+[10.976s]   been installed.
+[10.976s] 
+[10.977s] 
+[11.029s] CMake Warning at soem_interface/soem_interface/CMakeLists.txt:23 (find_package):
+[11.029s]   By not providing "Findmessage_logger.cmake" in CMAKE_MODULE_PATH this
+[11.030s]   project has asked CMake to find a package configuration file provided by
+[11.030s]   "message_logger", but CMake did not find one.
+[11.031s] 
+[11.031s]   Could not find a package configuration file provided by "message_logger"
+[11.031s]   with any of the following names:
+[11.031s] 
+[11.031s]     message_loggerConfig.cmake
+[11.031s]     message_logger-config.cmake
+[11.031s] 
+[11.031s]   Add the installation prefix of "message_logger" to CMAKE_PREFIX_PATH or set
+[11.031s]   "message_logger_DIR" to a directory containing one of the above files.  If
+[11.032s]   "message_logger" provides a separate development package or SDK, be sure it
+[11.033s]   has been installed.
+[11.033s] 
+[11.033s] 
+[12.221s] -- Found rosidl_default_generators: 1.0.1 (/home/hd/ros2_foxy/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[13.848s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[15.269s] CMake Error at /home/hd/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[15.269s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[15.269s]   ethercat_device_configurator --arguments-file
+[15.270s]   /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/rosidl_adapter__arguments__ethercat_device_configurator.json
+[15.270s]   --output-dir
+[15.270s]   /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/rosidl_adapter/ethercat_device_configurator
+[15.270s]   --output-file
+[15.270s]   /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/rosidl_adapter/ethercat_device_configurator.idls)
+[15.270s]   returned error code 1:
+[15.270s] 
+[15.270s]   Error processing 'int mode' of
+[15.270s]   'ethercat_device_configurator/motor_command': ''int' is an invalid message
+[15.270s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''
+[15.271s] 
+[15.271s]   Traceback (most recent call last):
+[15.271s] 
+[15.271s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[15.271s]       return _run_code(code, main_globals, None,
+[15.271s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[15.271s]       exec(code, run_globals)
+[15.271s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[15.272s]       sys.exit(main())
+[15.272s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[15.272s]       abs_idl_file = convert_to_idl(
+[15.272s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[15.272s]       return convert_msg_to_idl(
+[15.273s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[15.273s]       msg = parse_message_string(package_name, input_file.stem, content)
+[15.273s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 516, in parse_message_string
+[15.273s]       Type(type_string, context_package_name=pkg_name),
+[15.273s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 276, in __init__
+[15.273s]       super(Type, self).__init__(
+[15.273s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__
+[15.273s]       raise InvalidResourceName(
+[15.273s] 
+[15.273s]   rosidl_adapter.parser.InvalidResourceName: 'int' is an invalid message
+[15.273s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[15.273s] 
+[15.274s] Call Stack (most recent call first):
+[15.274s]   /home/hd/ros2_foxy/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[15.274s]   CMakeLists.txt:47 (rosidl_generate_interfaces)
+[15.274s] 
+[15.274s] 
+[15.274s] -- Configuring incomplete, errors occurred!
+[15.274s] See also "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles/CMakeOutput.log".
+[15.274s] See also "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles/CMakeError.log".
+[15.291s] Invoked command in '/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hd/Desktop/Motor_Control/motor_controls.ws/install/controller:/opt/ros/foxy:/home/hd/ros2_foxy/install/ros2bag:/home/hd/ros2_foxy/install/tracetools_launch:/home/hd/ros2_foxy/install/topic_monitor:/home/hd/ros2_foxy/install/examples_tf2_py:/home/hd/ros2_foxy/install/sros2:/home/hd/ros2_foxy/install/rqt_topic:/home/hd/ros2_foxy/install/rqt_top:/home/hd/ros2_foxy/install/rqt_srv:/home/hd/ros2_foxy/install/rqt_shell:/home/hd/ros2_foxy/install/rqt_service_caller:/home/hd/ros2_foxy/install/rqt_reconfigure:/home/hd/ros2_foxy/install/rqt_py_console:/home/hd/ros2_foxy/install/rqt_publisher:/home/hd/ros2_foxy/install/rqt_plot:/home/hd/ros2_foxy/install/rqt_action:/home/hd/ros2_foxy/install/rqt_msg:/home/hd/ros2_foxy/install/rqt_console:/home/hd/ros2_foxy/install/rqt:/home/hd/ros2_foxy/install/rqt_graph:/home/hd/ros2_foxy/install/rqt_gui_py:/home/hd/ros2_foxy/install/rqt_gui:/home/hd/ros2_foxy/install/ros2trace:/home/hd/ros2_foxy/install/ros2topic:/home/hd/ros2_foxy/install/ros2test:/home/hd/ros2_foxy/install/ros2component:/home/hd/ros2_foxy/install/ros2param:/home/hd/ros2_foxy/install/ros2lifecycle:/home/hd/ros2_foxy/install/ros2service:/home/hd/ros2_foxy/install/ros2run:/home/hd/ros2_foxy/install/ros2launch:/home/hd/ros2_foxy/install/ros2pkg:/home/hd/ros2_foxy/install/ros2node:/home/hd/ros2_foxy/install/ros2multicast:/home/hd/ros2_foxy/install/ros2interface:/home/hd/ros2_foxy/install/ros2doctor:/home/hd/ros2_foxy/install/ros2action:/home/hd/ros2_foxy/install/ros2cli:/home/hd/ros2_foxy/install/quality_of_service_demo_py:/home/hd/ros2_foxy/install/launch_testing_ros:/home/hd/ros2_foxy/install/launch_ros:/home/hd/ros2_foxy/install/joystick_ros2:/home/hd/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/hd/ros2_foxy/install/examples_rclpy_minimal_service:/home/hd/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/hd/ros2_foxy/install/examples_rclpy_minimal_client:/home/hd/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/hd/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/hd/ros2_foxy/install/examples_rclpy_executors:/home/hd/ros2_foxy/install/demo_nodes_py:/home/hd/ros2_foxy/install/action_tutorials_py:/home/hd/ros2_foxy/install/ament_uncrustify:/home/hd/ros2_foxy/install/tracetools_trace:/home/hd/ros2_foxy/install/tracetools_read:/home/hd/ros2_foxy/install/test_launch_ros:/home/hd/ros2_foxy/install/sensor_msgs_py:/home/hd/ros2_foxy/install/rpyutils:/home/hd/ros2_foxy/install/rosidl_runtime_py:/home/hd/ros2_foxy/install/launch_yaml:/home/hd/ros2_foxy/install/launch_xml:/home/hd/ros2_foxy/install/launch_testing:/home/hd/ros2_foxy/install/launch:/home/hd/ros2_foxy/install/osrf_pycommon:/home/hd/ros2_foxy/install/domain_coordinator:/home/hd/ros2_foxy/install/ament_xmllint:/home/hd/ros2_foxy/install/ament_pyflakes:/home/hd/ros2_foxy/install/ament_pycodestyle:/home/hd/ros2_foxy/install/ament_pep257:/home/hd/ros2_foxy/install/ament_pclint:/home/hd/ros2_foxy/install/ament_package:/home/hd/ros2_foxy/install/ament_mypy:/home/hd/ros2_foxy/install/ament_lint_cmake:/home/hd/ros2_foxy/install/ament_flake8:/home/hd/ros2_foxy/install/ament_copyright:/home/hd/ros2_foxy/install/ament_lint:/home/hd/ros2_foxy/install/ament_index_python:/home/hd/ros2_foxy/install/ament_cpplint:/home/hd/ros2_foxy/install/ament_cppcheck:/home/hd/ros2_foxy/install/ament_clang_tidy:/home/hd/ros2_foxy/install/ament_clang_format /usr/bin/cmake /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator -DCMAKE_INSTALL_PREFIX=/home/hd/Desktop/Motor_Control/motor_controls.ws/install/ethercat_device_configurator

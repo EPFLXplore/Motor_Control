@@ -1,7 +1,7 @@
 #include <memory>
 
 #include "rclcpp/rclcpp.hpp"
-
+#include "motor_control_interfaces/msg/motor_command.hpp"
 
 #include <iostream>
 
@@ -13,16 +13,16 @@ class MinimalSubscriber : public rclcpp::Node
     MinimalSubscriber()
     : Node("minimal_subscriber")
     {
-      subscription_ = this->create_subscription<Motor_Command>(
+      subscription_ = this->create_subscription<motor_control_interfaces::msg::MotorCommand>(
       "hd_motor_command", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
     }
 
   private:
-    void topic_callback(const Motor_Command::SharedPtr msg) const
+    void topic_callback(const motor_control_interfaces::msg::MotorCommand::SharedPtr msg) const
     {
-      std::cout << msg->name << std::endl;
+      std::cout << msg->name << " , " << msg->mode << " , " << msg->commande << std::endl;
     }
-    rclcpp::Subscription<Motor_Command>::SharedPtr subscription_;
+    rclcpp::Subscription<motor_control_interfaces::msg::MotorCommand>::SharedPtr subscription_;
 };
 
 int main(int argc, char * argv[])

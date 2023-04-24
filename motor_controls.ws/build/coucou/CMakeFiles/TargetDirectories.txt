@@ -5,6 +5,7 @@
 /home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/CMakeFiles/rebuild_cache.dir
 /home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/CMakeFiles/edit_cache.dir
 /home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/CMakeFiles/test.dir
+/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/CMakeFiles/suscriber_test.dir
 /home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/CMakeFiles/suscriber.dir
 /home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/CMakeFiles/talker.dir
 /home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/CMakeFiles/coucou_uninstall.dir

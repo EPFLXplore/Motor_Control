@@ -1,0 +1,73 @@
+[0.279s] Invoking command in '/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/hd/ros2_foxy/install/ros2bag:/home/hd/ros2_foxy/install/tracetools_launch:/home/hd/ros2_foxy/install/topic_monitor:/home/hd/ros2_foxy/install/examples_tf2_py:/home/hd/ros2_foxy/install/sros2:/home/hd/ros2_foxy/install/rqt_topic:/home/hd/ros2_foxy/install/rqt_top:/home/hd/ros2_foxy/install/rqt_srv:/home/hd/ros2_foxy/install/rqt_shell:/home/hd/ros2_foxy/install/rqt_service_caller:/home/hd/ros2_foxy/install/rqt_reconfigure:/home/hd/ros2_foxy/install/rqt_py_console:/home/hd/ros2_foxy/install/rqt_publisher:/home/hd/ros2_foxy/install/rqt_plot:/home/hd/ros2_foxy/install/rqt_action:/home/hd/ros2_foxy/install/rqt_msg:/home/hd/ros2_foxy/install/rqt_console:/home/hd/ros2_foxy/install/rqt:/home/hd/ros2_foxy/install/rqt_graph:/home/hd/ros2_foxy/install/rqt_gui_py:/home/hd/ros2_foxy/install/rqt_gui:/home/hd/ros2_foxy/install/ros2trace:/home/hd/ros2_foxy/install/ros2topic:/home/hd/ros2_foxy/install/ros2test:/home/hd/ros2_foxy/install/ros2component:/home/hd/ros2_foxy/install/ros2param:/home/hd/ros2_foxy/install/ros2lifecycle:/home/hd/ros2_foxy/install/ros2service:/home/hd/ros2_foxy/install/ros2run:/home/hd/ros2_foxy/install/ros2launch:/home/hd/ros2_foxy/install/ros2pkg:/home/hd/ros2_foxy/install/ros2node:/home/hd/ros2_foxy/install/ros2multicast:/home/hd/ros2_foxy/install/ros2interface:/home/hd/ros2_foxy/install/ros2doctor:/home/hd/ros2_foxy/install/ros2action:/home/hd/ros2_foxy/install/ros2cli:/home/hd/ros2_foxy/install/quality_of_service_demo_py:/home/hd/ros2_foxy/install/launch_testing_ros:/home/hd/ros2_foxy/install/launch_ros:/home/hd/ros2_foxy/install/joystick_ros2:/home/hd/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/hd/ros2_foxy/install/examples_rclpy_minimal_service:/home/hd/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/hd/ros2_foxy/install/examples_rclpy_minimal_client:/home/hd/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/hd/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/hd/ros2_foxy/install/examples_rclpy_executors:/home/hd/ros2_foxy/install/demo_nodes_py:/home/hd/ros2_foxy/install/action_tutorials_py:/home/hd/ros2_foxy/install/ament_uncrustify:/home/hd/ros2_foxy/install/tracetools_trace:/home/hd/ros2_foxy/install/tracetools_read:/home/hd/ros2_foxy/install/test_launch_ros:/home/hd/ros2_foxy/install/sensor_msgs_py:/home/hd/ros2_foxy/install/rpyutils:/home/hd/ros2_foxy/install/rosidl_runtime_py:/home/hd/ros2_foxy/install/launch_yaml:/home/hd/ros2_foxy/install/launch_xml:/home/hd/ros2_foxy/install/launch_testing:/home/hd/ros2_foxy/install/launch:/home/hd/ros2_foxy/install/osrf_pycommon:/home/hd/ros2_foxy/install/domain_coordinator:/home/hd/ros2_foxy/install/ament_xmllint:/home/hd/ros2_foxy/install/ament_pyflakes:/home/hd/ros2_foxy/install/ament_pycodestyle:/home/hd/ros2_foxy/install/ament_pep257:/home/hd/ros2_foxy/install/ament_pclint:/home/hd/ros2_foxy/install/ament_package:/home/hd/ros2_foxy/install/ament_mypy:/home/hd/ros2_foxy/install/ament_lint_cmake:/home/hd/ros2_foxy/install/ament_flake8:/home/hd/ros2_foxy/install/ament_copyright:/home/hd/ros2_foxy/install/ament_lint:/home/hd/ros2_foxy/install/ament_index_python:/home/hd/ros2_foxy/install/ament_cpplint:/home/hd/ros2_foxy/install/ament_cppcheck:/home/hd/ros2_foxy/install/ament_clang_tidy:/home/hd/ros2_foxy/install/ament_clang_format /usr/bin/cmake --build /home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou -- -j2 -l2
+[0.508s] -- Found ament_cmake: 0.9.11 (/home/hd/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+[1.211s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.211s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.245s] -- Found rclcpp: 2.4.2 (/home/hd/ros2_foxy/install/rclcpp/share/rclcpp/cmake)
+[2.413s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.420s] -- Found rosidl_adapter: 1.3.0 (/home/hd/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[2.825s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.908s] -- Found rmw_implementation_cmake: 1.0.4 (/home/hd/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+[2.952s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.158s] -- Found sensor_msgs: 2.0.5 (/home/hd/ros2_foxy/install/sensor_msgs/share/sensor_msgs/cmake)
+[3.397s] -- Found rosidl_default_generators: 1.0.1 (/home/hd/ros2_foxy/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[4.017s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[5.323s] -- Found ament_cmake_ros: 0.9.2 (/home/hd/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+[6.207s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.502s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.210s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[7.233s] -- Found python_cmake_module: 0.8.1 (/home/hd/ros2_foxy/install/python_cmake_module/share/python_cmake_module/cmake)
+[7.864s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[7.864s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.865s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[7.865s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[8.447s] -- Found PythonExtra: .so  
+[9.863s] -- Configuring done
+[9.974s] -- Generating done
+[9.986s] -- Build files have been written to: /home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou
+[10.067s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[10.071s] [35m[1mScanning dependencies of target talker[0m
+[10.291s] [  5%] [32mBuilding CXX object CMakeFiles/talker.dir/src/send.cpp.o[0m
+[11.362s] [35m[1mScanning dependencies of target coucou__rosidl_generator_c[0m
+[11.412s] [  8%] [32mBuilding C object CMakeFiles/coucou__rosidl_generator_c.dir/rosidl_generator_c/coucou/msg/detail/motor_command__functions.c.o[0m
+[11.640s] [ 10%] [32m[1mLinking C shared library libcoucou__rosidl_generator_c.so[0m
+[11.790s] [ 10%] Built target coucou__rosidl_generator_c
+[11.827s] [35m[1mScanning dependencies of target coucou__cpp[0m
+[11.878s] [ 13%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[13.242s] [ 13%] Built target coucou__cpp
+[13.286s] [ 16%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[14.595s] [35m[1mScanning dependencies of target coucou__rosidl_typesupport_introspection_c[0m
+[14.644s] [ 18%] [32mBuilding C object CMakeFiles/coucou__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/coucou/msg/detail/motor_command__type_support.c.o[0m
+[14.740s] [ 21%] [32m[1mLinking C shared library libcoucou__rosidl_typesupport_introspection_c.so[0m
+[14.851s] [ 21%] Built target coucou__rosidl_typesupport_introspection_c
+[14.896s] [ 24%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[16.355s] [35m[1mScanning dependencies of target coucou__rosidl_typesupport_introspection_cpp[0m
+[16.419s] [ 27%] [32mBuilding CXX object CMakeFiles/coucou__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/coucou/msg/detail/motor_command__type_support.cpp.o[0m
+[16.628s] [ 29%] [32m[1mLinking CXX executable talker[0m
+[17.132s] [ 32%] [32m[1mLinking CXX shared library libcoucou__rosidl_typesupport_introspection_cpp.so[0m
+[17.335s] [ 32%] Built target coucou__rosidl_typesupport_introspection_cpp
+[17.377s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[17.496s] [ 35%] Built target talker
+[17.533s] [ 37%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[18.502s] [35m[1mScanning dependencies of target coucou__rosidl_typesupport_cpp[0m
+[18.539s] [35m[1mScanning dependencies of target coucou__rosidl_typesupport_c[0m
+[18.555s] [ 40%] [32mBuilding CXX object CMakeFiles/coucou__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/coucou/msg/motor_command__type_support.cpp.o[0m
+[18.592s] [ 43%] [32mBuilding CXX object CMakeFiles/coucou__rosidl_typesupport_c.dir/rosidl_typesupport_c/coucou/msg/motor_command__type_support.cpp.o[0m
+[18.676s] [ 45%] [32m[1mLinking CXX shared library libcoucou__rosidl_typesupport_c.so[0m
+[18.794s] [ 45%] Built target coucou__rosidl_typesupport_c
+[18.842s] [35m[1mScanning dependencies of target suscriber[0m
+[18.929s] [ 48%] [32mBuilding CXX object CMakeFiles/suscriber.dir/src/read.cpp.o[0m
+[19.136s] [ 51%] [32m[1mLinking CXX shared library libcoucou__rosidl_typesupport_cpp.so[0m
+[19.257s] [ 51%] Built target coucou__rosidl_typesupport_cpp
+[19.298s] [35m[1mScanning dependencies of target suscriber_test[0m
+[19.393s] [ 54%] [32mBuilding CXX object CMakeFiles/suscriber_test.dir/src/read_test.cpp.o[0m
+[19.640s] [01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou/src/read_test.cpp:4:10:[m[K [01;31m[Kfatal error: [m[KMotorCommand.h: No such file or directory
+[19.640s]     4 | #include [01;31m[K"MotorCommand.h"[m[K
+[19.641s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[19.641s] compilation terminated.
+[19.644s] make[2]: *** [CMakeFiles/suscriber_test.dir/build.make:63: CMakeFiles/suscriber_test.dir/src/read_test.cpp.o] Error 1
+[19.647s] make[1]: *** [CMakeFiles/Makefile2:441: CMakeFiles/suscriber_test.dir/all] Error 2
+[19.647s] make[1]: *** Waiting for unfinished jobs....
+[27.616s] [ 56%] [32m[1mLinking CXX executable suscriber[0m
+[28.422s] [ 56%] Built target suscriber
+[28.423s] make: *** [Makefile:141: all] Error 2
+[28.439s] Invoked command in '/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/hd/ros2_foxy/install/ros2bag:/home/hd/ros2_foxy/install/tracetools_launch:/home/hd/ros2_foxy/install/topic_monitor:/home/hd/ros2_foxy/install/examples_tf2_py:/home/hd/ros2_foxy/install/sros2:/home/hd/ros2_foxy/install/rqt_topic:/home/hd/ros2_foxy/install/rqt_top:/home/hd/ros2_foxy/install/rqt_srv:/home/hd/ros2_foxy/install/rqt_shell:/home/hd/ros2_foxy/install/rqt_service_caller:/home/hd/ros2_foxy/install/rqt_reconfigure:/home/hd/ros2_foxy/install/rqt_py_console:/home/hd/ros2_foxy/install/rqt_publisher:/home/hd/ros2_foxy/install/rqt_plot:/home/hd/ros2_foxy/install/rqt_action:/home/hd/ros2_foxy/install/rqt_msg:/home/hd/ros2_foxy/install/rqt_console:/home/hd/ros2_foxy/install/rqt:/home/hd/ros2_foxy/install/rqt_graph:/home/hd/ros2_foxy/install/rqt_gui_py:/home/hd/ros2_foxy/install/rqt_gui:/home/hd/ros2_foxy/install/ros2trace:/home/hd/ros2_foxy/install/ros2topic:/home/hd/ros2_foxy/install/ros2test:/home/hd/ros2_foxy/install/ros2component:/home/hd/ros2_foxy/install/ros2param:/home/hd/ros2_foxy/install/ros2lifecycle:/home/hd/ros2_foxy/install/ros2service:/home/hd/ros2_foxy/install/ros2run:/home/hd/ros2_foxy/install/ros2launch:/home/hd/ros2_foxy/install/ros2pkg:/home/hd/ros2_foxy/install/ros2node:/home/hd/ros2_foxy/install/ros2multicast:/home/hd/ros2_foxy/install/ros2interface:/home/hd/ros2_foxy/install/ros2doctor:/home/hd/ros2_foxy/install/ros2action:/home/hd/ros2_foxy/install/ros2cli:/home/hd/ros2_foxy/install/quality_of_service_demo_py:/home/hd/ros2_foxy/install/launch_testing_ros:/home/hd/ros2_foxy/install/launch_ros:/home/hd/ros2_foxy/install/joystick_ros2:/home/hd/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/hd/ros2_foxy/install/examples_rclpy_minimal_service:/home/hd/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/hd/ros2_foxy/install/examples_rclpy_minimal_client:/home/hd/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/hd/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/hd/ros2_foxy/install/examples_rclpy_executors:/home/hd/ros2_foxy/install/demo_nodes_py:/home/hd/ros2_foxy/install/action_tutorials_py:/home/hd/ros2_foxy/install/ament_uncrustify:/home/hd/ros2_foxy/install/tracetools_trace:/home/hd/ros2_foxy/install/tracetools_read:/home/hd/ros2_foxy/install/test_launch_ros:/home/hd/ros2_foxy/install/sensor_msgs_py:/home/hd/ros2_foxy/install/rpyutils:/home/hd/ros2_foxy/install/rosidl_runtime_py:/home/hd/ros2_foxy/install/launch_yaml:/home/hd/ros2_foxy/install/launch_xml:/home/hd/ros2_foxy/install/launch_testing:/home/hd/ros2_foxy/install/launch:/home/hd/ros2_foxy/install/osrf_pycommon:/home/hd/ros2_foxy/install/domain_coordinator:/home/hd/ros2_foxy/install/ament_xmllint:/home/hd/ros2_foxy/install/ament_pyflakes:/home/hd/ros2_foxy/install/ament_pycodestyle:/home/hd/ros2_foxy/install/ament_pep257:/home/hd/ros2_foxy/install/ament_pclint:/home/hd/ros2_foxy/install/ament_package:/home/hd/ros2_foxy/install/ament_mypy:/home/hd/ros2_foxy/install/ament_lint_cmake:/home/hd/ros2_foxy/install/ament_flake8:/home/hd/ros2_foxy/install/ament_copyright:/home/hd/ros2_foxy/install/ament_lint:/home/hd/ros2_foxy/install/ament_index_python:/home/hd/ros2_foxy/install/ament_cpplint:/home/hd/ros2_foxy/install/ament_cppcheck:/home/hd/ros2_foxy/install/ament_clang_tidy:/home/hd/ros2_foxy/install/ament_clang_format /usr/bin/cmake --build /home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou -- -j2 -l2

@@ -1,5 +1,6 @@
 /home/hd/Desktop/Motor_Control/motor_controls.ws/install/coucou/lib/coucou/talker
 /home/hd/Desktop/Motor_Control/motor_controls.ws/install/coucou/lib/coucou/suscriber
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/coucou/lib/coucou/suscriber_test
 /home/hd/Desktop/Motor_Control/motor_controls.ws/install/coucou/share/ament_index/resource_index/package_run_dependencies/coucou
 /home/hd/Desktop/Motor_Control/motor_controls.ws/install/coucou/share/ament_index/resource_index/parent_prefix_path/coucou
 /home/hd/Desktop/Motor_Control/motor_controls.ws/install/coucou/share/coucou/environment/ament_prefix_path.dsv

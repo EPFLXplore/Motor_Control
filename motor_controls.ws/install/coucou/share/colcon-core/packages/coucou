@@ -1,1 +1,1 @@
-rclcpp:sensor_msgs:std_msgs
+motor_control_interfaces:rclcpp:sensor_msgs:std_msgs
