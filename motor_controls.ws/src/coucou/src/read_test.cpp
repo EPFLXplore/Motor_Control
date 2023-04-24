@@ -1,7 +1,6 @@
 #include <memory>
 
 #include "rclcpp/rclcpp.hpp"
-#include "sensor_msgs/msg/joy.hpp"
 
 
 #include <iostream>
@@ -14,16 +13,16 @@ class MinimalSubscriber : public rclcpp::Node
     MinimalSubscriber()
     : Node("minimal_subscriber")
     {
-      subscription_ = this->create_subscription<sensor_msgs::msg::Joy>(
-      "joy", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
+      subscription_ = this->create_subscription<Motor_Command>(
+      "hd_motor_command", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
     }
 
   private:
-    void topic_callback(const sensor_msgs::msg::Joy::SharedPtr msg) const
+    void topic_callback(const Motor_Command::SharedPtr msg) const
     {
-      std::cout << msg->axes[0] << " , " << msg->axes[1] << std::endl;
+      std::cout << msg->name << std::endl;
     }
-    rclcpp::Subscription<sensor_msgs::msg::Joy>::SharedPtr subscription_;
+    rclcpp::Subscription<Motor_Command>::SharedPtr subscription_;
 };
 
 int main(int argc, char * argv[])

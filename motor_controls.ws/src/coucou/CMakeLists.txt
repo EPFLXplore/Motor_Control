@@ -15,20 +15,30 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 
+find_package(rosidl_default_generators REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/Motor_Command.msg"
+)
+
+
 add_executable(talker src/send.cpp)
 ament_target_dependencies(talker rclcpp std_msgs)
-
 install(TARGETS
   talker
   DESTINATION lib/${PROJECT_NAME})
 
-
 add_executable(suscriber src/read.cpp)
 ament_target_dependencies(suscriber rclcpp sensor_msgs)
-
 install(TARGETS
   suscriber
   DESTINATION lib/${PROJECT_NAME})
-  
+
+add_executable(suscriber_test src/read_test.cpp)
+ament_target_dependencies(suscriber_test rclcpp sensor_msgs)
+install(TARGETS
+  suscriber_test
+  DESTINATION lib/${PROJECT_NAME})
+
 
 ament_package()
