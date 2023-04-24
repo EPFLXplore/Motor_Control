@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target talker[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/suscriber.dir/src/read.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/send.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable talker[0m
+[ 75%] Built target talker

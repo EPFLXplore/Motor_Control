@@ -1,7 +1,10 @@
 #include <memory>
 
 #include "rclcpp/rclcpp.hpp"
-#include "std_msgs/msg/string.hpp"
+#include "sensor_msgs/msg/joy.hpp"
+
+#include <iostream>
+
 using std::placeholders::_1;
 
 class MinimalSubscriber : public rclcpp::Node
@@ -10,16 +13,16 @@ class MinimalSubscriber : public rclcpp::Node
     MinimalSubscriber()
     : Node("minimal_subscriber")
     {
-      subscription_ = this->create_subscription<std_msgs::msg::String>(
-      "topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
+      subscription_ = this->create_subscription<sensor_msgs::msg::Joy>(
+      "joy", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
     }
 
   private:
-    void topic_callback(const std_msgs::msg::String::SharedPtr msg) const
+    void topic_callback(const sensor_msgs::msg::Joy::SharedPtr msg) const
     {
-      RCLCPP_INFO(this->get_logger(), "I heard: '%s'", msg->data.c_str());
+      std::cout << msg->axes[0] << " , " << msg->axes[1] << std::endl;
     }
-    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
+    rclcpp::Subscription<sensor_msgs::msg::Joy>::SharedPtr subscription_;
 };
 
 int main(int argc, char * argv[])

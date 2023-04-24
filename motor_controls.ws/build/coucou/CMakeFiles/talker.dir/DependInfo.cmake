@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hd/Desktop/motor_controls.ws/src/coucou/src/send.cpp" "/home/hd/Desktop/motor_controls.ws/build/coucou/CMakeFiles/talker.dir/src/send.cpp.o"
+  "/home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou/src/send.cpp" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/CMakeFiles/talker.dir/src/send.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

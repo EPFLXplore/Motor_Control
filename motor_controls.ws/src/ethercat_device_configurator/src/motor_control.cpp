@@ -3,6 +3,7 @@
 
 #include "rclcpp/rclcpp.hpp"
 
+
 #include <string>
 #include <vector>
 
@@ -55,9 +56,10 @@ class Motor_controller : public rclcpp::Node
             }
 
             // Start the PDO loop in a new thread.
-            timer_update_motor_ = this->create_wall_timer(500ms, std::bind(&MyNode::uptdate_motor, this));
-            suscription_motor_command_ = this->create_subscription<std_msgs::msg::Float64>(
-                "motor_command", 10, std::bind(&MyNode::motor_command_callback, this, _1)
+            timer_update_motor_ = this->create_wall_timer(500ms, std::bind(&Motor_controller::update_motor, this));
+            
+            subscription_motor_command_ = this->create_subscription<motot_param>(
+                "motor_command", 10, std::bind(&Motor_controller::motor_command_callback, this, _1)
                 );
 
 
@@ -114,8 +116,8 @@ class Motor_controller : public rclcpp::Node
 
         // Ros related
         rclcpp::TimerBase::SharedPtr timer_update_motor_;
-        rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_motor_command_;
-        rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_motor_param_;
+        rclcpp::Subscription<motor_command>::SharedPtr subscription_motor_command_;
+        rclcpp::Publisher<motor_param>::SharedPtr publisher_motor_param_;
 
 
         /**                         fonction                              **/
@@ -186,18 +188,18 @@ class Motor_controller : public rclcpp::Node
             maxonEnabledAfterStartup_ = true;
         }
 
-        void motor_command_callback(const std_msgs::msg::motor_command::SharedPtr msg){
-            for(const auto & motor_command : motor_command_list){
-                if(motor_command.name == msg->name){
-                    motor_command.mode = msg->mode;
-                    motor_command.command = msg->command;
+        void motor_command_callback(const motor_command::SharedPtr msg){
+            for(const auto & command : motor_command_list){
+                if(command.name == msg->name){
+                    command.mode = msg->mode;
+                    command.command = msg->command;
                 }
             }
         }
 
 
 
-}
+};
 
 int main(int argc, char**argv)
 {
