@@ -2,7 +2,7 @@
 #include <maxon_epos_ethercat_sdk/Maxon.hpp>
 
 #include "rclcpp/rclcpp.hpp"
-
+#include "motor_control_interfaces/msg/motor_command.hpp"
 
 #include <string>
 #include <vector>
@@ -56,14 +56,25 @@ class Motor_controller : public rclcpp::Node
             }
 
             // Start the PDO loop in a new thread.
+
+            bool rtSuccess = true;
+            for(const auto & master: configurator->getMasters())
+            {
+                rtSuccess &= master->setRealtimePriority(99);
+            }
+            std::cout << "Setting RT Priority: " << (rtSuccess? "successful." : "not successful. Check user privileges.") << std::endl;
+
+            // Flag to set the drive state for the elmos on first startup
+            bool maxonEnabledAfterStartup = false;
+
             timer_update_motor_ = this->create_wall_timer(500ms, std::bind(&Motor_controller::update_motor, this));
             
-            subscription_motor_command_ = this->create_subscription<motot_param>(
+            subscription_motor_command_ = this->create_subscription<motor_control_interfaces::msg::MotorCommand>(
                 "motor_command", 10, std::bind(&Motor_controller::motor_command_callback, this, _1)
                 );
 
 
-
+            
 
 
             /*
@@ -116,8 +127,8 @@ class Motor_controller : public rclcpp::Node
 
         // Ros related
         rclcpp::TimerBase::SharedPtr timer_update_motor_;
-        rclcpp::Subscription<motor_command>::SharedPtr subscription_motor_command_;
-        rclcpp::Publisher<motor_param>::SharedPtr publisher_motor_param_;
+        rclcpp::Subscription<motor_control_interfaces::msg::MotorCommand>::SharedPtr subscription_motor_command_;
+        // rclcpp::Publisher<motor_param>::SharedPtr publisher_motor_param_;
 
 
         /**                         fonction                              **/

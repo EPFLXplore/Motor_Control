@@ -23,6 +23,7 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
+find_package(motor_control_interfaces REQUIRED)
 
 find_package(message_logger)
 find_package(soem_interface)
@@ -40,6 +41,24 @@ include_directories(
   include
   include/ethercat_device_configurator
   ${rclcpp_INCLUDE_DIRS}
+)
+
+add_executable(standalone src/motor_control.cpp src/EthercatDeviceConfigurator.cpp 
+  include/ethercat_device_configurator/soem/soem/ethercatconfig.c
+  include/ethercat_device_configurator/soem/soem/ethercatprint.c
+  include/ethercat_device_configurator/soem/soem/ethercatdc.c)
+
+ament_target_dependencies(standalone rclcpp motor_control_interfaces)
+target_link_libraries(standalone
+  PUBLIC
+  ${rclcpp_LIBRARIES}
+  PRIVATE
+  yaml-cpp
+  ethercat_sdk_master
+  maxon_epos_ethercat_sdk
+  message_logger
+  soem
+  soem_interface
 )
 
 add_executable(standalone src/standalone.cpp src/EthercatDeviceConfigurator.cpp 
@@ -60,7 +79,9 @@ target_link_libraries(standalone
   soem_interface
 )
 
-install(TARGETS standalone
+install(TARGETS 
+    standalone
+    motor_control
   DESTINATION lib/${PROJECT_NAME}
 )
 
