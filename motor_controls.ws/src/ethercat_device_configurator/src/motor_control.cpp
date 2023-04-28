@@ -161,7 +161,7 @@ class Motor_controller : public rclcpp::Node
                 if (!maxonEnabledAfterStartup)
                 {
                     // Set maxons to operation enabled state, do not block the call!
-                    maxon_slave_ptr->setDriveStateViaPdo(maxon::DriveState::OperationEnabled, false);
+                    slave->setDriveStateViaPdo(maxon::DriveState::OperationEnabled, false);
                 }
 
                 // Maxon

@@ -8,6 +8,8 @@ module motor_control_interfaces {
     struct MotorCommand {
       string name;
 
+      @verbatim (language="comment", text=
+        " 0 : Position \ 1 : Velocity \ 2 : torque")
       uint8 mode;
 
       double commande;
