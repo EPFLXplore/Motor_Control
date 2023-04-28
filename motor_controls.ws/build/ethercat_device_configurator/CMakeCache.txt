@@ -522,7 +522,7 @@ ethercat_device_configurator_SOURCE_DIR:STATIC=/home/hd/Desktop/Motor_Control/mo
 ethercat_sdk_master_BINARY_DIR:STATIC=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/ethercat_sdk_master
 
 //The directory containing a CMake configuration file for ethercat_sdk_master.
-ethercat_sdk_master_DIR:PATH=ethercat_sdk_master_DIR-NOTFOUND
+ethercat_sdk_master_DIR:PATH=/home/hd/Desktop/Motor_Control/motor_controls.ws/install/ethercat_device_configurator/share/ethercat_sdk_master/cmake
 
 //Dependencies for the target
 ethercat_sdk_master_LIB_DEPENDS:STATIC=general;rclcpp::rclcpp;
@@ -552,7 +552,7 @@ libyaml_vendor_DIR:PATH=/home/hd/ros2_foxy/install/libyaml_vendor/share/libyaml_
 maxon_epos_ethercat_sdk_BINARY_DIR:STATIC=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/maxon_epos_ethercat_sdk
 
 //The directory containing a CMake configuration file for maxon_epos_ethercat_sdk.
-maxon_epos_ethercat_sdk_DIR:PATH=maxon_epos_ethercat_sdk_DIR-NOTFOUND
+maxon_epos_ethercat_sdk_DIR:PATH=/home/hd/Desktop/Motor_Control/motor_controls.ws/install/ethercat_device_configurator/share/maxon_epos_ethercat_sdk/cmake
 
 //Dependencies for the target
 maxon_epos_ethercat_sdk_LIB_DEPENDS:STATIC=general;yaml-cpp;general;rclcpp::rclcpp;
@@ -564,13 +564,16 @@ maxon_epos_ethercat_sdk_SOURCE_DIR:STATIC=/home/hd/Desktop/Motor_Control/motor_c
 message_logger_BINARY_DIR:STATIC=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/message_logger
 
 //The directory containing a CMake configuration file for message_logger.
-message_logger_DIR:PATH=message_logger_DIR-NOTFOUND
+message_logger_DIR:PATH=/home/hd/Desktop/Motor_Control/motor_controls.ws/install/ethercat_device_configurator/share/message_logger/cmake
 
 //Dependencies for the target
 message_logger_LIB_DEPENDS:STATIC=general;rclcpp::rclcpp;general;std_msgs::std_msgs__rosidl_generator_c;general;std_msgs::std_msgs__rosidl_typesupport_introspection_c;general;std_msgs::std_msgs__rosidl_typesupport_c;general;std_msgs::std_msgs__rosidl_typesupport_introspection_cpp;general;std_msgs::std_msgs__rosidl_typesupport_cpp;
 
 //Value Computed by CMake
 message_logger_SOURCE_DIR:STATIC=/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger
+
+//The directory containing a CMake configuration file for motor_control_interfaces.
+motor_control_interfaces_DIR:PATH=/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake
 
 //Path to a library.
 pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
@@ -666,7 +669,7 @@ rosidl_typesupport_introspection_cpp_DIR:PATH=/home/hd/ros2_foxy/install/rosidl_
 soem_interface_BINARY_DIR:STATIC=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/soem_interface/soem_interface
 
 //The directory containing a CMake configuration file for soem_interface.
-soem_interface_DIR:PATH=soem_interface_DIR-NOTFOUND
+soem_interface_DIR:PATH=/home/hd/Desktop/Motor_Control/motor_controls.ws/install/ethercat_device_configurator/share/soem_interface/cmake
 
 //Value Computed by CMake
 soem_interface_SOURCE_DIR:STATIC=/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem_interface
@@ -675,7 +678,7 @@ soem_interface_SOURCE_DIR:STATIC=/home/hd/Desktop/Motor_Control/motor_controls.w
 soem_rsl_BINARY_DIR:STATIC=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/soem_interface/soem
 
 //The directory containing a CMake configuration file for soem_rsl.
-soem_rsl_DIR:PATH=soem_rsl_DIR-NOTFOUND
+soem_rsl_DIR:PATH=/home/hd/Desktop/Motor_Control/motor_controls.ws/install/ethercat_device_configurator/share/soem_rsl/cmake
 
 //Value Computed by CMake
 soem_rsl_SOURCE_DIR:STATIC=/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem
@@ -915,7 +918,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_FastRTPS:INTERNAL=[/home/hd/ros2_foxy/install/fastr
 //Details about finding OpenSSL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcrypto.so][/usr/include][c ][v1.1.1f()]
 //Details about finding PythonInterp
-FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python3][v3.8.10()]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python3][v3.8.10(3)]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //ADVANCED property for variable: GITCOMMAND

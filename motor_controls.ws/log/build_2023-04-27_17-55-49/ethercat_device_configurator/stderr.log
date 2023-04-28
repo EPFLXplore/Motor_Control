@@ -1,0 +1,13 @@
+ AHHHHHHHHHHHHHHHHHH message_logger
+CMake Error at CMakeLists.txt:62 (target_link_libraries):
+  The plain signature for target_link_libraries has already been used with
+  the target "motor_control".  All uses of target_link_libraries with a
+  target must be either all-keyword or all-plain.
+
+  The uses of the plain signature are here:
+
+   * /home/hd/ros2_foxy/install/ament_cmake_target_dependencies/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:145 (target_link_libraries)
+
+
+
+make: *** [Makefile:920: cmake_check_build_system] Error 1

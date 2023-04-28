@@ -41,9 +41,7 @@
 /home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/msg/MotorCommand.msg
 /home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/ament_index/resource_index/package_run_dependencies/motor_control_interfaces
 /home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/ament_index/resource_index/parent_prefix_path/motor_control_interfaces
-/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/environment/ament_prefix_path.sh
 /home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/environment/ament_prefix_path.dsv
-/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/environment/path.sh
 /home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/environment/path.dsv
 /home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/local_setup.bash
 /home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/local_setup.sh

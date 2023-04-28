@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsoem_interface.a  CMakeFiles/soem_interface.dir/src/soem_interface/common/ThreadSleep.cpp.o CMakeFiles/soem_interface.dir/src/soem_interface/common/Macros.cpp.o CMakeFiles/soem_interface.dir/src/soem_interface/EthercatSlaveBase.cpp.o CMakeFiles/soem_interface.dir/src/soem_interface/EthercatBusManagerBase.cpp.o CMakeFiles/soem_interface.dir/src/soem_interface/EthercatBusBase.cpp.o CMakeFiles/soem_interface.dir/__/__/message_logger/src/time/Time.cpp.o CMakeFiles/soem_interface.dir/__/__/message_logger/src/time/TimeStd.cpp.o
+/usr/bin/ranlib libsoem_interface.a

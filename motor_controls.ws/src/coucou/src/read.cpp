@@ -2,7 +2,7 @@
 
 #include "rclcpp/rclcpp.hpp"
 #include "sensor_msgs/msg/joy.hpp"
-#include "motor_control_interface/msg/motor_control.hpp"
+#include "motor_control_interfaces/msg/motor_command.hpp"
 
 #include <iostream>
 
@@ -17,7 +17,7 @@ class MinimalSubscriber : public rclcpp::Node
       subscription_ = this->create_subscription<sensor_msgs::msg::Joy>(
       "joy", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
 
-      publisher_ = this->create_publisher<motor_control_interface::msg::MotorControl>("hd_motor_command", 10);
+      publisher_ = this->create_publisher<motor_control_interfaces::msg::MotorCommand>("hd_motor_command", 10);
       
     }
 
@@ -26,11 +26,11 @@ class MinimalSubscriber : public rclcpp::Node
     {
       std::cout << msg->axes[0] << " , " << msg->axes[1] << std::endl;
 
-      auto message = motor_control_interface::msg::MotorControl();
+      auto message = motor_control_interfaces::msg::MotorCommand();
 
       message.name = "J1";
       message.mode = 1;
-      message.commande = msg->axes[0];
+      message.commande = msg->axes[0]*200;
 
       publisher_->publish(message);
 
@@ -53,7 +53,7 @@ class MinimalSubscriber : public rclcpp::Node
     }
 
     rclcpp::Subscription<sensor_msgs::msg::Joy>::SharedPtr subscription_;
-    rclcpp::Publisher<motor_control_interface::msg::MotorControl>::SharedPtr publisher_;
+    rclcpp::Publisher<motor_control_interfaces::msg::MotorCommand>::SharedPtr publisher_;
 };
 
 int main(int argc, char * argv[])

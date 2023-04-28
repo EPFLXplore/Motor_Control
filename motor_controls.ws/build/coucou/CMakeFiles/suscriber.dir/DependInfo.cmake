@@ -17,6 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include"
   "/home/hd/ros2_foxy/install/rclcpp/include"
   "/home/hd/ros2_foxy/install/sensor_msgs/include"
   "/home/hd/ros2_foxy/install/libstatistics_collector/include"

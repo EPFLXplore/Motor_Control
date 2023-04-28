@@ -20,7 +20,7 @@ add_executable(talker src/send.cpp)
 ament_target_dependencies(talker rclcpp std_msgs motor_control_interfaces)
 
 add_executable(suscriber src/read.cpp)
-ament_target_dependencies(suscriber rclcpp sensor_msgs)
+ament_target_dependencies(suscriber rclcpp sensor_msgs motor_control_interfaces)
 
 add_executable(suscriber_test src/read_test.cpp)
 ament_target_dependencies(suscriber_test rclcpp motor_control_interfaces)

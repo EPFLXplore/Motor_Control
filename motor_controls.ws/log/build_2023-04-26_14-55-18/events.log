@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000193] (-) JobUnselected: {'identifier': 'coucou'}
+[0.000288] (-) JobUnselected: {'identifier': 'ethercat_device_configurator'}
+[0.000313] (-) JobUnselected: {'identifier': 'motor_control_interfaces'}
+[0.000330] (-) EventReactorShutdown: {}

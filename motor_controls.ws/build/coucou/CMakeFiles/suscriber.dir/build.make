@@ -84,6 +84,10 @@ suscriber: /home/hd/ros2_foxy/install/sensor_msgs/lib/libsensor_msgs__rosidl_typ
 suscriber: /home/hd/ros2_foxy/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_c.so
 suscriber: /home/hd/ros2_foxy/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
 suscriber: /home/hd/ros2_foxy/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+suscriber: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_introspection_c.so
+suscriber: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_c.so
+suscriber: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_introspection_cpp.so
+suscriber: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_cpp.so
 suscriber: /home/hd/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector.so
 suscriber: /home/hd/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
 suscriber: /home/hd/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so
@@ -128,9 +132,10 @@ suscriber: /home/hd/ros2_foxy/install/builtin_interfaces/lib/libbuiltin_interfac
 suscriber: /home/hd/ros2_foxy/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_c.so
 suscriber: /home/hd/ros2_foxy/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 suscriber: /home/hd/ros2_foxy/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+suscriber: /home/hd/ros2_foxy/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+suscriber: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_generator_c.so
 suscriber: /home/hd/ros2_foxy/install/rosidl_typesupport_introspection_cpp/lib/librosidl_typesupport_introspection_cpp.so
 suscriber: /home/hd/ros2_foxy/install/rosidl_typesupport_introspection_c/lib/librosidl_typesupport_introspection_c.so
-suscriber: /home/hd/ros2_foxy/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 suscriber: /home/hd/ros2_foxy/install/rosidl_typesupport_cpp/lib/librosidl_typesupport_cpp.so
 suscriber: /home/hd/ros2_foxy/install/rosidl_typesupport_c/lib/librosidl_typesupport_c.so
 suscriber: /home/hd/ros2_foxy/install/rcpputils/lib/librcpputils.so

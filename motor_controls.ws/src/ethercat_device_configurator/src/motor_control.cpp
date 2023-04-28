@@ -9,17 +9,19 @@
 
 using namespace std::chrono_literals;
 
+using std::placeholders::_1;
+
 enum Motor_mode{
     POSITION,
     VELOCITY,
     TORQUE
-}
+};
 
 struct Motor_command{
     std::string name;
     Motor_mode mode;
     double command;
-}
+};
 
 class Motor_controller : public rclcpp::Node
 {
@@ -30,7 +32,7 @@ class Motor_controller : public rclcpp::Node
             if(argc < 2)
             {
                 std::cerr << "pass path to 'setup.yaml' as command line argument" << std::endl;
-                return EXIT_FAILURE;
+                // return EXIT_FAILURE;
             }
             // a new EthercatDeviceConfigurator object (path to setup.yaml as constructor argument)
             configurator_ = std::make_shared<EthercatDeviceConfigurator>(argv[1]);
@@ -47,7 +49,7 @@ class Motor_controller : public rclcpp::Node
                 if(!master->startup())
                 {
                     std::cerr << "Master Startup not successful." << std::endl;
-                    return EXIT_FAILURE;
+                    // return EXIT_FAILURE;
                 }
             }
 
@@ -58,7 +60,7 @@ class Motor_controller : public rclcpp::Node
             // Start the PDO loop in a new thread.
 
             bool rtSuccess = true;
-            for(const auto & master: configurator->getMasters())
+            for(const auto & master: configurator_->getMasters())
             {
                 rtSuccess &= master->setRealtimePriority(99);
             }
@@ -199,11 +201,18 @@ class Motor_controller : public rclcpp::Node
             maxonEnabledAfterStartup_ = true;
         }
 
-        void motor_command_callback(const motor_command::SharedPtr msg){
-            for(const auto & command : motor_command_list){
+        void motor_command_callback(const motor_control_interfaces::msg::MotorCommand::SharedPtr msg){
+            for(auto & command : motor_command_list){
                 if(command.name == msg->name){
-                    command.mode = msg->mode;
-                    command.command = msg->command;
+                    switch (msg->mode)
+                    {
+                    case 0: command.mode = Motor_mode::POSITION; break;
+                    case 1: command.mode = Motor_mode::VELOCITY; break;
+                    case 2: command.mode = Motor_mode::TORQUE; break;
+                    default: break;
+                    }
+                    command.command = msg->commande;
+                    break;
                 }
             }
         }

@@ -23,12 +23,12 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
-find_package(motor_control_interfaces REQUIRED)
 
 find_package(message_logger)
 find_package(soem_interface)
 find_package(ethercat_sdk_master)
 find_package(maxon_epos_ethercat_sdk)
+find_package(motor_control_interfaces)
 
 add_subdirectory(yaml-cpp/yaml-cpp)
 add_subdirectory(ethercat_sdk_master)
@@ -43,45 +43,36 @@ include_directories(
   ${rclcpp_INCLUDE_DIRS}
 )
 
-add_executable(standalone src/motor_control.cpp src/EthercatDeviceConfigurator.cpp 
+add_executable(motor_control src/motor_control.cpp src/EthercatDeviceConfigurator.cpp 
   include/ethercat_device_configurator/soem/soem/ethercatconfig.c
   include/ethercat_device_configurator/soem/soem/ethercatprint.c
   include/ethercat_device_configurator/soem/soem/ethercatdc.c)
 
-ament_target_dependencies(standalone rclcpp motor_control_interfaces)
-target_link_libraries(standalone
-  PUBLIC
-  ${rclcpp_LIBRARIES}
-  PRIVATE
-  yaml-cpp
-  ethercat_sdk_master
-  maxon_epos_ethercat_sdk
-  message_logger
-  soem
-  soem_interface
+ament_target_dependencies(motor_control motor_control_interfaces #rclcpp  PRIVATE
+  # yaml-cpp
+  # ethercat_sdk_master
+  # maxon_epos_ethercat_sdk
+  # message_logger
+  # soem
+  # soem_interface
 )
 
-add_executable(standalone src/standalone.cpp src/EthercatDeviceConfigurator.cpp 
-  include/ethercat_device_configurator/soem/soem/ethercatconfig.c
-  include/ethercat_device_configurator/soem/soem/ethercatprint.c
-  include/ethercat_device_configurator/soem/soem/ethercatdc.c)
-  
-#ament_target_dependencies(standalone rclcpp yaml-cpp)
-target_link_libraries(standalone
-  PUBLIC
-  ${rclcpp_LIBRARIES}
-  PRIVATE
-  yaml-cpp
-  ethercat_sdk_master
-  maxon_epos_ethercat_sdk
-  message_logger
-  soem
-  soem_interface
+#target_link_directories(motor_control motor_control_interfaces)
+
+target_link_libraries(motor_control
+  #PUBLIC
+    ${rclcpp_LIBRARIES}
+    #motor_control_interfaces
+  #PRIVATE
+    yaml-cpp
+    ethercat_sdk_master
+    maxon_epos_ethercat_sdk
+    message_logger
+    soem
+    soem_interface
 )
 
-install(TARGETS 
-    standalone
-    motor_control
+install(TARGETS motor_control
   DESTINATION lib/${PROJECT_NAME}
 )
 
