@@ -156,6 +156,12 @@ class Motor_controller : public rclcpp::Node
                 // Get the slave object
                 auto slave = configurator_->getSlave(motor_command.name);
 
+                if (!maxonEnabledAfterStartup)
+                {
+                    // Set maxons to operation enabled state, do not block the call!
+                    maxon_slave_ptr->setDriveStateViaPdo(maxon::DriveState::OperationEnabled, false);
+                }
+
                 // Maxon
                 if (configurator_->getInfoForSlave(slave).type == EthercatDeviceConfigurator::EthercatSlaveType::Maxon)
                 {
