@@ -67,7 +67,7 @@ class Motor_controller : public rclcpp::Node
             std::cout << "Setting RT Priority: " << (rtSuccess? "successful." : "not successful. Check user privileges.") << std::endl;
 
             // Flag to set the drive state for the elmos on first startup
-            bool maxonEnabledAfterStartup = false;
+            maxonEnabledAfterStartup_ = false;
 
             timer_update_motor_ = this->create_wall_timer(500ms, std::bind(&Motor_controller::update_motor, this));
             
@@ -119,7 +119,7 @@ class Motor_controller : public rclcpp::Node
     private:
 
         /**                         variablres                             **/ 
-        bool abrt = false;
+        // bool abrt = false;
         EthercatDeviceConfigurator::SharedPtr configurator_;
 
         bool maxonEnabledAfterStartup_ = false;
@@ -156,6 +156,8 @@ class Motor_controller : public rclcpp::Node
                 // Get the slave object
                 auto slave = configurator_->getSlave(motor_command.name);
 
+                std::shared_ptr<maxon::Maxon> maxon_slave_ptr = std::dynamic_pointer_cast<maxon::Maxon>(slave);
+
                 if (!maxonEnabledAfterStartup)
                 {
                     // Set maxons to operation enabled state, do not block the call!
@@ -165,8 +167,6 @@ class Motor_controller : public rclcpp::Node
                 // Maxon
                 if (configurator_->getInfoForSlave(slave).type == EthercatDeviceConfigurator::EthercatSlaveType::Maxon)
                 {
-                    std::shared_ptr<maxon::Maxon> maxon_slave_ptr = std::dynamic_pointer_cast<maxon::Maxon>(slave);
-
                     if (!maxonEnabledAfterStartup_)
                     {
                         // Set maxons to operation enabled state, do not block the call!
