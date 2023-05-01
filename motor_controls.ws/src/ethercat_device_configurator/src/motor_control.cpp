@@ -38,7 +38,7 @@ unsigned int counter = 0;
 class Motor_controller : public rclcpp::Node
 {
     public:
-        Motor_controller(int argc, char**argv)
+        Motor_controller()
         : Node("Motor_controller")
         {
             subscription_motor_command_ = this->create_subscription<motor_control_interfaces::msg::MotorCommand>(
@@ -58,16 +58,19 @@ class Motor_controller : public rclcpp::Node
 
         /**                         fonction                              **/
         void motor_command_callback(const motor_control_interfaces::msg::MotorCommand::SharedPtr msg){
+            
+            std::cout << "coucou" << std::endl;
+            
             for(auto & command : motor_command_list){
                 if(command.name == msg->name){
-                    switch (msg->mode)
-                    {
-                    case 0: command.mode = Motor_mode::POSITION; break;
-                    case 1: command.mode = Motor_mode::VELOCITY; break;
-                    case 2: command.mode = Motor_mode::TORQUE; break;
-                    default: break;
+                    switch (msg->mode) {
+                    case 0: command.mode = Motor_mode::POSITION;
+                    case 1: command.mode = Motor_mode::VELOCITY;
+                    case 2: command.mode = Motor_mode::TORQUE;
+                    default:;
                     }
                     command.command = msg->commande;
+
                     break;
                 }
             }
@@ -113,56 +116,55 @@ void worker()
         ** Different logic can be implemented for each device.
          */
         for(const auto & motor_command: motor_command_list) {
-            // Maxon
-            if (configurator->getInfoForSlave(slave).type == EthercatDeviceConfigurator::EthercatSlaveType::Maxon)
+            
+            // Keep constant update rate
+            auto start_time = std::chrono::steady_clock::now();
+
+            auto slave = configurator->getSlave(motor_command.name);
+
+            std::shared_ptr<maxon::Maxon> maxon_slave_ptr = std::dynamic_pointer_cast<maxon::Maxon>(slave);
+
+            if (!maxonEnabledAfterStartup)
             {
-
-                // Keep constant update rate
-                auto start_time = std::chrono::steady_clock::now();
-
-                std::shared_ptr<maxon::Maxon> maxon_slave_ptr = std::dynamic_pointer_cast<maxon::Maxon>(slave);
-
-                if (!maxonEnabledAfterStartup)
-                {
-                    // Set maxons to operation enabled state, do not block the call!
-                    maxon_slave_ptr->setDriveStateViaPdo(maxon::DriveState::OperationEnabled, false);
-                }
-
-                // set commands if we can
-                if (maxon_slave_ptr->lastPdoStateChangeSuccessful() &&
-                        maxon_slave_ptr->getReading().getDriveState() == maxon::DriveState::OperationEnabled)
-                {
-                    maxon::Command command;
-                        
-                    switch (motor_command.mode){
-                    case Motor_mode::POSITION:
-                        command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousPositionMode);
-                        command.setTargetPosition(motor_command.command);
-                        break;
-                    case Motor_mode::VELOCITY:
-                        command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousVelocityMode);
-                        command.setTargetVelocity(motor_command.command);
-                        break;
-                    case Motor_mode::TORQUE:
-                        command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousTorqueMode);
-                        command.setTargetTorque(motor_command.command);
-                        break;
-                    default:
-                        std::cerr << "Motor mode not recognized" << std::endl;
-                        break;
-                    }
-                    maxon_slave_ptr->stageCommand(command);
-                
-                }
-                else
-                {
-                    MELO_WARN_STREAM("Maxon '" << maxon_slave_ptr->getName()
-                                                                         << "': " << maxon_slave_ptr->getReading().getDriveState());
-                }
-
-                // Constant update rate
-                std::this_thread::sleep_until(start_time + std::chrono::milliseconds(1));
+                // Set maxons to operation enabled state, do not block the call!
+                maxon_slave_ptr->setDriveStateViaPdo(maxon::DriveState::OperationEnabled, false);
             }
+
+            // set commands if we can
+            if (maxon_slave_ptr->lastPdoStateChangeSuccessful() &&
+                    maxon_slave_ptr->getReading().getDriveState() == maxon::DriveState::OperationEnabled)
+            {
+                maxon::Command command;
+                    
+                switch (motor_command.mode){
+                case Motor_mode::POSITION:
+                    command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousPositionMode);
+                    command.setTargetPosition(motor_command.command);
+                    break;
+                case Motor_mode::VELOCITY:
+                    command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousVelocityMode);
+                    command.setTargetVelocity(motor_command.command);
+                    break;
+                case Motor_mode::TORQUE:
+                    command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousTorqueMode);
+                    command.setTargetTorque(motor_command.command);
+                    break;
+                default:
+                    std::cerr << "Motor mode not recognized" << std::endl;
+                    break;
+                }
+                maxon_slave_ptr->stageCommand(command);
+            
+            }
+            else
+            {
+                MELO_WARN_STREAM("Maxon '" << maxon_slave_ptr->getName()
+                                                                        << "': " << maxon_slave_ptr->getReading().getDriveState());
+            }
+
+            // Constant update rate
+            std::this_thread::sleep_until(start_time + std::chrono::milliseconds(1));
+            
         }
         counter++;
         maxonEnabledAfterStartup = true;
@@ -249,8 +251,6 @@ int main(int argc, char**argv)
     // Start the PDO loop in a new thread.
     worker_thread = std::make_unique<std::thread>(&worker);
 
-    std::thread discuss_tread(discuss);
-
     /*
     ** Wait for a few PDO cycles to pass.
     ** Set anydrives into to ControlOp state (internal state machine, not EtherCAT states)
@@ -266,7 +266,12 @@ int main(int argc, char**argv)
 
 
     rclcpp::init(argc, argv);
-    rclcpp::spin(std::make_shared<Motor_controller>());
+
+    auto node = std::make_shared<Motor_controller>();
+
+    std::cout << "Node finished" << std::endl;
+
+    rclcpp::spin(node);
     rclcpp::shutdown();
     return 0;
 }

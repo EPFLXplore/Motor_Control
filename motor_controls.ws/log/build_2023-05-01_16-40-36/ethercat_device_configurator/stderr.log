@@ -1,0 +1,17 @@
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:[m[K In function ‘[01m[Kvoid signal_handler(int)[m[K’:
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:179:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  179 | void signal_handler([01;35m[Kint sig[m[K)
+      |                     [01;35m[K~~~~^~~[m[K
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:[m[K In member function ‘[01m[Kvoid Motor_controller::motor_command_callback(motor_control_interfaces::msg::MotorCommand_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:64:42:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+   64 |                     case 0: [01;35m[Kcommand.mode = Motor_mode::POSITION[m[K;
+      |                             [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:65:21:[m[K [01;36m[Knote: [m[Khere
+   65 |                     [01;36m[Kcase[m[K 1: command.mode = Motor_mode::VELOCITY;
+      |                     [01;36m[K^~~~[m[K
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:65:42:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+   65 |                     case 1: [01;35m[Kcommand.mode = Motor_mode::VELOCITY[m[K;
+      |                             [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:66:21:[m[K [01;36m[Knote: [m[Khere
+   66 |                     [01;36m[Kcase[m[K 2: command.mode = Motor_mode::TORQUE;
+      |                     [01;36m[K^~~~[m[K

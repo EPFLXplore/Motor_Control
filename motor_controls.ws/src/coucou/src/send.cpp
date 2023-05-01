@@ -17,7 +17,7 @@ class MinimalPublisher : public rclcpp::Node
     MinimalPublisher()
     : Node("minimal_publisher"), count_(0)
     {
-      publisher_ = this->create_publisher<motor_control_interfaces::msg::MotorCommand>("hd_motor_command", 10);
+      publisher_ = this->create_publisher<motor_control_interfaces::msg::MotorCommand>("motor_command", 10);
       timer_ = this->create_wall_timer(
       500ms, std::bind(&MinimalPublisher::timer_callback, this));
     }
@@ -28,7 +28,7 @@ class MinimalPublisher : public rclcpp::Node
       auto message = motor_control_interfaces::msg::MotorCommand();
       message.name = "J1";
       message.mode = 1;
-      message.commande = 1.0;
+      message.commande = 60;
       publisher_->publish(message);
     }
     rclcpp::TimerBase::SharedPtr timer_;

@@ -417,6 +417,12 @@ rclcpp/rclcpp.hpp
 /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/rclcpp/rclcpp.hpp
 motor_control_interfaces/msg/motor_command.hpp
 /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control_interfaces/msg/motor_command.hpp
+iostream
+-
+thread
+-
+csignal
+-
 string
 -
 vector

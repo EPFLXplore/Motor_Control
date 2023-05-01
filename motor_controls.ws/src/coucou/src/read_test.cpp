@@ -14,7 +14,7 @@ class MinimalSubscriber : public rclcpp::Node
     : Node("minimal_subscriber")
     {
       subscription_ = this->create_subscription<motor_control_interfaces::msg::MotorCommand>(
-      "hd_motor_command", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
+      "motor_command", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
     }
 
   private:

@@ -17,7 +17,7 @@ class MinimalSubscriber : public rclcpp::Node
       subscription_ = this->create_subscription<sensor_msgs::msg::Joy>(
       "joy", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
 
-      publisher_ = this->create_publisher<motor_control_interfaces::msg::MotorCommand>("hd_motor_command", 10);
+      publisher_ = this->create_publisher<motor_control_interfaces::msg::MotorCommand>("motor_command", 10);
       
     }
 
