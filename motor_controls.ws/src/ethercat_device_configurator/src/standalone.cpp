@@ -35,13 +35,35 @@
 **   README.md for more details.
  */
 #include "ethercat_device_configurator/EthercatDeviceConfigurator.hpp"
-
 #include <maxon_epos_ethercat_sdk/Maxon.hpp>
 
-#include <iostream>
+#include "rclcpp/rclcpp.hpp"
+#include "motor_control_interfaces/msg/motor_command.hpp"
 
+#include <iostream>
 #include <thread>
 #include <csignal>
+#include <string>
+#include <vector>
+
+using namespace std::chrono_literals;
+
+using std::placeholders::_1;
+
+enum Motor_mode{
+    POSITION,
+    VELOCITY,
+    TORQUE
+};
+
+struct Motor_command{
+    std::string name;
+    Motor_mode mode;
+    double command;
+};
+
+std::vector<Motor_command> motor_command_list;
+
 std::unique_ptr<std::thread> worker_thread;
 bool abrt = false;
 
@@ -49,7 +71,44 @@ EthercatDeviceConfigurator::SharedPtr configurator;
 
 unsigned int counter = 0;
 
-double vel_command = 0;
+class Motor_controller : public rclcpp::Node
+{
+    public:
+        Motor_controller(int argc, char**argv)
+        : Node("Motor_controller")
+        {
+            subscription_motor_command_ = this->create_subscription<motor_control_interfaces::msg::MotorCommand>(
+                "motor_command", 10, std::bind(&Motor_controller::motor_command_callback, this, _1)
+                );
+        }
+
+    private:
+
+        /**                         variablres                             **/ 
+        // commande au moteur
+        std::vector<Motor_command> motor_command_list;
+
+        // Ros related
+        rclcpp::Subscription<motor_control_interfaces::msg::MotorCommand>::SharedPtr subscription_motor_command_;
+        // rclcpp::Publisher<motor_param>::SharedPtr publisher_motor_param_;
+
+        /**                         fonction                              **/
+        void motor_command_callback(const motor_control_interfaces::msg::MotorCommand::SharedPtr msg){
+            for(auto & command : motor_command_list){
+                if(command.name == msg->name){
+                    switch (msg->mode)
+                    {
+                    case 0: command.mode = Motor_mode::POSITION; break;
+                    case 1: command.mode = Motor_mode::VELOCITY; break;
+                    case 2: command.mode = Motor_mode::TORQUE; break;
+                    default: break;
+                    }
+                    command.command = msg->commande;
+                    break;
+                }
+            }
+        }
+};
 
 void worker()
 {
@@ -62,7 +121,6 @@ void worker()
 
     // Flag to set the drive state for the elmos on first startup
     bool maxonEnabledAfterStartup = false;
-    // bool maxonOperational = false;
 
     /*
     ** The communication update loop.
@@ -83,12 +141,14 @@ void worker()
             master->update(ecat_master::UpdateMode::StandaloneEnforceRate); // TODO fix the rate compensation (Elmo reliability problem)!!
         }
 
+
+
         /*
         ** Do things with the attached devices.
         ** Your lowlevel control input / measurement logic goes here.
         ** Different logic can be implemented for each device.
          */
-        for(const auto & slave:configurator->getSlaves()) {
+        for(const auto & motor_command: motor_command_list) {
             // Maxon
             if (configurator->getInfoForSlave(slave).type == EthercatDeviceConfigurator::EthercatSlaveType::Maxon)
             {
@@ -109,15 +169,26 @@ void worker()
                         maxon_slave_ptr->getReading().getDriveState() == maxon::DriveState::OperationEnabled)
                 {
                     maxon::Command command;
-                    //command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousPositionMode);
-                    command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousVelocityMode);
-                    //auto reading = maxon_slave_ptr->getReading();
-                    //command.setTargetPosition(vel_command);
-                    //command.setTargetTorque(-0.5);
-                    command.setTargetVelocity(vel_command);
+                        
+                    switch (motor_command.mode){
+                    case Motor_mode::POSITION:
+                        command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousPositionMode);
+                        command.setTargetPosition(motor_command.command);
+                        break;
+                    case Motor_mode::VELOCITY:
+                        command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousVelocityMode);
+                        command.setTargetVelocity(motor_command.command);
+                        break;
+                    case Motor_mode::TORQUE:
+                        command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousTorqueMode);
+                        command.setTargetTorque(motor_command.command);
+                        break;
+                    default:
+                        std::cerr << "Motor mode not recognized" << std::endl;
+                        break;
+                    }
                     maxon_slave_ptr->stageCommand(command);
-
-                    
+                
                 }
                 else
                 {
@@ -134,20 +205,6 @@ void worker()
     }
 }
 
-void discuss(){
-
-    while(!abrt){
-        auto start_time = std::chrono::steady_clock::now();
-
-        std::cout << "velocity commande : ";
-        std::cin >> vel_command;
-        std::cout << "vel comm = " << vel_command << std::endl;
-
-        std::this_thread::sleep_until(start_time + std::chrono::milliseconds(500));
-    }
-
-
-}
 
 /*
 ** Handle the interrupt signal.
@@ -240,9 +297,12 @@ int main(int argc, char**argv)
         std::cout << " " << slave->getName() << ": " << slave->getAddress() << std::endl;
     }
 
-
     std::cout << "Startup finished" << std::endl;
-
     // nothing further to do in this thread.
-    pause();
+
+
+    rclcpp::init(argc, argv);
+    rclcpp::spin(std::make_shared<Motor_controller>());
+    rclcpp::shutdown();
+    return 0;
 }
