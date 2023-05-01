@@ -70,7 +70,6 @@ class Motor_controller : public rclcpp::Node
             maxonEnabledAfterStartup_ = false;
 
             update_motor();
-            update_motor();
 
             /*
             ** Wait for a few PDO cycles to pass.
@@ -82,7 +81,7 @@ class Motor_controller : public rclcpp::Node
                 std::cout << " " << slave->getName() << ": " << slave->getAddress() << std::endl;
             }
 
-            timer_update_motor_ = this->create_wall_timer(500ms, std::bind(&Motor_controller::update_motor, this));
+            timer_update_motor_ = this->create_wall_timer(0.5ms, std::bind(&Motor_controller::update_motor, this));
             
             subscription_motor_command_ = this->create_subscription<motor_control_interfaces::msg::MotorCommand>(
                 "motor_command", 10, std::bind(&Motor_controller::motor_command_callback, this, _1)
