@@ -69,15 +69,8 @@ class Motor_controller : public rclcpp::Node
             // Flag to set the drive state for the elmos on first startup
             maxonEnabledAfterStartup_ = false;
 
-            timer_update_motor_ = this->create_wall_timer(500ms, std::bind(&Motor_controller::update_motor, this));
-            
-            subscription_motor_command_ = this->create_subscription<motor_control_interfaces::msg::MotorCommand>(
-                "motor_command", 10, std::bind(&Motor_controller::motor_command_callback, this, _1)
-                );
-
-
-            
-
+            update_motor();
+            update_motor();
 
             /*
             ** Wait for a few PDO cycles to pass.
@@ -89,7 +82,11 @@ class Motor_controller : public rclcpp::Node
                 std::cout << " " << slave->getName() << ": " << slave->getAddress() << std::endl;
             }
 
+            timer_update_motor_ = this->create_wall_timer(500ms, std::bind(&Motor_controller::update_motor, this));
             
+            subscription_motor_command_ = this->create_subscription<motor_control_interfaces::msg::MotorCommand>(
+                "motor_command", 10, std::bind(&Motor_controller::motor_command_callback, this, _1)
+                );
 
             std::cout << "Startup finished" << std::endl;
         }
@@ -161,7 +158,7 @@ class Motor_controller : public rclcpp::Node
                 if (!maxonEnabledAfterStartup_)
                 {
                     // Set maxons to operation enabled state, do not block the call!
-                    maxonEnabledAfterStartup_ = maxon_slave_ptr->setDriveStateViaPdo(maxon::DriveState::OperationEnabled, false);
+                    maxon_slave_ptr->setDriveStateViaPdo(maxon::DriveState::OperationEnabled, false);
                 }
 
                 // Maxon
@@ -204,7 +201,7 @@ class Motor_controller : public rclcpp::Node
                     }
                 }
             }
-            // maxonEnabledAfterStartup_ = true;
+            maxonEnabledAfterStartup_ = true;
         }
 
         void motor_command_callback(const motor_control_interfaces::msg::MotorCommand::SharedPtr msg){
