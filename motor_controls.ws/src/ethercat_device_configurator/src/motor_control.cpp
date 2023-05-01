@@ -158,10 +158,10 @@ class Motor_controller : public rclcpp::Node
 
                 std::shared_ptr<maxon::Maxon> maxon_slave_ptr = std::dynamic_pointer_cast<maxon::Maxon>(slave);
 
-                if (!maxonEnabledAfterStartup)
+                if (!maxonEnabledAfterStartup_)
                 {
                     // Set maxons to operation enabled state, do not block the call!
-                    slave->setDriveStateViaPdo(maxon::DriveState::OperationEnabled, false);
+                    maxonEnabledAfterStartup_ = maxon_slave_ptr->setDriveStateViaPdo(maxon::DriveState::OperationEnabled, false);
                 }
 
                 // Maxon
@@ -204,7 +204,7 @@ class Motor_controller : public rclcpp::Node
                     }
                 }
             }
-            maxonEnabledAfterStartup_ = true;
+            // maxonEnabledAfterStartup_ = true;
         }
 
         void motor_command_callback(const motor_control_interfaces::msg::MotorCommand::SharedPtr msg){
