@@ -20,6 +20,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/MotorCommand.msg"
+  "msg/MotorData.msg"
 )
 
 ament_package()

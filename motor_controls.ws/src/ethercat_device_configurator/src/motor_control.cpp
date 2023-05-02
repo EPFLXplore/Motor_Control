@@ -248,6 +248,11 @@ int main(int argc, char**argv)
         }
     }
 
+    for (auto & slave: configurator->getSlaves())
+    {
+        motor_command_list.push_back(Motor_command(slave->getName(), Motor_mode::VELOCITY, 0.0));
+    }
+
     // Start the PDO loop in a new thread.
     worker_thread = std::make_unique<std::thread>(&worker);
 
