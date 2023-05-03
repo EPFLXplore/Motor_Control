@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/src/ethercat_sdk_master/EthercatDevice.cpp" "/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatDevice.cpp.o"
-  "/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/src/ethercat_sdk_master/EthercatMaster.cpp" "/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatMaster.cpp.o"
+  "/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/src/ethercat_sdk_master/EthercatDevice.cpp" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatDevice.cpp.o"
+  "/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/src/ethercat_sdk_master/EthercatMaster.cpp" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatMaster.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,10 +18,10 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/../soem_interface/soem_interface/include"
-  "/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/../soem_interface/soem/include"
-  "/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/../message_logger/include"
-  "/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/include"
+  "/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/../soem_interface/soem_interface/include"
+  "/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/../soem_interface/soem/include"
+  "/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/../message_logger/include"
+  "/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/include"
   "/home/hd/ros2_foxy/install/rclcpp/include"
   "/home/hd/ros2_foxy/install/libstatistics_collector/include"
   "/home/hd/ros2_foxy/install/rcl/include"

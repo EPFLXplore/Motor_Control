@@ -1,8 +1,8 @@
-# Install script for directory: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem_interface
+# Install script for directory: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem_interface
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hd/Desktop/motor_controls.ws/install/ethercat_device_configurator")
+  set(CMAKE_INSTALL_PREFIX "/home/hd/Desktop/Motor_Control/motor_controls.ws/install/ethercat_device_configurator")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,15 +38,15 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem_interface/include/soem_interface/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem_interface/include/soem_interface/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/soem_interface")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/soem_interface")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/soem_interface")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/soem_interface")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -54,7 +54,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soem_interface/environment" TYPE FILE FILES "/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soem_interface/environment" TYPE FILE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -62,41 +62,41 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soem_interface/environment" TYPE FILE FILES "/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soem_interface/environment" TYPE FILE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soem_interface" TYPE FILE FILES "/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soem_interface" TYPE FILE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soem_interface" TYPE FILE FILES "/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soem_interface" TYPE FILE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soem_interface" TYPE FILE FILES "/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soem_interface" TYPE FILE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soem_interface" TYPE FILE FILES "/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soem_interface" TYPE FILE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soem_interface" TYPE FILE FILES "/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soem_interface" TYPE FILE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/ament_cmake_index/share/ament_index/resource_index/packages/soem_interface")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/ament_cmake_index/share/ament_index/resource_index/packages/soem_interface")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soem_interface/cmake" TYPE FILE FILES
-    "/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/soem_interface/soem_interface/ament_cmake_core/soem_interfaceConfig.cmake"
-    "/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/soem_interface/soem_interface/ament_cmake_core/soem_interfaceConfig-version.cmake"
+    "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/soem_interface/soem_interface/ament_cmake_core/soem_interfaceConfig.cmake"
+    "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/soem_interface/soem_interface/ament_cmake_core/soem_interfaceConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soem_interface" TYPE FILE FILES "/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem_interface/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soem_interface" TYPE FILE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem_interface/package.xml")
 endif()
 

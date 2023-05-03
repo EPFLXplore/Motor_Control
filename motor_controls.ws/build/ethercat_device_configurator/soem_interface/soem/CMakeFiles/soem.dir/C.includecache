@@ -6,183 +6,183 @@
 
 #IncludeRegexTransform: 
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/osal/osal.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/osal/osal.h
 soem/osal/osal_defs.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/osal/soem/osal/osal_defs.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/osal/soem/osal/osal_defs.h
 stdint.h
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/osal/osal_defs.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/osal/osal_defs.h
 pthread.h
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/oshw/nicdrv.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/oshw/nicdrv.h
 pthread.h
 -
 soem/soem/ethercattype.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/oshw/soem/soem/ethercattype.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/oshw/soem/soem/ethercattype.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/oshw/oshw.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/oshw/oshw.h
 soem/soem/ethercattype.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/oshw/soem/soem/ethercattype.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/oshw/soem/soem/ethercattype.h
 soem/oshw/nicdrv.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/oshw/soem/oshw/nicdrv.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/oshw/soem/oshw/nicdrv.h
 soem/soem/ethercatmain.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/oshw/soem/soem/ethercatmain.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/oshw/soem/soem/ethercatmain.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatbase.c
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatbase.c
 stdio.h
 -
 string.h
 -
 soem/oshw/oshw.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/oshw/oshw.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/oshw/oshw.h
 soem/osal/osal.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/osal/osal.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/osal/osal.h
 soem/soem/ethercattype.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercattype.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercattype.h
 soem/soem/ethercatbase.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatbase.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatbase.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatbase.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatbase.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatcoe.c
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatcoe.c
 stdio.h
 -
 string.h
 -
 soem/osal/osal.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/osal/osal.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/osal/osal.h
 soem/oshw/oshw.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/oshw/oshw.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/oshw/oshw.h
 soem/soem/ethercattype.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercattype.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercattype.h
 soem/soem/ethercatbase.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatbase.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatbase.h
 soem/soem/ethercatmain.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatmain.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatmain.h
 soem/soem/ethercatcoe.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatcoe.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatcoe.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatcoe.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatcoe.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatconfig.c
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatconfig.c
 stdio.h
 -
 string.h
 -
 soem/osal/osal.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/osal/osal.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/osal/osal.h
 soem/oshw/oshw.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/oshw/oshw.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/oshw/oshw.h
 soem/soem/ethercattype.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercattype.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercattype.h
 soem/soem/ethercatbase.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatbase.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatbase.h
 soem/soem/ethercatmain.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatmain.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatmain.h
 soem/soem/ethercatcoe.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatcoe.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatcoe.h
 soem/soem/ethercatsoe.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatsoe.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatsoe.h
 soem/soem/ethercatconfig.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatconfig.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatconfig.h
 ethercatconfiglist.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatconfiglist.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatconfiglist.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatconfig.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatconfig.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatconfiglist.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatconfiglist.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatdc.c
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatdc.c
 soem/oshw/oshw.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/oshw/oshw.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/oshw/oshw.h
 soem/osal/osal.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/osal/osal.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/osal/osal.h
 soem/soem/ethercattype.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercattype.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercattype.h
 soem/soem/ethercatbase.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatbase.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatbase.h
 soem/soem/ethercatmain.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatmain.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatmain.h
 soem/soem/ethercatdc.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatdc.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatdc.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatdc.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatdc.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatfoe.c
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatfoe.c
 stdio.h
 -
 string.h
 -
 soem/osal/osal.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/osal/osal.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/osal/osal.h
 soem/oshw/oshw.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/oshw/oshw.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/oshw/oshw.h
 soem/soem/ethercattype.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercattype.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercattype.h
 soem/soem/ethercatbase.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatbase.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatbase.h
 soem/soem/ethercatmain.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatmain.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatmain.h
 soem/soem/ethercatfoe.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatfoe.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatfoe.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatfoe.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatfoe.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatmain.c
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatmain.c
 stdio.h
 -
 string.h
 -
 soem/osal/osal.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/osal/osal.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/osal/osal.h
 soem/oshw/oshw.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/oshw/oshw.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/oshw/oshw.h
 soem/soem/ethercattype.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercattype.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercattype.h
 soem/soem/ethercatbase.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatbase.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatbase.h
 soem/soem/ethercatmain.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatmain.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatmain.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatmain.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatmain.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatprint.c
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatprint.c
 stdio.h
 -
 soem/oshw/oshw.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/oshw/oshw.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/oshw/oshw.h
 soem/soem/ethercattype.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercattype.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercattype.h
 soem/soem/ethercatmain.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatmain.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatmain.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatsoe.c
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatsoe.c
 stdio.h
 -
 string.h
 -
 soem/osal/osal.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/osal/osal.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/osal/osal.h
 soem/oshw/oshw.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/oshw/oshw.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/oshw/oshw.h
 soem/soem/ethercattype.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercattype.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercattype.h
 soem/soem/ethercatbase.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatbase.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatbase.h
 soem/soem/ethercatmain.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatmain.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatmain.h
 soem/soem/ethercatsoe.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatsoe.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatsoe.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatsoe.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatsoe.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercattype.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercattype.h
 soem/osal/osal.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/osal/osal.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/osal/osal.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include_linux/soem/osal/osal.c
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include_linux/soem/osal/osal.c
 time.h
 -
 sys/time.h
@@ -196,7 +196,7 @@ string.h
 soem/osal/osal.h
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include_linux/soem/oshw/nicdrv.c
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include_linux/soem/oshw/nicdrv.c
 sys/types.h
 -
 sys/ioctl.h
@@ -224,11 +224,11 @@ netpacket/packet.h
 pthread.h
 -
 soem/oshw/oshw.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include_linux/soem/oshw/soem/oshw/oshw.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include_linux/soem/oshw/soem/oshw/oshw.h
 soem/osal/osal.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include_linux/soem/oshw/soem/osal/osal.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include_linux/soem/oshw/soem/osal/osal.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include_linux/soem/oshw/oshw.c
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include_linux/soem/oshw/oshw.c
 sys/ioctl.h
 -
 net/if.h
@@ -244,5 +244,5 @@ stdlib.h
 string.h
 -
 soem/oshw/oshw.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include_linux/soem/oshw/soem/oshw/oshw.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include_linux/soem/oshw/soem/oshw/oshw.h
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hd/Desktop/motor_controls.ws/src/coucou/src/send.cpp" "/home/hd/Desktop/motor_controls.ws/build/coucou/CMakeFiles/talker.dir/src/send.cpp.o"
+  "/home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou/src/send.cpp" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/CMakeFiles/talker.dir/src/send.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,6 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include"
   "/home/hd/ros2_foxy/install/rclcpp/include"
   "/home/hd/ros2_foxy/install/std_msgs/include"
   "/home/hd/ros2_foxy/install/libstatistics_collector/include"

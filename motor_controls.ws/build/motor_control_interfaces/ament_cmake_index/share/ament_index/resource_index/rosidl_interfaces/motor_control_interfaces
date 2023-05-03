@@ -1,0 +1,8 @@
+msg/MotorCommand.idl
+<<<<<<< HEAD
+msg/MotorCommand.msg
+msg/MotorData.idl
+msg/MotorData.msg
+=======
+msg/MotorCommand.msg
+>>>>>>> parent of 9a1ced2... del build/log/install

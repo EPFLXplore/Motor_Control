@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target suscriber[0m
+[ 50%] Built target talker
+[ 75%] [32mBuilding CXX object CMakeFiles/suscriber.dir/src/read.cpp.o[0m

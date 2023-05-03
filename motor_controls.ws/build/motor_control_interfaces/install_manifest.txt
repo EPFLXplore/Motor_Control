@@ -1,0 +1,123 @@
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/ament_index/resource_index/rosidl_interfaces/motor_control_interfaces
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/motor_command.h
+<<<<<<< HEAD
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/motor_data.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_data__struct.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_command__type_support.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_command__struct.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_command__functions.c
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_data__functions.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_data__functions.c
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_command__functions.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_data__type_support.h
+=======
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_command__type_support.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_command__struct.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_command__functions.c
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_command__functions.h
+>>>>>>> parent of 9a1ced2... del build/log/install
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/rosidl_generator_c__visibility_control.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/environment/library_path.sh
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/environment/library_path.dsv
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_generator_c.so
+<<<<<<< HEAD
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_data__rosidl_typesupport_fastrtps_c.h
+=======
+>>>>>>> parent of 9a1ced2... del build/log/install
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_fastrtps_c.so
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp
+<<<<<<< HEAD
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_data__rosidl_typesupport_fastrtps_cpp.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_fastrtps_cpp.so
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_data__type_support.c
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_command__type_support.c
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_data__rosidl_typesupport_introspection_c.h
+=======
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_fastrtps_cpp.so
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_command__type_support.c
+>>>>>>> parent of 9a1ced2... del build/log/install
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_introspection_c.so
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_c.so
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/motor_command.hpp
+<<<<<<< HEAD
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_data__builder.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_command__builder.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_data__struct.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_data__traits.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_command__struct.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_command__traits.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/motor_data.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_data__rosidl_typesupport_introspection_cpp.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_command__type_support.cpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_data__type_support.cpp
+=======
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_command__builder.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_command__struct.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_command__traits.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/include/motor_control_interfaces/msg/detail/motor_command__type_support.cpp
+>>>>>>> parent of 9a1ced2... del build/log/install
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_introspection_cpp.so
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_cpp.so
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/environment/pythonpath.sh
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/environment/pythonpath.dsv
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/python3.8/site-packages/motor_control_interfaces/__init__.py
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/python3.8/site-packages/motor_control_interfaces/msg/__init__.py
+<<<<<<< HEAD
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/python3.8/site-packages/motor_control_interfaces/msg/_motor_data_s.c
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/python3.8/site-packages/motor_control_interfaces/msg/_motor_command_s.c
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/python3.8/site-packages/motor_control_interfaces/msg/_motor_data.py
+=======
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/python3.8/site-packages/motor_control_interfaces/msg/_motor_command_s.c
+>>>>>>> parent of 9a1ced2... del build/log/install
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/python3.8/site-packages/motor_control_interfaces/msg/_motor_command.py
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/python3.8/site-packages/motor_control_interfaces/motor_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/python3.8/site-packages/motor_control_interfaces/motor_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/python3.8/site-packages/motor_control_interfaces/motor_control_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__python.so
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/msg/MotorCommand.idl
+<<<<<<< HEAD
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/msg/MotorData.idl
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/msg/MotorCommand.msg
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/msg/MotorData.msg
+=======
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/msg/MotorCommand.msg
+>>>>>>> parent of 9a1ced2... del build/log/install
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/ament_index/resource_index/package_run_dependencies/motor_control_interfaces
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/ament_index/resource_index/parent_prefix_path/motor_control_interfaces
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/environment/ament_prefix_path.dsv
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/environment/path.dsv
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/local_setup.bash
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/local_setup.sh
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/local_setup.zsh
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/local_setup.dsv
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/package.dsv
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/ament_index/resource_index/packages/motor_control_interfaces
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/motor_control_interfaces__rosidl_generator_cExport.cmake
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/motor_control_interfaces__rosidl_generator_cExport-noconfig.cmake
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/motor_control_interfaces__rosidl_typesupport_introspection_cExport.cmake
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/motor_control_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/motor_control_interfaces__rosidl_typesupport_cExport.cmake
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/motor_control_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/motor_control_interfaces__rosidl_generator_cppExport.cmake
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/motor_control_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/motor_control_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/motor_control_interfaces__rosidl_typesupport_cppExport.cmake
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/motor_control_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/rosidl_cmake-extras.cmake
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/motor_control_interfacesConfig.cmake
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/motor_control_interfacesConfig-version.cmake
+/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/share/motor_control_interfaces/package.xml

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator
+CMAKE_SOURCE_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator
+CMAKE_BINARY_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator
 
 # Include any dependencies generated for this target.
 include ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/depend.make
@@ -58,30 +58,30 @@ include ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/progress.make
 include ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/flags.make
 
 ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatMaster.cpp.o: ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/flags.make
-ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatMaster.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/src/ethercat_sdk_master/EthercatMaster.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatMaster.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/ethercat_sdk_master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatMaster.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/src/ethercat_sdk_master/EthercatMaster.cpp
+ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatMaster.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/src/ethercat_sdk_master/EthercatMaster.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatMaster.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/ethercat_sdk_master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatMaster.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/src/ethercat_sdk_master/EthercatMaster.cpp
 
 ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatMaster.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatMaster.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/ethercat_sdk_master && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/src/ethercat_sdk_master/EthercatMaster.cpp > CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatMaster.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/ethercat_sdk_master && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/src/ethercat_sdk_master/EthercatMaster.cpp > CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatMaster.cpp.i
 
 ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatMaster.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatMaster.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/ethercat_sdk_master && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/src/ethercat_sdk_master/EthercatMaster.cpp -o CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatMaster.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/ethercat_sdk_master && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/src/ethercat_sdk_master/EthercatMaster.cpp -o CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatMaster.cpp.s
 
 ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatDevice.cpp.o: ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/flags.make
-ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatDevice.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/src/ethercat_sdk_master/EthercatDevice.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatDevice.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/ethercat_sdk_master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatDevice.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/src/ethercat_sdk_master/EthercatDevice.cpp
+ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatDevice.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/src/ethercat_sdk_master/EthercatDevice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatDevice.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/ethercat_sdk_master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatDevice.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/src/ethercat_sdk_master/EthercatDevice.cpp
 
 ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatDevice.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatDevice.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/ethercat_sdk_master && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/src/ethercat_sdk_master/EthercatDevice.cpp > CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatDevice.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/ethercat_sdk_master && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/src/ethercat_sdk_master/EthercatDevice.cpp > CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatDevice.cpp.i
 
 ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatDevice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatDevice.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/ethercat_sdk_master && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/src/ethercat_sdk_master/EthercatDevice.cpp -o CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatDevice.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/ethercat_sdk_master && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/src/ethercat_sdk_master/EthercatDevice.cpp -o CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatDevice.cpp.s
 
 # Object files for target ethercat_sdk_master
 ethercat_sdk_master_OBJECTS = \
@@ -95,9 +95,9 @@ ethercat_sdk_master/libethercat_sdk_master.a: ethercat_sdk_master/CMakeFiles/eth
 ethercat_sdk_master/libethercat_sdk_master.a: ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatDevice.cpp.o
 ethercat_sdk_master/libethercat_sdk_master.a: ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/build.make
 ethercat_sdk_master/libethercat_sdk_master.a: ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libethercat_sdk_master.a"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/ethercat_sdk_master && $(CMAKE_COMMAND) -P CMakeFiles/ethercat_sdk_master.dir/cmake_clean_target.cmake
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/ethercat_sdk_master && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ethercat_sdk_master.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libethercat_sdk_master.a"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/ethercat_sdk_master && $(CMAKE_COMMAND) -P CMakeFiles/ethercat_sdk_master.dir/cmake_clean_target.cmake
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/ethercat_sdk_master && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ethercat_sdk_master.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/build: ethercat_sdk_master/libethercat_sdk_master.a
@@ -105,10 +105,10 @@ ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/build: ethercat_sdk_maste
 .PHONY : ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/build
 
 ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/clean:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/ethercat_sdk_master && $(CMAKE_COMMAND) -P CMakeFiles/ethercat_sdk_master.dir/cmake_clean.cmake
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/ethercat_sdk_master && $(CMAKE_COMMAND) -P CMakeFiles/ethercat_sdk_master.dir/cmake_clean.cmake
 .PHONY : ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/clean
 
 ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/depend:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/ethercat_sdk_master /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/ethercat_sdk_master /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/depend
 

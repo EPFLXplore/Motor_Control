@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator
+CMAKE_SOURCE_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator
+CMAKE_BINARY_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/maxon_epos_ethercat_sdk/CMakeFiles/progress.marks
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 maxon_epos_ethercat_sdk/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/maxon_epos_ethercat_sdk/CMakeFiles/progress.marks
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 maxon_epos_ethercat_sdk/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 maxon_epos_ethercat_sdk/clean
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 maxon_epos_ethercat_sdk/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,23 +154,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 maxon_epos_ethercat_sdk/preinstall
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 maxon_epos_ethercat_sdk/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 maxon_epos_ethercat_sdk/preinstall
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 maxon_epos_ethercat_sdk/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -P /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles/VerifyGlobs.cmake
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -P /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles/VerifyGlobs.cmake
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/rule:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/rule
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/rule
 .PHONY : maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/rule
 
 # Convenience name for target.
@@ -180,7 +180,7 @@ maxon_epos_ethercat_sdk: maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_
 
 # fast build rule for target.
 maxon_epos_ethercat_sdk/fast:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build
 .PHONY : maxon_epos_ethercat_sdk/fast
 
 src/maxon_epos_ethercat_sdk/Command.o: src/maxon_epos_ethercat_sdk/Command.cpp.o
@@ -189,7 +189,7 @@ src/maxon_epos_ethercat_sdk/Command.o: src/maxon_epos_ethercat_sdk/Command.cpp.o
 
 # target to build an object file
 src/maxon_epos_ethercat_sdk/Command.cpp.o:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Command.cpp.o
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Command.cpp.o
 .PHONY : src/maxon_epos_ethercat_sdk/Command.cpp.o
 
 src/maxon_epos_ethercat_sdk/Command.i: src/maxon_epos_ethercat_sdk/Command.cpp.i
@@ -198,7 +198,7 @@ src/maxon_epos_ethercat_sdk/Command.i: src/maxon_epos_ethercat_sdk/Command.cpp.i
 
 # target to preprocess a source file
 src/maxon_epos_ethercat_sdk/Command.cpp.i:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Command.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Command.cpp.i
 .PHONY : src/maxon_epos_ethercat_sdk/Command.cpp.i
 
 src/maxon_epos_ethercat_sdk/Command.s: src/maxon_epos_ethercat_sdk/Command.cpp.s
@@ -207,7 +207,7 @@ src/maxon_epos_ethercat_sdk/Command.s: src/maxon_epos_ethercat_sdk/Command.cpp.s
 
 # target to generate assembly for a file
 src/maxon_epos_ethercat_sdk/Command.cpp.s:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Command.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Command.cpp.s
 .PHONY : src/maxon_epos_ethercat_sdk/Command.cpp.s
 
 src/maxon_epos_ethercat_sdk/Configuration.o: src/maxon_epos_ethercat_sdk/Configuration.cpp.o
@@ -216,7 +216,7 @@ src/maxon_epos_ethercat_sdk/Configuration.o: src/maxon_epos_ethercat_sdk/Configu
 
 # target to build an object file
 src/maxon_epos_ethercat_sdk/Configuration.cpp.o:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Configuration.cpp.o
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Configuration.cpp.o
 .PHONY : src/maxon_epos_ethercat_sdk/Configuration.cpp.o
 
 src/maxon_epos_ethercat_sdk/Configuration.i: src/maxon_epos_ethercat_sdk/Configuration.cpp.i
@@ -225,7 +225,7 @@ src/maxon_epos_ethercat_sdk/Configuration.i: src/maxon_epos_ethercat_sdk/Configu
 
 # target to preprocess a source file
 src/maxon_epos_ethercat_sdk/Configuration.cpp.i:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Configuration.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Configuration.cpp.i
 .PHONY : src/maxon_epos_ethercat_sdk/Configuration.cpp.i
 
 src/maxon_epos_ethercat_sdk/Configuration.s: src/maxon_epos_ethercat_sdk/Configuration.cpp.s
@@ -234,7 +234,7 @@ src/maxon_epos_ethercat_sdk/Configuration.s: src/maxon_epos_ethercat_sdk/Configu
 
 # target to generate assembly for a file
 src/maxon_epos_ethercat_sdk/Configuration.cpp.s:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Configuration.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Configuration.cpp.s
 .PHONY : src/maxon_epos_ethercat_sdk/Configuration.cpp.s
 
 src/maxon_epos_ethercat_sdk/ConfigurationParser.o: src/maxon_epos_ethercat_sdk/ConfigurationParser.cpp.o
@@ -243,7 +243,7 @@ src/maxon_epos_ethercat_sdk/ConfigurationParser.o: src/maxon_epos_ethercat_sdk/C
 
 # target to build an object file
 src/maxon_epos_ethercat_sdk/ConfigurationParser.cpp.o:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/ConfigurationParser.cpp.o
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/ConfigurationParser.cpp.o
 .PHONY : src/maxon_epos_ethercat_sdk/ConfigurationParser.cpp.o
 
 src/maxon_epos_ethercat_sdk/ConfigurationParser.i: src/maxon_epos_ethercat_sdk/ConfigurationParser.cpp.i
@@ -252,7 +252,7 @@ src/maxon_epos_ethercat_sdk/ConfigurationParser.i: src/maxon_epos_ethercat_sdk/C
 
 # target to preprocess a source file
 src/maxon_epos_ethercat_sdk/ConfigurationParser.cpp.i:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/ConfigurationParser.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/ConfigurationParser.cpp.i
 .PHONY : src/maxon_epos_ethercat_sdk/ConfigurationParser.cpp.i
 
 src/maxon_epos_ethercat_sdk/ConfigurationParser.s: src/maxon_epos_ethercat_sdk/ConfigurationParser.cpp.s
@@ -261,7 +261,7 @@ src/maxon_epos_ethercat_sdk/ConfigurationParser.s: src/maxon_epos_ethercat_sdk/C
 
 # target to generate assembly for a file
 src/maxon_epos_ethercat_sdk/ConfigurationParser.cpp.s:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/ConfigurationParser.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/ConfigurationParser.cpp.s
 .PHONY : src/maxon_epos_ethercat_sdk/ConfigurationParser.cpp.s
 
 src/maxon_epos_ethercat_sdk/ConfigureParameters.o: src/maxon_epos_ethercat_sdk/ConfigureParameters.cpp.o
@@ -270,7 +270,7 @@ src/maxon_epos_ethercat_sdk/ConfigureParameters.o: src/maxon_epos_ethercat_sdk/C
 
 # target to build an object file
 src/maxon_epos_ethercat_sdk/ConfigureParameters.cpp.o:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/ConfigureParameters.cpp.o
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/ConfigureParameters.cpp.o
 .PHONY : src/maxon_epos_ethercat_sdk/ConfigureParameters.cpp.o
 
 src/maxon_epos_ethercat_sdk/ConfigureParameters.i: src/maxon_epos_ethercat_sdk/ConfigureParameters.cpp.i
@@ -279,7 +279,7 @@ src/maxon_epos_ethercat_sdk/ConfigureParameters.i: src/maxon_epos_ethercat_sdk/C
 
 # target to preprocess a source file
 src/maxon_epos_ethercat_sdk/ConfigureParameters.cpp.i:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/ConfigureParameters.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/ConfigureParameters.cpp.i
 .PHONY : src/maxon_epos_ethercat_sdk/ConfigureParameters.cpp.i
 
 src/maxon_epos_ethercat_sdk/ConfigureParameters.s: src/maxon_epos_ethercat_sdk/ConfigureParameters.cpp.s
@@ -288,7 +288,7 @@ src/maxon_epos_ethercat_sdk/ConfigureParameters.s: src/maxon_epos_ethercat_sdk/C
 
 # target to generate assembly for a file
 src/maxon_epos_ethercat_sdk/ConfigureParameters.cpp.s:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/ConfigureParameters.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/ConfigureParameters.cpp.s
 .PHONY : src/maxon_epos_ethercat_sdk/ConfigureParameters.cpp.s
 
 src/maxon_epos_ethercat_sdk/Controlword.o: src/maxon_epos_ethercat_sdk/Controlword.cpp.o
@@ -297,7 +297,7 @@ src/maxon_epos_ethercat_sdk/Controlword.o: src/maxon_epos_ethercat_sdk/Controlwo
 
 # target to build an object file
 src/maxon_epos_ethercat_sdk/Controlword.cpp.o:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Controlword.cpp.o
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Controlword.cpp.o
 .PHONY : src/maxon_epos_ethercat_sdk/Controlword.cpp.o
 
 src/maxon_epos_ethercat_sdk/Controlword.i: src/maxon_epos_ethercat_sdk/Controlword.cpp.i
@@ -306,7 +306,7 @@ src/maxon_epos_ethercat_sdk/Controlword.i: src/maxon_epos_ethercat_sdk/Controlwo
 
 # target to preprocess a source file
 src/maxon_epos_ethercat_sdk/Controlword.cpp.i:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Controlword.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Controlword.cpp.i
 .PHONY : src/maxon_epos_ethercat_sdk/Controlword.cpp.i
 
 src/maxon_epos_ethercat_sdk/Controlword.s: src/maxon_epos_ethercat_sdk/Controlword.cpp.s
@@ -315,7 +315,7 @@ src/maxon_epos_ethercat_sdk/Controlword.s: src/maxon_epos_ethercat_sdk/Controlwo
 
 # target to generate assembly for a file
 src/maxon_epos_ethercat_sdk/Controlword.cpp.s:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Controlword.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Controlword.cpp.s
 .PHONY : src/maxon_epos_ethercat_sdk/Controlword.cpp.s
 
 src/maxon_epos_ethercat_sdk/Diagnostics.o: src/maxon_epos_ethercat_sdk/Diagnostics.cpp.o
@@ -324,7 +324,7 @@ src/maxon_epos_ethercat_sdk/Diagnostics.o: src/maxon_epos_ethercat_sdk/Diagnosti
 
 # target to build an object file
 src/maxon_epos_ethercat_sdk/Diagnostics.cpp.o:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Diagnostics.cpp.o
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Diagnostics.cpp.o
 .PHONY : src/maxon_epos_ethercat_sdk/Diagnostics.cpp.o
 
 src/maxon_epos_ethercat_sdk/Diagnostics.i: src/maxon_epos_ethercat_sdk/Diagnostics.cpp.i
@@ -333,7 +333,7 @@ src/maxon_epos_ethercat_sdk/Diagnostics.i: src/maxon_epos_ethercat_sdk/Diagnosti
 
 # target to preprocess a source file
 src/maxon_epos_ethercat_sdk/Diagnostics.cpp.i:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Diagnostics.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Diagnostics.cpp.i
 .PHONY : src/maxon_epos_ethercat_sdk/Diagnostics.cpp.i
 
 src/maxon_epos_ethercat_sdk/Diagnostics.s: src/maxon_epos_ethercat_sdk/Diagnostics.cpp.s
@@ -342,7 +342,7 @@ src/maxon_epos_ethercat_sdk/Diagnostics.s: src/maxon_epos_ethercat_sdk/Diagnosti
 
 # target to generate assembly for a file
 src/maxon_epos_ethercat_sdk/Diagnostics.cpp.s:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Diagnostics.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Diagnostics.cpp.s
 .PHONY : src/maxon_epos_ethercat_sdk/Diagnostics.cpp.s
 
 src/maxon_epos_ethercat_sdk/DriveState.o: src/maxon_epos_ethercat_sdk/DriveState.cpp.o
@@ -351,7 +351,7 @@ src/maxon_epos_ethercat_sdk/DriveState.o: src/maxon_epos_ethercat_sdk/DriveState
 
 # target to build an object file
 src/maxon_epos_ethercat_sdk/DriveState.cpp.o:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/DriveState.cpp.o
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/DriveState.cpp.o
 .PHONY : src/maxon_epos_ethercat_sdk/DriveState.cpp.o
 
 src/maxon_epos_ethercat_sdk/DriveState.i: src/maxon_epos_ethercat_sdk/DriveState.cpp.i
@@ -360,7 +360,7 @@ src/maxon_epos_ethercat_sdk/DriveState.i: src/maxon_epos_ethercat_sdk/DriveState
 
 # target to preprocess a source file
 src/maxon_epos_ethercat_sdk/DriveState.cpp.i:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/DriveState.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/DriveState.cpp.i
 .PHONY : src/maxon_epos_ethercat_sdk/DriveState.cpp.i
 
 src/maxon_epos_ethercat_sdk/DriveState.s: src/maxon_epos_ethercat_sdk/DriveState.cpp.s
@@ -369,7 +369,7 @@ src/maxon_epos_ethercat_sdk/DriveState.s: src/maxon_epos_ethercat_sdk/DriveState
 
 # target to generate assembly for a file
 src/maxon_epos_ethercat_sdk/DriveState.cpp.s:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/DriveState.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/DriveState.cpp.s
 .PHONY : src/maxon_epos_ethercat_sdk/DriveState.cpp.s
 
 src/maxon_epos_ethercat_sdk/Maxon.o: src/maxon_epos_ethercat_sdk/Maxon.cpp.o
@@ -378,7 +378,7 @@ src/maxon_epos_ethercat_sdk/Maxon.o: src/maxon_epos_ethercat_sdk/Maxon.cpp.o
 
 # target to build an object file
 src/maxon_epos_ethercat_sdk/Maxon.cpp.o:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Maxon.cpp.o
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Maxon.cpp.o
 .PHONY : src/maxon_epos_ethercat_sdk/Maxon.cpp.o
 
 src/maxon_epos_ethercat_sdk/Maxon.i: src/maxon_epos_ethercat_sdk/Maxon.cpp.i
@@ -387,7 +387,7 @@ src/maxon_epos_ethercat_sdk/Maxon.i: src/maxon_epos_ethercat_sdk/Maxon.cpp.i
 
 # target to preprocess a source file
 src/maxon_epos_ethercat_sdk/Maxon.cpp.i:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Maxon.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Maxon.cpp.i
 .PHONY : src/maxon_epos_ethercat_sdk/Maxon.cpp.i
 
 src/maxon_epos_ethercat_sdk/Maxon.s: src/maxon_epos_ethercat_sdk/Maxon.cpp.s
@@ -396,7 +396,7 @@ src/maxon_epos_ethercat_sdk/Maxon.s: src/maxon_epos_ethercat_sdk/Maxon.cpp.s
 
 # target to generate assembly for a file
 src/maxon_epos_ethercat_sdk/Maxon.cpp.s:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Maxon.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Maxon.cpp.s
 .PHONY : src/maxon_epos_ethercat_sdk/Maxon.cpp.s
 
 src/maxon_epos_ethercat_sdk/ModeOfOperationEnum.o: src/maxon_epos_ethercat_sdk/ModeOfOperationEnum.cpp.o
@@ -405,7 +405,7 @@ src/maxon_epos_ethercat_sdk/ModeOfOperationEnum.o: src/maxon_epos_ethercat_sdk/M
 
 # target to build an object file
 src/maxon_epos_ethercat_sdk/ModeOfOperationEnum.cpp.o:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/ModeOfOperationEnum.cpp.o
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/ModeOfOperationEnum.cpp.o
 .PHONY : src/maxon_epos_ethercat_sdk/ModeOfOperationEnum.cpp.o
 
 src/maxon_epos_ethercat_sdk/ModeOfOperationEnum.i: src/maxon_epos_ethercat_sdk/ModeOfOperationEnum.cpp.i
@@ -414,7 +414,7 @@ src/maxon_epos_ethercat_sdk/ModeOfOperationEnum.i: src/maxon_epos_ethercat_sdk/M
 
 # target to preprocess a source file
 src/maxon_epos_ethercat_sdk/ModeOfOperationEnum.cpp.i:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/ModeOfOperationEnum.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/ModeOfOperationEnum.cpp.i
 .PHONY : src/maxon_epos_ethercat_sdk/ModeOfOperationEnum.cpp.i
 
 src/maxon_epos_ethercat_sdk/ModeOfOperationEnum.s: src/maxon_epos_ethercat_sdk/ModeOfOperationEnum.cpp.s
@@ -423,7 +423,7 @@ src/maxon_epos_ethercat_sdk/ModeOfOperationEnum.s: src/maxon_epos_ethercat_sdk/M
 
 # target to generate assembly for a file
 src/maxon_epos_ethercat_sdk/ModeOfOperationEnum.cpp.s:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/ModeOfOperationEnum.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/ModeOfOperationEnum.cpp.s
 .PHONY : src/maxon_epos_ethercat_sdk/ModeOfOperationEnum.cpp.s
 
 src/maxon_epos_ethercat_sdk/PdoTypeEnum.o: src/maxon_epos_ethercat_sdk/PdoTypeEnum.cpp.o
@@ -432,7 +432,7 @@ src/maxon_epos_ethercat_sdk/PdoTypeEnum.o: src/maxon_epos_ethercat_sdk/PdoTypeEn
 
 # target to build an object file
 src/maxon_epos_ethercat_sdk/PdoTypeEnum.cpp.o:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/PdoTypeEnum.cpp.o
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/PdoTypeEnum.cpp.o
 .PHONY : src/maxon_epos_ethercat_sdk/PdoTypeEnum.cpp.o
 
 src/maxon_epos_ethercat_sdk/PdoTypeEnum.i: src/maxon_epos_ethercat_sdk/PdoTypeEnum.cpp.i
@@ -441,7 +441,7 @@ src/maxon_epos_ethercat_sdk/PdoTypeEnum.i: src/maxon_epos_ethercat_sdk/PdoTypeEn
 
 # target to preprocess a source file
 src/maxon_epos_ethercat_sdk/PdoTypeEnum.cpp.i:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/PdoTypeEnum.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/PdoTypeEnum.cpp.i
 .PHONY : src/maxon_epos_ethercat_sdk/PdoTypeEnum.cpp.i
 
 src/maxon_epos_ethercat_sdk/PdoTypeEnum.s: src/maxon_epos_ethercat_sdk/PdoTypeEnum.cpp.s
@@ -450,7 +450,7 @@ src/maxon_epos_ethercat_sdk/PdoTypeEnum.s: src/maxon_epos_ethercat_sdk/PdoTypeEn
 
 # target to generate assembly for a file
 src/maxon_epos_ethercat_sdk/PdoTypeEnum.cpp.s:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/PdoTypeEnum.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/PdoTypeEnum.cpp.s
 .PHONY : src/maxon_epos_ethercat_sdk/PdoTypeEnum.cpp.s
 
 src/maxon_epos_ethercat_sdk/Reading.o: src/maxon_epos_ethercat_sdk/Reading.cpp.o
@@ -459,7 +459,7 @@ src/maxon_epos_ethercat_sdk/Reading.o: src/maxon_epos_ethercat_sdk/Reading.cpp.o
 
 # target to build an object file
 src/maxon_epos_ethercat_sdk/Reading.cpp.o:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Reading.cpp.o
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Reading.cpp.o
 .PHONY : src/maxon_epos_ethercat_sdk/Reading.cpp.o
 
 src/maxon_epos_ethercat_sdk/Reading.i: src/maxon_epos_ethercat_sdk/Reading.cpp.i
@@ -468,7 +468,7 @@ src/maxon_epos_ethercat_sdk/Reading.i: src/maxon_epos_ethercat_sdk/Reading.cpp.i
 
 # target to preprocess a source file
 src/maxon_epos_ethercat_sdk/Reading.cpp.i:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Reading.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Reading.cpp.i
 .PHONY : src/maxon_epos_ethercat_sdk/Reading.cpp.i
 
 src/maxon_epos_ethercat_sdk/Reading.s: src/maxon_epos_ethercat_sdk/Reading.cpp.s
@@ -477,7 +477,7 @@ src/maxon_epos_ethercat_sdk/Reading.s: src/maxon_epos_ethercat_sdk/Reading.cpp.s
 
 # target to generate assembly for a file
 src/maxon_epos_ethercat_sdk/Reading.cpp.s:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Reading.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Reading.cpp.s
 .PHONY : src/maxon_epos_ethercat_sdk/Reading.cpp.s
 
 src/maxon_epos_ethercat_sdk/Statusword.o: src/maxon_epos_ethercat_sdk/Statusword.cpp.o
@@ -486,7 +486,7 @@ src/maxon_epos_ethercat_sdk/Statusword.o: src/maxon_epos_ethercat_sdk/Statusword
 
 # target to build an object file
 src/maxon_epos_ethercat_sdk/Statusword.cpp.o:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Statusword.cpp.o
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Statusword.cpp.o
 .PHONY : src/maxon_epos_ethercat_sdk/Statusword.cpp.o
 
 src/maxon_epos_ethercat_sdk/Statusword.i: src/maxon_epos_ethercat_sdk/Statusword.cpp.i
@@ -495,7 +495,7 @@ src/maxon_epos_ethercat_sdk/Statusword.i: src/maxon_epos_ethercat_sdk/Statusword
 
 # target to preprocess a source file
 src/maxon_epos_ethercat_sdk/Statusword.cpp.i:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Statusword.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Statusword.cpp.i
 .PHONY : src/maxon_epos_ethercat_sdk/Statusword.cpp.i
 
 src/maxon_epos_ethercat_sdk/Statusword.s: src/maxon_epos_ethercat_sdk/Statusword.cpp.s
@@ -504,7 +504,7 @@ src/maxon_epos_ethercat_sdk/Statusword.s: src/maxon_epos_ethercat_sdk/Statusword
 
 # target to generate assembly for a file
 src/maxon_epos_ethercat_sdk/Statusword.cpp.s:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Statusword.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Statusword.cpp.s
 .PHONY : src/maxon_epos_ethercat_sdk/Statusword.cpp.s
 
 # Help Target
@@ -568,7 +568,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -P /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles/VerifyGlobs.cmake
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -P /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles/VerifyGlobs.cmake
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

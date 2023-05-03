@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC   -Wall -Wextra -Wpedantic -std=c++1z -Wno-error -std=gnu++17
 
 CXX_DEFINES = -DYAML_CPP_STATIC_DEFINE
 
-CXX_INCLUDES = -I/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include -I/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src 
+CXX_INCLUDES = -I/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include -I/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src 
 

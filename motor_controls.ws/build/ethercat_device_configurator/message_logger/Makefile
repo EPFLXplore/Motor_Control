@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator
+CMAKE_SOURCE_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator
+CMAKE_BINARY_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/message_logger/CMakeFiles/progress.marks
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 message_logger/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/message_logger/CMakeFiles/progress.marks
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 message_logger/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 message_logger/clean
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 message_logger/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,23 +154,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 message_logger/preinstall
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 message_logger/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 message_logger/preinstall
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 message_logger/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -P /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles/VerifyGlobs.cmake
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -P /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles/VerifyGlobs.cmake
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 message_logger/CMakeFiles/message_logger.dir/rule:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 message_logger/CMakeFiles/message_logger.dir/rule
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 message_logger/CMakeFiles/message_logger.dir/rule
 .PHONY : message_logger/CMakeFiles/message_logger.dir/rule
 
 # Convenience name for target.
@@ -180,7 +180,7 @@ message_logger: message_logger/CMakeFiles/message_logger.dir/rule
 
 # fast build rule for target.
 message_logger/fast:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f message_logger/CMakeFiles/message_logger.dir/build.make message_logger/CMakeFiles/message_logger.dir/build
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f message_logger/CMakeFiles/message_logger.dir/build.make message_logger/CMakeFiles/message_logger.dir/build
 .PHONY : message_logger/fast
 
 src/time/Time.o: src/time/Time.cpp.o
@@ -189,7 +189,7 @@ src/time/Time.o: src/time/Time.cpp.o
 
 # target to build an object file
 src/time/Time.cpp.o:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f message_logger/CMakeFiles/message_logger.dir/build.make message_logger/CMakeFiles/message_logger.dir/src/time/Time.cpp.o
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f message_logger/CMakeFiles/message_logger.dir/build.make message_logger/CMakeFiles/message_logger.dir/src/time/Time.cpp.o
 .PHONY : src/time/Time.cpp.o
 
 src/time/Time.i: src/time/Time.cpp.i
@@ -198,7 +198,7 @@ src/time/Time.i: src/time/Time.cpp.i
 
 # target to preprocess a source file
 src/time/Time.cpp.i:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f message_logger/CMakeFiles/message_logger.dir/build.make message_logger/CMakeFiles/message_logger.dir/src/time/Time.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f message_logger/CMakeFiles/message_logger.dir/build.make message_logger/CMakeFiles/message_logger.dir/src/time/Time.cpp.i
 .PHONY : src/time/Time.cpp.i
 
 src/time/Time.s: src/time/Time.cpp.s
@@ -207,7 +207,7 @@ src/time/Time.s: src/time/Time.cpp.s
 
 # target to generate assembly for a file
 src/time/Time.cpp.s:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f message_logger/CMakeFiles/message_logger.dir/build.make message_logger/CMakeFiles/message_logger.dir/src/time/Time.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f message_logger/CMakeFiles/message_logger.dir/build.make message_logger/CMakeFiles/message_logger.dir/src/time/Time.cpp.s
 .PHONY : src/time/Time.cpp.s
 
 src/time/TimeStd.o: src/time/TimeStd.cpp.o
@@ -216,7 +216,7 @@ src/time/TimeStd.o: src/time/TimeStd.cpp.o
 
 # target to build an object file
 src/time/TimeStd.cpp.o:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f message_logger/CMakeFiles/message_logger.dir/build.make message_logger/CMakeFiles/message_logger.dir/src/time/TimeStd.cpp.o
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f message_logger/CMakeFiles/message_logger.dir/build.make message_logger/CMakeFiles/message_logger.dir/src/time/TimeStd.cpp.o
 .PHONY : src/time/TimeStd.cpp.o
 
 src/time/TimeStd.i: src/time/TimeStd.cpp.i
@@ -225,7 +225,7 @@ src/time/TimeStd.i: src/time/TimeStd.cpp.i
 
 # target to preprocess a source file
 src/time/TimeStd.cpp.i:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f message_logger/CMakeFiles/message_logger.dir/build.make message_logger/CMakeFiles/message_logger.dir/src/time/TimeStd.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f message_logger/CMakeFiles/message_logger.dir/build.make message_logger/CMakeFiles/message_logger.dir/src/time/TimeStd.cpp.i
 .PHONY : src/time/TimeStd.cpp.i
 
 src/time/TimeStd.s: src/time/TimeStd.cpp.s
@@ -234,7 +234,7 @@ src/time/TimeStd.s: src/time/TimeStd.cpp.s
 
 # target to generate assembly for a file
 src/time/TimeStd.cpp.s:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f message_logger/CMakeFiles/message_logger.dir/build.make message_logger/CMakeFiles/message_logger.dir/src/time/TimeStd.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f message_logger/CMakeFiles/message_logger.dir/build.make message_logger/CMakeFiles/message_logger.dir/src/time/TimeStd.cpp.s
 .PHONY : src/time/TimeStd.cpp.s
 
 # Help Target
@@ -268,7 +268,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -P /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles/VerifyGlobs.cmake
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -P /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles/VerifyGlobs.cmake
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

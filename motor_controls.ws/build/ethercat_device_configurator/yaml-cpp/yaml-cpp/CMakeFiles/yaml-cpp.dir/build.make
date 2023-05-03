@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator
+CMAKE_SOURCE_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator
+CMAKE_BINARY_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator
 
 # Include any dependencies generated for this target.
 include yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/depend.make
@@ -58,407 +58,407 @@ include yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/progress.make
 include yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/contrib/graphbuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/contrib/graphbuilder.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/contrib/graphbuilder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/contrib/graphbuilder.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/contrib/graphbuilder.cpp > CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/contrib/graphbuilder.cpp > CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/contrib/graphbuilder.cpp -o CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/contrib/graphbuilder.cpp -o CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/contrib/graphbuilderadapter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/contrib/graphbuilderadapter.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/contrib/graphbuilderadapter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/contrib/graphbuilderadapter.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/contrib/graphbuilderadapter.cpp > CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/contrib/graphbuilderadapter.cpp > CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/contrib/graphbuilderadapter.cpp -o CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/contrib/graphbuilderadapter.cpp -o CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/binary.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/binary.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/binary.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/binary.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/binary.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/binary.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/binary.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/binary.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/binary.cpp > CMakeFiles/yaml-cpp.dir/src/binary.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/binary.cpp > CMakeFiles/yaml-cpp.dir/src/binary.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/binary.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/binary.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/binary.cpp -o CMakeFiles/yaml-cpp.dir/src/binary.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/binary.cpp -o CMakeFiles/yaml-cpp.dir/src/binary.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/convert.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/convert.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/convert.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/convert.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/convert.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/convert.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/convert.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/convert.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/convert.cpp > CMakeFiles/yaml-cpp.dir/src/convert.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/convert.cpp > CMakeFiles/yaml-cpp.dir/src/convert.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/convert.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/convert.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/convert.cpp -o CMakeFiles/yaml-cpp.dir/src/convert.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/convert.cpp -o CMakeFiles/yaml-cpp.dir/src/convert.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/depthguard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/depthguard.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/depthguard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/depthguard.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/depthguard.cpp > CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/depthguard.cpp > CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/depthguard.cpp -o CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/depthguard.cpp -o CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/directives.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/directives.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/directives.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/directives.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/directives.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/directives.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/directives.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/directives.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/directives.cpp > CMakeFiles/yaml-cpp.dir/src/directives.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/directives.cpp > CMakeFiles/yaml-cpp.dir/src/directives.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/directives.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/directives.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/directives.cpp -o CMakeFiles/yaml-cpp.dir/src/directives.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/directives.cpp -o CMakeFiles/yaml-cpp.dir/src/directives.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/emit.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emit.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/emit.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emit.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/emit.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emit.cpp > CMakeFiles/yaml-cpp.dir/src/emit.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emit.cpp > CMakeFiles/yaml-cpp.dir/src/emit.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/emit.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emit.cpp -o CMakeFiles/yaml-cpp.dir/src/emit.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emit.cpp -o CMakeFiles/yaml-cpp.dir/src/emit.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitfromevents.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitfromevents.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitfromevents.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitfromevents.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitfromevents.cpp > CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitfromevents.cpp > CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitfromevents.cpp -o CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitfromevents.cpp -o CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitter.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitter.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/emitter.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitter.cpp > CMakeFiles/yaml-cpp.dir/src/emitter.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitter.cpp > CMakeFiles/yaml-cpp.dir/src/emitter.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/emitter.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitter.cpp -o CMakeFiles/yaml-cpp.dir/src/emitter.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitter.cpp -o CMakeFiles/yaml-cpp.dir/src/emitter.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitterstate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitterstate.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitterstate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitterstate.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitterstate.cpp > CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitterstate.cpp > CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitterstate.cpp -o CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitterstate.cpp -o CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitterutils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitterutils.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitterutils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitterutils.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitterutils.cpp > CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitterutils.cpp > CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitterutils.cpp -o CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/emitterutils.cpp -o CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/exceptions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/exceptions.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/exceptions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/exceptions.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/exceptions.cpp > CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/exceptions.cpp > CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/exceptions.cpp -o CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/exceptions.cpp -o CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/exp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/exp.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/exp.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/exp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/exp.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/exp.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/exp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/exp.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/exp.cpp > CMakeFiles/yaml-cpp.dir/src/exp.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/exp.cpp > CMakeFiles/yaml-cpp.dir/src/exp.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/exp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/exp.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/exp.cpp -o CMakeFiles/yaml-cpp.dir/src/exp.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/exp.cpp -o CMakeFiles/yaml-cpp.dir/src/exp.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/memory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/memory.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/memory.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/memory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/memory.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/memory.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/memory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/memory.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/memory.cpp > CMakeFiles/yaml-cpp.dir/src/memory.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/memory.cpp > CMakeFiles/yaml-cpp.dir/src/memory.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/memory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/memory.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/memory.cpp -o CMakeFiles/yaml-cpp.dir/src/memory.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/memory.cpp -o CMakeFiles/yaml-cpp.dir/src/memory.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/node.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/node.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/node.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/node.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/node.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/node.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/node.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/node.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/node.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/node.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/node.cpp > CMakeFiles/yaml-cpp.dir/src/node.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/node.cpp > CMakeFiles/yaml-cpp.dir/src/node.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/node.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/node.cpp -o CMakeFiles/yaml-cpp.dir/src/node.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/node.cpp -o CMakeFiles/yaml-cpp.dir/src/node.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/node_data.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/node_data.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/node_data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/node_data.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/node_data.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/node_data.cpp > CMakeFiles/yaml-cpp.dir/src/node_data.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/node_data.cpp > CMakeFiles/yaml-cpp.dir/src/node_data.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/node_data.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/node_data.cpp -o CMakeFiles/yaml-cpp.dir/src/node_data.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/node_data.cpp -o CMakeFiles/yaml-cpp.dir/src/node_data.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/nodebuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/nodebuilder.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/nodebuilder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/nodebuilder.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/nodebuilder.cpp > CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/nodebuilder.cpp > CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/nodebuilder.cpp -o CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/nodebuilder.cpp -o CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/nodeevents.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/nodeevents.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/nodeevents.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/nodeevents.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/nodeevents.cpp > CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/nodeevents.cpp > CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/nodeevents.cpp -o CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/nodeevents.cpp -o CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/null.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/null.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/null.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/null.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/null.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/null.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/null.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/null.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/null.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/null.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/null.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/null.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/null.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/null.cpp > CMakeFiles/yaml-cpp.dir/src/null.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/null.cpp > CMakeFiles/yaml-cpp.dir/src/null.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/null.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/null.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/null.cpp -o CMakeFiles/yaml-cpp.dir/src/null.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/null.cpp -o CMakeFiles/yaml-cpp.dir/src/null.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/ostream_wrapper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/ostream_wrapper.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/ostream_wrapper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/ostream_wrapper.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/ostream_wrapper.cpp > CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/ostream_wrapper.cpp > CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/ostream_wrapper.cpp -o CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/ostream_wrapper.cpp -o CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/parse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/parse.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/parse.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/parse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/parse.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/parse.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/parse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/parse.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/parse.cpp > CMakeFiles/yaml-cpp.dir/src/parse.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/parse.cpp > CMakeFiles/yaml-cpp.dir/src/parse.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/parse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/parse.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/parse.cpp -o CMakeFiles/yaml-cpp.dir/src/parse.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/parse.cpp -o CMakeFiles/yaml-cpp.dir/src/parse.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/parser.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/parser.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/parser.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/parser.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/parser.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/parser.cpp > CMakeFiles/yaml-cpp.dir/src/parser.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/parser.cpp > CMakeFiles/yaml-cpp.dir/src/parser.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/parser.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/parser.cpp -o CMakeFiles/yaml-cpp.dir/src/parser.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/parser.cpp -o CMakeFiles/yaml-cpp.dir/src/parser.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/regex_yaml.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/regex_yaml.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/regex_yaml.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/regex_yaml.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/regex_yaml.cpp > CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/regex_yaml.cpp > CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/regex_yaml.cpp -o CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/regex_yaml.cpp -o CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scanner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scanner.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scanner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scanner.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/scanner.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scanner.cpp > CMakeFiles/yaml-cpp.dir/src/scanner.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scanner.cpp > CMakeFiles/yaml-cpp.dir/src/scanner.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/scanner.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scanner.cpp -o CMakeFiles/yaml-cpp.dir/src/scanner.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scanner.cpp -o CMakeFiles/yaml-cpp.dir/src/scanner.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scanscalar.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scanscalar.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scanscalar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scanscalar.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scanscalar.cpp > CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scanscalar.cpp > CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scanscalar.cpp -o CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scanscalar.cpp -o CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scantag.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scantag.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scantag.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scantag.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/scantag.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scantag.cpp > CMakeFiles/yaml-cpp.dir/src/scantag.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scantag.cpp > CMakeFiles/yaml-cpp.dir/src/scantag.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/scantag.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scantag.cpp -o CMakeFiles/yaml-cpp.dir/src/scantag.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scantag.cpp -o CMakeFiles/yaml-cpp.dir/src/scantag.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scantoken.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scantoken.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scantoken.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scantoken.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scantoken.cpp > CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scantoken.cpp > CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scantoken.cpp -o CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/scantoken.cpp -o CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/simplekey.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/simplekey.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/simplekey.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/simplekey.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/simplekey.cpp > CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/simplekey.cpp > CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/simplekey.cpp -o CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/simplekey.cpp -o CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/singledocparser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/singledocparser.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/singledocparser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/singledocparser.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/singledocparser.cpp > CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/singledocparser.cpp > CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/singledocparser.cpp -o CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/singledocparser.cpp -o CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/stream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/stream.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/stream.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/stream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/stream.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/stream.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/stream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/stream.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/stream.cpp > CMakeFiles/yaml-cpp.dir/src/stream.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/stream.cpp > CMakeFiles/yaml-cpp.dir/src/stream.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/stream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/stream.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/stream.cpp -o CMakeFiles/yaml-cpp.dir/src/stream.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/stream.cpp -o CMakeFiles/yaml-cpp.dir/src/stream.cpp.s
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/flags.make
-yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/tag.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/tag.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/tag.cpp
+yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/tag.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaml-cpp.dir/src/tag.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/tag.cpp
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/tag.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/tag.cpp.i"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/tag.cpp > CMakeFiles/yaml-cpp.dir/src/tag.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/tag.cpp > CMakeFiles/yaml-cpp.dir/src/tag.cpp.i
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/tag.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/tag.cpp.s"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/tag.cpp -o CMakeFiles/yaml-cpp.dir/src/tag.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/src/tag.cpp -o CMakeFiles/yaml-cpp.dir/src/tag.cpp.s
 
 # Object files for target yaml-cpp
 yaml__cpp_OBJECTS = \
@@ -530,9 +530,9 @@ yaml-cpp/yaml-cpp/libyaml-cpp.a: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/s
 yaml-cpp/yaml-cpp/libyaml-cpp.a: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o
 yaml-cpp/yaml-cpp/libyaml-cpp.a: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/build.make
 yaml-cpp/yaml-cpp/libyaml-cpp.a: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX static library libyaml-cpp.a"
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && $(CMAKE_COMMAND) -P CMakeFiles/yaml-cpp.dir/cmake_clean_target.cmake
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/yaml-cpp.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX static library libyaml-cpp.a"
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && $(CMAKE_COMMAND) -P CMakeFiles/yaml-cpp.dir/cmake_clean_target.cmake
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/yaml-cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/build: yaml-cpp/yaml-cpp/libyaml-cpp.a
@@ -540,10 +540,10 @@ yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/build: yaml-cpp/yaml-cpp/libyaml-cpp.a
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/build
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/clean:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && $(CMAKE_COMMAND) -P CMakeFiles/yaml-cpp.dir/cmake_clean.cmake
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && $(CMAKE_COMMAND) -P CMakeFiles/yaml-cpp.dir/cmake_clean.cmake
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/clean
 
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/depend:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/depend
 

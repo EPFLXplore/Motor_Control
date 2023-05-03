@@ -1,0 +1,32 @@
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:[m[K In function ‘[01m[Kvoid signal_handler(int)[m[K’:
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:180:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  180 | void signal_handler([01;35m[Kint sig[m[K)
+      |                     [01;35m[K~~~~^~~[m[K
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:253:95:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMotor_command::Motor_command(std::string, Motor_mode, double)[m[K’
+  253 |         motor_command_list.push_back(Motor_command(slave->getName(), Motor_mode::VELOCITY, 0.0[01;31m[K)[m[K);
+      |                                                                                               [01;31m[K^[m[K
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:23:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KMotor_command::Motor_command()[m[K’
+   23 | struct [01;36m[KMotor_command[m[K{
+      |        [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:23:8:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 3 provided
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:23:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KMotor_command::Motor_command(const Motor_command&)[m[K’
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:23:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:23:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KMotor_command::Motor_command(Motor_command&&)[m[K’
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:23:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:[m[K In member function ‘[01m[Kvoid Motor_controller::motor_command_callback(motor_control_interfaces::msg::MotorCommand_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:67:42:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+   67 |                     case 0: [01;35m[Kcommand.mode = Motor_mode::POSITION[m[K;
+      |                             [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:68:21:[m[K [01;36m[Knote: [m[Khere
+   68 |                     [01;36m[Kcase[m[K 1: command.mode = Motor_mode::VELOCITY;
+      |                     [01;36m[K^~~~[m[K
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:68:42:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+   68 |                     case 1: [01;35m[Kcommand.mode = Motor_mode::VELOCITY[m[K;
+      |                             [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:69:21:[m[K [01;36m[Knote: [m[Khere
+   69 |                     [01;36m[Kcase[m[K 2: command.mode = Motor_mode::TORQUE;
+      |                     [01;36m[K^~~~[m[K
+make[2]: *** [CMakeFiles/motor_control.dir/build.make:63: CMakeFiles/motor_control.dir/src/motor_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:261: CMakeFiles/motor_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

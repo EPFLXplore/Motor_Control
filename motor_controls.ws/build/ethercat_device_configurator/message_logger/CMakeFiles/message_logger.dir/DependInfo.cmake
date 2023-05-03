@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/src/time/Time.cpp" "/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/message_logger/CMakeFiles/message_logger.dir/src/time/Time.cpp.o"
-  "/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/src/time/TimeStd.cpp" "/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/message_logger/CMakeFiles/message_logger.dir/src/time/TimeStd.cpp.o"
+  "/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/src/time/Time.cpp" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/message_logger/CMakeFiles/message_logger.dir/src/time/Time.cpp.o"
+  "/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/src/time/TimeStd.cpp" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/message_logger/CMakeFiles/message_logger.dir/src/time/TimeStd.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,7 +19,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include"
+  "/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include"
   "message_logger/include"
   "/home/hd/ros2_foxy/install/rclcpp/include"
   "/home/hd/ros2_foxy/install/std_msgs/include"

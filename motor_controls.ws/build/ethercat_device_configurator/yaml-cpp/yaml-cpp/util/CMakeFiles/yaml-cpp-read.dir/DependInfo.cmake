@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/util/read.cpp" "/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-read.dir/read.cpp.o"
+  "/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/util/read.cpp" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-read.dir/read.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,12 +15,12 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include"
+  "/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/DependInfo.cmake"
+  "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

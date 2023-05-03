@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator
+CMAKE_SOURCE_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator
+CMAKE_BINARY_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/soem_interface/soem/CMakeFiles/progress.marks
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 soem_interface/soem/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/soem_interface/soem/CMakeFiles/progress.marks
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 soem_interface/soem/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 soem_interface/soem/clean
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 soem_interface/soem/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,23 +154,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 soem_interface/soem/preinstall
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 soem_interface/soem/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 soem_interface/soem/preinstall
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 soem_interface/soem/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -P /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles/VerifyGlobs.cmake
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -P /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles/VerifyGlobs.cmake
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 soem_interface/soem/CMakeFiles/soem.dir/rule:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 soem_interface/soem/CMakeFiles/soem.dir/rule
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 soem_interface/soem/CMakeFiles/soem.dir/rule
 .PHONY : soem_interface/soem/CMakeFiles/soem.dir/rule
 
 # Convenience name for target.
@@ -180,7 +180,7 @@ soem: soem_interface/soem/CMakeFiles/soem.dir/rule
 
 # fast build rule for target.
 soem/fast:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/build
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/build
 .PHONY : soem/fast
 
 include/soem/soem/ethercatbase.o: include/soem/soem/ethercatbase.c.o
@@ -189,7 +189,7 @@ include/soem/soem/ethercatbase.o: include/soem/soem/ethercatbase.c.o
 
 # target to build an object file
 include/soem/soem/ethercatbase.c.o:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatbase.c.o
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatbase.c.o
 .PHONY : include/soem/soem/ethercatbase.c.o
 
 include/soem/soem/ethercatbase.i: include/soem/soem/ethercatbase.c.i
@@ -198,7 +198,7 @@ include/soem/soem/ethercatbase.i: include/soem/soem/ethercatbase.c.i
 
 # target to preprocess a source file
 include/soem/soem/ethercatbase.c.i:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatbase.c.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatbase.c.i
 .PHONY : include/soem/soem/ethercatbase.c.i
 
 include/soem/soem/ethercatbase.s: include/soem/soem/ethercatbase.c.s
@@ -207,7 +207,7 @@ include/soem/soem/ethercatbase.s: include/soem/soem/ethercatbase.c.s
 
 # target to generate assembly for a file
 include/soem/soem/ethercatbase.c.s:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatbase.c.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatbase.c.s
 .PHONY : include/soem/soem/ethercatbase.c.s
 
 include/soem/soem/ethercatcoe.o: include/soem/soem/ethercatcoe.c.o
@@ -216,7 +216,7 @@ include/soem/soem/ethercatcoe.o: include/soem/soem/ethercatcoe.c.o
 
 # target to build an object file
 include/soem/soem/ethercatcoe.c.o:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatcoe.c.o
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatcoe.c.o
 .PHONY : include/soem/soem/ethercatcoe.c.o
 
 include/soem/soem/ethercatcoe.i: include/soem/soem/ethercatcoe.c.i
@@ -225,7 +225,7 @@ include/soem/soem/ethercatcoe.i: include/soem/soem/ethercatcoe.c.i
 
 # target to preprocess a source file
 include/soem/soem/ethercatcoe.c.i:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatcoe.c.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatcoe.c.i
 .PHONY : include/soem/soem/ethercatcoe.c.i
 
 include/soem/soem/ethercatcoe.s: include/soem/soem/ethercatcoe.c.s
@@ -234,7 +234,7 @@ include/soem/soem/ethercatcoe.s: include/soem/soem/ethercatcoe.c.s
 
 # target to generate assembly for a file
 include/soem/soem/ethercatcoe.c.s:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatcoe.c.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatcoe.c.s
 .PHONY : include/soem/soem/ethercatcoe.c.s
 
 include/soem/soem/ethercatconfig.o: include/soem/soem/ethercatconfig.c.o
@@ -243,7 +243,7 @@ include/soem/soem/ethercatconfig.o: include/soem/soem/ethercatconfig.c.o
 
 # target to build an object file
 include/soem/soem/ethercatconfig.c.o:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatconfig.c.o
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatconfig.c.o
 .PHONY : include/soem/soem/ethercatconfig.c.o
 
 include/soem/soem/ethercatconfig.i: include/soem/soem/ethercatconfig.c.i
@@ -252,7 +252,7 @@ include/soem/soem/ethercatconfig.i: include/soem/soem/ethercatconfig.c.i
 
 # target to preprocess a source file
 include/soem/soem/ethercatconfig.c.i:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatconfig.c.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatconfig.c.i
 .PHONY : include/soem/soem/ethercatconfig.c.i
 
 include/soem/soem/ethercatconfig.s: include/soem/soem/ethercatconfig.c.s
@@ -261,7 +261,7 @@ include/soem/soem/ethercatconfig.s: include/soem/soem/ethercatconfig.c.s
 
 # target to generate assembly for a file
 include/soem/soem/ethercatconfig.c.s:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatconfig.c.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatconfig.c.s
 .PHONY : include/soem/soem/ethercatconfig.c.s
 
 include/soem/soem/ethercatdc.o: include/soem/soem/ethercatdc.c.o
@@ -270,7 +270,7 @@ include/soem/soem/ethercatdc.o: include/soem/soem/ethercatdc.c.o
 
 # target to build an object file
 include/soem/soem/ethercatdc.c.o:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatdc.c.o
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatdc.c.o
 .PHONY : include/soem/soem/ethercatdc.c.o
 
 include/soem/soem/ethercatdc.i: include/soem/soem/ethercatdc.c.i
@@ -279,7 +279,7 @@ include/soem/soem/ethercatdc.i: include/soem/soem/ethercatdc.c.i
 
 # target to preprocess a source file
 include/soem/soem/ethercatdc.c.i:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatdc.c.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatdc.c.i
 .PHONY : include/soem/soem/ethercatdc.c.i
 
 include/soem/soem/ethercatdc.s: include/soem/soem/ethercatdc.c.s
@@ -288,7 +288,7 @@ include/soem/soem/ethercatdc.s: include/soem/soem/ethercatdc.c.s
 
 # target to generate assembly for a file
 include/soem/soem/ethercatdc.c.s:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatdc.c.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatdc.c.s
 .PHONY : include/soem/soem/ethercatdc.c.s
 
 include/soem/soem/ethercatfoe.o: include/soem/soem/ethercatfoe.c.o
@@ -297,7 +297,7 @@ include/soem/soem/ethercatfoe.o: include/soem/soem/ethercatfoe.c.o
 
 # target to build an object file
 include/soem/soem/ethercatfoe.c.o:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatfoe.c.o
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatfoe.c.o
 .PHONY : include/soem/soem/ethercatfoe.c.o
 
 include/soem/soem/ethercatfoe.i: include/soem/soem/ethercatfoe.c.i
@@ -306,7 +306,7 @@ include/soem/soem/ethercatfoe.i: include/soem/soem/ethercatfoe.c.i
 
 # target to preprocess a source file
 include/soem/soem/ethercatfoe.c.i:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatfoe.c.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatfoe.c.i
 .PHONY : include/soem/soem/ethercatfoe.c.i
 
 include/soem/soem/ethercatfoe.s: include/soem/soem/ethercatfoe.c.s
@@ -315,7 +315,7 @@ include/soem/soem/ethercatfoe.s: include/soem/soem/ethercatfoe.c.s
 
 # target to generate assembly for a file
 include/soem/soem/ethercatfoe.c.s:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatfoe.c.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatfoe.c.s
 .PHONY : include/soem/soem/ethercatfoe.c.s
 
 include/soem/soem/ethercatmain.o: include/soem/soem/ethercatmain.c.o
@@ -324,7 +324,7 @@ include/soem/soem/ethercatmain.o: include/soem/soem/ethercatmain.c.o
 
 # target to build an object file
 include/soem/soem/ethercatmain.c.o:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatmain.c.o
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatmain.c.o
 .PHONY : include/soem/soem/ethercatmain.c.o
 
 include/soem/soem/ethercatmain.i: include/soem/soem/ethercatmain.c.i
@@ -333,7 +333,7 @@ include/soem/soem/ethercatmain.i: include/soem/soem/ethercatmain.c.i
 
 # target to preprocess a source file
 include/soem/soem/ethercatmain.c.i:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatmain.c.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatmain.c.i
 .PHONY : include/soem/soem/ethercatmain.c.i
 
 include/soem/soem/ethercatmain.s: include/soem/soem/ethercatmain.c.s
@@ -342,7 +342,7 @@ include/soem/soem/ethercatmain.s: include/soem/soem/ethercatmain.c.s
 
 # target to generate assembly for a file
 include/soem/soem/ethercatmain.c.s:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatmain.c.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatmain.c.s
 .PHONY : include/soem/soem/ethercatmain.c.s
 
 include/soem/soem/ethercatprint.o: include/soem/soem/ethercatprint.c.o
@@ -351,7 +351,7 @@ include/soem/soem/ethercatprint.o: include/soem/soem/ethercatprint.c.o
 
 # target to build an object file
 include/soem/soem/ethercatprint.c.o:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatprint.c.o
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatprint.c.o
 .PHONY : include/soem/soem/ethercatprint.c.o
 
 include/soem/soem/ethercatprint.i: include/soem/soem/ethercatprint.c.i
@@ -360,7 +360,7 @@ include/soem/soem/ethercatprint.i: include/soem/soem/ethercatprint.c.i
 
 # target to preprocess a source file
 include/soem/soem/ethercatprint.c.i:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatprint.c.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatprint.c.i
 .PHONY : include/soem/soem/ethercatprint.c.i
 
 include/soem/soem/ethercatprint.s: include/soem/soem/ethercatprint.c.s
@@ -369,7 +369,7 @@ include/soem/soem/ethercatprint.s: include/soem/soem/ethercatprint.c.s
 
 # target to generate assembly for a file
 include/soem/soem/ethercatprint.c.s:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatprint.c.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatprint.c.s
 .PHONY : include/soem/soem/ethercatprint.c.s
 
 include/soem/soem/ethercatsoe.o: include/soem/soem/ethercatsoe.c.o
@@ -378,7 +378,7 @@ include/soem/soem/ethercatsoe.o: include/soem/soem/ethercatsoe.c.o
 
 # target to build an object file
 include/soem/soem/ethercatsoe.c.o:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatsoe.c.o
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatsoe.c.o
 .PHONY : include/soem/soem/ethercatsoe.c.o
 
 include/soem/soem/ethercatsoe.i: include/soem/soem/ethercatsoe.c.i
@@ -387,7 +387,7 @@ include/soem/soem/ethercatsoe.i: include/soem/soem/ethercatsoe.c.i
 
 # target to preprocess a source file
 include/soem/soem/ethercatsoe.c.i:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatsoe.c.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatsoe.c.i
 .PHONY : include/soem/soem/ethercatsoe.c.i
 
 include/soem/soem/ethercatsoe.s: include/soem/soem/ethercatsoe.c.s
@@ -396,7 +396,7 @@ include/soem/soem/ethercatsoe.s: include/soem/soem/ethercatsoe.c.s
 
 # target to generate assembly for a file
 include/soem/soem/ethercatsoe.c.s:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatsoe.c.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include/soem/soem/ethercatsoe.c.s
 .PHONY : include/soem/soem/ethercatsoe.c.s
 
 include_linux/soem/osal/osal.o: include_linux/soem/osal/osal.c.o
@@ -405,7 +405,7 @@ include_linux/soem/osal/osal.o: include_linux/soem/osal/osal.c.o
 
 # target to build an object file
 include_linux/soem/osal/osal.c.o:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include_linux/soem/osal/osal.c.o
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include_linux/soem/osal/osal.c.o
 .PHONY : include_linux/soem/osal/osal.c.o
 
 include_linux/soem/osal/osal.i: include_linux/soem/osal/osal.c.i
@@ -414,7 +414,7 @@ include_linux/soem/osal/osal.i: include_linux/soem/osal/osal.c.i
 
 # target to preprocess a source file
 include_linux/soem/osal/osal.c.i:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include_linux/soem/osal/osal.c.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include_linux/soem/osal/osal.c.i
 .PHONY : include_linux/soem/osal/osal.c.i
 
 include_linux/soem/osal/osal.s: include_linux/soem/osal/osal.c.s
@@ -423,7 +423,7 @@ include_linux/soem/osal/osal.s: include_linux/soem/osal/osal.c.s
 
 # target to generate assembly for a file
 include_linux/soem/osal/osal.c.s:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include_linux/soem/osal/osal.c.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include_linux/soem/osal/osal.c.s
 .PHONY : include_linux/soem/osal/osal.c.s
 
 include_linux/soem/oshw/nicdrv.o: include_linux/soem/oshw/nicdrv.c.o
@@ -432,7 +432,7 @@ include_linux/soem/oshw/nicdrv.o: include_linux/soem/oshw/nicdrv.c.o
 
 # target to build an object file
 include_linux/soem/oshw/nicdrv.c.o:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include_linux/soem/oshw/nicdrv.c.o
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include_linux/soem/oshw/nicdrv.c.o
 .PHONY : include_linux/soem/oshw/nicdrv.c.o
 
 include_linux/soem/oshw/nicdrv.i: include_linux/soem/oshw/nicdrv.c.i
@@ -441,7 +441,7 @@ include_linux/soem/oshw/nicdrv.i: include_linux/soem/oshw/nicdrv.c.i
 
 # target to preprocess a source file
 include_linux/soem/oshw/nicdrv.c.i:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include_linux/soem/oshw/nicdrv.c.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include_linux/soem/oshw/nicdrv.c.i
 .PHONY : include_linux/soem/oshw/nicdrv.c.i
 
 include_linux/soem/oshw/nicdrv.s: include_linux/soem/oshw/nicdrv.c.s
@@ -450,7 +450,7 @@ include_linux/soem/oshw/nicdrv.s: include_linux/soem/oshw/nicdrv.c.s
 
 # target to generate assembly for a file
 include_linux/soem/oshw/nicdrv.c.s:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include_linux/soem/oshw/nicdrv.c.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include_linux/soem/oshw/nicdrv.c.s
 .PHONY : include_linux/soem/oshw/nicdrv.c.s
 
 include_linux/soem/oshw/oshw.o: include_linux/soem/oshw/oshw.c.o
@@ -459,7 +459,7 @@ include_linux/soem/oshw/oshw.o: include_linux/soem/oshw/oshw.c.o
 
 # target to build an object file
 include_linux/soem/oshw/oshw.c.o:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include_linux/soem/oshw/oshw.c.o
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include_linux/soem/oshw/oshw.c.o
 .PHONY : include_linux/soem/oshw/oshw.c.o
 
 include_linux/soem/oshw/oshw.i: include_linux/soem/oshw/oshw.c.i
@@ -468,7 +468,7 @@ include_linux/soem/oshw/oshw.i: include_linux/soem/oshw/oshw.c.i
 
 # target to preprocess a source file
 include_linux/soem/oshw/oshw.c.i:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include_linux/soem/oshw/oshw.c.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include_linux/soem/oshw/oshw.c.i
 .PHONY : include_linux/soem/oshw/oshw.c.i
 
 include_linux/soem/oshw/oshw.s: include_linux/soem/oshw/oshw.c.s
@@ -477,7 +477,7 @@ include_linux/soem/oshw/oshw.s: include_linux/soem/oshw/oshw.c.s
 
 # target to generate assembly for a file
 include_linux/soem/oshw/oshw.c.s:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include_linux/soem/oshw/oshw.c.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/include_linux/soem/oshw/oshw.c.s
 .PHONY : include_linux/soem/oshw/oshw.c.s
 
 # Help Target
@@ -538,7 +538,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -P /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles/VerifyGlobs.cmake
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -P /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles/VerifyGlobs.cmake
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

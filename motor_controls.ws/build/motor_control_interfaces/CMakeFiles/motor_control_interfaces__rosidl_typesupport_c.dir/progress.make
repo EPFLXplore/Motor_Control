@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+CMAKE_PROGRESS_1 = 10
+CMAKE_PROGRESS_2 = 11
+CMAKE_PROGRESS_3 = 12
+CMAKE_PROGRESS_4 = 13
+=======
+CMAKE_PROGRESS_1 = 8
+CMAKE_PROGRESS_2 = 9
+CMAKE_PROGRESS_3 = 10
+>>>>>>> parent of 9a1ced2... del build/log/install
+

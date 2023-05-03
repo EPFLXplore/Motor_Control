@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator
+CMAKE_SOURCE_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator
+CMAKE_BINARY_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/ethercat_sdk_master/CMakeFiles/progress.marks
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 ethercat_sdk_master/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/ethercat_sdk_master/CMakeFiles/progress.marks
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 ethercat_sdk_master/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 ethercat_sdk_master/clean
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 ethercat_sdk_master/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,23 +154,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 ethercat_sdk_master/preinstall
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 ethercat_sdk_master/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 ethercat_sdk_master/preinstall
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 ethercat_sdk_master/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -P /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles/VerifyGlobs.cmake
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -P /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles/VerifyGlobs.cmake
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/rule:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/rule
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f CMakeFiles/Makefile2 ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/rule
 .PHONY : ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/rule
 
 # Convenience name for target.
@@ -180,7 +180,7 @@ ethercat_sdk_master: ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/rule
 
 # fast build rule for target.
 ethercat_sdk_master/fast:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/build.make ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/build
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/build.make ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/build
 .PHONY : ethercat_sdk_master/fast
 
 src/ethercat_sdk_master/EthercatDevice.o: src/ethercat_sdk_master/EthercatDevice.cpp.o
@@ -189,7 +189,7 @@ src/ethercat_sdk_master/EthercatDevice.o: src/ethercat_sdk_master/EthercatDevice
 
 # target to build an object file
 src/ethercat_sdk_master/EthercatDevice.cpp.o:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/build.make ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatDevice.cpp.o
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/build.make ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatDevice.cpp.o
 .PHONY : src/ethercat_sdk_master/EthercatDevice.cpp.o
 
 src/ethercat_sdk_master/EthercatDevice.i: src/ethercat_sdk_master/EthercatDevice.cpp.i
@@ -198,7 +198,7 @@ src/ethercat_sdk_master/EthercatDevice.i: src/ethercat_sdk_master/EthercatDevice
 
 # target to preprocess a source file
 src/ethercat_sdk_master/EthercatDevice.cpp.i:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/build.make ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatDevice.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/build.make ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatDevice.cpp.i
 .PHONY : src/ethercat_sdk_master/EthercatDevice.cpp.i
 
 src/ethercat_sdk_master/EthercatDevice.s: src/ethercat_sdk_master/EthercatDevice.cpp.s
@@ -207,7 +207,7 @@ src/ethercat_sdk_master/EthercatDevice.s: src/ethercat_sdk_master/EthercatDevice
 
 # target to generate assembly for a file
 src/ethercat_sdk_master/EthercatDevice.cpp.s:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/build.make ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatDevice.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/build.make ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatDevice.cpp.s
 .PHONY : src/ethercat_sdk_master/EthercatDevice.cpp.s
 
 src/ethercat_sdk_master/EthercatMaster.o: src/ethercat_sdk_master/EthercatMaster.cpp.o
@@ -216,7 +216,7 @@ src/ethercat_sdk_master/EthercatMaster.o: src/ethercat_sdk_master/EthercatMaster
 
 # target to build an object file
 src/ethercat_sdk_master/EthercatMaster.cpp.o:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/build.make ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatMaster.cpp.o
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/build.make ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatMaster.cpp.o
 .PHONY : src/ethercat_sdk_master/EthercatMaster.cpp.o
 
 src/ethercat_sdk_master/EthercatMaster.i: src/ethercat_sdk_master/EthercatMaster.cpp.i
@@ -225,7 +225,7 @@ src/ethercat_sdk_master/EthercatMaster.i: src/ethercat_sdk_master/EthercatMaster
 
 # target to preprocess a source file
 src/ethercat_sdk_master/EthercatMaster.cpp.i:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/build.make ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatMaster.cpp.i
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/build.make ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatMaster.cpp.i
 .PHONY : src/ethercat_sdk_master/EthercatMaster.cpp.i
 
 src/ethercat_sdk_master/EthercatMaster.s: src/ethercat_sdk_master/EthercatMaster.cpp.s
@@ -234,7 +234,7 @@ src/ethercat_sdk_master/EthercatMaster.s: src/ethercat_sdk_master/EthercatMaster
 
 # target to generate assembly for a file
 src/ethercat_sdk_master/EthercatMaster.cpp.s:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/build.make ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatMaster.cpp.s
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(MAKE) -f ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/build.make ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/src/ethercat_sdk_master/EthercatMaster.cpp.s
 .PHONY : src/ethercat_sdk_master/EthercatMaster.cpp.s
 
 # Help Target
@@ -268,7 +268,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -P /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles/VerifyGlobs.cmake
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -P /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles/VerifyGlobs.cmake
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

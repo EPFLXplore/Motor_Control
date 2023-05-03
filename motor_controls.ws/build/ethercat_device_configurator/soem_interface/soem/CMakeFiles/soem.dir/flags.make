@@ -6,5 +6,5 @@ C_FLAGS =   -Wall -Wextra -Wpedantic -std=c++1z -Wno-error -std=gnu99
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include -I/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include_linux 
+C_INCLUDES = -I/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include -I/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include_linux 
 

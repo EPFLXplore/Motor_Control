@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator
+CMAKE_SOURCE_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator
+CMAKE_BINARY_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator
 
 # Utility rule file for Continuous.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/hd/Desktop/motor_controls.ws/build/ethercat_device_conf
 include yaml-cpp/yaml-cpp/CMakeFiles/Continuous.dir/progress.make
 
 yaml-cpp/yaml-cpp/CMakeFiles/Continuous:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/ctest -D Continuous
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/ctest -D Continuous
 
 Continuous: yaml-cpp/yaml-cpp/CMakeFiles/Continuous
 Continuous: yaml-cpp/yaml-cpp/CMakeFiles/Continuous.dir/build.make
@@ -67,10 +67,10 @@ yaml-cpp/yaml-cpp/CMakeFiles/Continuous.dir/build: Continuous
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/Continuous.dir/build
 
 yaml-cpp/yaml-cpp/CMakeFiles/Continuous.dir/clean:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && $(CMAKE_COMMAND) -P CMakeFiles/Continuous.dir/cmake_clean.cmake
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && $(CMAKE_COMMAND) -P CMakeFiles/Continuous.dir/cmake_clean.cmake
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/Continuous.dir/clean
 
 yaml-cpp/yaml-cpp/CMakeFiles/Continuous.dir/depend:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp/CMakeFiles/Continuous.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp/CMakeFiles/Continuous.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/Continuous.dir/depend
 

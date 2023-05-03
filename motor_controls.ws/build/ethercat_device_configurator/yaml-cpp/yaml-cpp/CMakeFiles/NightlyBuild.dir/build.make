@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator
+CMAKE_SOURCE_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator
+CMAKE_BINARY_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator
 
 # Utility rule file for NightlyBuild.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/hd/Desktop/motor_controls.ws/build/ethercat_device_conf
 include yaml-cpp/yaml-cpp/CMakeFiles/NightlyBuild.dir/progress.make
 
 yaml-cpp/yaml-cpp/CMakeFiles/NightlyBuild:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/ctest -D NightlyBuild
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && /usr/bin/ctest -D NightlyBuild
 
 NightlyBuild: yaml-cpp/yaml-cpp/CMakeFiles/NightlyBuild
 NightlyBuild: yaml-cpp/yaml-cpp/CMakeFiles/NightlyBuild.dir/build.make
@@ -67,10 +67,10 @@ yaml-cpp/yaml-cpp/CMakeFiles/NightlyBuild.dir/build: NightlyBuild
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/NightlyBuild.dir/build
 
 yaml-cpp/yaml-cpp/CMakeFiles/NightlyBuild.dir/clean:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && $(CMAKE_COMMAND) -P CMakeFiles/NightlyBuild.dir/cmake_clean.cmake
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp && $(CMAKE_COMMAND) -P CMakeFiles/NightlyBuild.dir/cmake_clean.cmake
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/NightlyBuild.dir/clean
 
 yaml-cpp/yaml-cpp/CMakeFiles/NightlyBuild.dir/depend:
-	cd /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp/CMakeFiles/NightlyBuild.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/yaml-cpp/yaml-cpp/CMakeFiles/NightlyBuild.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/NightlyBuild.dir/depend
 

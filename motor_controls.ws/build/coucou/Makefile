@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hd/Desktop/motor_controls.ws/src/coucou
+CMAKE_SOURCE_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hd/Desktop/motor_controls.ws/build/coucou
+CMAKE_BINARY_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/coucou/CMakeFiles /home/hd/Desktop/motor_controls.ws/build/coucou/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/CMakeFiles /home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/coucou/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -166,6 +166,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named suscriber_test
+
+# Build rule for target.
+suscriber_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 suscriber_test
+.PHONY : suscriber_test
+
+# fast build rule for target.
+suscriber_test/fast:
+	$(MAKE) -f CMakeFiles/suscriber_test.dir/build.make CMakeFiles/suscriber_test.dir/build
+.PHONY : suscriber_test/fast
 
 #=============================================================================
 # Target rules for targets named suscriber
@@ -246,6 +259,33 @@ src/read.cpp.s:
 	$(MAKE) -f CMakeFiles/suscriber.dir/build.make CMakeFiles/suscriber.dir/src/read.cpp.s
 .PHONY : src/read.cpp.s
 
+src/read_test.o: src/read_test.cpp.o
+
+.PHONY : src/read_test.o
+
+# target to build an object file
+src/read_test.cpp.o:
+	$(MAKE) -f CMakeFiles/suscriber_test.dir/build.make CMakeFiles/suscriber_test.dir/src/read_test.cpp.o
+.PHONY : src/read_test.cpp.o
+
+src/read_test.i: src/read_test.cpp.i
+
+.PHONY : src/read_test.i
+
+# target to preprocess a source file
+src/read_test.cpp.i:
+	$(MAKE) -f CMakeFiles/suscriber_test.dir/build.make CMakeFiles/suscriber_test.dir/src/read_test.cpp.i
+.PHONY : src/read_test.cpp.i
+
+src/read_test.s: src/read_test.cpp.s
+
+.PHONY : src/read_test.s
+
+# target to generate assembly for a file
+src/read_test.cpp.s:
+	$(MAKE) -f CMakeFiles/suscriber_test.dir/build.make CMakeFiles/suscriber_test.dir/src/read_test.cpp.s
+.PHONY : src/read_test.cpp.s
+
 src/send.o: src/send.cpp.o
 
 .PHONY : src/send.o
@@ -286,6 +326,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... suscriber_test"
 	@echo "... suscriber"
 	@echo "... talker"
 	@echo "... coucou_uninstall"
@@ -293,6 +334,9 @@ help:
 	@echo "... src/read.o"
 	@echo "... src/read.i"
 	@echo "... src/read.s"
+	@echo "... src/read_test.o"
+	@echo "... src/read_test.i"
+	@echo "... src/read_test.s"
 	@echo "... src/send.o"
 	@echo "... src/send.i"
 	@echo "... src/send.s"

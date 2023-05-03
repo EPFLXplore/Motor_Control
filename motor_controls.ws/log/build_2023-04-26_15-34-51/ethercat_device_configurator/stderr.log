@@ -1,0 +1,107 @@
+CMake Warning at CMakeLists.txt:28 (find_package):
+  By not providing "Findmessage_logger.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "message_logger", but CMake did not find one.
+
+  Could not find a package configuration file provided by "message_logger"
+  with any of the following names:
+
+    message_loggerConfig.cmake
+    message_logger-config.cmake
+
+  Add the installation prefix of "message_logger" to CMAKE_PREFIX_PATH or set
+  "message_logger_DIR" to a directory containing one of the above files.  If
+  "message_logger" provides a separate development package or SDK, be sure it
+  has been installed.
+
+
+CMake Warning at CMakeLists.txt:29 (find_package):
+  By not providing "Findsoem_interface.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "soem_interface", but CMake did not find one.
+
+  Could not find a package configuration file provided by "soem_interface"
+  with any of the following names:
+
+    soem_interfaceConfig.cmake
+    soem_interface-config.cmake
+
+  Add the installation prefix of "soem_interface" to CMAKE_PREFIX_PATH or set
+  "soem_interface_DIR" to a directory containing one of the above files.  If
+  "soem_interface" provides a separate development package or SDK, be sure it
+  has been installed.
+
+
+CMake Warning at CMakeLists.txt:30 (find_package):
+  By not providing "Findethercat_sdk_master.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "ethercat_sdk_master", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "ethercat_sdk_master" with any of the following names:
+
+    ethercat_sdk_masterConfig.cmake
+    ethercat_sdk_master-config.cmake
+
+  Add the installation prefix of "ethercat_sdk_master" to CMAKE_PREFIX_PATH
+  or set "ethercat_sdk_master_DIR" to a directory containing one of the above
+  files.  If "ethercat_sdk_master" provides a separate development package or
+  SDK, be sure it has been installed.
+
+
+CMake Warning at CMakeLists.txt:31 (find_package):
+  By not providing "Findmaxon_epos_ethercat_sdk.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "maxon_epos_ethercat_sdk", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "maxon_epos_ethercat_sdk" with any of the following names:
+
+    maxon_epos_ethercat_sdkConfig.cmake
+    maxon_epos_ethercat_sdk-config.cmake
+
+  Add the installation prefix of "maxon_epos_ethercat_sdk" to
+  CMAKE_PREFIX_PATH or set "maxon_epos_ethercat_sdk_DIR" to a directory
+  containing one of the above files.  If "maxon_epos_ethercat_sdk" provides a
+  separate development package or SDK, be sure it has been installed.
+
+
+ AHHHHHHHHHHHHHHHHHH message_logger
+CMake Warning at soem_interface/soem_interface/CMakeLists.txt:22 (find_package):
+  By not providing "Findsoem_rsl.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "soem_rsl",
+  but CMake did not find one.
+
+  Could not find a package configuration file provided by "soem_rsl" with any
+  of the following names:
+
+    soem_rslConfig.cmake
+    soem_rsl-config.cmake
+
+  Add the installation prefix of "soem_rsl" to CMAKE_PREFIX_PATH or set
+  "soem_rsl_DIR" to a directory containing one of the above files.  If
+  "soem_rsl" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+CMake Warning at soem_interface/soem_interface/CMakeLists.txt:23 (find_package):
+  By not providing "Findmessage_logger.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "message_logger", but CMake did not find one.
+
+  Could not find a package configuration file provided by "message_logger"
+  with any of the following names:
+
+    message_loggerConfig.cmake
+    message_logger-config.cmake
+
+  Add the installation prefix of "message_logger" to CMAKE_PREFIX_PATH or set
+  "message_logger_DIR" to a directory containing one of the above files.  If
+  "message_logger" provides a separate development package or SDK, be sure it
+  has been installed.
+
+
+CMake Error at CMakeLists.txt:82 (install):
+  install TARGETS given target "motor_control" which does not exist.
+
+

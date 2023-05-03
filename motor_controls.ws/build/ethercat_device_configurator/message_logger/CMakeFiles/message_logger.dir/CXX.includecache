@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/time/Time.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/time/Time.hpp
 cstdint
 -
 ostream
@@ -14,19 +14,19 @@ ostream
 iomanip
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/time/TimeStd.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/time/TimeStd.hpp
 cstdint
 -
 message_logger/time/Time.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/time/message_logger/time/Time.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/time/message_logger/time/Time.hpp
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/src/time/Time.cpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/src/time/Time.cpp
 message_logger/time/Time.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/src/time/message_logger/time/Time.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/src/time/message_logger/time/Time.hpp
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/src/time/TimeStd.cpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/src/time/TimeStd.cpp
 message_logger/time/TimeStd.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/src/time/message_logger/time/TimeStd.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/src/time/message_logger/time/TimeStd.hpp
 iomanip
 -
 cmath

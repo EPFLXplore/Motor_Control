@@ -1,0 +1,35 @@
+[  9%] Built target soem_interface
+[ 48%] Built target yaml-cpp
+[ 51%] Built target ethercat_sdk_master
+[ 55%] Built target message_logger
+[ 69%] Built target soem
+[ 72%] Built target yaml-cpp-read
+[ 74%] Built target yaml-cpp-parse
+[ 77%] Built target yaml-cpp-sandbox
+[ 92%] Built target maxon_epos_ethercat_sdk
+[35m[1mScanning dependencies of target motor_control[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/motor_control.dir/src/motor_control.cpp.o[0m
+In file included from [01m[K/usr/include/c++/9/cstdlib:75[m[K,
+                 from [01m[K/usr/include/c++/9/ext/string_conversions.h:41[m[K,
+                 from [01m[K/usr/include/c++/9/bits/basic_string.h:6496[m[K,
+                 from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/9/array:39[m[K,
+                 from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/include/ethercat_device_configurator/EthercatDeviceConfigurator.hpp:17[m[K,
+                 from [01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:1[m[K:
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:[m[K In constructor ‘[01m[KMotor_controller::Motor_controller(int, char**)[m[K’:
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:35:24:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
+   35 |                 return [01;31m[KEXIT_FAILURE[m[K;
+      |                        [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:52:28:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
+   52 |                     return [01;31m[KEXIT_FAILURE[m[K;
+      |                            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:70:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KmaxonEnabledAfterStartup[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   70 |             bool [01;35m[KmaxonEnabledAfterStartup[m[K = false;
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/motor_control.dir/build.make:63: CMakeFiles/motor_control.dir/src/motor_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:261: CMakeFiles/motor_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

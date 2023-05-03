@@ -1,0 +1,60 @@
+[0.071s] Invoking command in '/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/hd/ros2_foxy/install/ros2bag:/home/hd/ros2_foxy/install/tracetools_launch:/home/hd/ros2_foxy/install/topic_monitor:/home/hd/ros2_foxy/install/examples_tf2_py:/home/hd/ros2_foxy/install/sros2:/home/hd/ros2_foxy/install/rqt_topic:/home/hd/ros2_foxy/install/rqt_top:/home/hd/ros2_foxy/install/rqt_srv:/home/hd/ros2_foxy/install/rqt_shell:/home/hd/ros2_foxy/install/rqt_service_caller:/home/hd/ros2_foxy/install/rqt_reconfigure:/home/hd/ros2_foxy/install/rqt_py_console:/home/hd/ros2_foxy/install/rqt_publisher:/home/hd/ros2_foxy/install/rqt_plot:/home/hd/ros2_foxy/install/rqt_action:/home/hd/ros2_foxy/install/rqt_msg:/home/hd/ros2_foxy/install/rqt_console:/home/hd/ros2_foxy/install/rqt:/home/hd/ros2_foxy/install/rqt_graph:/home/hd/ros2_foxy/install/rqt_gui_py:/home/hd/ros2_foxy/install/rqt_gui:/home/hd/ros2_foxy/install/ros2trace:/home/hd/ros2_foxy/install/ros2topic:/home/hd/ros2_foxy/install/ros2test:/home/hd/ros2_foxy/install/ros2component:/home/hd/ros2_foxy/install/ros2param:/home/hd/ros2_foxy/install/ros2lifecycle:/home/hd/ros2_foxy/install/ros2service:/home/hd/ros2_foxy/install/ros2run:/home/hd/ros2_foxy/install/ros2launch:/home/hd/ros2_foxy/install/ros2pkg:/home/hd/ros2_foxy/install/ros2node:/home/hd/ros2_foxy/install/ros2multicast:/home/hd/ros2_foxy/install/ros2interface:/home/hd/ros2_foxy/install/ros2doctor:/home/hd/ros2_foxy/install/ros2action:/home/hd/ros2_foxy/install/ros2cli:/home/hd/ros2_foxy/install/quality_of_service_demo_py:/home/hd/ros2_foxy/install/launch_testing_ros:/home/hd/ros2_foxy/install/launch_ros:/home/hd/ros2_foxy/install/joystick_ros2:/home/hd/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/hd/ros2_foxy/install/examples_rclpy_minimal_service:/home/hd/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/hd/ros2_foxy/install/examples_rclpy_minimal_client:/home/hd/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/hd/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/hd/ros2_foxy/install/examples_rclpy_executors:/home/hd/ros2_foxy/install/demo_nodes_py:/home/hd/ros2_foxy/install/action_tutorials_py:/home/hd/ros2_foxy/install/ament_uncrustify:/home/hd/ros2_foxy/install/tracetools_trace:/home/hd/ros2_foxy/install/tracetools_read:/home/hd/ros2_foxy/install/test_launch_ros:/home/hd/ros2_foxy/install/sensor_msgs_py:/home/hd/ros2_foxy/install/rpyutils:/home/hd/ros2_foxy/install/rosidl_runtime_py:/home/hd/ros2_foxy/install/launch_yaml:/home/hd/ros2_foxy/install/launch_xml:/home/hd/ros2_foxy/install/launch_testing:/home/hd/ros2_foxy/install/launch:/home/hd/ros2_foxy/install/osrf_pycommon:/home/hd/ros2_foxy/install/domain_coordinator:/home/hd/ros2_foxy/install/ament_xmllint:/home/hd/ros2_foxy/install/ament_pyflakes:/home/hd/ros2_foxy/install/ament_pycodestyle:/home/hd/ros2_foxy/install/ament_pep257:/home/hd/ros2_foxy/install/ament_pclint:/home/hd/ros2_foxy/install/ament_package:/home/hd/ros2_foxy/install/ament_mypy:/home/hd/ros2_foxy/install/ament_lint_cmake:/home/hd/ros2_foxy/install/ament_flake8:/home/hd/ros2_foxy/install/ament_copyright:/home/hd/ros2_foxy/install/ament_lint:/home/hd/ros2_foxy/install/ament_index_python:/home/hd/ros2_foxy/install/ament_cpplint:/home/hd/ros2_foxy/install/ament_cppcheck:/home/hd/ros2_foxy/install/ament_clang_tidy:/home/hd/ros2_foxy/install/ament_clang_format /usr/bin/cmake --build /home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou -- -j2 -l2
+[0.188s] -- Found ament_cmake: 0.9.11 (/home/hd/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+[0.756s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.756s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.661s] -- Found rclcpp: 2.4.2 (/home/hd/ros2_foxy/install/rclcpp/share/rclcpp/cmake)
+[1.811s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.816s] -- Found rosidl_adapter: 1.3.0 (/home/hd/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[2.230s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.338s] -- Found rmw_implementation_cmake: 1.0.4 (/home/hd/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+[2.395s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.702s] -- Found sensor_msgs: 2.0.5 (/home/hd/ros2_foxy/install/sensor_msgs/share/sensor_msgs/cmake)
+[2.920s] -- Found rosidl_default_generators: 1.0.1 (/home/hd/ros2_foxy/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[3.650s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[4.607s] CMake Error at /home/hd/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[4.608s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name coucou
+[4.608s]   --arguments-file
+[4.608s]   /home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/rosidl_adapter__arguments__coucou.json
+[4.608s]   --output-dir
+[4.608s]   /home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/rosidl_adapter/coucou
+[4.608s]   --output-file
+[4.608s]   /home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/rosidl_adapter/coucou.idls)
+[4.608s]   returned error code 1:
+[4.608s] 
+[4.608s]   Error processing 'int mode' of 'coucou/Motor_Command': ''int' is an invalid
+[4.608s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''
+[4.609s] 
+[4.609s]   Traceback (most recent call last):
+[4.609s] 
+[4.609s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[4.609s]       return _run_code(code, main_globals, None,
+[4.609s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[4.609s]       exec(code, run_globals)
+[4.609s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[4.609s]       sys.exit(main())
+[4.609s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[4.609s]       abs_idl_file = convert_to_idl(
+[4.610s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[4.610s]       return convert_msg_to_idl(
+[4.610s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[4.610s]       msg = parse_message_string(package_name, input_file.stem, content)
+[4.610s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 516, in parse_message_string
+[4.611s]       Type(type_string, context_package_name=pkg_name),
+[4.611s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 276, in __init__
+[4.611s]       super(Type, self).__init__(
+[4.611s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__
+[4.611s]       raise InvalidResourceName(
+[4.611s] 
+[4.611s]   rosidl_adapter.parser.InvalidResourceName: 'int' is an invalid message
+[4.612s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[4.612s] 
+[4.612s] Call Stack (most recent call first):
+[4.612s]   /home/hd/ros2_foxy/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[4.612s]   CMakeLists.txt:20 (rosidl_generate_interfaces)
+[4.612s] 
+[4.612s] 
+[4.613s] -- Configuring incomplete, errors occurred!
+[4.613s] See also "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/CMakeFiles/CMakeOutput.log".
+[4.613s] See also "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/CMakeFiles/CMakeError.log".
+[4.621s] make: *** [Makefile:310: cmake_check_build_system] Error 1
+[4.629s] Invoked command in '/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/hd/ros2_foxy/install/ros2bag:/home/hd/ros2_foxy/install/tracetools_launch:/home/hd/ros2_foxy/install/topic_monitor:/home/hd/ros2_foxy/install/examples_tf2_py:/home/hd/ros2_foxy/install/sros2:/home/hd/ros2_foxy/install/rqt_topic:/home/hd/ros2_foxy/install/rqt_top:/home/hd/ros2_foxy/install/rqt_srv:/home/hd/ros2_foxy/install/rqt_shell:/home/hd/ros2_foxy/install/rqt_service_caller:/home/hd/ros2_foxy/install/rqt_reconfigure:/home/hd/ros2_foxy/install/rqt_py_console:/home/hd/ros2_foxy/install/rqt_publisher:/home/hd/ros2_foxy/install/rqt_plot:/home/hd/ros2_foxy/install/rqt_action:/home/hd/ros2_foxy/install/rqt_msg:/home/hd/ros2_foxy/install/rqt_console:/home/hd/ros2_foxy/install/rqt:/home/hd/ros2_foxy/install/rqt_graph:/home/hd/ros2_foxy/install/rqt_gui_py:/home/hd/ros2_foxy/install/rqt_gui:/home/hd/ros2_foxy/install/ros2trace:/home/hd/ros2_foxy/install/ros2topic:/home/hd/ros2_foxy/install/ros2test:/home/hd/ros2_foxy/install/ros2component:/home/hd/ros2_foxy/install/ros2param:/home/hd/ros2_foxy/install/ros2lifecycle:/home/hd/ros2_foxy/install/ros2service:/home/hd/ros2_foxy/install/ros2run:/home/hd/ros2_foxy/install/ros2launch:/home/hd/ros2_foxy/install/ros2pkg:/home/hd/ros2_foxy/install/ros2node:/home/hd/ros2_foxy/install/ros2multicast:/home/hd/ros2_foxy/install/ros2interface:/home/hd/ros2_foxy/install/ros2doctor:/home/hd/ros2_foxy/install/ros2action:/home/hd/ros2_foxy/install/ros2cli:/home/hd/ros2_foxy/install/quality_of_service_demo_py:/home/hd/ros2_foxy/install/launch_testing_ros:/home/hd/ros2_foxy/install/launch_ros:/home/hd/ros2_foxy/install/joystick_ros2:/home/hd/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/hd/ros2_foxy/install/examples_rclpy_minimal_service:/home/hd/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/hd/ros2_foxy/install/examples_rclpy_minimal_client:/home/hd/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/hd/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/hd/ros2_foxy/install/examples_rclpy_executors:/home/hd/ros2_foxy/install/demo_nodes_py:/home/hd/ros2_foxy/install/action_tutorials_py:/home/hd/ros2_foxy/install/ament_uncrustify:/home/hd/ros2_foxy/install/tracetools_trace:/home/hd/ros2_foxy/install/tracetools_read:/home/hd/ros2_foxy/install/test_launch_ros:/home/hd/ros2_foxy/install/sensor_msgs_py:/home/hd/ros2_foxy/install/rpyutils:/home/hd/ros2_foxy/install/rosidl_runtime_py:/home/hd/ros2_foxy/install/launch_yaml:/home/hd/ros2_foxy/install/launch_xml:/home/hd/ros2_foxy/install/launch_testing:/home/hd/ros2_foxy/install/launch:/home/hd/ros2_foxy/install/osrf_pycommon:/home/hd/ros2_foxy/install/domain_coordinator:/home/hd/ros2_foxy/install/ament_xmllint:/home/hd/ros2_foxy/install/ament_pyflakes:/home/hd/ros2_foxy/install/ament_pycodestyle:/home/hd/ros2_foxy/install/ament_pep257:/home/hd/ros2_foxy/install/ament_pclint:/home/hd/ros2_foxy/install/ament_package:/home/hd/ros2_foxy/install/ament_mypy:/home/hd/ros2_foxy/install/ament_lint_cmake:/home/hd/ros2_foxy/install/ament_flake8:/home/hd/ros2_foxy/install/ament_copyright:/home/hd/ros2_foxy/install/ament_lint:/home/hd/ros2_foxy/install/ament_index_python:/home/hd/ros2_foxy/install/ament_cpplint:/home/hd/ros2_foxy/install/ament_cppcheck:/home/hd/ros2_foxy/install/ament_clang_tidy:/home/hd/ros2_foxy/install/ament_clang_format /usr/bin/cmake --build /home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou -- -j2 -l2

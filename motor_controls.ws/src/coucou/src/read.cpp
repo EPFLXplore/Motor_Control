@@ -1,7 +1,11 @@
 #include <memory>
 
 #include "rclcpp/rclcpp.hpp"
-#include "std_msgs/msg/string.hpp"
+#include "sensor_msgs/msg/joy.hpp"
+#include "motor_control_interfaces/msg/motor_command.hpp"
+
+#include <iostream>
+
 using std::placeholders::_1;
 
 class MinimalSubscriber : public rclcpp::Node
@@ -10,16 +14,46 @@ class MinimalSubscriber : public rclcpp::Node
     MinimalSubscriber()
     : Node("minimal_subscriber")
     {
-      subscription_ = this->create_subscription<std_msgs::msg::String>(
-      "topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
+      subscription_ = this->create_subscription<sensor_msgs::msg::Joy>(
+      "joy", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
+
+      publisher_ = this->create_publisher<motor_control_interfaces::msg::MotorCommand>("motor_command", 10);
+      
     }
 
   private:
-    void topic_callback(const std_msgs::msg::String::SharedPtr msg) const
+    void topic_callback(const sensor_msgs::msg::Joy::SharedPtr msg) const
     {
-      RCLCPP_INFO(this->get_logger(), "I heard: '%s'", msg->data.c_str());
+      std::cout << msg->axes[0] << " , " << msg->axes[1] << std::endl;
+
+      auto message = motor_control_interfaces::msg::MotorCommand();
+
+      message.name = "J1";
+      message.mode = 1;
+      message.commande = msg->axes[0]*200;
+
+      publisher_->publish(message);
+
+      // message.name = "J2";
+      // message.mode = 1;
+      // message.commande = msg->axes[1];
+
+      // message.name = "J3";
+      // message.mode = 1;
+      // message.commande = msg->axes[3];
+
+      // message.name = "J4";
+      // message.mode = 1;
+      // message.commande = msg->axes[0];
+
+      // message.name = "J5";
+      // message.mode = 1;
+      // message.commande = msg->axes[0];
+
     }
-    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
+
+    rclcpp::Subscription<sensor_msgs::msg::Joy>::SharedPtr subscription_;
+    rclcpp::Publisher<motor_control_interfaces::msg::MotorCommand>::SharedPtr publisher_;
 };
 
 int main(int argc, char * argv[])

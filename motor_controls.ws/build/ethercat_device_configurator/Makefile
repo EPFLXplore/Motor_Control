@@ -48,13 +48,25 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator
+CMAKE_SOURCE_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator
+CMAKE_BINARY_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator
 
 #=============================================================================
 # Targets provided globally by CMake.
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
@@ -123,23 +135,11 @@ test/fast: test
 
 .PHONY : test/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -164,22 +164,22 @@ preinstall/fast:
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -P /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named standalone
+# Target rules for targets named motor_control
 
 # Build rule for target.
-standalone: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 standalone
-.PHONY : standalone
+motor_control: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 motor_control
+.PHONY : motor_control
 
 # fast build rule for target.
-standalone/fast:
-	$(MAKE) -f CMakeFiles/standalone.dir/build.make CMakeFiles/standalone.dir/build
-.PHONY : standalone/fast
+motor_control/fast:
+	$(MAKE) -f CMakeFiles/motor_control.dir/build.make CMakeFiles/motor_control.dir/build
+.PHONY : motor_control/fast
 
 #=============================================================================
 # Target rules for targets named ethercat_device_configurator_uninstall
@@ -707,7 +707,7 @@ include/ethercat_device_configurator/soem/soem/ethercatconfig.o: include/etherca
 
 # target to build an object file
 include/ethercat_device_configurator/soem/soem/ethercatconfig.c.o:
-	$(MAKE) -f CMakeFiles/standalone.dir/build.make CMakeFiles/standalone.dir/include/ethercat_device_configurator/soem/soem/ethercatconfig.c.o
+	$(MAKE) -f CMakeFiles/motor_control.dir/build.make CMakeFiles/motor_control.dir/include/ethercat_device_configurator/soem/soem/ethercatconfig.c.o
 .PHONY : include/ethercat_device_configurator/soem/soem/ethercatconfig.c.o
 
 include/ethercat_device_configurator/soem/soem/ethercatconfig.i: include/ethercat_device_configurator/soem/soem/ethercatconfig.c.i
@@ -716,7 +716,7 @@ include/ethercat_device_configurator/soem/soem/ethercatconfig.i: include/etherca
 
 # target to preprocess a source file
 include/ethercat_device_configurator/soem/soem/ethercatconfig.c.i:
-	$(MAKE) -f CMakeFiles/standalone.dir/build.make CMakeFiles/standalone.dir/include/ethercat_device_configurator/soem/soem/ethercatconfig.c.i
+	$(MAKE) -f CMakeFiles/motor_control.dir/build.make CMakeFiles/motor_control.dir/include/ethercat_device_configurator/soem/soem/ethercatconfig.c.i
 .PHONY : include/ethercat_device_configurator/soem/soem/ethercatconfig.c.i
 
 include/ethercat_device_configurator/soem/soem/ethercatconfig.s: include/ethercat_device_configurator/soem/soem/ethercatconfig.c.s
@@ -725,7 +725,7 @@ include/ethercat_device_configurator/soem/soem/ethercatconfig.s: include/etherca
 
 # target to generate assembly for a file
 include/ethercat_device_configurator/soem/soem/ethercatconfig.c.s:
-	$(MAKE) -f CMakeFiles/standalone.dir/build.make CMakeFiles/standalone.dir/include/ethercat_device_configurator/soem/soem/ethercatconfig.c.s
+	$(MAKE) -f CMakeFiles/motor_control.dir/build.make CMakeFiles/motor_control.dir/include/ethercat_device_configurator/soem/soem/ethercatconfig.c.s
 .PHONY : include/ethercat_device_configurator/soem/soem/ethercatconfig.c.s
 
 include/ethercat_device_configurator/soem/soem/ethercatdc.o: include/ethercat_device_configurator/soem/soem/ethercatdc.c.o
@@ -734,7 +734,7 @@ include/ethercat_device_configurator/soem/soem/ethercatdc.o: include/ethercat_de
 
 # target to build an object file
 include/ethercat_device_configurator/soem/soem/ethercatdc.c.o:
-	$(MAKE) -f CMakeFiles/standalone.dir/build.make CMakeFiles/standalone.dir/include/ethercat_device_configurator/soem/soem/ethercatdc.c.o
+	$(MAKE) -f CMakeFiles/motor_control.dir/build.make CMakeFiles/motor_control.dir/include/ethercat_device_configurator/soem/soem/ethercatdc.c.o
 .PHONY : include/ethercat_device_configurator/soem/soem/ethercatdc.c.o
 
 include/ethercat_device_configurator/soem/soem/ethercatdc.i: include/ethercat_device_configurator/soem/soem/ethercatdc.c.i
@@ -743,7 +743,7 @@ include/ethercat_device_configurator/soem/soem/ethercatdc.i: include/ethercat_de
 
 # target to preprocess a source file
 include/ethercat_device_configurator/soem/soem/ethercatdc.c.i:
-	$(MAKE) -f CMakeFiles/standalone.dir/build.make CMakeFiles/standalone.dir/include/ethercat_device_configurator/soem/soem/ethercatdc.c.i
+	$(MAKE) -f CMakeFiles/motor_control.dir/build.make CMakeFiles/motor_control.dir/include/ethercat_device_configurator/soem/soem/ethercatdc.c.i
 .PHONY : include/ethercat_device_configurator/soem/soem/ethercatdc.c.i
 
 include/ethercat_device_configurator/soem/soem/ethercatdc.s: include/ethercat_device_configurator/soem/soem/ethercatdc.c.s
@@ -752,7 +752,7 @@ include/ethercat_device_configurator/soem/soem/ethercatdc.s: include/ethercat_de
 
 # target to generate assembly for a file
 include/ethercat_device_configurator/soem/soem/ethercatdc.c.s:
-	$(MAKE) -f CMakeFiles/standalone.dir/build.make CMakeFiles/standalone.dir/include/ethercat_device_configurator/soem/soem/ethercatdc.c.s
+	$(MAKE) -f CMakeFiles/motor_control.dir/build.make CMakeFiles/motor_control.dir/include/ethercat_device_configurator/soem/soem/ethercatdc.c.s
 .PHONY : include/ethercat_device_configurator/soem/soem/ethercatdc.c.s
 
 include/ethercat_device_configurator/soem/soem/ethercatprint.o: include/ethercat_device_configurator/soem/soem/ethercatprint.c.o
@@ -761,7 +761,7 @@ include/ethercat_device_configurator/soem/soem/ethercatprint.o: include/ethercat
 
 # target to build an object file
 include/ethercat_device_configurator/soem/soem/ethercatprint.c.o:
-	$(MAKE) -f CMakeFiles/standalone.dir/build.make CMakeFiles/standalone.dir/include/ethercat_device_configurator/soem/soem/ethercatprint.c.o
+	$(MAKE) -f CMakeFiles/motor_control.dir/build.make CMakeFiles/motor_control.dir/include/ethercat_device_configurator/soem/soem/ethercatprint.c.o
 .PHONY : include/ethercat_device_configurator/soem/soem/ethercatprint.c.o
 
 include/ethercat_device_configurator/soem/soem/ethercatprint.i: include/ethercat_device_configurator/soem/soem/ethercatprint.c.i
@@ -770,7 +770,7 @@ include/ethercat_device_configurator/soem/soem/ethercatprint.i: include/ethercat
 
 # target to preprocess a source file
 include/ethercat_device_configurator/soem/soem/ethercatprint.c.i:
-	$(MAKE) -f CMakeFiles/standalone.dir/build.make CMakeFiles/standalone.dir/include/ethercat_device_configurator/soem/soem/ethercatprint.c.i
+	$(MAKE) -f CMakeFiles/motor_control.dir/build.make CMakeFiles/motor_control.dir/include/ethercat_device_configurator/soem/soem/ethercatprint.c.i
 .PHONY : include/ethercat_device_configurator/soem/soem/ethercatprint.c.i
 
 include/ethercat_device_configurator/soem/soem/ethercatprint.s: include/ethercat_device_configurator/soem/soem/ethercatprint.c.s
@@ -779,7 +779,7 @@ include/ethercat_device_configurator/soem/soem/ethercatprint.s: include/ethercat
 
 # target to generate assembly for a file
 include/ethercat_device_configurator/soem/soem/ethercatprint.c.s:
-	$(MAKE) -f CMakeFiles/standalone.dir/build.make CMakeFiles/standalone.dir/include/ethercat_device_configurator/soem/soem/ethercatprint.c.s
+	$(MAKE) -f CMakeFiles/motor_control.dir/build.make CMakeFiles/motor_control.dir/include/ethercat_device_configurator/soem/soem/ethercatprint.c.s
 .PHONY : include/ethercat_device_configurator/soem/soem/ethercatprint.c.s
 
 src/EthercatDeviceConfigurator.o: src/EthercatDeviceConfigurator.cpp.o
@@ -788,7 +788,7 @@ src/EthercatDeviceConfigurator.o: src/EthercatDeviceConfigurator.cpp.o
 
 # target to build an object file
 src/EthercatDeviceConfigurator.cpp.o:
-	$(MAKE) -f CMakeFiles/standalone.dir/build.make CMakeFiles/standalone.dir/src/EthercatDeviceConfigurator.cpp.o
+	$(MAKE) -f CMakeFiles/motor_control.dir/build.make CMakeFiles/motor_control.dir/src/EthercatDeviceConfigurator.cpp.o
 .PHONY : src/EthercatDeviceConfigurator.cpp.o
 
 src/EthercatDeviceConfigurator.i: src/EthercatDeviceConfigurator.cpp.i
@@ -797,7 +797,7 @@ src/EthercatDeviceConfigurator.i: src/EthercatDeviceConfigurator.cpp.i
 
 # target to preprocess a source file
 src/EthercatDeviceConfigurator.cpp.i:
-	$(MAKE) -f CMakeFiles/standalone.dir/build.make CMakeFiles/standalone.dir/src/EthercatDeviceConfigurator.cpp.i
+	$(MAKE) -f CMakeFiles/motor_control.dir/build.make CMakeFiles/motor_control.dir/src/EthercatDeviceConfigurator.cpp.i
 .PHONY : src/EthercatDeviceConfigurator.cpp.i
 
 src/EthercatDeviceConfigurator.s: src/EthercatDeviceConfigurator.cpp.s
@@ -806,35 +806,35 @@ src/EthercatDeviceConfigurator.s: src/EthercatDeviceConfigurator.cpp.s
 
 # target to generate assembly for a file
 src/EthercatDeviceConfigurator.cpp.s:
-	$(MAKE) -f CMakeFiles/standalone.dir/build.make CMakeFiles/standalone.dir/src/EthercatDeviceConfigurator.cpp.s
+	$(MAKE) -f CMakeFiles/motor_control.dir/build.make CMakeFiles/motor_control.dir/src/EthercatDeviceConfigurator.cpp.s
 .PHONY : src/EthercatDeviceConfigurator.cpp.s
 
-src/standalone.o: src/standalone.cpp.o
+src/motor_control.o: src/motor_control.cpp.o
 
-.PHONY : src/standalone.o
+.PHONY : src/motor_control.o
 
 # target to build an object file
-src/standalone.cpp.o:
-	$(MAKE) -f CMakeFiles/standalone.dir/build.make CMakeFiles/standalone.dir/src/standalone.cpp.o
-.PHONY : src/standalone.cpp.o
+src/motor_control.cpp.o:
+	$(MAKE) -f CMakeFiles/motor_control.dir/build.make CMakeFiles/motor_control.dir/src/motor_control.cpp.o
+.PHONY : src/motor_control.cpp.o
 
-src/standalone.i: src/standalone.cpp.i
+src/motor_control.i: src/motor_control.cpp.i
 
-.PHONY : src/standalone.i
+.PHONY : src/motor_control.i
 
 # target to preprocess a source file
-src/standalone.cpp.i:
-	$(MAKE) -f CMakeFiles/standalone.dir/build.make CMakeFiles/standalone.dir/src/standalone.cpp.i
-.PHONY : src/standalone.cpp.i
+src/motor_control.cpp.i:
+	$(MAKE) -f CMakeFiles/motor_control.dir/build.make CMakeFiles/motor_control.dir/src/motor_control.cpp.i
+.PHONY : src/motor_control.cpp.i
 
-src/standalone.s: src/standalone.cpp.s
+src/motor_control.s: src/motor_control.cpp.s
 
-.PHONY : src/standalone.s
+.PHONY : src/motor_control.s
 
 # target to generate assembly for a file
-src/standalone.cpp.s:
-	$(MAKE) -f CMakeFiles/standalone.dir/build.make CMakeFiles/standalone.dir/src/standalone.cpp.s
-.PHONY : src/standalone.cpp.s
+src/motor_control.cpp.s:
+	$(MAKE) -f CMakeFiles/motor_control.dir/build.make CMakeFiles/motor_control.dir/src/motor_control.cpp.s
+.PHONY : src/motor_control.cpp.s
 
 # Help Target
 help:
@@ -842,14 +842,14 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... install/strip"
-	@echo "... standalone"
+	@echo "... motor_control"
 	@echo "... ethercat_device_configurator_uninstall"
 	@echo "... uninstall"
 	@echo "... format"
@@ -902,9 +902,9 @@ help:
 	@echo "... src/EthercatDeviceConfigurator.o"
 	@echo "... src/EthercatDeviceConfigurator.i"
 	@echo "... src/EthercatDeviceConfigurator.s"
-	@echo "... src/standalone.o"
-	@echo "... src/standalone.i"
-	@echo "... src/standalone.s"
+	@echo "... src/motor_control.o"
+	@echo "... src/motor_control.i"
+	@echo "... src/motor_control.s"
 .PHONY : help
 
 
@@ -916,7 +916,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

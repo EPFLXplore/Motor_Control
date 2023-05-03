@@ -1,7 +1,7 @@
-prefix=/home/hd/Desktop/motor_controls.ws/install/ethercat_device_configurator
+prefix=/home/hd/Desktop/Motor_Control/motor_controls.ws/install/ethercat_device_configurator
 exec_prefix=${prefix}
-includedir=/home/hd/Desktop/motor_controls.ws/install/ethercat_device_configurator/include
-libdir=/home/hd/Desktop/motor_controls.ws/install/ethercat_device_configurator/lib
+includedir=/home/hd/Desktop/Motor_Control/motor_controls.ws/install/ethercat_device_configurator/include
+libdir=/home/hd/Desktop/Motor_Control/motor_controls.ws/install/ethercat_device_configurator/lib
 
 Name: Yaml-cpp
 Description: A YAML parser and emitter for C++

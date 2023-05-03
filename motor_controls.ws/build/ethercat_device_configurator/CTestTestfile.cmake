@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator
-# Build directory: /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator
+# Source directory: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator
+# Build directory: /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

@@ -1,0 +1,24 @@
+{
+  "package_name": "coucou",
+  "output_dir": "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/rosidl_generator_c/coucou",
+  "template_dir": "/home/hd/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/rosidl_adapter/coucou:msg/MotorCommand.idl"
+  ],
+  "target_dependencies": [
+    "/home/hd/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/home/hd/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../../../lib/python3.8/site-packages/rosidl_generator_c/__init__.py",
+    "/home/hd/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/home/hd/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/home/hd/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/home/hd/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/home/hd/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/home/hd/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/home/hd/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/home/hd/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/home/hd/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/home/hd/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/home/hd/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/rosidl_adapter/coucou/msg/MotorCommand.idl"
+  ]
+}

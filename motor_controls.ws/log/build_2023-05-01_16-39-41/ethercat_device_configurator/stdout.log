@@ -1,0 +1,11 @@
+[ 38%] Built target yaml-cpp
+[ 48%] Built target soem_interface
+[ 51%] Built target ethercat_sdk_master
+[ 67%] Built target maxon_epos_ethercat_sdk
+[ 81%] Built target soem
+[ 85%] Built target message_logger
+[ 87%] Built target yaml-cpp-read
+[ 90%] Built target yaml-cpp-parse
+[35m[1mScanning dependencies of target motor_control[0m
+[ 92%] Built target yaml-cpp-sandbox
+[ 93%] [32mBuilding CXX object CMakeFiles/motor_control.dir/src/motor_control.cpp.o[0m

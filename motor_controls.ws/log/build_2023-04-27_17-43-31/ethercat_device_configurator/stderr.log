@@ -1,0 +1,6 @@
+ AHHHHHHHHHHHHHHHHHH message_logger
+CMake Error at CMakeLists.txt:60 (target_link_directories):
+  target_link_directories called with invalid arguments
+
+
+make: *** [Makefile:920: cmake_check_build_system] Error 1

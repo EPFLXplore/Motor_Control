@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/include/ethercat_sdk_master/EthercatDevice.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/ethercat_sdk_master/include/ethercat_sdk_master/EthercatDevice.hpp
 soem_interface/EthercatBusBase.hpp
 -
 soem_interface/EthercatSlaveBase.hpp
@@ -22,7 +22,7 @@ thread
 chrono
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Command.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Command.hpp
 cmath
 -
 cstdint
@@ -34,9 +34,9 @@ mutex
 string
 -
 maxon_epos_ethercat_sdk/ModeOfOperationEnum.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/ModeOfOperationEnum.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/ModeOfOperationEnum.hpp
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Configuration.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Configuration.hpp
 cstdint
 -
 iostream
@@ -46,11 +46,11 @@ utility
 vector
 -
 maxon_epos_ethercat_sdk/ModeOfOperationEnum.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/ModeOfOperationEnum.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/ModeOfOperationEnum.hpp
 maxon_epos_ethercat_sdk/PdoTypeEnum.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/PdoTypeEnum.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/PdoTypeEnum.hpp
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/ConfigurationParser.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/ConfigurationParser.hpp
 yaml-cpp/yaml.h
 -
 message_logger/message_logger.hpp
@@ -58,21 +58,21 @@ message_logger/message_logger.hpp
 string
 -
 maxon_epos_ethercat_sdk/Configuration.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Configuration.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Configuration.hpp
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Controlword.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Controlword.hpp
 cstdint
 -
 iostream
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/DriveState.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/DriveState.hpp
 ostream
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Error.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Error.hpp
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Maxon.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Maxon.hpp
 yaml-cpp/yaml.h
 -
 atomic
@@ -88,33 +88,33 @@ mutex
 string
 -
 maxon_epos_ethercat_sdk/Command.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Command.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Command.hpp
 maxon_epos_ethercat_sdk/Controlword.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Controlword.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Controlword.hpp
 maxon_epos_ethercat_sdk/DriveState.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/DriveState.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/DriveState.hpp
 maxon_epos_ethercat_sdk/Reading.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Reading.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Reading.hpp
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/ModeOfOperationEnum.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/ModeOfOperationEnum.hpp
 cstdint
 -
 iostream
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/ObjectDictionary.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/ObjectDictionary.hpp
 cstdint
 -
 vector
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/PdoTypeEnum.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/PdoTypeEnum.hpp
 cstdint
 -
 ostream
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Reading.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Reading.hpp
 chrono
 -
 cstdint
@@ -130,19 +130,19 @@ string
 cmath
 -
 maxon_epos_ethercat_sdk/Configuration.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Configuration.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Configuration.hpp
 maxon_epos_ethercat_sdk/DriveState.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/DriveState.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/DriveState.hpp
 maxon_epos_ethercat_sdk/Error.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Error.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Error.hpp
 maxon_epos_ethercat_sdk/Statusword.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Statusword.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Statusword.hpp
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/RxPdo.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/RxPdo.hpp
 cstdint
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Statusword.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Statusword.hpp
 cstdint
 -
 iomanip
@@ -152,21 +152,21 @@ iostream
 string
 -
 maxon_epos_ethercat_sdk/DriveState.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/DriveState.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/DriveState.hpp
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/TxPdo.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/TxPdo.hpp
 cstdint
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/Command.cpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/Command.cpp
 maxon_epos_ethercat_sdk/Command.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Command.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Command.hpp
 iomanip
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/Configuration.cpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/Configuration.cpp
 maxon_epos_ethercat_sdk/Configuration.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Configuration.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Configuration.hpp
 iomanip
 -
 vector
@@ -178,41 +178,41 @@ algorithm
 utility
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/ConfigurationParser.cpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/ConfigurationParser.cpp
 cstdint
 -
 maxon_epos_ethercat_sdk/ConfigurationParser.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/ConfigurationParser.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/ConfigurationParser.hpp
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/ConfigureParameters.cpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/ConfigureParameters.cpp
 array
 -
 thread
 -
 maxon_epos_ethercat_sdk/Maxon.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Maxon.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Maxon.hpp
 maxon_epos_ethercat_sdk/ObjectDictionary.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/ObjectDictionary.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/ObjectDictionary.hpp
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/Controlword.cpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/Controlword.cpp
 iomanip
 -
 maxon_epos_ethercat_sdk/Controlword.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Controlword.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Controlword.hpp
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/Diagnostics.cpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/Diagnostics.cpp
 maxon_epos_ethercat_sdk/Maxon.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Maxon.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Maxon.hpp
 maxon_epos_ethercat_sdk/ObjectDictionary.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/ObjectDictionary.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/ObjectDictionary.hpp
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/DriveState.cpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/DriveState.cpp
 maxon_epos_ethercat_sdk/DriveState.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/DriveState.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/DriveState.hpp
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/Maxon.cpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/Maxon.cpp
 maxon_epos_ethercat_sdk/Maxon.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Maxon.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Maxon.hpp
 chrono
 -
 cmath
@@ -224,39 +224,39 @@ thread
 algorithm
 -
 maxon_epos_ethercat_sdk/ConfigurationParser.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/ConfigurationParser.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/ConfigurationParser.hpp
 maxon_epos_ethercat_sdk/ObjectDictionary.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/ObjectDictionary.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/ObjectDictionary.hpp
 maxon_epos_ethercat_sdk/RxPdo.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/RxPdo.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/RxPdo.hpp
 maxon_epos_ethercat_sdk/TxPdo.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/TxPdo.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/TxPdo.hpp
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/ModeOfOperationEnum.cpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/ModeOfOperationEnum.cpp
 maxon_epos_ethercat_sdk/ModeOfOperationEnum.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/ModeOfOperationEnum.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/ModeOfOperationEnum.hpp
 unordered_map
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/PdoTypeEnum.cpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/PdoTypeEnum.cpp
 maxon_epos_ethercat_sdk/PdoTypeEnum.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/PdoTypeEnum.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/PdoTypeEnum.hpp
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/Reading.cpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/Reading.cpp
 cmath
 -
 maxon_epos_ethercat_sdk/Reading.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Reading.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Reading.hpp
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/Statusword.cpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/Statusword.cpp
 maxon_epos_ethercat_sdk/Statusword.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Statusword.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/maxon_epos_ethercat_sdk/Statusword.hpp
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/common/colors.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/common/colors.hpp
 string
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/common/preprocessor_defines.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/common/preprocessor_defines.hpp
 stdexcept
 -
 sstream
@@ -270,9 +270,9 @@ sstream
 stdarg.h
 -
 message_logger/common/source_file_pos.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/common/message_logger/common/source_file_pos.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/common/message_logger/common/source_file_pos.hpp
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/common/source_file_pos.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/common/source_file_pos.hpp
 string
 -
 iostream
@@ -280,49 +280,49 @@ iostream
 sstream
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/log_messages.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/log_messages.hpp
 message_logger/common/preprocessor_defines.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/message_logger/common/preprocessor_defines.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/message_logger/common/preprocessor_defines.hpp
 message_logger/log/log_messages_backend.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/message_logger/log/log_messages_backend.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/message_logger/log/log_messages_backend.hpp
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/log_messages_backend.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/log_messages_backend.hpp
 message_logger/common/preprocessor_defines.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/message_logger/common/preprocessor_defines.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/message_logger/common/preprocessor_defines.hpp
 message_logger/common/colors.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/message_logger/common/colors.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/message_logger/common/colors.hpp
 message_logger/log/log_messages_backend_config.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/message_logger/log/log_messages_backend_config.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/message_logger/log/log_messages_backend_config.hpp
 boost/regex.hpp
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/log_messages_backend_config.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/log_messages_backend_config.hpp
 message_logger/common/preprocessor_defines.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/message_logger/common/preprocessor_defines.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/message_logger/common/preprocessor_defines.hpp
 message_logger/log/log_messages_std.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/message_logger/log/log_messages_std.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/message_logger/log/log_messages_std.hpp
 message_logger/log/log_messages_ros.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/message_logger/log/log_messages_ros.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/message_logger/log/log_messages_ros.hpp
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/log_messages_ros.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/log_messages_ros.hpp
 rclcpp/rclcpp.hpp
 -
 message_logger/log/log_messages_backend.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/message_logger/log/log_messages_backend.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/message_logger/log/log_messages_backend.hpp
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/log_messages_std.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/log_messages_std.hpp
 message_logger/log/log_messages_backend.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/message_logger/log/log_messages_backend.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/message_logger/log/log_messages_backend.hpp
 message_logger/time/TimeStd.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/message_logger/time/TimeStd.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/log/message_logger/time/TimeStd.hpp
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/message_logger.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/message_logger.hpp
 message_logger/log/log_messages.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/message_logger/log/log_messages.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/message_logger/log/log_messages.hpp
 message_logger/common/colors.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/message_logger/common/colors.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/message_logger/common/colors.hpp
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/time/Time.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/time/Time.hpp
 cstdint
 -
 ostream
@@ -330,71 +330,71 @@ ostream
 iomanip
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/time/TimeStd.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/time/TimeStd.hpp
 cstdint
 -
 message_logger/time/Time.hpp
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/time/message_logger/time/Time.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/message_logger/include/message_logger/time/message_logger/time/Time.hpp
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/osal/osal.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/osal/osal.h
 soem/osal/osal_defs.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/osal/soem/osal/osal_defs.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/osal/soem/osal/osal_defs.h
 stdint.h
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/osal/osal_defs.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/osal/osal_defs.h
 pthread.h
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/oshw/nicdrv.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/oshw/nicdrv.h
 pthread.h
 -
 soem/soem/ethercattype.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/oshw/soem/soem/ethercattype.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/oshw/soem/soem/ethercattype.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercat.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercat.h
 soem/soem/ethercattype.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercattype.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercattype.h
 soem/oshw/nicdrv.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/oshw/nicdrv.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/oshw/nicdrv.h
 soem/soem/ethercatbase.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatbase.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatbase.h
 soem/soem/ethercatmain.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatmain.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatmain.h
 soem/soem/ethercatdc.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatdc.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatdc.h
 soem/soem/ethercatcoe.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatcoe.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatcoe.h
 soem/soem/ethercatfoe.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatfoe.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatfoe.h
 soem/soem/ethercatsoe.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatsoe.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatsoe.h
 soem/soem/ethercatconfig.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatconfig.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatconfig.h
 soem/soem/ethercatprint.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatprint.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/soem/ethercatprint.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatbase.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatbase.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatcoe.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatcoe.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatconfig.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatconfig.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatdc.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatdc.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatfoe.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatfoe.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatmain.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatmain.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatprint.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatprint.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatsoe.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercatsoe.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercattype.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/ethercattype.h
 soem/osal/osal.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/osal/osal.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem/include/soem/soem/soem/osal/osal.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem_interface/include/soem_interface/EthercatBusBase.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem_interface/include/soem_interface/EthercatBusBase.hpp
 cassert
 -
 atomic
@@ -420,7 +420,7 @@ soem_interface/common/ThreadSleep.hpp
 iomanip
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem_interface/include/soem_interface/EthercatSlaveBase.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem_interface/include/soem_interface/EthercatSlaveBase.hpp
 cstdint
 -
 memory
@@ -434,7 +434,7 @@ message_logger/message_logger.hpp
 soem_interface/EthercatBusBase.hpp
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem_interface/include/soem_interface/common/Macros.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem_interface/include/soem_interface/common/Macros.hpp
 cassert
 -
 deque
@@ -446,19 +446,19 @@ mutex
 message_logger/message_logger.hpp
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem_interface/include/soem_interface/common/ThreadSleep.hpp
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/soem_interface/soem_interface/include/soem_interface/common/ThreadSleep.hpp
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/binary.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/binary.h
 string
 -
 vector
 -
 yaml-cpp/dll.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/dll.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/dll.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/dll.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/dll.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/emitter.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/emitter.h
 cmath
 -
 cstddef
@@ -474,33 +474,33 @@ string
 type_traits
 -
 yaml-cpp/binary.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/binary.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/binary.h
 yaml-cpp/dll.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/dll.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/dll.h
 yaml-cpp/emitterdef.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/emitterdef.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/emitterdef.h
 yaml-cpp/emittermanip.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/emittermanip.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/emittermanip.h
 yaml-cpp/null.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/null.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/null.h
 yaml-cpp/ostream_wrapper.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/ostream_wrapper.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/ostream_wrapper.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/emitterdef.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/emitterdef.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/emittermanip.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/emittermanip.h
 string
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/emitterstyle.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/emitterstyle.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/exceptions.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/exceptions.h
 yaml-cpp/mark.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/mark.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/mark.h
 yaml-cpp/noexcept.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/noexcept.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/noexcept.h
 yaml-cpp/traits.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/traits.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/traits.h
 sstream
 -
 stdexcept
@@ -508,11 +508,11 @@ stdexcept
 string
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/mark.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/mark.h
 yaml-cpp/dll.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/dll.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/dll.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/convert.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/convert.h
 array
 -
 cmath
@@ -534,45 +534,45 @@ valarray
 vector
 -
 yaml-cpp/binary.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/binary.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/binary.h
 yaml-cpp/node/impl.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/node/impl.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/node/impl.h
 yaml-cpp/node/iterator.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/node/iterator.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/node/iterator.h
 yaml-cpp/node/node.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/node/node.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/node/node.h
 yaml-cpp/node/type.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/node/type.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/node/type.h
 yaml-cpp/null.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/null.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/null.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/impl.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/impl.h
 yaml-cpp/node/detail/node.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/detail/node.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/detail/node.h
 yaml-cpp/node/detail/node_data.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/detail/node_data.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/detail/node_data.h
 algorithm
 -
 type_traits
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/iterator.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/iterator.h
 yaml-cpp/dll.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/dll.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/dll.h
 yaml-cpp/node/detail/node_iterator.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/detail/node_iterator.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/detail/node_iterator.h
 yaml-cpp/node/node.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/node.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/node.h
 yaml-cpp/node/ptr.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/ptr.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/ptr.h
 cstddef
 -
 iterator
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/iterator_fwd.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/iterator_fwd.h
 yaml-cpp/dll.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/dll.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/dll.h
 list
 -
 utility
@@ -580,31 +580,31 @@ utility
 vector
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/memory.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/memory.h
 set
 -
 yaml-cpp/dll.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/dll.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/dll.h
 yaml-cpp/node/ptr.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/ptr.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/ptr.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/node.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/node.h
 yaml-cpp/dll.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/dll.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/dll.h
 yaml-cpp/emitterstyle.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/emitterstyle.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/emitterstyle.h
 yaml-cpp/node/detail/node_ref.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/detail/node_ref.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/detail/node_ref.h
 yaml-cpp/node/ptr.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/ptr.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/ptr.h
 yaml-cpp/node/type.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/type.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/type.h
 set
 -
 atomic
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/node_data.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/node_data.h
 list
 -
 map
@@ -616,21 +616,21 @@ utility
 vector
 -
 yaml-cpp/dll.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/dll.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/dll.h
 yaml-cpp/node/detail/node_iterator.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/detail/node_iterator.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/detail/node_iterator.h
 yaml-cpp/node/iterator.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/iterator.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/iterator.h
 yaml-cpp/node/ptr.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/ptr.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/ptr.h
 yaml-cpp/node/type.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/type.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/type.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/node_iterator.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/node_iterator.h
 yaml-cpp/dll.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/dll.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/dll.h
 yaml-cpp/node/ptr.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/ptr.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/ptr.h
 cstddef
 -
 iterator
@@ -644,49 +644,49 @@ utility
 vector
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/node_ref.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/node_ref.h
 yaml-cpp/dll.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/dll.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/dll.h
 yaml-cpp/node/type.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/type.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/type.h
 yaml-cpp/node/ptr.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/ptr.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/ptr.h
 yaml-cpp/node/detail/node_data.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/detail/node_data.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/detail/yaml-cpp/node/detail/node_data.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/emit.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/emit.h
 string
 -
 iosfwd
 -
 yaml-cpp/dll.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/dll.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/dll.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/impl.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/impl.h
 yaml-cpp/exceptions.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/exceptions.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/exceptions.h
 yaml-cpp/node/detail/memory.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/node/detail/memory.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/node/detail/memory.h
 yaml-cpp/node/detail/node.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/node/detail/node.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/node/detail/node.h
 yaml-cpp/node/iterator.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/node/iterator.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/node/iterator.h
 yaml-cpp/node/node.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/node/node.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/node/node.h
 sstream
 -
 string
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/iterator.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/iterator.h
 yaml-cpp/dll.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/dll.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/dll.h
 yaml-cpp/node/node.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/node/node.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/node/node.h
 yaml-cpp/node/detail/iterator_fwd.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/node/detail/iterator_fwd.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/node/detail/iterator_fwd.h
 yaml-cpp/node/detail/iterator.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/node/detail/iterator.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/node/detail/iterator.h
 list
 -
 utility
@@ -694,25 +694,25 @@ utility
 vector
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/node.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/node.h
 stdexcept
 -
 string
 -
 yaml-cpp/dll.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/dll.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/dll.h
 yaml-cpp/emitterstyle.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/emitterstyle.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/emitterstyle.h
 yaml-cpp/mark.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/mark.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/mark.h
 yaml-cpp/node/detail/iterator_fwd.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/node/detail/iterator_fwd.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/node/detail/iterator_fwd.h
 yaml-cpp/node/ptr.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/node/ptr.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/node/ptr.h
 yaml-cpp/node/type.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/node/type.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/node/type.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/parse.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/parse.h
 iosfwd
 -
 string
@@ -720,39 +720,39 @@ string
 vector
 -
 yaml-cpp/dll.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/dll.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/yaml-cpp/dll.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/ptr.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/ptr.h
 memory
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/type.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/node/type.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/noexcept.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/noexcept.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/null.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/null.h
 yaml-cpp/dll.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/dll.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/dll.h
 string
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/ostream_wrapper.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/ostream_wrapper.h
 string
 -
 vector
 -
 yaml-cpp/dll.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/dll.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/dll.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/parser.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/parser.h
 ios
 -
 memory
 -
 yaml-cpp/dll.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/dll.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/dll.h
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/stlemitter.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/stlemitter.h
 vector
 -
 list
@@ -762,7 +762,7 @@ set
 map
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/traits.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/traits.h
 type_traits
 -
 utility
@@ -772,31 +772,31 @@ string
 sstream
 -
 
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml.h
 yaml-cpp/parser.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/parser.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/parser.h
 yaml-cpp/emitter.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/emitter.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/emitter.h
 yaml-cpp/emitterstyle.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/emitterstyle.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/emitterstyle.h
 yaml-cpp/stlemitter.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/stlemitter.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/stlemitter.h
 yaml-cpp/exceptions.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/exceptions.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/exceptions.h
 yaml-cpp/node/node.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/node/node.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/node/node.h
 yaml-cpp/node/impl.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/node/impl.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/node/impl.h
 yaml-cpp/node/convert.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/node/convert.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/node/convert.h
 yaml-cpp/node/iterator.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/node/iterator.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/node/iterator.h
 yaml-cpp/node/detail/impl.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/node/detail/impl.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/node/detail/impl.h
 yaml-cpp/node/parse.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/node/parse.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/node/parse.h
 yaml-cpp/node/emit.h
-/home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/node/emit.h
+/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/yaml-cpp/yaml-cpp/include/yaml-cpp/yaml-cpp/node/emit.h
 
 /home/hd/ros2_foxy/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__builder.hpp
 builtin_interfaces/msg/detail/duration__struct.hpp

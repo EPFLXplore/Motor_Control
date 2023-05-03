@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hd/Desktop/motor_controls.ws/src/coucou
+CMAKE_SOURCE_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hd/Desktop/motor_controls.ws/build/coucou
+CMAKE_BINARY_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou
 
 # Include any dependencies generated for this target.
 include CMakeFiles/suscriber.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/suscriber.dir/progress.make
 include CMakeFiles/suscriber.dir/flags.make
 
 CMakeFiles/suscriber.dir/src/read.cpp.o: CMakeFiles/suscriber.dir/flags.make
-CMakeFiles/suscriber.dir/src/read.cpp.o: /home/hd/Desktop/motor_controls.ws/src/coucou/src/read.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/motor_controls.ws/build/coucou/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/suscriber.dir/src/read.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/suscriber.dir/src/read.cpp.o -c /home/hd/Desktop/motor_controls.ws/src/coucou/src/read.cpp
+CMakeFiles/suscriber.dir/src/read.cpp.o: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou/src/read.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/suscriber.dir/src/read.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/suscriber.dir/src/read.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou/src/read.cpp
 
 CMakeFiles/suscriber.dir/src/read.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/suscriber.dir/src/read.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/motor_controls.ws/src/coucou/src/read.cpp > CMakeFiles/suscriber.dir/src/read.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou/src/read.cpp > CMakeFiles/suscriber.dir/src/read.cpp.i
 
 CMakeFiles/suscriber.dir/src/read.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/suscriber.dir/src/read.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/motor_controls.ws/src/coucou/src/read.cpp -o CMakeFiles/suscriber.dir/src/read.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou/src/read.cpp -o CMakeFiles/suscriber.dir/src/read.cpp.s
 
 # Object files for target suscriber
 suscriber_OBJECTS = \
@@ -80,17 +80,20 @@ suscriber_EXTERNAL_OBJECTS =
 suscriber: CMakeFiles/suscriber.dir/src/read.cpp.o
 suscriber: CMakeFiles/suscriber.dir/build.make
 suscriber: /home/hd/ros2_foxy/install/rclcpp/lib/librclcpp.so
+suscriber: /home/hd/ros2_foxy/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
+suscriber: /home/hd/ros2_foxy/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_c.so
+suscriber: /home/hd/ros2_foxy/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
+suscriber: /home/hd/ros2_foxy/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+suscriber: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_introspection_c.so
+suscriber: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_c.so
+suscriber: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_introspection_cpp.so
+suscriber: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_cpp.so
 suscriber: /home/hd/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector.so
 suscriber: /home/hd/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
 suscriber: /home/hd/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so
 suscriber: /home/hd/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_c.so
 suscriber: /home/hd/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_cpp.so
 suscriber: /home/hd/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_cpp.so
-suscriber: /home/hd/ros2_foxy/install/std_msgs/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-suscriber: /home/hd/ros2_foxy/install/std_msgs/lib/libstd_msgs__rosidl_generator_c.so
-suscriber: /home/hd/ros2_foxy/install/std_msgs/lib/libstd_msgs__rosidl_typesupport_c.so
-suscriber: /home/hd/ros2_foxy/install/std_msgs/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
-suscriber: /home/hd/ros2_foxy/install/std_msgs/lib/libstd_msgs__rosidl_typesupport_cpp.so
 suscriber: /home/hd/ros2_foxy/install/rcl/lib/librcl.so
 suscriber: /home/hd/ros2_foxy/install/rcl_interfaces/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
 suscriber: /home/hd/ros2_foxy/install/rcl_interfaces/lib/librcl_interfaces__rosidl_generator_c.so
@@ -113,21 +116,33 @@ suscriber: /home/hd/ros2_foxy/install/statistics_msgs/lib/libstatistics_msgs__ro
 suscriber: /home/hd/ros2_foxy/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_c.so
 suscriber: /home/hd/ros2_foxy/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
 suscriber: /home/hd/ros2_foxy/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
+suscriber: /home/hd/ros2_foxy/install/tracetools/lib/libtracetools.so
+suscriber: /home/hd/ros2_foxy/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_c.so
+suscriber: /home/hd/ros2_foxy/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+suscriber: /home/hd/ros2_foxy/install/geometry_msgs/lib/libgeometry_msgs__rosidl_generator_c.so
+suscriber: /home/hd/ros2_foxy/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_c.so
+suscriber: /home/hd/ros2_foxy/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+suscriber: /home/hd/ros2_foxy/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+suscriber: /home/hd/ros2_foxy/install/std_msgs/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+suscriber: /home/hd/ros2_foxy/install/std_msgs/lib/libstd_msgs__rosidl_generator_c.so
+suscriber: /home/hd/ros2_foxy/install/std_msgs/lib/libstd_msgs__rosidl_typesupport_c.so
+suscriber: /home/hd/ros2_foxy/install/std_msgs/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+suscriber: /home/hd/ros2_foxy/install/std_msgs/lib/libstd_msgs__rosidl_typesupport_cpp.so
 suscriber: /home/hd/ros2_foxy/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 suscriber: /home/hd/ros2_foxy/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_c.so
 suscriber: /home/hd/ros2_foxy/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 suscriber: /home/hd/ros2_foxy/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+suscriber: /home/hd/ros2_foxy/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+suscriber: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_generator_c.so
 suscriber: /home/hd/ros2_foxy/install/rosidl_typesupport_introspection_cpp/lib/librosidl_typesupport_introspection_cpp.so
 suscriber: /home/hd/ros2_foxy/install/rosidl_typesupport_introspection_c/lib/librosidl_typesupport_introspection_c.so
-suscriber: /home/hd/ros2_foxy/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 suscriber: /home/hd/ros2_foxy/install/rosidl_typesupport_cpp/lib/librosidl_typesupport_cpp.so
 suscriber: /home/hd/ros2_foxy/install/rosidl_typesupport_c/lib/librosidl_typesupport_c.so
 suscriber: /home/hd/ros2_foxy/install/rcpputils/lib/librcpputils.so
 suscriber: /home/hd/ros2_foxy/install/rosidl_runtime_c/lib/librosidl_runtime_c.so
 suscriber: /home/hd/ros2_foxy/install/rcutils/lib/librcutils.so
-suscriber: /home/hd/ros2_foxy/install/tracetools/lib/libtracetools.so
 suscriber: CMakeFiles/suscriber.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hd/Desktop/motor_controls.ws/build/coucou/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable suscriber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable suscriber"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/suscriber.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -140,6 +155,6 @@ CMakeFiles/suscriber.dir/clean:
 .PHONY : CMakeFiles/suscriber.dir/clean
 
 CMakeFiles/suscriber.dir/depend:
-	cd /home/hd/Desktop/motor_controls.ws/build/coucou && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hd/Desktop/motor_controls.ws/src/coucou /home/hd/Desktop/motor_controls.ws/src/coucou /home/hd/Desktop/motor_controls.ws/build/coucou /home/hd/Desktop/motor_controls.ws/build/coucou /home/hd/Desktop/motor_controls.ws/build/coucou/CMakeFiles/suscriber.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou /home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou /home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou /home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou /home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/CMakeFiles/suscriber.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/suscriber.dir/depend
 

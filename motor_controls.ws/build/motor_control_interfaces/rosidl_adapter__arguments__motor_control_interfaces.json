@@ -1,0 +1,11 @@
+{
+  "package_name": "motor_control_interfaces",
+  "non_idl_tuples": [
+<<<<<<< HEAD
+    "/home/hd/Desktop/Motor_Control/motor_controls.ws/src/motor_control_interfaces:msg/MotorCommand.msg",
+    "/home/hd/Desktop/Motor_Control/motor_controls.ws/src/motor_control_interfaces:msg/MotorData.msg"
+=======
+    "/home/hd/Desktop/Motor_Control/motor_controls.ws/src/motor_control_interfaces:msg/MotorCommand.msg"
+>>>>>>> parent of 9a1ced2... del build/log/install
+  ]
+}

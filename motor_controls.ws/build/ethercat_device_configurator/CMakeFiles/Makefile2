@@ -44,16 +44,16 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hd/Desktop/motor_controls.ws/src/ethercat_device_configurator
+CMAKE_SOURCE_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator
+CMAKE_BINARY_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/standalone.dir/all
+all: CMakeFiles/motor_control.dir/all
 all: yaml-cpp/yaml-cpp/all
 all: ethercat_sdk_master/all
 all: maxon_epos_ethercat_sdk/all
@@ -74,7 +74,7 @@ preinstall: soem_interface/soem_interface/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/standalone.dir/clean
+clean: CMakeFiles/motor_control.dir/clean
 clean: CMakeFiles/ethercat_device_configurator_uninstall.dir/clean
 clean: CMakeFiles/uninstall.dir/clean
 clean: yaml-cpp/yaml-cpp/clean
@@ -248,36 +248,36 @@ yaml-cpp/yaml-cpp/util/clean: yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox
 .PHONY : yaml-cpp/yaml-cpp/util/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/standalone.dir
+# Target rules for target CMakeFiles/motor_control.dir
 
 # All Build rule for target.
-CMakeFiles/standalone.dir/all: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/all
-CMakeFiles/standalone.dir/all: ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/all
-CMakeFiles/standalone.dir/all: maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/all
-CMakeFiles/standalone.dir/all: message_logger/CMakeFiles/message_logger.dir/all
-CMakeFiles/standalone.dir/all: soem_interface/soem/CMakeFiles/soem.dir/all
-CMakeFiles/standalone.dir/all: soem_interface/soem_interface/CMakeFiles/soem_interface.dir/all
-	$(MAKE) -f CMakeFiles/standalone.dir/build.make CMakeFiles/standalone.dir/depend
-	$(MAKE) -f CMakeFiles/standalone.dir/build.make CMakeFiles/standalone.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=41,42,43,44,45,46 "Built target standalone"
-.PHONY : CMakeFiles/standalone.dir/all
+CMakeFiles/motor_control.dir/all: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/all
+CMakeFiles/motor_control.dir/all: ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/all
+CMakeFiles/motor_control.dir/all: maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/all
+CMakeFiles/motor_control.dir/all: message_logger/CMakeFiles/message_logger.dir/all
+CMakeFiles/motor_control.dir/all: soem_interface/soem/CMakeFiles/soem.dir/all
+CMakeFiles/motor_control.dir/all: soem_interface/soem_interface/CMakeFiles/soem_interface.dir/all
+	$(MAKE) -f CMakeFiles/motor_control.dir/build.make CMakeFiles/motor_control.dir/depend
+	$(MAKE) -f CMakeFiles/motor_control.dir/build.make CMakeFiles/motor_control.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=21,22,23,24,25,26 "Built target motor_control"
+.PHONY : CMakeFiles/motor_control.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/standalone.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 77
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/standalone.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
-.PHONY : CMakeFiles/standalone.dir/rule
+CMakeFiles/motor_control.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 77
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/motor_control.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+.PHONY : CMakeFiles/motor_control.dir/rule
 
 # Convenience name for target.
-standalone: CMakeFiles/standalone.dir/rule
+motor_control: CMakeFiles/motor_control.dir/rule
 
-.PHONY : standalone
+.PHONY : motor_control
 
 # clean rule for target.
-CMakeFiles/standalone.dir/clean:
-	$(MAKE) -f CMakeFiles/standalone.dir/build.make CMakeFiles/standalone.dir/clean
-.PHONY : CMakeFiles/standalone.dir/clean
+CMakeFiles/motor_control.dir/clean:
+	$(MAKE) -f CMakeFiles/motor_control.dir/build.make CMakeFiles/motor_control.dir/clean
+.PHONY : CMakeFiles/motor_control.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ethercat_device_configurator_uninstall.dir
@@ -286,14 +286,14 @@ CMakeFiles/standalone.dir/clean:
 CMakeFiles/ethercat_device_configurator_uninstall.dir/all:
 	$(MAKE) -f CMakeFiles/ethercat_device_configurator_uninstall.dir/build.make CMakeFiles/ethercat_device_configurator_uninstall.dir/depend
 	$(MAKE) -f CMakeFiles/ethercat_device_configurator_uninstall.dir/build.make CMakeFiles/ethercat_device_configurator_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ethercat_device_configurator_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ethercat_device_configurator_uninstall"
 .PHONY : CMakeFiles/ethercat_device_configurator_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ethercat_device_configurator_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ethercat_device_configurator_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : CMakeFiles/ethercat_device_configurator_uninstall.dir/rule
 
 # Convenience name for target.
@@ -313,14 +313,14 @@ CMakeFiles/ethercat_device_configurator_uninstall.dir/clean:
 CMakeFiles/uninstall.dir/all: CMakeFiles/ethercat_device_configurator_uninstall.dir/all
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -340,14 +340,14 @@ CMakeFiles/uninstall.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/format.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/format.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/format.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/format.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/format.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=4 "Built target format"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=4 "Built target format"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/format.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/format.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/format.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/format.dir/rule
 
 # Convenience name for target.
@@ -367,14 +367,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/format.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/NightlyMemCheck.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/NightlyMemCheck.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/NightlyMemCheck.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/NightlyMemCheck.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/NightlyMemCheck.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target NightlyMemCheck"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target NightlyMemCheck"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/NightlyMemCheck.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/NightlyMemCheck.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/NightlyMemCheck.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/NightlyMemCheck.dir/rule
 
 # Convenience name for target.
@@ -394,14 +394,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/NightlyMemCheck.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/NightlyTest.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/NightlyTest.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/NightlyTest.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/NightlyTest.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/NightlyTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target NightlyTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target NightlyTest"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/NightlyTest.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/NightlyTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/NightlyTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/NightlyTest.dir/rule
 
 # Convenience name for target.
@@ -421,14 +421,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/NightlyTest.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/ContinuousConfigure.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ContinuousConfigure.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ContinuousConfigure.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ContinuousConfigure.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ContinuousConfigure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ContinuousConfigure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ContinuousConfigure"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ContinuousConfigure.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/ContinuousConfigure.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/ContinuousConfigure.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ContinuousConfigure.dir/rule
 
 # Convenience name for target.
@@ -448,14 +448,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/ContinuousConfigure.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/ContinuousBuild.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ContinuousBuild.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ContinuousBuild.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ContinuousBuild.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ContinuousBuild.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ContinuousBuild"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ContinuousBuild"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ContinuousBuild.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/ContinuousBuild.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/ContinuousBuild.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ContinuousBuild.dir/rule
 
 # Convenience name for target.
@@ -475,14 +475,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/ContinuousBuild.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/NightlyConfigure.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/NightlyConfigure.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/NightlyConfigure.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/NightlyConfigure.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/NightlyConfigure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target NightlyConfigure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target NightlyConfigure"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/NightlyConfigure.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/NightlyConfigure.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/NightlyConfigure.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/NightlyConfigure.dir/rule
 
 # Convenience name for target.
@@ -502,14 +502,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/NightlyConfigure.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/NightlyMemoryCheck.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/NightlyMemoryCheck.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/NightlyMemoryCheck.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/NightlyMemoryCheck.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/NightlyMemoryCheck.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target NightlyMemoryCheck"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target NightlyMemoryCheck"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/NightlyMemoryCheck.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/NightlyMemoryCheck.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/NightlyMemoryCheck.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/NightlyMemoryCheck.dir/rule
 
 # Convenience name for target.
@@ -529,14 +529,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/NightlyMemoryCheck.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalTest.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalTest.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalTest.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalTest.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ExperimentalTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ExperimentalTest"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalTest.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalTest.dir/rule
 
 # Convenience name for target.
@@ -556,14 +556,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalTest.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/ContinuousUpdate.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ContinuousUpdate.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ContinuousUpdate.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ContinuousUpdate.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ContinuousUpdate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ContinuousUpdate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ContinuousUpdate"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ContinuousUpdate.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/ContinuousUpdate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/ContinuousUpdate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ContinuousUpdate.dir/rule
 
 # Convenience name for target.
@@ -583,14 +583,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/ContinuousUpdate.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/NightlyUpdate.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/NightlyUpdate.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/NightlyUpdate.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/NightlyUpdate.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/NightlyUpdate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target NightlyUpdate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target NightlyUpdate"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/NightlyUpdate.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/NightlyUpdate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/NightlyUpdate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/NightlyUpdate.dir/rule
 
 # Convenience name for target.
@@ -610,14 +610,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/NightlyUpdate.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalMemCheck.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalMemCheck.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalMemCheck.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalMemCheck.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalMemCheck.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ExperimentalMemCheck"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ExperimentalMemCheck"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalMemCheck.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalMemCheck.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalMemCheck.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalMemCheck.dir/rule
 
 # Convenience name for target.
@@ -637,14 +637,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalMemCheck.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalSubmit.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalSubmit.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalSubmit.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalSubmit.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalSubmit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ExperimentalSubmit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ExperimentalSubmit"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalSubmit.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalSubmit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalSubmit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalSubmit.dir/rule
 
 # Convenience name for target.
@@ -664,14 +664,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalSubmit.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/Experimental.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/Experimental.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/Experimental.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/Experimental.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/Experimental.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target Experimental"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target Experimental"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/Experimental.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/Experimental.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/Experimental.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/Experimental.dir/rule
 
 # Convenience name for target.
@@ -691,14 +691,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/Experimental.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/ContinuousCoverage.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ContinuousCoverage.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ContinuousCoverage.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ContinuousCoverage.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ContinuousCoverage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ContinuousCoverage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ContinuousCoverage"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ContinuousCoverage.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/ContinuousCoverage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/ContinuousCoverage.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ContinuousCoverage.dir/rule
 
 # Convenience name for target.
@@ -718,14 +718,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/ContinuousCoverage.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalConfigure.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalConfigure.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalConfigure.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalConfigure.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalConfigure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ExperimentalConfigure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ExperimentalConfigure"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalConfigure.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalConfigure.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalConfigure.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalConfigure.dir/rule
 
 # Convenience name for target.
@@ -745,14 +745,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalConfigure.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/Continuous.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/Continuous.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/Continuous.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/Continuous.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/Continuous.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target Continuous"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target Continuous"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/Continuous.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/Continuous.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/Continuous.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/Continuous.dir/rule
 
 # Convenience name for target.
@@ -772,14 +772,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/Continuous.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/Nightly.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/Nightly.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/Nightly.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/Nightly.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/Nightly.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target Nightly"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target Nightly"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/Nightly.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/Nightly.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/Nightly.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/Nightly.dir/rule
 
 # Convenience name for target.
@@ -799,14 +799,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/Nightly.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/NightlySubmit.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/NightlySubmit.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/NightlySubmit.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/NightlySubmit.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/NightlySubmit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target NightlySubmit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target NightlySubmit"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/NightlySubmit.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/NightlySubmit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/NightlySubmit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/NightlySubmit.dir/rule
 
 # Convenience name for target.
@@ -826,14 +826,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/NightlySubmit.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/NightlyStart.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/NightlyStart.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/NightlyStart.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/NightlyStart.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/NightlyStart.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target NightlyStart"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target NightlyStart"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/NightlyStart.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/NightlyStart.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/NightlyStart.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/NightlyStart.dir/rule
 
 # Convenience name for target.
@@ -853,14 +853,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/NightlyStart.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalCoverage.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalCoverage.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalCoverage.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalCoverage.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalCoverage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ExperimentalCoverage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ExperimentalCoverage"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalCoverage.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalCoverage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalCoverage.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalCoverage.dir/rule
 
 # Convenience name for target.
@@ -880,14 +880,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalCoverage.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/NightlyCoverage.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/NightlyCoverage.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/NightlyCoverage.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/NightlyCoverage.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/NightlyCoverage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target NightlyCoverage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target NightlyCoverage"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/NightlyCoverage.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/NightlyCoverage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/NightlyCoverage.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/NightlyCoverage.dir/rule
 
 # Convenience name for target.
@@ -907,14 +907,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/NightlyCoverage.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalStart.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalStart.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalStart.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalStart.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalStart.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ExperimentalStart"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ExperimentalStart"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalStart.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalStart.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalStart.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalStart.dir/rule
 
 # Convenience name for target.
@@ -934,14 +934,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalStart.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/NightlyBuild.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/NightlyBuild.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/NightlyBuild.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/NightlyBuild.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/NightlyBuild.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target NightlyBuild"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target NightlyBuild"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/NightlyBuild.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/NightlyBuild.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/NightlyBuild.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/NightlyBuild.dir/rule
 
 # Convenience name for target.
@@ -961,14 +961,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/NightlyBuild.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalBuild.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalBuild.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalBuild.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalBuild.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalBuild.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ExperimentalBuild"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ExperimentalBuild"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalBuild.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalBuild.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalBuild.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalBuild.dir/rule
 
 # Convenience name for target.
@@ -988,14 +988,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalBuild.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalUpdate.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalUpdate.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalUpdate.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalUpdate.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalUpdate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ExperimentalUpdate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ExperimentalUpdate"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalUpdate.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalUpdate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalUpdate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalUpdate.dir/rule
 
 # Convenience name for target.
@@ -1015,14 +1015,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/ExperimentalUpdate.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/ContinuousStart.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ContinuousStart.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ContinuousStart.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ContinuousStart.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ContinuousStart.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ContinuousStart"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ContinuousStart"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ContinuousStart.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/ContinuousStart.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/ContinuousStart.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ContinuousStart.dir/rule
 
 # Convenience name for target.
@@ -1042,14 +1042,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/ContinuousStart.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/ContinuousMemCheck.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ContinuousMemCheck.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ContinuousMemCheck.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ContinuousMemCheck.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ContinuousMemCheck.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ContinuousMemCheck"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ContinuousMemCheck"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ContinuousMemCheck.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/ContinuousMemCheck.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/ContinuousMemCheck.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ContinuousMemCheck.dir/rule
 
 # Convenience name for target.
@@ -1069,14 +1069,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/ContinuousMemCheck.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/ContinuousTest.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ContinuousTest.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ContinuousTest.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ContinuousTest.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ContinuousTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ContinuousTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ContinuousTest"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ContinuousTest.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/ContinuousTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/ContinuousTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ContinuousTest.dir/rule
 
 # Convenience name for target.
@@ -1096,14 +1096,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/ContinuousTest.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/ContinuousSubmit.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ContinuousSubmit.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ContinuousSubmit.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/ContinuousSubmit.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/ContinuousSubmit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ContinuousSubmit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num= "Built target ContinuousSubmit"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ContinuousSubmit.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/ContinuousSubmit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/ContinuousSubmit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/ContinuousSubmit.dir/rule
 
 # Convenience name for target.
@@ -1123,14 +1123,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/ContinuousSubmit.dir/clean:
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/all:
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/build.make yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78 "Built target yaml-cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78 "Built target yaml-cpp"
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/rule
 
 # Convenience name for target.
@@ -1150,14 +1150,14 @@ yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/clean:
 yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-read.dir/all: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/all
 	$(MAKE) -f yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-read.dir/build.make yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-read.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-read.dir/build.make yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-read.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=81,82 "Built target yaml-cpp-read"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=81,82 "Built target yaml-cpp-read"
 .PHONY : yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-read.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-read.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 34
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 34
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-read.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-read.dir/rule
 
 # Convenience name for target.
@@ -1177,14 +1177,14 @@ yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-read.dir/clean:
 yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-parse.dir/all: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/all
 	$(MAKE) -f yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-parse.dir/build.make yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-parse.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-parse.dir/build.make yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-parse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=79,80 "Built target yaml-cpp-parse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=79,80 "Built target yaml-cpp-parse"
 .PHONY : yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-parse.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-parse.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 34
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 34
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-parse.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-parse.dir/rule
 
 # Convenience name for target.
@@ -1204,14 +1204,14 @@ yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-parse.dir/clean:
 yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/all: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/all
 	$(MAKE) -f yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/build.make yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/depend
 	$(MAKE) -f yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/build.make yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=83,84 "Built target yaml-cpp-sandbox"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=83,84 "Built target yaml-cpp-sandbox"
 .PHONY : yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/all
 
 # Build rule for subdir invocation for target.
 yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 34
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 34
 	$(MAKE) -f CMakeFiles/Makefile2 yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/rule
 
 # Convenience name for target.
@@ -1231,14 +1231,14 @@ yaml-cpp/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/clean:
 ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/all:
 	$(MAKE) -f ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/build.make ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/depend
 	$(MAKE) -f ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/build.make ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=1,2,3 "Built target ethercat_sdk_master"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=1,2,3 "Built target ethercat_sdk_master"
 .PHONY : ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/all
 
 # Build rule for subdir invocation for target.
 ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/rule
 
 # Convenience name for target.
@@ -1258,14 +1258,14 @@ ethercat_sdk_master/CMakeFiles/ethercat_sdk_master.dir/clean:
 maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/all: yaml-cpp/yaml-cpp/CMakeFiles/yaml-cpp.dir/all
 	$(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/depend
 	$(MAKE) -f maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target maxon_epos_ethercat_sdk"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target maxon_epos_ethercat_sdk"
 .PHONY : maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/all
 
 # Build rule for subdir invocation for target.
 maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 45
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 45
 	$(MAKE) -f CMakeFiles/Makefile2 maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/rule
 
 # Convenience name for target.
@@ -1285,14 +1285,14 @@ maxon_epos_ethercat_sdk/CMakeFiles/maxon_epos_ethercat_sdk.dir/clean:
 message_logger/CMakeFiles/message_logger.dir/all:
 	$(MAKE) -f message_logger/CMakeFiles/message_logger.dir/build.make message_logger/CMakeFiles/message_logger.dir/depend
 	$(MAKE) -f message_logger/CMakeFiles/message_logger.dir/build.make message_logger/CMakeFiles/message_logger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=18,19,20 "Built target message_logger"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=18,19,20 "Built target message_logger"
 .PHONY : message_logger/CMakeFiles/message_logger.dir/all
 
 # Build rule for subdir invocation for target.
 message_logger/CMakeFiles/message_logger.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 message_logger/CMakeFiles/message_logger.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : message_logger/CMakeFiles/message_logger.dir/rule
 
 # Convenience name for target.
@@ -1312,14 +1312,14 @@ message_logger/CMakeFiles/message_logger.dir/clean:
 soem_interface/soem/CMakeFiles/soem.dir/all:
 	$(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/depend
 	$(MAKE) -f soem_interface/soem/CMakeFiles/soem.dir/build.make soem_interface/soem/CMakeFiles/soem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=21,22,23,24,25,26,27,28,29,30,31,32 "Built target soem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=27,28,29,30,31,32,33,34,35,36,37,38 "Built target soem"
 .PHONY : soem_interface/soem/CMakeFiles/soem.dir/all
 
 # Build rule for subdir invocation for target.
 soem_interface/soem/CMakeFiles/soem.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 soem_interface/soem/CMakeFiles/soem.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : soem_interface/soem/CMakeFiles/soem.dir/rule
 
 # Convenience name for target.
@@ -1339,14 +1339,14 @@ soem_interface/soem/CMakeFiles/soem.dir/clean:
 soem_interface/soem_interface/CMakeFiles/soem_interface.dir/all:
 	$(MAKE) -f soem_interface/soem_interface/CMakeFiles/soem_interface.dir/build.make soem_interface/soem_interface/CMakeFiles/soem_interface.dir/depend
 	$(MAKE) -f soem_interface/soem_interface/CMakeFiles/soem_interface.dir/build.make soem_interface/soem_interface/CMakeFiles/soem_interface.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=33,34,35,36,37,38,39,40 "Built target soem_interface"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles --progress-num=39,40,41,42,43,44,45,46 "Built target soem_interface"
 .PHONY : soem_interface/soem_interface/CMakeFiles/soem_interface.dir/all
 
 # Build rule for subdir invocation for target.
 soem_interface/soem_interface/CMakeFiles/soem_interface.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 soem_interface/soem_interface/CMakeFiles/soem_interface.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles 0
 .PHONY : soem_interface/soem_interface/CMakeFiles/soem_interface.dir/rule
 
 # Convenience name for target.
@@ -1366,7 +1366,7 @@ soem_interface/soem_interface/CMakeFiles/soem_interface.dir/clean:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P /home/hd/Desktop/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /home/hd/Desktop/Motor_Control/motor_controls.ws/build/ethercat_device_configurator/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
