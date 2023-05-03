@@ -3,7 +3,8 @@
   "output_dir": "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_cpp/motor_control_interfaces",
   "template_dir": "/home/hd/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_adapter/motor_control_interfaces:msg/MotorCommand.idl"
+    "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_adapter/motor_control_interfaces:msg/MotorCommand.idl",
+    "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_adapter/motor_control_interfaces:msg/MotorData.idl"
   ],
   "target_dependencies": [
     "/home/hd/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
@@ -21,6 +22,7 @@
     "/home/hd/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
     "/home/hd/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/home/hd/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
-    "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_adapter/motor_control_interfaces/msg/MotorCommand.idl"
+    "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_adapter/motor_control_interfaces/msg/MotorCommand.idl",
+    "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_adapter/motor_control_interfaces/msg/MotorData.idl"
   ]
 }

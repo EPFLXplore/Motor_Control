@@ -3,7 +3,8 @@
   "output_dir": "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces",
   "template_dir": "/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_cpp/share/rosidl_typesupport_introspection_cpp/resource",
   "idl_tuples": [
-    "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_adapter/motor_control_interfaces:msg/MotorCommand.idl"
+    "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_adapter/motor_control_interfaces:msg/MotorCommand.idl",
+    "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_adapter/motor_control_interfaces:msg/MotorData.idl"
   ],
   "target_dependencies": [
     "/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_cpp/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
@@ -14,6 +15,7 @@
     "/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_cpp/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
     "/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_cpp/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
     "/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_cpp/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
-    "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_adapter/motor_control_interfaces/msg/MotorCommand.idl"
+    "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_adapter/motor_control_interfaces/msg/MotorCommand.idl",
+    "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_adapter/motor_control_interfaces/msg/MotorData.idl"
   ]
 }

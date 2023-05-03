@@ -10,6 +10,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/__init__.py" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/_motor_command.py" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/_motor_command_s.c" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/_motor_data.py" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

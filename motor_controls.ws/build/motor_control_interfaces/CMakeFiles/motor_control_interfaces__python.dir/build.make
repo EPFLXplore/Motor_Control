@@ -70,14 +70,29 @@ CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_contro
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_command_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/_motor_command_s.c -o CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_command_s.c.s
 
+CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c.o: CMakeFiles/motor_control_interfaces__python.dir/flags.make
+CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c.o: rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c.o   -c /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c
+
+CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c > CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c.i
+
+CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c -o CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c.s
+
 # Object files for target motor_control_interfaces__python
 motor_control_interfaces__python_OBJECTS = \
-"CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_command_s.c.o"
+"CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_command_s.c.o" \
+"CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c.o"
 
 # External object files for target motor_control_interfaces__python
 motor_control_interfaces__python_EXTERNAL_OBJECTS =
 
 rosidl_generator_py/motor_control_interfaces/libmotor_control_interfaces__python.so: CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_command_s.c.o
+rosidl_generator_py/motor_control_interfaces/libmotor_control_interfaces__python.so: CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c.o
 rosidl_generator_py/motor_control_interfaces/libmotor_control_interfaces__python.so: CMakeFiles/motor_control_interfaces__python.dir/build.make
 rosidl_generator_py/motor_control_interfaces/libmotor_control_interfaces__python.so: libmotor_control_interfaces__rosidl_generator_c.so
 rosidl_generator_py/motor_control_interfaces/libmotor_control_interfaces__python.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
@@ -87,7 +102,7 @@ rosidl_generator_py/motor_control_interfaces/libmotor_control_interfaces__python
 rosidl_generator_py/motor_control_interfaces/libmotor_control_interfaces__python.so: /home/hd/ros2_foxy/install/rcpputils/lib/librcpputils.so
 rosidl_generator_py/motor_control_interfaces/libmotor_control_interfaces__python.so: /home/hd/ros2_foxy/install/rcutils/lib/librcutils.so
 rosidl_generator_py/motor_control_interfaces/libmotor_control_interfaces__python.so: CMakeFiles/motor_control_interfaces__python.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/motor_control_interfaces/libmotor_control_interfaces__python.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library rosidl_generator_py/motor_control_interfaces/libmotor_control_interfaces__python.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/motor_control_interfaces__python.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

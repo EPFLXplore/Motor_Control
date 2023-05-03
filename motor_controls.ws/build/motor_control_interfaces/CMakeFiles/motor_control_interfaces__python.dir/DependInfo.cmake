@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/_motor_command_s.c" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_command_s.c.o"
+  "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

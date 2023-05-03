@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_command_s.c.o"
+  "CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c.o"
   "rosidl_generator_py/motor_control_interfaces/libmotor_control_interfaces__python.pdb"
   "rosidl_generator_py/motor_control_interfaces/libmotor_control_interfaces__python.so"
 )

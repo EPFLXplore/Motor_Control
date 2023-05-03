@@ -100,4 +100,7 @@ CMakeFiles/motor_control_interfaces__rosidl_typesupport_introspection_c__pyext.d
  rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__functions.h
  rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__struct.h
  rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__type_support.h
+ rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__functions.h
+ rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__struct.h
+ rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__type_support.h
  rosidl_generator_c/motor_control_interfaces/msg/rosidl_generator_c__visibility_control.h

@@ -1,7 +1,0 @@
-[35m[1mScanning dependencies of target suscriber_test[0m
-[ 33%] Built target suscriber
-[ 50%] [32mBuilding CXX object CMakeFiles/suscriber_test.dir/src/read_test.cpp.o[0m
-[35m[1mScanning dependencies of target talker[0m
-[ 66%] [32mBuilding CXX object CMakeFiles/talker.dir/src/send.cpp.o[0m
-[ 83%] [32m[1mLinking CXX executable talker[0m
-[ 83%] Built target talker

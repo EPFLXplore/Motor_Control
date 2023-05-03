@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/motor_control_interfaces/msg/__init__.py"
   "../rosidl_generator_py/motor_control_interfaces/msg/_motor_command.py"
   "../rosidl_generator_py/motor_control_interfaces/msg/_motor_command_s.c"
+  "../rosidl_generator_py/motor_control_interfaces/msg/_motor_data.py"
+  "../rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c"
   "CMakeFiles/motor_control_interfaces__py"
 )
 

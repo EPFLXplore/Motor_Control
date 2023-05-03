@@ -57,8 +57,10 @@ motor_control_interfaces__py/CMakeFiles/motor_control_interfaces__py: rosidl_gen
 motor_control_interfaces__py/CMakeFiles/motor_control_interfaces__py: rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 motor_control_interfaces__py/CMakeFiles/motor_control_interfaces__py: rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_c.c
 motor_control_interfaces__py/CMakeFiles/motor_control_interfaces__py: rosidl_generator_py/motor_control_interfaces/msg/_motor_command.py
+motor_control_interfaces__py/CMakeFiles/motor_control_interfaces__py: rosidl_generator_py/motor_control_interfaces/msg/_motor_data.py
 motor_control_interfaces__py/CMakeFiles/motor_control_interfaces__py: rosidl_generator_py/motor_control_interfaces/msg/__init__.py
 motor_control_interfaces__py/CMakeFiles/motor_control_interfaces__py: rosidl_generator_py/motor_control_interfaces/msg/_motor_command_s.c
+motor_control_interfaces__py/CMakeFiles/motor_control_interfaces__py: rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c
 
 
 rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /home/hd/ros2_foxy/install/rosidl_generator_py/lib/rosidl_generator_py/rosidl_generator_py
@@ -75,6 +77,7 @@ rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosi
 rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /home/hd/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /home/hd/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/motor_control_interfaces/msg/MotorCommand.idl
+rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/motor_control_interfaces/msg/MotorData.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/motor_control_interfaces__py && /usr/bin/python3 /home/hd/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -87,19 +90,27 @@ rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosi
 rosidl_generator_py/motor_control_interfaces/msg/_motor_command.py: rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/motor_control_interfaces/msg/_motor_command.py
 
+rosidl_generator_py/motor_control_interfaces/msg/_motor_data.py: rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/motor_control_interfaces/msg/_motor_data.py
+
 rosidl_generator_py/motor_control_interfaces/msg/__init__.py: rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/motor_control_interfaces/msg/__init__.py
 
 rosidl_generator_py/motor_control_interfaces/msg/_motor_command_s.c: rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/motor_control_interfaces/msg/_motor_command_s.c
 
+rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c: rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c
+
 motor_control_interfaces__py: motor_control_interfaces__py/CMakeFiles/motor_control_interfaces__py
 motor_control_interfaces__py: rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 motor_control_interfaces__py: rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 motor_control_interfaces__py: rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_c.c
 motor_control_interfaces__py: rosidl_generator_py/motor_control_interfaces/msg/_motor_command.py
+motor_control_interfaces__py: rosidl_generator_py/motor_control_interfaces/msg/_motor_data.py
 motor_control_interfaces__py: rosidl_generator_py/motor_control_interfaces/msg/__init__.py
 motor_control_interfaces__py: rosidl_generator_py/motor_control_interfaces/msg/_motor_command_s.c
+motor_control_interfaces__py: rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c
 motor_control_interfaces__py: motor_control_interfaces__py/CMakeFiles/motor_control_interfaces__py.dir/build.make
 
 .PHONY : motor_control_interfaces__py

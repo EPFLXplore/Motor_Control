@@ -64,8 +64,12 @@ rosidl_typesupport_c/motor_control_interfaces/msg/motor_command__type_support.cp
 rosidl_typesupport_c/motor_control_interfaces/msg/motor_command__type_support.cpp: /home/hd/ros2_foxy/install/rosidl_typesupport_c/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em
 rosidl_typesupport_c/motor_control_interfaces/msg/motor_command__type_support.cpp: /home/hd/ros2_foxy/install/rosidl_typesupport_c/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em
 rosidl_typesupport_c/motor_control_interfaces/msg/motor_command__type_support.cpp: rosidl_adapter/motor_control_interfaces/msg/MotorCommand.idl
+rosidl_typesupport_c/motor_control_interfaces/msg/motor_command__type_support.cpp: rosidl_adapter/motor_control_interfaces/msg/MotorData.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support dispatch for ROS interfaces"
 	/usr/bin/python3 /home/hd/ros2_foxy/install/rosidl_typesupport_c/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_fastrtps_c rosidl_typesupport_introspection_c
+
+rosidl_typesupport_c/motor_control_interfaces/msg/motor_data__type_support.cpp: rosidl_typesupport_c/motor_control_interfaces/msg/motor_command__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/motor_control_interfaces/msg/motor_data__type_support.cpp
 
 CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_control_interfaces/msg/motor_command__type_support.cpp.o: CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_control_interfaces/msg/motor_command__type_support.cpp.o: rosidl_typesupport_c/motor_control_interfaces/msg/motor_command__type_support.cpp
@@ -80,21 +84,36 @@ CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_control_interfaces/msg/motor_command__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_c/motor_control_interfaces/msg/motor_command__type_support.cpp -o CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_control_interfaces/msg/motor_command__type_support.cpp.s
 
+CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_control_interfaces/msg/motor_data__type_support.cpp.o: CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_control_interfaces/msg/motor_data__type_support.cpp.o: rosidl_typesupport_c/motor_control_interfaces/msg/motor_data__type_support.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_control_interfaces/msg/motor_data__type_support.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_control_interfaces/msg/motor_data__type_support.cpp.o -c /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_c/motor_control_interfaces/msg/motor_data__type_support.cpp
+
+CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_control_interfaces/msg/motor_data__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_control_interfaces/msg/motor_data__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_c/motor_control_interfaces/msg/motor_data__type_support.cpp > CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_control_interfaces/msg/motor_data__type_support.cpp.i
+
+CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_control_interfaces/msg/motor_data__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_control_interfaces/msg/motor_data__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_c/motor_control_interfaces/msg/motor_data__type_support.cpp -o CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_control_interfaces/msg/motor_data__type_support.cpp.s
+
 # Object files for target motor_control_interfaces__rosidl_typesupport_c
 motor_control_interfaces__rosidl_typesupport_c_OBJECTS = \
-"CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_control_interfaces/msg/motor_command__type_support.cpp.o"
+"CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_control_interfaces/msg/motor_command__type_support.cpp.o" \
+"CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_control_interfaces/msg/motor_data__type_support.cpp.o"
 
 # External object files for target motor_control_interfaces__rosidl_typesupport_c
 motor_control_interfaces__rosidl_typesupport_c_EXTERNAL_OBJECTS =
 
 libmotor_control_interfaces__rosidl_typesupport_c.so: CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_control_interfaces/msg/motor_command__type_support.cpp.o
+libmotor_control_interfaces__rosidl_typesupport_c.so: CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_control_interfaces/msg/motor_data__type_support.cpp.o
 libmotor_control_interfaces__rosidl_typesupport_c.so: CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/build.make
 libmotor_control_interfaces__rosidl_typesupport_c.so: /home/hd/ros2_foxy/install/rosidl_typesupport_c/lib/librosidl_typesupport_c.so
 libmotor_control_interfaces__rosidl_typesupport_c.so: /home/hd/ros2_foxy/install/rosidl_runtime_c/lib/librosidl_runtime_c.so
 libmotor_control_interfaces__rosidl_typesupport_c.so: /home/hd/ros2_foxy/install/rcpputils/lib/librcpputils.so
 libmotor_control_interfaces__rosidl_typesupport_c.so: /home/hd/ros2_foxy/install/rcutils/lib/librcutils.so
 libmotor_control_interfaces__rosidl_typesupport_c.so: CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libmotor_control_interfaces__rosidl_typesupport_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libmotor_control_interfaces__rosidl_typesupport_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -107,6 +126,7 @@ CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/clean:
 .PHONY : CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/clean
 
 CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/motor_control_interfaces/msg/motor_command__type_support.cpp
+CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/motor_control_interfaces/msg/motor_data__type_support.cpp
 	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hd/Desktop/Motor_Control/motor_controls.ws/src/motor_control_interfaces /home/hd/Desktop/Motor_Control/motor_controls.ws/src/motor_control_interfaces /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/depend
 

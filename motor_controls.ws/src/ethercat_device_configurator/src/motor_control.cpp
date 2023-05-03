@@ -64,9 +64,9 @@ class Motor_controller : public rclcpp::Node
             for(auto & command : motor_command_list){
                 if(command.name == msg->name){
                     switch (msg->mode) {
-                    case 0: command.mode = Motor_mode::POSITION;
-                    case 1: command.mode = Motor_mode::VELOCITY;
-                    case 2: command.mode = Motor_mode::TORQUE;
+                    case 0: command.mode = Motor_mode::POSITION; break;
+                    case 1: command.mode = Motor_mode::VELOCITY; break;
+                    case 2: command.mode = Motor_mode::TORQUE; break;
                     default:;
                     }
                     command.command = msg->commande;
@@ -250,7 +250,7 @@ int main(int argc, char**argv)
 
     for (auto & slave: configurator->getSlaves())
     {
-        motor_command_list.push_back(Motor_command(slave->getName(), Motor_mode::VELOCITY, 0.0));
+        motor_command_list.push_back(Motor_command({slave->getName(), Motor_mode::VELOCITY, 0.0}));
     }
 
     // Start the PDO loop in a new thread.
