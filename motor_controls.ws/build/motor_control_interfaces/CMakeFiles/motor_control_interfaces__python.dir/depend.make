@@ -109,6 +109,7 @@ CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_contro
 CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_command_s.c.o: rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__struct.h
 CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_command_s.c.o: rosidl_generator_c/motor_control_interfaces/msg/rosidl_generator_c__visibility_control.h
 
+<<<<<<< HEAD
 CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c.o: rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c
 CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c.o: /home/hd/ros2_foxy/install/rosidl_runtime_c/include/rosidl_runtime_c/primitives_sequence.h
 CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c.o: /home/hd/ros2_foxy/install/rosidl_runtime_c/include/rosidl_runtime_c/string.h
@@ -217,3 +218,5 @@ CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_contro
 CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c.o: rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__struct.h
 CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c.o: rosidl_generator_c/motor_control_interfaces/msg/rosidl_generator_c__visibility_control.h
 
+=======
+>>>>>>> parent of 9a1ced2... del build/log/install

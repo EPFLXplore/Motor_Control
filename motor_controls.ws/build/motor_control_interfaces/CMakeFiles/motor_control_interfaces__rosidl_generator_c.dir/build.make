@@ -71,7 +71,10 @@ rosidl_generator_c/motor_control_interfaces/msg/motor_command.h: /home/hd/ros2_f
 rosidl_generator_c/motor_control_interfaces/msg/motor_command.h: /home/hd/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/resource/msg__type_support.h.em
 rosidl_generator_c/motor_control_interfaces/msg/motor_command.h: /home/hd/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/motor_control_interfaces/msg/motor_command.h: rosidl_adapter/motor_control_interfaces/msg/MotorCommand.idl
+<<<<<<< HEAD
 rosidl_generator_c/motor_control_interfaces/msg/motor_command.h: rosidl_adapter/motor_control_interfaces/msg/MotorData.idl
+=======
+>>>>>>> parent of 9a1ced2... del build/log/install
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /home/hd/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_c__arguments.json
 
@@ -84,6 +87,7 @@ rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__struct.h: 
 rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__type_support.h: rosidl_generator_c/motor_control_interfaces/msg/motor_command.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__type_support.h
 
+<<<<<<< HEAD
 rosidl_generator_c/motor_control_interfaces/msg/motor_data.h: rosidl_generator_c/motor_control_interfaces/msg/motor_command.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/motor_control_interfaces/msg/motor_data.h
 
@@ -102,6 +106,11 @@ rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__functions.
 rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__functions.c: rosidl_generator_c/motor_control_interfaces/msg/motor_command.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__functions.c
 
+=======
+rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__functions.c: rosidl_generator_c/motor_control_interfaces/msg/motor_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__functions.c
+
+>>>>>>> parent of 9a1ced2... del build/log/install
 CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__functions.c.o: CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__functions.c.o: rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__functions.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__functions.c.o"
@@ -115,6 +124,7 @@ CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/m
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__functions.c -o CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__functions.c.s
 
+<<<<<<< HEAD
 CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__functions.c.o: CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__functions.c.o: rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__functions.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__functions.c.o"
@@ -132,17 +142,29 @@ CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/m
 motor_control_interfaces__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__functions.c.o" \
 "CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__functions.c.o"
+=======
+# Object files for target motor_control_interfaces__rosidl_generator_c
+motor_control_interfaces__rosidl_generator_c_OBJECTS = \
+"CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__functions.c.o"
+>>>>>>> parent of 9a1ced2... del build/log/install
 
 # External object files for target motor_control_interfaces__rosidl_generator_c
 motor_control_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 libmotor_control_interfaces__rosidl_generator_c.so: CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__functions.c.o
+<<<<<<< HEAD
 libmotor_control_interfaces__rosidl_generator_c.so: CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__functions.c.o
+=======
+>>>>>>> parent of 9a1ced2... del build/log/install
 libmotor_control_interfaces__rosidl_generator_c.so: CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/build.make
 libmotor_control_interfaces__rosidl_generator_c.so: /home/hd/ros2_foxy/install/rosidl_runtime_c/lib/librosidl_runtime_c.so
 libmotor_control_interfaces__rosidl_generator_c.so: /home/hd/ros2_foxy/install/rcutils/lib/librcutils.so
 libmotor_control_interfaces__rosidl_generator_c.so: CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/link.txt
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libmotor_control_interfaces__rosidl_generator_c.so"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libmotor_control_interfaces__rosidl_generator_c.so"
+>>>>>>> parent of 9a1ced2... del build/log/install
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -158,12 +180,16 @@ CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/depend: rosidl_gener
 CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__functions.h
 CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__struct.h
 CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__type_support.h
+<<<<<<< HEAD
 CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/motor_control_interfaces/msg/motor_data.h
 CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__functions.h
 CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__struct.h
 CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__type_support.h
 CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__functions.c
 CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__functions.c
+=======
+CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__functions.c
+>>>>>>> parent of 9a1ced2... del build/log/install
 	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hd/Desktop/Motor_Control/motor_controls.ws/src/motor_control_interfaces /home/hd/Desktop/Motor_Control/motor_controls.ws/src/motor_control_interfaces /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/depend
 

@@ -151,6 +151,7 @@ _register_msg_type__msg__motor_command(PyObject * pymodule)
   return 0;
 }
 
+<<<<<<< HEAD
 // already included above
 // #include <stdbool.h>
 // already included above
@@ -290,6 +291,8 @@ _register_msg_type__msg__motor_data(PyObject * pymodule)
   return 0;
 }
 
+=======
+>>>>>>> parent of 9a1ced2... del build/log/install
 PyMODINIT_FUNC
 PyInit_motor_control_interfaces_s__rosidl_typesupport_fastrtps_c(void)
 {
@@ -306,11 +309,14 @@ PyInit_motor_control_interfaces_s__rosidl_typesupport_fastrtps_c(void)
     return NULL;
   }
 
+<<<<<<< HEAD
   err = _register_msg_type__msg__motor_data(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;
   }
 
+=======
+>>>>>>> parent of 9a1ced2... del build/log/install
   return pymodule;
 }

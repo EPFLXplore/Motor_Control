@@ -1,0 +1,26 @@
+[35m[1mScanning dependencies of target suscriber_test[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/suscriber_test.dir/src/read_test.cpp.o[0m
+[ 50%] Built target suscriber
+[ 83%] Built target talker
+[100%] [32m[1mLinking CXX executable suscriber_test[0m
+[100%] Built target suscriber_test
+-- Install configuration: ""
+-- Installing: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/coucou/lib/coucou/talker
+-- Set runtime path of "/home/hd/Desktop/Motor_Control/motor_controls.ws/install/coucou/lib/coucou/talker" to ""
+-- Installing: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/coucou/lib/coucou/suscriber
+-- Set runtime path of "/home/hd/Desktop/Motor_Control/motor_controls.ws/install/coucou/lib/coucou/suscriber" to ""
+-- Installing: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/coucou/lib/coucou/suscriber_test
+-- Set runtime path of "/home/hd/Desktop/Motor_Control/motor_controls.ws/install/coucou/lib/coucou/suscriber_test" to ""
+-- Installing: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/coucou/share/ament_index/resource_index/package_run_dependencies/coucou
+-- Installing: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/coucou/share/ament_index/resource_index/parent_prefix_path/coucou
+-- Installing: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/coucou/share/coucou/environment/ament_prefix_path.dsv
+-- Installing: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/coucou/share/coucou/environment/path.dsv
+-- Up-to-date: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/coucou/share/coucou/local_setup.bash
+-- Installing: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/coucou/share/coucou/local_setup.sh
+-- Up-to-date: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/coucou/share/coucou/local_setup.zsh
+-- Installing: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/coucou/share/coucou/local_setup.dsv
+-- Installing: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/coucou/share/coucou/package.dsv
+-- Up-to-date: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/coucou/share/ament_index/resource_index/packages/coucou
+-- Installing: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/coucou/share/coucou/cmake/coucouConfig.cmake
+-- Up-to-date: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/coucou/share/coucou/cmake/coucouConfig-version.cmake
+-- Installing: /home/hd/Desktop/Motor_Control/motor_controls.ws/install/coucou/share/coucou/package.xml

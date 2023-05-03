@@ -26,6 +26,7 @@ CMakeFiles/motor_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_ty
  rosidl_generator_c/motor_control_interfaces/msg/rosidl_generator_c__visibility_control.h
  rosidl_typesupport_fastrtps_c/motor_control_interfaces/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h
  rosidl_typesupport_fastrtps_c/motor_control_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+<<<<<<< HEAD
 CMakeFiles/motor_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motor_control_interfaces/msg/detail/motor_data__type_support_c.cpp.o
  /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_fastrtps_c/motor_control_interfaces/msg/detail/motor_data__type_support_c.cpp
  /home/hd/ros2_foxy/install/fastcdr/include/fastcdr/Cdr.h
@@ -51,3 +52,5 @@ CMakeFiles/motor_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_ty
  rosidl_generator_c/motor_control_interfaces/msg/rosidl_generator_c__visibility_control.h
  rosidl_typesupport_fastrtps_c/motor_control_interfaces/msg/detail/motor_data__rosidl_typesupport_fastrtps_c.h
  rosidl_typesupport_fastrtps_c/motor_control_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+=======
+>>>>>>> parent of 9a1ced2... del build/log/install

@@ -1,0 +1,4 @@
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:[m[K In function ‘[01m[Kvoid signal_handler(int)[m[K’:
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:180:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  180 | void signal_handler([01;35m[Kint sig[m[K)
+      |                     [01;35m[K~~~~^~~[m[K

@@ -100,7 +100,10 @@ CMakeFiles/motor_control_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/ro
  rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__functions.h
  rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__struct.h
  rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__type_support.h
+<<<<<<< HEAD
  rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__functions.h
  rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__struct.h
  rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__type_support.h
+=======
+>>>>>>> parent of 9a1ced2... del build/log/install
  rosidl_generator_c/motor_control_interfaces/msg/rosidl_generator_c__visibility_control.h

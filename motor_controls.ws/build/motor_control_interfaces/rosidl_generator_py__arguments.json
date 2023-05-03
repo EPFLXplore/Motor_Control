@@ -3,8 +3,12 @@
   "output_dir": "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces",
   "template_dir": "/home/hd/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
+<<<<<<< HEAD
     "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_adapter/motor_control_interfaces:msg/MotorCommand.idl",
     "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_adapter/motor_control_interfaces:msg/MotorData.idl"
+=======
+    "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_adapter/motor_control_interfaces:msg/MotorCommand.idl"
+>>>>>>> parent of 9a1ced2... del build/log/install
   ],
   "target_dependencies": [
     "/home/hd/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
@@ -20,7 +24,11 @@
     "/home/hd/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/home/hd/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/home/hd/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+<<<<<<< HEAD
     "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_adapter/motor_control_interfaces/msg/MotorCommand.idl",
     "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_adapter/motor_control_interfaces/msg/MotorData.idl"
+=======
+    "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_adapter/motor_control_interfaces/msg/MotorCommand.idl"
+>>>>>>> parent of 9a1ced2... del build/log/install
   ]
 }

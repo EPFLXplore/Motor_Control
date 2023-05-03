@@ -5,8 +5,11 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/motor_control_interfaces/msg/__init__.py"
   "../rosidl_generator_py/motor_control_interfaces/msg/_motor_command.py"
   "../rosidl_generator_py/motor_control_interfaces/msg/_motor_command_s.c"
+<<<<<<< HEAD
   "../rosidl_generator_py/motor_control_interfaces/msg/_motor_data.py"
   "../rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c"
+=======
+>>>>>>> parent of 9a1ced2... del build/log/install
   "CMakeFiles/motor_control_interfaces__py"
 )
 

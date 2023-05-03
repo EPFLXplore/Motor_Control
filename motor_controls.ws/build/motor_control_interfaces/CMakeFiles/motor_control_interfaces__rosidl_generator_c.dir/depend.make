@@ -16,6 +16,7 @@ CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/m
 CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__functions.c.o: rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__struct.h
 CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__functions.c.o: rosidl_generator_c/motor_control_interfaces/msg/rosidl_generator_c__visibility_control.h
 
+<<<<<<< HEAD
 CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__functions.c.o: rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__functions.c
 CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__functions.c.o: /home/hd/ros2_foxy/install/rcutils/include/rcutils/allocator.h
 CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__functions.c.o: /home/hd/ros2_foxy/install/rcutils/include/rcutils/macros.h
@@ -31,3 +32,5 @@ CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/m
 CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__functions.c.o: rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__struct.h
 CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__functions.c.o: rosidl_generator_c/motor_control_interfaces/msg/rosidl_generator_c__visibility_control.h
 
+=======
+>>>>>>> parent of 9a1ced2... del build/log/install

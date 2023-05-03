@@ -30,6 +30,7 @@ rosidl_typesupport_fastrtps_cpp/wstring_conversion.hpp
 fastcdr/Cdr.h
 /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_fastrtps_cpp/motor_control_interfaces/msg/detail/dds_fastrtps/fastcdr/Cdr.h
 
+<<<<<<< HEAD
 /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_fastrtps_cpp/motor_control_interfaces/msg/detail/dds_fastrtps/motor_data__type_support.cpp
 motor_control_interfaces/msg/detail/motor_data__rosidl_typesupport_fastrtps_cpp.hpp
 /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_fastrtps_cpp/motor_control_interfaces/msg/detail/dds_fastrtps/motor_control_interfaces/msg/detail/motor_data__rosidl_typesupport_fastrtps_cpp.hpp
@@ -54,6 +55,8 @@ rosidl_typesupport_fastrtps_cpp/wstring_conversion.hpp
 fastcdr/Cdr.h
 /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_fastrtps_cpp/motor_control_interfaces/msg/detail/dds_fastrtps/fastcdr/Cdr.h
 
+=======
+>>>>>>> parent of 9a1ced2... del build/log/install
 /home/hd/ros2_foxy/install/fastcdr/include/fastcdr/Cdr.h
 fastcdr_dll.h
 /home/hd/ros2_foxy/install/fastcdr/include/fastcdr/fastcdr_dll.h
@@ -188,6 +191,7 @@ string
 vector
 -
 
+<<<<<<< HEAD
 rosidl_generator_cpp/motor_control_interfaces/msg/detail/motor_data__struct.hpp
 rosidl_runtime_cpp/bounded_vector.hpp
 -
@@ -204,6 +208,8 @@ string
 vector
 -
 
+=======
+>>>>>>> parent of 9a1ced2... del build/log/install
 rosidl_typesupport_fastrtps_cpp/motor_control_interfaces/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp
 rosidl_runtime_c/message_type_support_struct.h
 rosidl_typesupport_fastrtps_cpp/motor_control_interfaces/msg/detail/rosidl_runtime_c/message_type_support_struct.h
@@ -216,6 +222,7 @@ rosidl_typesupport_fastrtps_cpp/motor_control_interfaces/msg/detail/motor_contro
 fastcdr/Cdr.h
 rosidl_typesupport_fastrtps_cpp/motor_control_interfaces/msg/detail/fastcdr/Cdr.h
 
+<<<<<<< HEAD
 rosidl_typesupport_fastrtps_cpp/motor_control_interfaces/msg/detail/motor_data__rosidl_typesupport_fastrtps_cpp.hpp
 rosidl_runtime_c/message_type_support_struct.h
 rosidl_typesupport_fastrtps_cpp/motor_control_interfaces/msg/detail/rosidl_runtime_c/message_type_support_struct.h
@@ -228,5 +235,7 @@ rosidl_typesupport_fastrtps_cpp/motor_control_interfaces/msg/detail/motor_contro
 fastcdr/Cdr.h
 rosidl_typesupport_fastrtps_cpp/motor_control_interfaces/msg/detail/fastcdr/Cdr.h
 
+=======
+>>>>>>> parent of 9a1ced2... del build/log/install
 rosidl_typesupport_fastrtps_cpp/motor_control_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
 

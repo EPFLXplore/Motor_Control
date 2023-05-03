@@ -14,6 +14,7 @@ CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport
  /home/hd/ros2_foxy/install/rosidl_typesupport_interface/include/rosidl_typesupport_interface/macros.h
  rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__struct.h
  rosidl_typesupport_c/motor_control_interfaces/msg/rosidl_typesupport_c__visibility_control.h
+<<<<<<< HEAD
 CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_control_interfaces/msg/motor_data__type_support.cpp.o
  /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_c/motor_control_interfaces/msg/motor_data__type_support.cpp
  /home/hd/ros2_foxy/install/rosidl_runtime_c/include/rosidl_runtime_c/message_type_support_struct.h
@@ -27,3 +28,5 @@ CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport
  /home/hd/ros2_foxy/install/rosidl_typesupport_interface/include/rosidl_typesupport_interface/macros.h
  rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__struct.h
  rosidl_typesupport_c/motor_control_interfaces/msg/rosidl_typesupport_c__visibility_control.h
+=======
+>>>>>>> parent of 9a1ced2... del build/log/install

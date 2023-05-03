@@ -26,6 +26,7 @@ rosidl_typesupport_cpp/visibility_control.h
 rosidl_typesupport_interface/macros.h
 /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_cpp/motor_control_interfaces/msg/rosidl_typesupport_interface/macros.h
 
+<<<<<<< HEAD
 /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_cpp/motor_control_interfaces/msg/motor_data__type_support.cpp
 cstddef
 /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_cpp/motor_control_interfaces/msg/cstddef
@@ -46,6 +47,8 @@ rosidl_typesupport_cpp/visibility_control.h
 rosidl_typesupport_interface/macros.h
 /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_cpp/motor_control_interfaces/msg/rosidl_typesupport_interface/macros.h
 
+=======
+>>>>>>> parent of 9a1ced2... del build/log/install
 /home/hd/ros2_foxy/install/rosidl_runtime_c/include/rosidl_runtime_c/message_initialization.h
 
 /home/hd/ros2_foxy/install/rosidl_runtime_c/include/rosidl_runtime_c/message_type_support_struct.h
@@ -114,6 +117,7 @@ string
 vector
 -
 
+<<<<<<< HEAD
 rosidl_generator_cpp/motor_control_interfaces/msg/detail/motor_data__struct.hpp
 rosidl_runtime_cpp/bounded_vector.hpp
 -
@@ -130,3 +134,5 @@ string
 vector
 -
 
+=======
+>>>>>>> parent of 9a1ced2... del build/log/install

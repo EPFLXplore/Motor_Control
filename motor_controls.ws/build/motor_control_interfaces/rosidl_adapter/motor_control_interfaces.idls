@@ -1,2 +1,5 @@
 /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_adapter/motor_control_interfaces:msg/MotorCommand.idl
+<<<<<<< HEAD
 /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_adapter/motor_control_interfaces:msg/MotorData.idl
+=======
+>>>>>>> parent of 9a1ced2... del build/log/install

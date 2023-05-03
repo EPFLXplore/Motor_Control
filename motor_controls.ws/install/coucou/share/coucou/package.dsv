@@ -1,6 +1,15 @@
 source;share/coucou/hook/cmake_prefix_path.ps1
 source;share/coucou/hook/cmake_prefix_path.dsv
 source;share/coucou/hook/cmake_prefix_path.sh
+<<<<<<< HEAD
+=======
+source;share/coucou/hook/ld_library_path_lib.ps1
+source;share/coucou/hook/ld_library_path_lib.dsv
+source;share/coucou/hook/ld_library_path_lib.sh
+source;share/coucou/hook/pythonpath.ps1
+source;share/coucou/hook/pythonpath.dsv
+source;share/coucou/hook/pythonpath.sh
+>>>>>>> parent of 9a1ced2... del build/log/install
 source;share/coucou/local_setup.bash
 source;share/coucou/local_setup.dsv
 source;share/coucou/local_setup.ps1

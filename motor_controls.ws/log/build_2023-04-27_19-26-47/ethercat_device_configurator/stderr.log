@@ -1,0 +1,30 @@
+In file included from [01m[K/usr/include/c++/9/cstdlib:75[m[K,
+                 from [01m[K/usr/include/c++/9/ext/string_conversions.h:41[m[K,
+                 from [01m[K/usr/include/c++/9/bits/basic_string.h:6496[m[K,
+                 from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/9/array:39[m[K,
+                 from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/include/ethercat_device_configurator/EthercatDeviceConfigurator.hpp:17[m[K,
+                 from [01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:1[m[K:
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:[m[K In constructor ‘[01m[KMotor_controller::Motor_controller(int, char**)[m[K’:
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:35:24:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
+   35 |                 return [01;31m[KEXIT_FAILURE[m[K;
+      |                        [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:52:28:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
+   52 |                     return [01;31m[KEXIT_FAILURE[m[K;
+      |                            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:70:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KmaxonEnabledAfterStartup[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   70 |             bool [01;35m[KmaxonEnabledAfterStartup[m[K = false;
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:[m[K In member function ‘[01m[Kvoid Motor_controller::motor_command_callback(motor_control_interfaces::msg::MotorCommand_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:215:41:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kmotor_control_interfaces::msg::MotorCommand_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’} to ‘[01m[KMotor_mode[m[K’ [[01;31m[K-fpermissive[m[K]
+  215 |                     command.mode = [01;31m[Kmsg->mode[m[K;
+      |                                    [01;31m[K~~~~~^~~~[m[K
+      |                                         [01;31m[K|[m[K
+      |                                         [01;31m[Kmotor_control_interfaces::msg::MotorCommand_<std::allocator<void> >::_mode_type {aka unsigned char}[m[K
+make[2]: *** [CMakeFiles/motor_control.dir/build.make:63: CMakeFiles/motor_control.dir/src/motor_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:261: CMakeFiles/motor_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

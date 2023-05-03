@@ -8,10 +8,13 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_cpp/motor_control_interfaces/msg/detail/motor_command__builder.hpp" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_cpp/motor_control_interfaces/msg/motor_command.hpp"
   "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_cpp/motor_control_interfaces/msg/detail/motor_command__struct.hpp" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_cpp/motor_control_interfaces/msg/motor_command.hpp"
   "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_cpp/motor_control_interfaces/msg/detail/motor_command__traits.hpp" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_cpp/motor_control_interfaces/msg/motor_command.hpp"
+<<<<<<< HEAD
   "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_cpp/motor_control_interfaces/msg/detail/motor_data__builder.hpp" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_cpp/motor_control_interfaces/msg/motor_command.hpp"
   "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_cpp/motor_control_interfaces/msg/detail/motor_data__struct.hpp" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_cpp/motor_control_interfaces/msg/motor_command.hpp"
   "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_cpp/motor_control_interfaces/msg/detail/motor_data__traits.hpp" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_cpp/motor_control_interfaces/msg/motor_command.hpp"
   "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_cpp/motor_control_interfaces/msg/motor_data.hpp" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_cpp/motor_control_interfaces/msg/motor_command.hpp"
+=======
+>>>>>>> parent of 9a1ced2... del build/log/install
   )
 
 

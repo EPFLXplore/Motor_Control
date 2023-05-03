@@ -355,18 +355,24 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motor_control_interfaces/msg" TYPE FILE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_adapter/motor_control_interfaces/msg/MotorData.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+=======
+>>>>>>> parent of 9a1ced2... del build/log/install
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motor_control_interfaces/msg" TYPE FILE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/src/motor_control_interfaces/msg/MotorCommand.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motor_control_interfaces/msg" TYPE FILE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/src/motor_control_interfaces/msg/MotorData.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+=======
+>>>>>>> parent of 9a1ced2... del build/log/install
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/motor_control_interfaces")
 endif()
 

@@ -27,12 +27,15 @@ motor_control_interfaces/msg/detail/motor_command__struct.h
 /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/motor_control_interfaces/msg/detail/motor_command__struct.h
 motor_control_interfaces/msg/detail/motor_command__functions.h
 /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/motor_control_interfaces/msg/detail/motor_command__functions.h
+<<<<<<< HEAD
 motor_control_interfaces/msg/detail/motor_data__type_support.h
 /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/motor_control_interfaces/msg/detail/motor_data__type_support.h
 motor_control_interfaces/msg/detail/motor_data__struct.h
 /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/motor_control_interfaces/msg/detail/motor_data__struct.h
 motor_control_interfaces/msg/detail/motor_data__functions.h
 /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/motor_control_interfaces/msg/detail/motor_data__functions.h
+=======
+>>>>>>> parent of 9a1ced2... del build/log/install
 
 /home/hd/ros2_foxy/install/rosidl_runtime_c/include/rosidl_runtime_c/action_type_support_struct.h
 rosidl_runtime_c/message_type_support_struct.h
@@ -606,6 +609,7 @@ rosidl_generator_c/motor_control_interfaces/msg/detail/motor_control_interfaces/
 rosidl_runtime_c/message_type_support_struct.h
 rosidl_generator_c/motor_control_interfaces/msg/detail/rosidl_runtime_c/message_type_support_struct.h
 
+<<<<<<< HEAD
 rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__functions.h
 stdbool.h
 -
@@ -636,5 +640,7 @@ rosidl_generator_c/motor_control_interfaces/msg/detail/motor_control_interfaces/
 rosidl_runtime_c/message_type_support_struct.h
 rosidl_generator_c/motor_control_interfaces/msg/detail/rosidl_runtime_c/message_type_support_struct.h
 
+=======
+>>>>>>> parent of 9a1ced2... del build/log/install
 rosidl_generator_c/motor_control_interfaces/msg/rosidl_generator_c__visibility_control.h
 

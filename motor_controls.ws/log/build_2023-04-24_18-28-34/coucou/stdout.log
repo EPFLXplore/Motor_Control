@@ -1,0 +1,15 @@
+-- Found ament_cmake: 0.9.11 (/home/hd/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.2 (/home/hd/ros2_foxy/install/rclcpp/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/home/hd/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/home/hd/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 2.0.5 (/home/hd/ros2_foxy/install/sensor_msgs/share/sensor_msgs/cmake)
+-- Found rosidl_default_generators: 1.0.1 (/home/hd/ros2_foxy/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Configuring incomplete, errors occurred!
+See also "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/CMakeFiles/CMakeOutput.log".
+See also "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/CMakeFiles/CMakeError.log".

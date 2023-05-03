@@ -623,6 +623,12 @@ rosidl_adapter_DIR:PATH=/home/hd/ros2_foxy/install/rosidl_adapter/share/rosidl_a
 //The directory containing a CMake configuration file for rosidl_cmake.
 rosidl_cmake_DIR:PATH=/home/hd/ros2_foxy/install/rosidl_cmake/share/rosidl_cmake/cmake
 
+<<<<<<< HEAD
+=======
+//The directory containing a CMake configuration file for rosidl_default_generators.
+rosidl_default_generators_DIR:PATH=/home/hd/ros2_foxy/install/rosidl_default_generators/share/rosidl_default_generators/cmake
+
+>>>>>>> parent of 9a1ced2... del build/log/install
 //The directory containing a CMake configuration file for rosidl_default_runtime.
 rosidl_default_runtime_DIR:PATH=/home/hd/ros2_foxy/install/rosidl_default_runtime/share/rosidl_default_runtime/cmake
 
@@ -632,6 +638,12 @@ rosidl_generator_c_DIR:PATH=/home/hd/ros2_foxy/install/rosidl_generator_c/share/
 //The directory containing a CMake configuration file for rosidl_generator_cpp.
 rosidl_generator_cpp_DIR:PATH=/home/hd/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake
 
+<<<<<<< HEAD
+=======
+//The directory containing a CMake configuration file for rosidl_generator_py.
+rosidl_generator_py_DIR:PATH=/home/hd/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/cmake
+
+>>>>>>> parent of 9a1ced2... del build/log/install
 //The directory containing a CMake configuration file for rosidl_runtime_c.
 rosidl_runtime_c_DIR:PATH=/home/hd/ros2_foxy/install/rosidl_runtime_c/share/rosidl_runtime_c/cmake
 

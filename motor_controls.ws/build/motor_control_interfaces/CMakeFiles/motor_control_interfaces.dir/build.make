@@ -54,7 +54,10 @@ CMAKE_BINARY_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_
 include CMakeFiles/motor_control_interfaces.dir/progress.make
 
 CMakeFiles/motor_control_interfaces: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/motor_control_interfaces/msg/MotorCommand.msg
+<<<<<<< HEAD
 CMakeFiles/motor_control_interfaces: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/motor_control_interfaces/msg/MotorData.msg
+=======
+>>>>>>> parent of 9a1ced2... del build/log/install
 
 
 motor_control_interfaces: CMakeFiles/motor_control_interfaces

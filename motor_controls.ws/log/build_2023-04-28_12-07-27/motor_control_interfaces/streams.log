@@ -1,0 +1,57 @@
+[0.343s] Invoking command in '/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/hd/ros2_foxy/install/ros2bag:/home/hd/ros2_foxy/install/tracetools_launch:/home/hd/ros2_foxy/install/topic_monitor:/home/hd/ros2_foxy/install/examples_tf2_py:/home/hd/ros2_foxy/install/sros2:/home/hd/ros2_foxy/install/rqt_topic:/home/hd/ros2_foxy/install/rqt_top:/home/hd/ros2_foxy/install/rqt_srv:/home/hd/ros2_foxy/install/rqt_shell:/home/hd/ros2_foxy/install/rqt_service_caller:/home/hd/ros2_foxy/install/rqt_reconfigure:/home/hd/ros2_foxy/install/rqt_py_console:/home/hd/ros2_foxy/install/rqt_publisher:/home/hd/ros2_foxy/install/rqt_plot:/home/hd/ros2_foxy/install/rqt_action:/home/hd/ros2_foxy/install/rqt_msg:/home/hd/ros2_foxy/install/rqt_console:/home/hd/ros2_foxy/install/rqt:/home/hd/ros2_foxy/install/rqt_graph:/home/hd/ros2_foxy/install/rqt_gui_py:/home/hd/ros2_foxy/install/rqt_gui:/home/hd/ros2_foxy/install/ros2trace:/home/hd/ros2_foxy/install/ros2topic:/home/hd/ros2_foxy/install/ros2test:/home/hd/ros2_foxy/install/ros2component:/home/hd/ros2_foxy/install/ros2param:/home/hd/ros2_foxy/install/ros2lifecycle:/home/hd/ros2_foxy/install/ros2service:/home/hd/ros2_foxy/install/ros2run:/home/hd/ros2_foxy/install/ros2launch:/home/hd/ros2_foxy/install/ros2pkg:/home/hd/ros2_foxy/install/ros2node:/home/hd/ros2_foxy/install/ros2multicast:/home/hd/ros2_foxy/install/ros2interface:/home/hd/ros2_foxy/install/ros2doctor:/home/hd/ros2_foxy/install/ros2action:/home/hd/ros2_foxy/install/ros2cli:/home/hd/ros2_foxy/install/quality_of_service_demo_py:/home/hd/ros2_foxy/install/launch_testing_ros:/home/hd/ros2_foxy/install/launch_ros:/home/hd/ros2_foxy/install/joystick_ros2:/home/hd/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/hd/ros2_foxy/install/examples_rclpy_minimal_service:/home/hd/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/hd/ros2_foxy/install/examples_rclpy_minimal_client:/home/hd/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/hd/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/hd/ros2_foxy/install/examples_rclpy_executors:/home/hd/ros2_foxy/install/demo_nodes_py:/home/hd/ros2_foxy/install/action_tutorials_py:/home/hd/ros2_foxy/install/ament_uncrustify:/home/hd/ros2_foxy/install/tracetools_trace:/home/hd/ros2_foxy/install/tracetools_read:/home/hd/ros2_foxy/install/test_launch_ros:/home/hd/ros2_foxy/install/sensor_msgs_py:/home/hd/ros2_foxy/install/rpyutils:/home/hd/ros2_foxy/install/rosidl_runtime_py:/home/hd/ros2_foxy/install/launch_yaml:/home/hd/ros2_foxy/install/launch_xml:/home/hd/ros2_foxy/install/launch_testing:/home/hd/ros2_foxy/install/launch:/home/hd/ros2_foxy/install/osrf_pycommon:/home/hd/ros2_foxy/install/domain_coordinator:/home/hd/ros2_foxy/install/ament_xmllint:/home/hd/ros2_foxy/install/ament_pyflakes:/home/hd/ros2_foxy/install/ament_pycodestyle:/home/hd/ros2_foxy/install/ament_pep257:/home/hd/ros2_foxy/install/ament_pclint:/home/hd/ros2_foxy/install/ament_package:/home/hd/ros2_foxy/install/ament_mypy:/home/hd/ros2_foxy/install/ament_lint_cmake:/home/hd/ros2_foxy/install/ament_flake8:/home/hd/ros2_foxy/install/ament_copyright:/home/hd/ros2_foxy/install/ament_lint:/home/hd/ros2_foxy/install/ament_index_python:/home/hd/ros2_foxy/install/ament_cpplint:/home/hd/ros2_foxy/install/ament_cppcheck:/home/hd/ros2_foxy/install/ament_clang_tidy:/home/hd/ros2_foxy/install/ament_clang_format /usr/bin/cmake --build /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces -- -j2 -l2
+[2.171s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.908s] [  3%] Built target motor_control_interfaces__cpp
+[5.002s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.618s] [35m[1mScanning dependencies of target motor_control_interfaces__rosidl_generator_c[0m
+[6.717s] [  9%] [32mBuilding C object CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__functions.c.o[0m
+[7.195s] [ 12%] [32m[1mLinking C shared library libmotor_control_interfaces__rosidl_generator_c.so[0m
+[7.357s] [ 12%] Built target motor_control_interfaces__rosidl_generator_c
+[7.411s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.599s] [35m[1mScanning dependencies of target motor_control_interfaces__rosidl_typesupport_introspection_cpp[0m
+[8.641s] [ 19%] [32mBuilding CXX object CMakeFiles/motor_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/motor_command__type_support.cpp.o[0m
+[9.263s] [ 22%] [32m[1mLinking CXX shared library libmotor_control_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[9.437s] [ 22%] Built target motor_control_interfaces__rosidl_typesupport_introspection_cpp
+[9.496s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.932s] [35m[1mScanning dependencies of target motor_control_interfaces__rosidl_typesupport_cpp[0m
+[10.972s] [ 29%] [32mBuilding CXX object CMakeFiles/motor_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_control_interfaces/msg/motor_command__type_support.cpp.o[0m
+[11.503s] [ 32%] [32m[1mLinking CXX shared library libmotor_control_interfaces__rosidl_typesupport_cpp.so[0m
+[11.698s] [ 32%] Built target motor_control_interfaces__rosidl_typesupport_cpp
+[11.768s] [ 35%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[13.060s] [35m[1mScanning dependencies of target motor_control_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[13.145s] [ 38%] [32mBuilding CXX object CMakeFiles/motor_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_control_interfaces/msg/detail/dds_fastrtps/motor_command__type_support.cpp.o[0m
+[14.314s] [ 41%] [32m[1mLinking CXX shared library libmotor_control_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[14.598s] [ 41%] Built target motor_control_interfaces__rosidl_typesupport_fastrtps_cpp
+[14.731s] [ 45%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[16.057s] [35m[1mScanning dependencies of target motor_control_interfaces__rosidl_typesupport_c[0m
+[16.105s] [ 48%] [32mBuilding CXX object CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_control_interfaces/msg/motor_command__type_support.cpp.o[0m
+[16.206s] [ 51%] [32m[1mLinking CXX shared library libmotor_control_interfaces__rosidl_typesupport_c.so[0m
+[16.355s] [ 51%] Built target motor_control_interfaces__rosidl_typesupport_c
+[16.446s] [ 54%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[17.652s] [35m[1mScanning dependencies of target motor_control_interfaces__rosidl_typesupport_introspection_c[0m
+[17.699s] [ 58%] [32mBuilding C object CMakeFiles/motor_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_control_interfaces/msg/detail/motor_command__type_support.c.o[0m
+[17.796s] [ 61%] [32m[1mLinking C shared library libmotor_control_interfaces__rosidl_typesupport_introspection_c.so[0m
+[17.900s] [ 61%] Built target motor_control_interfaces__rosidl_typesupport_introspection_c
+[17.960s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[18.944s] [35m[1mScanning dependencies of target motor_control_interfaces__rosidl_typesupport_fastrtps_c[0m
+[18.987s] [ 67%] [32mBuilding CXX object CMakeFiles/motor_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motor_control_interfaces/msg/detail/motor_command__type_support_c.cpp.o[0m
+[19.590s] [ 70%] [32m[1mLinking CXX shared library libmotor_control_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[19.779s] [ 70%] Built target motor_control_interfaces__rosidl_typesupport_fastrtps_c
+[19.865s] [ 70%] Built target motor_control_interfaces
+[19.969s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[21.740s] [ 74%] Built target motor_control_interfaces__py
+[21.795s] [35m[1mScanning dependencies of target motor_control_interfaces__python[0m
+[21.852s] [ 77%] [32mBuilding C object CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_command_s.c.o[0m
+[22.171s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/motor_control_interfaces/libmotor_control_interfaces__python.so[0m
+[22.303s] [ 80%] Built target motor_control_interfaces__python
+[22.357s] [35m[1mScanning dependencies of target motor_control_interfaces__rosidl_typesupport_c__pyext[0m
+[22.556s] [ 83%] [32mBuilding C object CMakeFiles/motor_control_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[22.746s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/motor_control_interfaces/motor_control_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[22.887s] [ 87%] Built target motor_control_interfaces__rosidl_typesupport_c__pyext
+[22.980s] [35m[1mScanning dependencies of target motor_control_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[23.044s] [ 90%] [32mBuilding C object CMakeFiles/motor_control_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[23.252s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/motor_control_interfaces/motor_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[23.391s] [ 93%] Built target motor_control_interfaces__rosidl_typesupport_introspection_c__pyext
+[23.474s] [35m[1mScanning dependencies of target motor_control_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[23.566s] [ 96%] [32mBuilding C object CMakeFiles/motor_control_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[23.830s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/motor_control_interfaces/motor_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[24.003s] [100%] Built target motor_control_interfaces__rosidl_typesupport_fastrtps_c__pyext

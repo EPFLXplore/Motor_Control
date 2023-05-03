@@ -1,0 +1,15 @@
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:[m[K In constructor ‘[01m[KMotor_controller::Motor_controller(int, char**)[m[K’:
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:70:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KmaxonEnabledAfterStartup[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   70 |             bool [01;35m[KmaxonEnabledAfterStartup[m[K = false;
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:[m[K In member function ‘[01m[Kvoid Motor_controller::update_motor()[m[K’:
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:159:22:[m[K [01;31m[Kerror: [m[K‘[01m[KmaxonEnabledAfterStartup[m[K’ was not declared in this scope; did you mean ‘[01m[KmaxonEnabledAfterStartup_[m[K’?
+  159 |                 if (![01;31m[KmaxonEnabledAfterStartup[m[K)
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                      [32m[KmaxonEnabledAfterStartup_[m[K
+[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:162:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kmaxon_slave_ptr[m[K’ was not declared in this scope
+  162 |                     [01;31m[Kmaxon_slave_ptr[m[K->setDriveStateViaPdo(maxon::DriveState::OperationEnabled, false);
+      |                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/motor_control.dir/build.make:63: CMakeFiles/motor_control.dir/src/motor_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:261: CMakeFiles/motor_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

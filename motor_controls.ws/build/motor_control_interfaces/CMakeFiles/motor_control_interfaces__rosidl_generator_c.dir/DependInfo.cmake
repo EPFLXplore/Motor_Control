@@ -5,7 +5,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__functions.c" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__functions.c.o"
+<<<<<<< HEAD
   "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__functions.c" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__functions.c.o"
+=======
+>>>>>>> parent of 9a1ced2... del build/log/install
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -30,11 +33,14 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__functions.h" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_c/motor_control_interfaces/msg/motor_command.h"
   "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__struct.h" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_c/motor_control_interfaces/msg/motor_command.h"
   "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__type_support.h" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_c/motor_control_interfaces/msg/motor_command.h"
+<<<<<<< HEAD
   "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__functions.c" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_c/motor_control_interfaces/msg/motor_command.h"
   "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__functions.h" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_c/motor_control_interfaces/msg/motor_command.h"
   "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__struct.h" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_c/motor_control_interfaces/msg/motor_command.h"
   "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__type_support.h" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_c/motor_control_interfaces/msg/motor_command.h"
   "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_c/motor_control_interfaces/msg/motor_data.h" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_c/motor_control_interfaces/msg/motor_command.h"
+=======
+>>>>>>> parent of 9a1ced2... del build/log/install
   )
 
 

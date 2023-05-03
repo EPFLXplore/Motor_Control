@@ -1,0 +1,56 @@
+[  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  3%] Built target motor_control_interfaces__cpp
+[  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[35m[1mScanning dependencies of target motor_control_interfaces__rosidl_generator_c[0m
+[  9%] [32mBuilding C object CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_command__functions.c.o[0m
+[ 12%] [32m[1mLinking C shared library libmotor_control_interfaces__rosidl_generator_c.so[0m
+[ 12%] Built target motor_control_interfaces__rosidl_generator_c
+[ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target motor_control_interfaces__rosidl_typesupport_introspection_cpp[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/motor_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/motor_command__type_support.cpp.o[0m
+[ 22%] [32m[1mLinking CXX shared library libmotor_control_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 22%] Built target motor_control_interfaces__rosidl_typesupport_introspection_cpp
+[ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target motor_control_interfaces__rosidl_typesupport_cpp[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/motor_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_control_interfaces/msg/motor_command__type_support.cpp.o[0m
+[ 32%] [32m[1mLinking CXX shared library libmotor_control_interfaces__rosidl_typesupport_cpp.so[0m
+[ 32%] Built target motor_control_interfaces__rosidl_typesupport_cpp
+[ 35%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target motor_control_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/motor_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_control_interfaces/msg/detail/dds_fastrtps/motor_command__type_support.cpp.o[0m
+[ 41%] [32m[1mLinking CXX shared library libmotor_control_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 41%] Built target motor_control_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 45%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target motor_control_interfaces__rosidl_typesupport_c[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_control_interfaces/msg/motor_command__type_support.cpp.o[0m
+[ 51%] [32m[1mLinking CXX shared library libmotor_control_interfaces__rosidl_typesupport_c.so[0m
+[ 51%] Built target motor_control_interfaces__rosidl_typesupport_c
+[ 54%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target motor_control_interfaces__rosidl_typesupport_introspection_c[0m
+[ 58%] [32mBuilding C object CMakeFiles/motor_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_control_interfaces/msg/detail/motor_command__type_support.c.o[0m
+[ 61%] [32m[1mLinking C shared library libmotor_control_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 61%] Built target motor_control_interfaces__rosidl_typesupport_introspection_c
+[ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target motor_control_interfaces__rosidl_typesupport_fastrtps_c[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/motor_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motor_control_interfaces/msg/detail/motor_command__type_support_c.cpp.o[0m
+[ 70%] [32m[1mLinking CXX shared library libmotor_control_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 70%] Built target motor_control_interfaces__rosidl_typesupport_fastrtps_c
+[ 70%] Built target motor_control_interfaces
+[ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 74%] Built target motor_control_interfaces__py
+[35m[1mScanning dependencies of target motor_control_interfaces__python[0m
+[ 77%] [32mBuilding C object CMakeFiles/motor_control_interfaces__python.dir/rosidl_generator_py/motor_control_interfaces/msg/_motor_command_s.c.o[0m
+[ 80%] [32m[1mLinking C shared library rosidl_generator_py/motor_control_interfaces/libmotor_control_interfaces__python.so[0m
+[ 80%] Built target motor_control_interfaces__python
+[35m[1mScanning dependencies of target motor_control_interfaces__rosidl_typesupport_c__pyext[0m
+[ 83%] [32mBuilding C object CMakeFiles/motor_control_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 87%] [32m[1mLinking C shared library rosidl_generator_py/motor_control_interfaces/motor_control_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 87%] Built target motor_control_interfaces__rosidl_typesupport_c__pyext
+[35m[1mScanning dependencies of target motor_control_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[ 90%] [32mBuilding C object CMakeFiles/motor_control_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/motor_control_interfaces/motor_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 93%] Built target motor_control_interfaces__rosidl_typesupport_introspection_c__pyext
+[35m[1mScanning dependencies of target motor_control_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 96%] [32mBuilding C object CMakeFiles/motor_control_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[100%] [32m[1mLinking CXX shared library rosidl_generator_py/motor_control_interfaces/motor_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] Built target motor_control_interfaces__rosidl_typesupport_fastrtps_c__pyext

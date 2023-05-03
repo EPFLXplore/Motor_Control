@@ -22,6 +22,7 @@ rcutils/allocator.h
 rosidl_runtime_c/string_functions.h
 /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_c/motor_control_interfaces/msg/detail/rosidl_runtime_c/string_functions.h
 
+<<<<<<< HEAD
 /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__functions.c
 motor_control_interfaces/msg/detail/motor_data__functions.h
 /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_c/motor_control_interfaces/msg/detail/motor_control_interfaces/msg/detail/motor_data__functions.h
@@ -38,6 +39,8 @@ rcutils/allocator.h
 rosidl_runtime_c/string_functions.h
 /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_c/motor_control_interfaces/msg/detail/rosidl_runtime_c/string_functions.h
 
+=======
+>>>>>>> parent of 9a1ced2... del build/log/install
 /home/hd/ros2_foxy/install/rcutils/include/rcutils/allocator.h
 stdbool.h
 -
@@ -124,6 +127,7 @@ stdint.h
 rosidl_runtime_c/string.h
 rosidl_generator_c/motor_control_interfaces/msg/detail/rosidl_runtime_c/string.h
 
+<<<<<<< HEAD
 rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__functions.h
 stdbool.h
 -
@@ -146,5 +150,7 @@ stdint.h
 rosidl_runtime_c/string.h
 rosidl_generator_c/motor_control_interfaces/msg/detail/rosidl_runtime_c/string.h
 
+=======
+>>>>>>> parent of 9a1ced2... del build/log/install
 rosidl_generator_c/motor_control_interfaces/msg/rosidl_generator_c__visibility_control.h
 
