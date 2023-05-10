@@ -1,7 +1,0 @@
-[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou/src/read_test.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kcoucou/msg/MotorCommand.msg: No such file or directory
-    4 | #include [01;31m[K"coucou/msg/MotorCommand.msg"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-make[2]: *** [CMakeFiles/suscriber_test.dir/build.make:63: CMakeFiles/suscriber_test.dir/src/read_test.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:441: CMakeFiles/suscriber_test.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

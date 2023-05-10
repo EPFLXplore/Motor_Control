@@ -15,11 +15,18 @@
   <buildtool_depend>ament_cmake</buildtool_depend>
   
   <depend>rclcpp</depend>
-  <depend>yaml-cpp</depend>
+  <depend>Threads</depend>
   <depend>message_logger</depend>
   <depend>soem_interface</depend>
   <depend>ethercat_sdk_master</depend>
   <depend>maxon_epos_ethercat_sdk</depend>
+  <depend>motor_control_interfaces</depend>
+  <depend>yaml-cpp</depend>
+
+
+  <build_depend>rosidl_default_generators</build_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <member_of_group>rosidl_interface_packages</member_of_group>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>

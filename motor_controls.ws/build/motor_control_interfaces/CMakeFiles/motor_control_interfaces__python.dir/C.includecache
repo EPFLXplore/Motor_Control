@@ -6,46 +6,43 @@
 
 #IncludeRegexTransform: 
 
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/_motor_command_s.c
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/_motor_command_s.c
 Python.h
 -
 stdbool.h
 -
 numpy/ndarrayobject.h
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/numpy/ndarrayobject.h
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/numpy/ndarrayobject.h
 rosidl_runtime_c/visibility_control.h
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/rosidl_runtime_c/visibility_control.h
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/rosidl_runtime_c/visibility_control.h
 motor_control_interfaces/msg/detail/motor_command__struct.h
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/motor_control_interfaces/msg/detail/motor_command__struct.h
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/motor_control_interfaces/msg/detail/motor_command__struct.h
 motor_control_interfaces/msg/detail/motor_command__functions.h
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/motor_control_interfaces/msg/detail/motor_command__functions.h
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/motor_control_interfaces/msg/detail/motor_command__functions.h
 rosidl_runtime_c/string.h
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/rosidl_runtime_c/string.h
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/rosidl_runtime_c/string.h
 rosidl_runtime_c/string_functions.h
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/rosidl_runtime_c/string_functions.h
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/rosidl_runtime_c/string_functions.h
 
-<<<<<<< HEAD
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/_motor_data_s.c
 Python.h
 -
 stdbool.h
 -
 numpy/ndarrayobject.h
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/numpy/ndarrayobject.h
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/numpy/ndarrayobject.h
 rosidl_runtime_c/visibility_control.h
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/rosidl_runtime_c/visibility_control.h
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/rosidl_runtime_c/visibility_control.h
 motor_control_interfaces/msg/detail/motor_data__struct.h
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/motor_control_interfaces/msg/detail/motor_data__struct.h
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/motor_control_interfaces/msg/detail/motor_data__struct.h
 motor_control_interfaces/msg/detail/motor_data__functions.h
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/motor_control_interfaces/msg/detail/motor_data__functions.h
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/motor_control_interfaces/msg/detail/motor_data__functions.h
 rosidl_runtime_c/string.h
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/rosidl_runtime_c/string.h
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/rosidl_runtime_c/string.h
 rosidl_runtime_c/string_functions.h
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/rosidl_runtime_c/string_functions.h
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/msg/rosidl_runtime_c/string_functions.h
 
-=======
->>>>>>> parent of 9a1ced2... del build/log/install
-/home/hd/ros2_foxy/install/rosidl_runtime_c/include/rosidl_runtime_c/primitives_sequence.h
+/opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence.h
 stdbool.h
 -
 stddef.h
@@ -53,21 +50,21 @@ stddef.h
 stdint.h
 -
 
-/home/hd/ros2_foxy/install/rosidl_runtime_c/include/rosidl_runtime_c/string.h
+/opt/ros/foxy/include/rosidl_runtime_c/string.h
 stddef.h
 -
 rosidl_runtime_c/primitives_sequence.h
-/home/hd/ros2_foxy/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h
 
-/home/hd/ros2_foxy/install/rosidl_runtime_c/include/rosidl_runtime_c/string_functions.h
+/opt/ros/foxy/include/rosidl_runtime_c/string_functions.h
 stddef.h
 -
 rosidl_runtime_c/string.h
-/home/hd/ros2_foxy/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/string.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/string.h
 rosidl_runtime_c/visibility_control.h
-/home/hd/ros2_foxy/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
 
-/home/hd/ros2_foxy/install/rosidl_runtime_c/include/rosidl_runtime_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
 
 /usr/include/python3.8/Python.h
 patchlevel.h
@@ -663,7 +660,6 @@ stdint.h
 rosidl_runtime_c/string.h
 rosidl_generator_c/motor_control_interfaces/msg/detail/rosidl_runtime_c/string.h
 
-<<<<<<< HEAD
 rosidl_generator_c/motor_control_interfaces/msg/detail/motor_data__functions.h
 stdbool.h
 -
@@ -686,7 +682,5 @@ stdint.h
 rosidl_runtime_c/string.h
 rosidl_generator_c/motor_control_interfaces/msg/detail/rosidl_runtime_c/string.h
 
-=======
->>>>>>> parent of 9a1ced2... del build/log/install
 rosidl_generator_c/motor_control_interfaces/msg/rosidl_generator_c__visibility_control.h
 

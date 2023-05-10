@@ -1,4 +1,0 @@
-[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:[m[K In constructor ‘[01m[KMotor_controller::Motor_controller(int, char**)[m[K’:
-[01m[K/home/hd/Desktop/Motor_Control/motor_controls.ws/src/ethercat_device_configurator/src/motor_control.cpp:70:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KmaxonEnabledAfterStartup[m[K’ [[01;35m[K-Wunused-variable[m[K]
-   70 |             bool [01;35m[KmaxonEnabledAfterStartup[m[K = false;
-      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K

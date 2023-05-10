@@ -6,76 +6,73 @@
 
 #IncludeRegexTransform: 
 
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/motor_command__type_support.cpp
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/motor_command__type_support.cpp
 array
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/array
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/array
 cstddef
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/cstddef
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/cstddef
 string
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/string
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/string
 vector
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/vector
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/vector
 rosidl_runtime_c/message_type_support_struct.h
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_runtime_c/message_type_support_struct.h
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_runtime_c/message_type_support_struct.h
 rosidl_typesupport_cpp/message_type_support.hpp
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_typesupport_cpp/message_type_support.hpp
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_typesupport_cpp/message_type_support.hpp
 rosidl_typesupport_interface/macros.h
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_typesupport_interface/macros.h
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_typesupport_interface/macros.h
 motor_control_interfaces/msg/detail/motor_command__struct.hpp
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/motor_control_interfaces/msg/detail/motor_command__struct.hpp
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/motor_control_interfaces/msg/detail/motor_command__struct.hpp
 rosidl_typesupport_introspection_cpp/field_types.hpp
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_typesupport_introspection_cpp/field_types.hpp
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_typesupport_introspection_cpp/field_types.hpp
 rosidl_typesupport_introspection_cpp/identifier.hpp
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_typesupport_introspection_cpp/identifier.hpp
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_typesupport_introspection_cpp/identifier.hpp
 rosidl_typesupport_introspection_cpp/message_introspection.hpp
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_typesupport_introspection_cpp/message_introspection.hpp
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_typesupport_introspection_cpp/message_introspection.hpp
 rosidl_typesupport_introspection_cpp/message_type_support_decl.hpp
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_typesupport_introspection_cpp/message_type_support_decl.hpp
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_typesupport_introspection_cpp/message_type_support_decl.hpp
 rosidl_typesupport_introspection_cpp/visibility_control.h
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_typesupport_introspection_cpp/visibility_control.h
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_typesupport_introspection_cpp/visibility_control.h
 
-<<<<<<< HEAD
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/motor_data__type_support.cpp
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/motor_data__type_support.cpp
 array
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/array
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/array
 cstddef
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/cstddef
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/cstddef
 string
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/string
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/string
 vector
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/vector
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/vector
 rosidl_runtime_c/message_type_support_struct.h
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_runtime_c/message_type_support_struct.h
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_runtime_c/message_type_support_struct.h
 rosidl_typesupport_cpp/message_type_support.hpp
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_typesupport_cpp/message_type_support.hpp
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_typesupport_cpp/message_type_support.hpp
 rosidl_typesupport_interface/macros.h
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_typesupport_interface/macros.h
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_typesupport_interface/macros.h
 motor_control_interfaces/msg/detail/motor_data__struct.hpp
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/motor_control_interfaces/msg/detail/motor_data__struct.hpp
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/motor_control_interfaces/msg/detail/motor_data__struct.hpp
 rosidl_typesupport_introspection_cpp/field_types.hpp
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_typesupport_introspection_cpp/field_types.hpp
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_typesupport_introspection_cpp/field_types.hpp
 rosidl_typesupport_introspection_cpp/identifier.hpp
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_typesupport_introspection_cpp/identifier.hpp
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_typesupport_introspection_cpp/identifier.hpp
 rosidl_typesupport_introspection_cpp/message_introspection.hpp
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_typesupport_introspection_cpp/message_introspection.hpp
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_typesupport_introspection_cpp/message_introspection.hpp
 rosidl_typesupport_introspection_cpp/message_type_support_decl.hpp
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_typesupport_introspection_cpp/message_type_support_decl.hpp
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_typesupport_introspection_cpp/message_type_support_decl.hpp
 rosidl_typesupport_introspection_cpp/visibility_control.h
-/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_typesupport_introspection_cpp/visibility_control.h
+/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_typesupport_introspection_cpp/motor_control_interfaces/msg/detail/rosidl_typesupport_introspection_cpp/visibility_control.h
 
-=======
->>>>>>> parent of 9a1ced2... del build/log/install
-/home/hd/ros2_foxy/install/rosidl_runtime_c/include/rosidl_runtime_c/message_initialization.h
+/opt/ros/foxy/include/rosidl_runtime_c/message_initialization.h
 
-/home/hd/ros2_foxy/install/rosidl_runtime_c/include/rosidl_runtime_c/message_type_support_struct.h
+/opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
 rosidl_runtime_c/visibility_control.h
-/home/hd/ros2_foxy/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
 rosidl_typesupport_interface/macros.h
-/home/hd/ros2_foxy/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
 
-/home/hd/ros2_foxy/install/rosidl_runtime_c/include/rosidl_runtime_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
 
-/home/hd/ros2_foxy/install/rosidl_runtime_cpp/include/rosidl_runtime_cpp/bounded_vector.hpp
+/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp
 algorithm
 -
 memory
@@ -87,51 +84,51 @@ utility
 vector
 -
 
-/home/hd/ros2_foxy/install/rosidl_runtime_cpp/include/rosidl_runtime_cpp/message_initialization.hpp
+/opt/ros/foxy/include/rosidl_runtime_cpp/message_initialization.hpp
 rosidl_runtime_c/message_initialization.h
 -
 
-/home/hd/ros2_foxy/install/rosidl_runtime_cpp/include/rosidl_typesupport_cpp/message_type_support.hpp
+/opt/ros/foxy/include/rosidl_typesupport_cpp/message_type_support.hpp
 rosidl_runtime_c/message_type_support_struct.h
 -
 rosidl_runtime_c/visibility_control.h
 -
 
-/home/hd/ros2_foxy/install/rosidl_typesupport_interface/include/rosidl_typesupport_interface/macros.h
+/opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
 
-/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_c/include/rosidl_typesupport_introspection_c/field_types.h
+/opt/ros/foxy/include/rosidl_typesupport_introspection_c/field_types.h
 stdint.h
 -
 
-/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_cpp/include/rosidl_typesupport_introspection_cpp/field_types.hpp
+/opt/ros/foxy/include/rosidl_typesupport_introspection_cpp/field_types.hpp
 rosidl_typesupport_introspection_c/field_types.h
 -
 cstdint
 -
 
-/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_cpp/include/rosidl_typesupport_introspection_cpp/identifier.hpp
+/opt/ros/foxy/include/rosidl_typesupport_introspection_cpp/identifier.hpp
 rosidl_typesupport_introspection_cpp/visibility_control.h
-/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_cpp/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h
+/opt/ros/foxy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h
 
-/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_cpp/include/rosidl_typesupport_introspection_cpp/message_introspection.hpp
+/opt/ros/foxy/include/rosidl_typesupport_introspection_cpp/message_introspection.hpp
 cstddef
 -
 cstdint
 -
 rosidl_runtime_c/message_type_support_struct.h
-/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_cpp/include/rosidl_typesupport_introspection_cpp/rosidl_runtime_c/message_type_support_struct.h
+/opt/ros/foxy/include/rosidl_typesupport_introspection_cpp/rosidl_runtime_c/message_type_support_struct.h
 rosidl_runtime_cpp/message_initialization.hpp
-/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_cpp/include/rosidl_typesupport_introspection_cpp/rosidl_runtime_cpp/message_initialization.hpp
+/opt/ros/foxy/include/rosidl_typesupport_introspection_cpp/rosidl_runtime_cpp/message_initialization.hpp
 rosidl_typesupport_introspection_cpp/visibility_control.h
-/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_cpp/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h
+/opt/ros/foxy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h
 
-/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_cpp/include/rosidl_typesupport_introspection_cpp/message_type_support_decl.hpp
+/opt/ros/foxy/include/rosidl_typesupport_introspection_cpp/message_type_support_decl.hpp
 rosidl_runtime_c/message_type_support_struct.h
-/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_cpp/include/rosidl_typesupport_introspection_cpp/rosidl_runtime_c/message_type_support_struct.h
+/opt/ros/foxy/include/rosidl_typesupport_introspection_cpp/rosidl_runtime_c/message_type_support_struct.h
 rosidl_typesupport_introspection_cpp/visibility_control.h
-/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_cpp/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h
+/opt/ros/foxy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h
 
-/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_cpp/include/rosidl_typesupport_introspection_cpp/visibility_control.h
+/opt/ros/foxy/include/rosidl_typesupport_introspection_cpp/visibility_control.h
 
 rosidl_generator_cpp/motor_control_interfaces/msg/detail/motor_command__struct.hpp
 rosidl_runtime_cpp/bounded_vector.hpp
@@ -149,7 +146,6 @@ string
 vector
 -
 
-<<<<<<< HEAD
 rosidl_generator_cpp/motor_control_interfaces/msg/detail/motor_data__struct.hpp
 rosidl_runtime_cpp/bounded_vector.hpp
 -
@@ -166,5 +162,3 @@ string
 vector
 -
 
-=======
->>>>>>> parent of 9a1ced2... del build/log/install

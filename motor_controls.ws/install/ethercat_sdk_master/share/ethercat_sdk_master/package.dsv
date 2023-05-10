@@ -1,0 +1,8 @@
+source;share/ethercat_sdk_master/hook/cmake_prefix_path.ps1
+source;share/ethercat_sdk_master/hook/cmake_prefix_path.dsv
+source;share/ethercat_sdk_master/hook/cmake_prefix_path.sh
+source;share/ethercat_sdk_master/local_setup.bash
+source;share/ethercat_sdk_master/local_setup.dsv
+source;share/ethercat_sdk_master/local_setup.ps1
+source;share/ethercat_sdk_master/local_setup.sh
+source;share/ethercat_sdk_master/local_setup.zsh

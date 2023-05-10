@@ -1,0 +1,5 @@
+source;share/soem_rsl/local_setup.bash
+source;share/soem_rsl/local_setup.dsv
+source;share/soem_rsl/local_setup.ps1
+source;share/soem_rsl/local_setup.sh
+source;share/soem_rsl/local_setup.zsh

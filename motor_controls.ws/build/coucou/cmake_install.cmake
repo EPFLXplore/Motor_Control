@@ -1,8 +1,8 @@
-# Install script for directory: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou
+# Install script for directory: /mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/src/coucou
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hd/Desktop/Motor_Control/motor_controls.ws/install/coucou")
+  set(CMAKE_INSTALL_PREFIX "/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/install/coucou")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,12 +44,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/coucou/talker"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/coucou" TYPE EXECUTABLE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/talker")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/coucou" TYPE EXECUTABLE FILES "/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/coucou/talker")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/coucou/talker" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/coucou/talker")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/coucou/talker"
-         OLD_RPATH "/home/hd/ros2_foxy/install/rclcpp/lib:/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib:/home/hd/ros2_foxy/install/libstatistics_collector/lib:/home/hd/ros2_foxy/install/std_msgs/lib:/home/hd/ros2_foxy/install/rcl/lib:/home/hd/ros2_foxy/install/rcl_interfaces/lib:/home/hd/ros2_foxy/install/rmw_implementation/lib:/home/hd/ros2_foxy/install/rmw/lib:/home/hd/ros2_foxy/install/rcl_logging_spdlog/lib:/home/hd/ros2_foxy/install/rcl_yaml_param_parser/lib:/home/hd/ros2_foxy/install/libyaml_vendor/lib:/home/hd/ros2_foxy/install/rosgraph_msgs/lib:/home/hd/ros2_foxy/install/statistics_msgs/lib:/home/hd/ros2_foxy/install/builtin_interfaces/lib:/home/hd/ros2_foxy/install/tracetools/lib:/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_cpp/lib:/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_c/lib:/home/hd/ros2_foxy/install/rosidl_typesupport_cpp/lib:/home/hd/ros2_foxy/install/rosidl_typesupport_c/lib:/home/hd/ros2_foxy/install/rcpputils/lib:/home/hd/ros2_foxy/install/rosidl_runtime_c/lib:/home/hd/ros2_foxy/install/rcutils/lib:"
+         OLD_RPATH "/opt/ros/foxy/lib:/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/coucou/talker")
@@ -64,12 +64,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/coucou/suscriber"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/coucou" TYPE EXECUTABLE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/suscriber")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/coucou" TYPE EXECUTABLE FILES "/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/coucou/suscriber")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/coucou/suscriber" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/coucou/suscriber")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/coucou/suscriber"
-         OLD_RPATH "/home/hd/ros2_foxy/install/rclcpp/lib:/home/hd/ros2_foxy/install/sensor_msgs/lib:/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib:/home/hd/ros2_foxy/install/libstatistics_collector/lib:/home/hd/ros2_foxy/install/rcl/lib:/home/hd/ros2_foxy/install/rcl_interfaces/lib:/home/hd/ros2_foxy/install/rmw_implementation/lib:/home/hd/ros2_foxy/install/rmw/lib:/home/hd/ros2_foxy/install/rcl_logging_spdlog/lib:/home/hd/ros2_foxy/install/rcl_yaml_param_parser/lib:/home/hd/ros2_foxy/install/libyaml_vendor/lib:/home/hd/ros2_foxy/install/rosgraph_msgs/lib:/home/hd/ros2_foxy/install/statistics_msgs/lib:/home/hd/ros2_foxy/install/tracetools/lib:/home/hd/ros2_foxy/install/geometry_msgs/lib:/home/hd/ros2_foxy/install/std_msgs/lib:/home/hd/ros2_foxy/install/builtin_interfaces/lib:/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_cpp/lib:/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_c/lib:/home/hd/ros2_foxy/install/rosidl_typesupport_cpp/lib:/home/hd/ros2_foxy/install/rosidl_typesupport_c/lib:/home/hd/ros2_foxy/install/rcpputils/lib:/home/hd/ros2_foxy/install/rosidl_runtime_c/lib:/home/hd/ros2_foxy/install/rcutils/lib:"
+         OLD_RPATH "/opt/ros/foxy/lib:/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/coucou/suscriber")
@@ -84,12 +84,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/coucou/suscriber_test"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/coucou" TYPE EXECUTABLE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/suscriber_test")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/coucou" TYPE EXECUTABLE FILES "/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/coucou/suscriber_test")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/coucou/suscriber_test" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/coucou/suscriber_test")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/coucou/suscriber_test"
-         OLD_RPATH "/home/hd/ros2_foxy/install/rclcpp/lib:/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib:/home/hd/ros2_foxy/install/libstatistics_collector/lib:/home/hd/ros2_foxy/install/std_msgs/lib:/home/hd/ros2_foxy/install/rcl/lib:/home/hd/ros2_foxy/install/rcl_interfaces/lib:/home/hd/ros2_foxy/install/rmw_implementation/lib:/home/hd/ros2_foxy/install/rmw/lib:/home/hd/ros2_foxy/install/rcl_logging_spdlog/lib:/home/hd/ros2_foxy/install/rcl_yaml_param_parser/lib:/home/hd/ros2_foxy/install/libyaml_vendor/lib:/home/hd/ros2_foxy/install/rosgraph_msgs/lib:/home/hd/ros2_foxy/install/statistics_msgs/lib:/home/hd/ros2_foxy/install/builtin_interfaces/lib:/home/hd/ros2_foxy/install/tracetools/lib:/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_cpp/lib:/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_c/lib:/home/hd/ros2_foxy/install/rosidl_typesupport_cpp/lib:/home/hd/ros2_foxy/install/rosidl_typesupport_c/lib:/home/hd/ros2_foxy/install/rcpputils/lib:/home/hd/ros2_foxy/install/rosidl_runtime_c/lib:/home/hd/ros2_foxy/install/rcutils/lib:"
+         OLD_RPATH "/opt/ros/foxy/lib:/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/install/motor_control_interfaces/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/coucou/suscriber_test")
@@ -98,62 +98,62 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/coucou")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/coucou/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/coucou")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/coucou")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/coucou/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/coucou")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/coucou/environment" TYPE FILE FILES "/home/hd/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/coucou/environment" TYPE FILE FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/coucou/environment" TYPE FILE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/coucou/environment" TYPE FILE FILES "/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/coucou/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/coucou/environment" TYPE FILE FILES "/home/hd/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/coucou/environment" TYPE FILE FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/coucou/environment" TYPE FILE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/coucou/environment" TYPE FILE FILES "/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/coucou/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/coucou" TYPE FILE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/coucou" TYPE FILE FILES "/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/coucou/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/coucou" TYPE FILE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/coucou" TYPE FILE FILES "/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/coucou/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/coucou" TYPE FILE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/coucou" TYPE FILE FILES "/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/coucou/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/coucou" TYPE FILE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/coucou" TYPE FILE FILES "/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/coucou/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/coucou" TYPE FILE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/coucou" TYPE FILE FILES "/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/coucou/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/ament_cmake_index/share/ament_index/resource_index/packages/coucou")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/coucou/ament_cmake_index/share/ament_index/resource_index/packages/coucou")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/coucou/cmake" TYPE FILE FILES
-    "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/ament_cmake_core/coucouConfig.cmake"
-    "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/ament_cmake_core/coucouConfig-version.cmake"
+    "/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/coucou/ament_cmake_core/coucouConfig.cmake"
+    "/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/coucou/ament_cmake_core/coucouConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/coucou" TYPE FILE FILES "/home/hd/Desktop/Motor_Control/motor_controls.ws/src/coucou/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/coucou" TYPE FILE FILES "/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/src/coucou/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -164,5 +164,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/coucou/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/coucou/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

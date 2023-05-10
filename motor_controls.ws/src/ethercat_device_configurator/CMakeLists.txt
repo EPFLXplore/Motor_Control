@@ -1,79 +1,103 @@
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 3.16)
 project(ethercat_device_configurator)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
-  set(CMAKE_C_STANDARD 99)
+  set(CMAKE_C_STANDARD 11)
 endif()
 
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
-  set(CMAKE_CXX_STANDARD 17)
+  set(CMAKE_CXX_STANDARD 20)
 endif()
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic -std=c++1z -Wno-error)
 endif()
 
+
+set(CMAKE_THREAD_LIBS_INIT "-lpthread")
+set(CMAKE_HAVE_THREADS_LIBRARY 1)
+set(CMAKE_USE_WIN32_THREADS_INIT 0)
+set(CMAKE_USE_PTHREADS_INIT 1)
+set(THREADS_PREFER_PTHREAD_FLAG ON)
+
 # find dependencies
 find_package(rclcpp REQUIRED)
-#find_package(yaml-cpp REQUIRED)
 find_package(ament_cmake REQUIRED)
-# uncomment the following section in order to fill in
-# further dependencies manually.
-# find_package(<dependency> REQUIRED)
+find_package(Threads REQUIRED)
+find_package(yaml-cpp REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
 
 
-find_package(message_logger)
-find_package(soem_interface)
-find_package(ethercat_sdk_master)
-find_package(maxon_epos_ethercat_sdk)
-find_package(motor_control_interfaces)
+find_package(message_logger REQUIRED)
+find_package(soem_interface REQUIRED)
+find_package(ethercat_sdk_master REQUIRED)
+find_package(maxon_epos_ethercat_sdk REQUIRED)
+find_package(motor_control_interfaces REQUIRED)
+find_package(soem REQUIRED)
+add_executable(motor_control  src/${PROJECT_NAME}/motor_control.cpp src/${PROJECT_NAME}/EthercatDeviceConfigurator.cpp)
 
-add_subdirectory(yaml-cpp/yaml-cpp)
-add_subdirectory(ethercat_sdk_master)
-add_subdirectory(maxon_epos_ethercat_sdk)
-add_subdirectory(message_logger)
-add_subdirectory(soem_interface/soem)
-add_subdirectory(soem_interface/soem_interface)
+# # Set the path to the third-party library folder
+# set(OSHW include/ethercat_device_configurator/soem/oshw)
+# set(OSAL include/ethercat_device_configurator/soem/osal)
+
+
+# # Find all .cpp files in the third-party library folder
 
 include_directories( 
-  include
+  include/
   include/ethercat_device_configurator
+  yaml-cpp/include/
+  ${soem_interface_INCLUDE_DIRS}
+  ${soem_INCLUDE_DIRS}
+  ${maxon_epos_ethercat_sdk_INCLUDE_DIRS}
+  ${message_logger_INCLUDE_DIRS}
+  ${ethercat_sdk_master_INCLUDE_DIRS}
+  ${catkin_INCLUDE_DIRS}
   ${rclcpp_INCLUDE_DIRS}
 )
 
-add_executable(motor_control src/motor_control.cpp src/EthercatDeviceConfigurator.cpp 
-  include/ethercat_device_configurator/soem/soem/ethercatconfig.c
-  include/ethercat_device_configurator/soem/soem/ethercatprint.c
-  include/ethercat_device_configurator/soem/soem/ethercatdc.c)
 
-ament_target_dependencies(motor_control motor_control_interfaces #rclcpp  PRIVATE
-  # yaml-cpp
-  # ethercat_sdk_master
-  # maxon_epos_ethercat_sdk
-  # message_logger
-  # soem
-  # soem_interface
+
+
+ament_target_dependencies(motor_control
+  yaml-cpp
+  motor_control_interfaces #rclcpp  
+  rclcpp
+  ethercat_sdk_master
+  maxon_epos_ethercat_sdk
+  message_logger
+  soem_interface
+  soem
 )
 
 #target_link_directories(motor_control motor_control_interfaces)
 
 target_link_libraries(motor_control
-  #PUBLIC
-    ${rclcpp_LIBRARIES}
-    #motor_control_interfaces
-  #PRIVATE
+    Threads::Threads
+    ${catkin_LIBRARIES}
+  #   motor_control_interfaces
+    maxon_epos_ethercat_sdk::mxn_sdk_lib
     yaml-cpp
-    ethercat_sdk_master
-    maxon_epos_ethercat_sdk
-    message_logger
-    soem
-    soem_interface
+    soem::soemrsl_lib
+    soem_interface::soem_lib
+    ethercat_sdk_master::eth_sdk_lib
+    #  maxon_epos_ethercat_sdk
+    #  message_logger
+    #  soem_interface
+     #soem
 )
 
+
+rosidl_generate_interfaces(${PROJECT_NAME} 
+  "../motor_control_interfaces/msg/MotorCommand.msg"
+  "../motor_control_interfaces/msg/MotorData.msg"
+ )
+
 install(TARGETS motor_control
-  DESTINATION lib/${PROJECT_NAME}
+  DESTINATION lib/${PROJECT_NAME}/
 )
 
 if(BUILD_TESTING)
@@ -87,4 +111,7 @@ if(BUILD_TESTING)
   #ament_lint_auto_find_test_dependencies()
 endif()
 
+
 ament_package()
+
+

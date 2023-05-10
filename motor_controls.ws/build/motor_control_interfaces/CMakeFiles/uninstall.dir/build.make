@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/src/motor_control_interfaces
+CMAKE_SOURCE_DIR = /mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/src/motor_control_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces
+CMAKE_BINARY_DIR = /mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces
 
 # Utility rule file for uninstall.
 
@@ -67,6 +67,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hd/Desktop/Motor_Control/motor_controls.ws/src/motor_control_interfaces /home/hd/Desktop/Motor_Control/motor_controls.ws/src/motor_control_interfaces /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/src/motor_control_interfaces /mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/src/motor_control_interfaces /mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces /mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces /mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

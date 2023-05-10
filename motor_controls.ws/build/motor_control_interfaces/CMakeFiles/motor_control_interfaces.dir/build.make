@@ -43,21 +43,18 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/src/motor_control_interfaces
+CMAKE_SOURCE_DIR = /mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/src/motor_control_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces
+CMAKE_BINARY_DIR = /mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces
 
 # Utility rule file for motor_control_interfaces.
 
 # Include the progress variables for this target.
 include CMakeFiles/motor_control_interfaces.dir/progress.make
 
-CMakeFiles/motor_control_interfaces: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/motor_control_interfaces/msg/MotorCommand.msg
-<<<<<<< HEAD
-CMakeFiles/motor_control_interfaces: /home/hd/Desktop/Motor_Control/motor_controls.ws/src/motor_control_interfaces/msg/MotorData.msg
-=======
->>>>>>> parent of 9a1ced2... del build/log/install
+CMakeFiles/motor_control_interfaces: /mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/src/motor_control_interfaces/msg/MotorCommand.msg
+CMakeFiles/motor_control_interfaces: /mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/src/motor_control_interfaces/msg/MotorData.msg
 
 
 motor_control_interfaces: CMakeFiles/motor_control_interfaces
@@ -75,6 +72,6 @@ CMakeFiles/motor_control_interfaces.dir/clean:
 .PHONY : CMakeFiles/motor_control_interfaces.dir/clean
 
 CMakeFiles/motor_control_interfaces.dir/depend:
-	cd /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hd/Desktop/Motor_Control/motor_controls.ws/src/motor_control_interfaces /home/hd/Desktop/Motor_Control/motor_controls.ws/src/motor_control_interfaces /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles/motor_control_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/src/motor_control_interfaces /mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/src/motor_control_interfaces /mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces /mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces /mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles/motor_control_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/motor_control_interfaces.dir/depend
 

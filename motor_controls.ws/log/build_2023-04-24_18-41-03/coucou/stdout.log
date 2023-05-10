@@ -1,6 +1,0 @@
-[  5%] Built target talker
-[ 13%] Built target coucou__rosidl_generator_c
-[ 16%] Built target coucou__cpp
-[ 21%] Built target suscriber
-[35m[1mScanning dependencies of target suscriber_test[0m
-[ 24%] [32mBuilding CXX object CMakeFiles/suscriber_test.dir/src/read_test.cpp.o[0m

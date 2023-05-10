@@ -1,25 +1,13 @@
-<<<<<<< HEAD
-set(CMAKE_HOST_SYSTEM "Linux-5.15.0-71-generic")
+set(CMAKE_HOST_SYSTEM "Linux-5.15.90.1-microsoft-standard-WSL2")
 set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "5.15.0-71-generic")
-=======
-set(CMAKE_HOST_SYSTEM "Linux-5.15.0-69-generic")
-set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "5.15.0-69-generic")
->>>>>>> parent of 9a1ced2... del build/log/install
+set(CMAKE_HOST_SYSTEM_VERSION "5.15.90.1-microsoft-standard-WSL2")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
 
 
-<<<<<<< HEAD
-set(CMAKE_SYSTEM "Linux-5.15.0-71-generic")
+set(CMAKE_SYSTEM "Linux-5.15.90.1-microsoft-standard-WSL2")
 set(CMAKE_SYSTEM_NAME "Linux")
-set(CMAKE_SYSTEM_VERSION "5.15.0-71-generic")
-=======
-set(CMAKE_SYSTEM "Linux-5.15.0-69-generic")
-set(CMAKE_SYSTEM_NAME "Linux")
-set(CMAKE_SYSTEM_VERSION "5.15.0-69-generic")
->>>>>>> parent of 9a1ced2... del build/log/install
+set(CMAKE_SYSTEM_VERSION "5.15.90.1-microsoft-standard-WSL2")
 set(CMAKE_SYSTEM_PROCESSOR "x86_64")
 
 set(CMAKE_CROSSCOMPILING "FALSE")

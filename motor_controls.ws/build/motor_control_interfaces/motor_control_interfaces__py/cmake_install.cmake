@@ -1,8 +1,8 @@
-# Install script for directory: /home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/motor_control_interfaces__py
+# Install script for directory: /mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/motor_control_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hd/Desktop/Motor_Control/motor_controls.ws/install/motor_control_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/install/motor_control_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

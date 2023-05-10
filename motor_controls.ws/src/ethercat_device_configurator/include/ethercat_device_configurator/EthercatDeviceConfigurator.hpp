@@ -16,7 +16,7 @@
 
 #include <memory>
 #include <string>
-#include <../../ethercat_sdk_master/include/ethercat_sdk_master/EthercatMaster.hpp>
+#include <ethercat_sdk_master/EthercatMaster.hpp>
 #include <type_traits>
 
 class EthercatDeviceConfigurator

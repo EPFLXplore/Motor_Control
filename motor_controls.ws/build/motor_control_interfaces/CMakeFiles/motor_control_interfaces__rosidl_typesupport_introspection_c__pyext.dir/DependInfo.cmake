@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c" "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles/motor_control_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o"
+  "/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c" "/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles/motor_control_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -21,22 +21,16 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "rosidl_generator_py"
   "/usr/include/python3.8"
   "rosidl_typesupport_c"
-  "/home/hd/ros2_foxy/install/rmw/include"
   "rosidl_typesupport_introspection_c"
-  "/home/hd/ros2_foxy/install/rosidl_typesupport_c/include"
-  "/home/hd/ros2_foxy/install/rosidl_runtime_c/include"
-  "/home/hd/ros2_foxy/install/rosidl_typesupport_interface/include"
-  "/home/hd/ros2_foxy/install/rcutils/include"
-  "/home/hd/ros2_foxy/install/rcpputils/include"
-  "/home/hd/ros2_foxy/install/rosidl_typesupport_introspection_c/include"
+  "/opt/ros/foxy/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles/motor_control_interfaces__python.dir/DependInfo.cmake"
-  "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles/motor_control_interfaces__rosidl_typesupport_introspection_c.dir/DependInfo.cmake"
-  "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/DependInfo.cmake"
-  "/home/hd/Desktop/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/DependInfo.cmake"
+  "/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles/motor_control_interfaces__python.dir/DependInfo.cmake"
+  "/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles/motor_control_interfaces__rosidl_typesupport_introspection_c.dir/DependInfo.cmake"
+  "/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/DependInfo.cmake"
+  "/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/build/motor_control_interfaces/CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
