@@ -28,7 +28,7 @@ class MinimalPublisher : public rclcpp::Node
       auto message = motor_control_interfaces::msg::MotorCommand();
       message.name = "J1";
       message.mode = 1;
-      message.commande = 60;
+      message.commande = 100;
       publisher_->publish(message);
     }
     rclcpp::TimerBase::SharedPtr timer_;

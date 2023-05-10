@@ -34,9 +34,11 @@ class MinimalSubscriber : public rclcpp::Node
 
       publisher_->publish(message);
 
-      // message.name = "J2";
-      // message.mode = 1;
-      // message.commande = msg->axes[1];
+      message.name = "J2";
+      message.mode = 2;
+      message.commande = msg->axes[1];
+
+      publisher_->publish(message);
 
       // message.name = "J3";
       // message.mode = 1;
@@ -49,6 +51,8 @@ class MinimalSubscriber : public rclcpp::Node
       // message.name = "J5";
       // message.mode = 1;
       // message.commande = msg->axes[0];
+      
+      publisher_->publish(message);
 
     }
 

@@ -51,7 +51,7 @@ class Motor_controller : public rclcpp::Node
 
         /**                         variablres                             **/ 
         // commande au moteur
-        std::vector<Motor_command> motor_command_list;
+        // std::vector<Motor_command> motor_command_list;
 
         // Ros related
         rclcpp::Subscription<motor_control_interfaces::msg::MotorCommand>::SharedPtr subscription_motor_command_;
@@ -60,9 +60,8 @@ class Motor_controller : public rclcpp::Node
         /**                         fonction                              **/
         void motor_command_callback(const motor_control_interfaces::msg::MotorCommand::SharedPtr msg){
             
-            std::cout << "coucou" << std::endl;
-            
             for(auto & command : motor_command_list){
+                std::cout << "coucou :" << command.name << std::endl;
                 if(command.name == msg->name){
                     switch (msg->mode) {
                     case 0: command.mode = Motor_mode::POSITION; break;
@@ -71,7 +70,8 @@ class Motor_controller : public rclcpp::Node
                     default:;
                     }
                     command.command = msg->commande;
-
+                    
+                    std::cout << "coucou 1" << std::endl;
                     break;
                 }
             }
@@ -251,7 +251,8 @@ int main(int argc, char**argv)
 
     for (auto & slave: configurator->getSlaves())
     {
-        motor_command_list.push_back(Motor_command({slave->getName(), Motor_mode::VELOCITY, 0.0}));
+        motor_command_list.push_back(Motor_command({slave->getName(), Motor_mode::TORQUE, 0.0}));
+        std::cout << slave->getName() << std::endl;
     }
 
     // Start the PDO loop in a new thread.
