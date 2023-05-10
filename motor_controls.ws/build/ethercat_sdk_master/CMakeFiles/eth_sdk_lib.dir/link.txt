@@ -1,2 +1,0 @@
-/usr/bin/ar qc libeth_sdk_lib.a  CMakeFiles/eth_sdk_lib.dir/src/ethercat_sdk_master/EthercatMaster.cpp.o CMakeFiles/eth_sdk_lib.dir/src/ethercat_sdk_master/EthercatDevice.cpp.o
-/usr/bin/ranlib libeth_sdk_lib.a

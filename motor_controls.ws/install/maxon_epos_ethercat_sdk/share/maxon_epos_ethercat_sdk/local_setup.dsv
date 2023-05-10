@@ -1,3 +1,0 @@
-source;share/maxon_epos_ethercat_sdk/environment/ament_prefix_path.sh
-source;share/maxon_epos_ethercat_sdk/environment/library_path.sh
-source;share/maxon_epos_ethercat_sdk/environment/path.sh

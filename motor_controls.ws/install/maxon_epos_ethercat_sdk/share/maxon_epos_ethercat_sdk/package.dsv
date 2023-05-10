@@ -1,8 +1,0 @@
-source;share/maxon_epos_ethercat_sdk/hook/cmake_prefix_path.ps1
-source;share/maxon_epos_ethercat_sdk/hook/cmake_prefix_path.dsv
-source;share/maxon_epos_ethercat_sdk/hook/cmake_prefix_path.sh
-source;share/maxon_epos_ethercat_sdk/local_setup.bash
-source;share/maxon_epos_ethercat_sdk/local_setup.dsv
-source;share/maxon_epos_ethercat_sdk/local_setup.ps1
-source;share/maxon_epos_ethercat_sdk/local_setup.sh
-source;share/maxon_epos_ethercat_sdk/local_setup.zsh

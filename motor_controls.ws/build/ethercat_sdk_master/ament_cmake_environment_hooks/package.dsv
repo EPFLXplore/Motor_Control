@@ -1,4 +1,0 @@
-source;share/ethercat_sdk_master/local_setup.bash
-source;share/ethercat_sdk_master/local_setup.dsv
-source;share/ethercat_sdk_master/local_setup.sh
-source;share/ethercat_sdk_master/local_setup.zsh

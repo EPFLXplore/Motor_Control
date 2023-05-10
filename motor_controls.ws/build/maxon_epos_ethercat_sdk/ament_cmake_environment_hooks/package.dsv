@@ -1,4 +1,0 @@
-source;share/maxon_epos_ethercat_sdk/local_setup.bash
-source;share/maxon_epos_ethercat_sdk/local_setup.dsv
-source;share/maxon_epos_ethercat_sdk/local_setup.sh
-source;share/maxon_epos_ethercat_sdk/local_setup.zsh

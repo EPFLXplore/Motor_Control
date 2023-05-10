@@ -16,6 +16,7 @@ find_package(message_logger REQUIRED)
 find_package(ethercat_sdk_master REQUIRED)
 find_package(soem_interface REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(soem REQUIRED)
 
 
 #=========================================================================
@@ -52,7 +53,7 @@ file(GLOB MXN_SDK_LIB ${HEADER_FILES}/*.hpp)
 include_directories(
   include
   ${message_logger_INCLUDE_DIRS}
-  ../soem/include
+  ${soem_INCLUDE_DIRS}
   ${soem_interface_INCLUDE_DIRS}
   ${ethercat_sdk_master_INCLUDE_DIRS}
   SYSTEM

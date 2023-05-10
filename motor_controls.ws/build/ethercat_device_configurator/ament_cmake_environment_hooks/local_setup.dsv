@@ -1,4 +1,0 @@
-source;share/ethercat_device_configurator/environment/ament_prefix_path.sh
-source;share/ethercat_device_configurator/environment/library_path.sh
-source;share/ethercat_device_configurator/environment/path.sh
-source;share/ethercat_device_configurator/environment/pythonpath.sh

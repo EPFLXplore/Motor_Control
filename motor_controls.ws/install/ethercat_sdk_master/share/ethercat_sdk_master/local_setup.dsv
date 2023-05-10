@@ -1,3 +1,0 @@
-source;share/ethercat_sdk_master/environment/ament_prefix_path.sh
-source;share/ethercat_sdk_master/environment/library_path.sh
-source;share/ethercat_sdk_master/environment/path.sh

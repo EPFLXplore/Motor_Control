@@ -1,7 +1,0 @@
-{
-  "package_name": "ethercat_device_configurator",
-  "non_idl_tuples": [
-    "/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/src/ethercat_device_configurator:../motor_control_interfaces/msg/MotorCommand.msg",
-    "/mnt/c/Users/ybakk/OneDrive/Documents/Xplore/Motor_Control/motor_controls.ws/src/ethercat_device_configurator:../motor_control_interfaces/msg/MotorData.msg"
-  ]
-}

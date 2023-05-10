@@ -11,6 +11,7 @@ find_package(rclcpp REQUIRED)
 find_package(soem_interface REQUIRED)
 find_package(message_logger REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(soem REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
@@ -49,7 +50,7 @@ include_directories(
   ${message_logger_INCLUDE_DIRS}
   ${soem_interface_INCLUDE_DIRS}
   ${ETH_SDK_GLOB_LIB}
-  ../soem/include
+  ${soem_INCLUDE_DIRS}
   include/ethercat_sdk_master
   SYSTEM
 )
