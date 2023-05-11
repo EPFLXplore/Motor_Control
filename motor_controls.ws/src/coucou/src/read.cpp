@@ -29,8 +29,8 @@ class MinimalSubscriber : public rclcpp::Node
       auto message = motor_control_interfaces::msg::MotorCommand();
 
       message.name = "J1";
-      message.mode = 1;
-      message.commande = msg->axes[0]*200;
+      message.mode = 0;
+      message.commande = msg->axes[0]*2;
 
       publisher_->publish(message);
 

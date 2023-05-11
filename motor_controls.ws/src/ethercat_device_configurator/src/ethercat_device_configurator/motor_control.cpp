@@ -23,8 +23,7 @@ enum Motor_mode{
 
 struct Motor_command{
     std::string name;
-    Motor_mode mode;
-    double command;
+    maxon::Command command;
 };
 
 std::vector<Motor_command> motor_command_list;
@@ -60,18 +59,27 @@ class Motor_controller : public rclcpp::Node
         /**                         fonction                              **/
         void motor_command_callback(const motor_control_interfaces::msg::MotorCommand::SharedPtr msg){
             
-            for(auto & command : motor_command_list){
-                std::cout << "coucou :" << command.name << std::endl;
-                if(command.name == msg->name){
-                    switch (msg->mode) {
-                    case 0: command.mode = Motor_mode::POSITION; break;
-                    case 1: command.mode = Motor_mode::VELOCITY; break;
-                    case 2: command.mode = Motor_mode::TORQUE; break;
-                    default:;
-                    }
-                    command.command = msg->commande;
+            for(auto & motor_command : motor_command_list){
+
+                if(motor_command.name == msg->name){
+                    switch (msg->mode){
+                        case 0:
+                            motor_command.command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousPositionMode);
+                            motor_command.command.setTargetPosition(msg->commande);
+                            break;
+                        case 1:
+                            motor_command.command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousVelocityMode);
+                            motor_command.command.setTargetVelocity(msg->commande);
+                            break;
+                        case 2:
+                            motor_command.command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousTorqueMode);
+                            motor_command.command.setTargetTorque(msg->commande);
+                            break;
+                        default:
+                            std::cerr << "Motor mode not recognized" << std::endl;
+                            break;
+                        }
                     
-                    std::cout << "coucou 1" << std::endl;
                     break;
                 }
             }
@@ -135,26 +143,8 @@ void worker()
             if (maxon_slave_ptr->lastPdoStateChangeSuccessful() &&
                     maxon_slave_ptr->getReading().getDriveState() == maxon::DriveState::OperationEnabled)
             {
-                maxon::Command command;
-                    
-                switch (motor_command.mode){
-                case Motor_mode::POSITION:
-                    command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousPositionMode);
-                    command.setTargetPosition(motor_command.command);
-                    break;
-                case Motor_mode::VELOCITY:
-                    command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousVelocityMode);
-                    command.setTargetVelocity(motor_command.command);
-                    break;
-                case Motor_mode::TORQUE:
-                    command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousTorqueMode);
-                    command.setTargetTorque(motor_command.command);
-                    break;
-                default:
-                    std::cerr << "Motor mode not recognized" << std::endl;
-                    break;
-                }
-                maxon_slave_ptr->stageCommand(command);
+
+                maxon_slave_ptr->stageCommand(motor_command.command);
             
             }
             else
@@ -249,9 +239,14 @@ int main(int argc, char**argv)
         }
     }
 
+    maxon::Command command;
+    command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousTorqueMode);
+    command.setTargetTorque(0.0);
+
+
     for (auto & slave: configurator->getSlaves())
     {
-        motor_command_list.push_back(Motor_command({slave->getName(), Motor_mode::TORQUE, 0.0}));
+        motor_command_list.push_back(Motor_command({slave->getName(), command}));
         std::cout << slave->getName() << std::endl;
     }
 
