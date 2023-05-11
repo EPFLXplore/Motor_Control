@@ -62,7 +62,7 @@ class Motor_controller : public rclcpp::Node
 
         // Ros related
         rclcpp::Subscription<motor_control_interfaces::msg::MotorCommand>::SharedPtr subscription_motor_command_;
-        rclcpp::Publisher<motor_param>::SharedPtr publisher_motor_data_;
+        rclcpp::Publisher<motor_control_interfaces::msg::MotorData>::SharedPtr publisher_motor_data_;
         rclcpp::TimerBase::SharedPtr timer_motor_data_;
 
         /**                         fonction                              **/
@@ -97,15 +97,15 @@ class Motor_controller : public rclcpp::Node
         void publish_motor_data_(){
             motor_control_interfaces::msg::MotorData msg;
 
-            for(auto & slave : configurator.getSlaves()){
-
-                auto slave = configurator->getSlave(motor_command.name);
+            for(auto & slave : configurator->getSlaves()){
                 std::shared_ptr<maxon::Maxon> maxon_slave_ptr = std::dynamic_pointer_cast<maxon::Maxon>(slave);
+
+                msg.name = slave->getName();
 
                 auto getReading = maxon_slave_ptr->getReading();
                 msg.position = getReading.getActualPosition();
                 msg.velocity = getReading.getActualVelocity();
-                msg.current = getReading.getActualCurrent();
+                msg.currant = getReading.getActualCurrent();
                 publisher_motor_data_->publish(msg);
             }
 
@@ -171,11 +171,7 @@ void worker()
                     maxon_slave_ptr->getReading().getDriveState() == maxon::DriveState::OperationEnabled)
             {
                 maxon_slave_ptr->stageCommand(motor_command.command);
-            
-                auto getReading = maxon_slave_ptr->getReading();
-                double position = getReading.getActualPosition();
-                double velocity = getReading.getActualVelocity();
-                double currant = getReading.getActualCurrent();
+
             }
             else
             {

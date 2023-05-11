@@ -703,7 +703,7 @@ bool Maxon::mapPdos(RxPdoTypeEnum rxPdoTypeEnum, TxPdoTypeEnum txPdoTypeEnum) {
 
 bool Maxon::configParam() {
   bool configSuccess = true;
-  uint32_t maxMotorSpeed;
+/*  uint32_t maxMotorSpeed;
   uint32_t maxProfileVelocity;
   uint32_t maxGearSpeed;
   uint32_t nominalCurrent;
@@ -822,7 +822,7 @@ bool Maxon::configParam() {
   } else {
     MELO_ERROR("Setting configuration parameters failed.");
   }
-
+    */
   return configSuccess;
 }
 }  // namespace maxon

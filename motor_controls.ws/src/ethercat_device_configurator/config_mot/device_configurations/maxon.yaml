@@ -17,20 +17,20 @@ Hardware:
   - CyclicSynchronousTorqueMode
   - CyclicSynchronousPositionMode
   - CyclicSynchronousVelocityMode
-  position_encoder_resolution: 4096
+  position_encoder_resolution: 10
   gear_ratio: [1, 1]
   motor_constant: 1.0
   working_voltage: 48
   pole_pairs: 11
-  speed_constant: 26
+  speed_constant: 1
   torque_constant: 0.312
   max_current: 4.9
   nominal_current: 2.0
   min_position: 0
   max_position: 0 # Disable checks
-  max_profile_velocity: 50
-  quick_stop_decel: 1000
-  profile_decel: 1000
+  max_profile_velocity: 180
+  quick_stop_decel: 10000
+  profile_decel: 10000
   follow_error_window: 4000
   current_p_gain: 0.889
   current_i_gain: 1556.0
