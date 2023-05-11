@@ -4,6 +4,7 @@
 
 #include "rclcpp/rclcpp.hpp"
 #include "motor_control_interfaces/msg/motor_command.hpp"
+#include "motor_control_interfaces/msg/motor_data.hpp"
 
 #include <iostream>
 #include <thread>
@@ -44,6 +45,13 @@ class Motor_controller : public rclcpp::Node
             subscription_motor_command_ = this->create_subscription<motor_control_interfaces::msg::MotorCommand>(
                 "motor_command", 10, std::bind(&Motor_controller::motor_command_callback, this, _1)
                 );
+
+            publisher_motor_data_ = this->create_publisher<motor_control_interfaces::msg::MotorData>("motor_data", 10);
+
+            timer_motor_data_ = this->create_wall_timer(
+                10ms, std::bind(&Motor_controller::publish_motor_data_, this)
+            );
+
         }
 
     private:
@@ -54,7 +62,8 @@ class Motor_controller : public rclcpp::Node
 
         // Ros related
         rclcpp::Subscription<motor_control_interfaces::msg::MotorCommand>::SharedPtr subscription_motor_command_;
-        // rclcpp::Publisher<motor_param>::SharedPtr publisher_motor_param_;
+        rclcpp::Publisher<motor_param>::SharedPtr publisher_motor_data_;
+        rclcpp::TimerBase::SharedPtr timer_motor_data_;
 
         /**                         fonction                              **/
         void motor_command_callback(const motor_control_interfaces::msg::MotorCommand::SharedPtr msg){
@@ -83,6 +92,24 @@ class Motor_controller : public rclcpp::Node
                     break;
                 }
             }
+        }
+
+        void publish_motor_data_(){
+            motor_control_interfaces::msg::MotorData msg;
+
+            for(auto & slave : configurator.getSlaves()){
+
+                auto slave = configurator->getSlave(motor_command.name);
+                std::shared_ptr<maxon::Maxon> maxon_slave_ptr = std::dynamic_pointer_cast<maxon::Maxon>(slave);
+
+                auto getReading = maxon_slave_ptr->getReading();
+                msg.position = getReading.getActualPosition();
+                msg.velocity = getReading.getActualVelocity();
+                msg.current = getReading.getActualCurrent();
+                publisher_motor_data_->publish(msg);
+            }
+
+            
         }
 };
 
@@ -143,9 +170,12 @@ void worker()
             if (maxon_slave_ptr->lastPdoStateChangeSuccessful() &&
                     maxon_slave_ptr->getReading().getDriveState() == maxon::DriveState::OperationEnabled)
             {
-
                 maxon_slave_ptr->stageCommand(motor_command.command);
             
+                auto getReading = maxon_slave_ptr->getReading();
+                double position = getReading.getActualPosition();
+                double velocity = getReading.getActualVelocity();
+                double currant = getReading.getActualCurrent();
             }
             else
             {
