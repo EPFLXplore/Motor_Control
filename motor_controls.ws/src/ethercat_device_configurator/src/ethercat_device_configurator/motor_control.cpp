@@ -12,6 +12,8 @@
 #include <string>
 #include <vector>
 
+#define TIME_CONTDOWN 100ms
+
 using namespace std::chrono_literals;
 
 using std::placeholders::_1;
@@ -25,6 +27,7 @@ enum Motor_mode{
 struct Motor_command{
     std::string name;
     maxon::Command command;
+    std::chrono::steady_clock::time_point command_time;
 };
 
 std::vector<Motor_command> motor_command_list;
@@ -88,8 +91,9 @@ class Motor_controller : public rclcpp::Node
                             std::cerr << "Motor mode not recognized" << std::endl;
                             break;
                         }
+                    motor_command.command_time = std::chrono::steady_clock::now();
                     
-                    break;
+                    return;
                 }
             }
         }
@@ -151,10 +155,10 @@ void worker()
         ** Your lowlevel control input / measurement logic goes here.
         ** Different logic can be implemented for each device.
          */
-        for(const auto & motor_command: motor_command_list) {
+        for(auto & motor_command: motor_command_list) {
             
             // Keep constant update rate
-            auto start_time = std::chrono::steady_clock::now();
+            // std::chrono::steady_clock::time_point start_time = std::chrono::steady_clock::now();
 
             auto slave = configurator->getSlave(motor_command.name);
 
@@ -170,8 +174,12 @@ void worker()
             if (maxon_slave_ptr->lastPdoStateChangeSuccessful() &&
                     maxon_slave_ptr->getReading().getDriveState() == maxon::DriveState::OperationEnabled)
             {
+                if(std::chrono::steady_clock::now() - motor_command.command_time >= TIME_CONTDOWN){
+                    motor_command.command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousVelocityMode);
+                    motor_command.command.setTargetVelocity(0.0);
+                }
+                
                 maxon_slave_ptr->stageCommand(motor_command.command);
-
             }
             else
             {
@@ -180,7 +188,7 @@ void worker()
             }
 
             // Constant update rate
-            std::this_thread::sleep_until(start_time + std::chrono::milliseconds(1));
+            // std::this_thread::sleep_until(start_time + std::chrono::milliseconds(1));
             
         }
         counter++;
@@ -272,7 +280,7 @@ int main(int argc, char**argv)
 
     for (auto & slave: configurator->getSlaves())
     {
-        motor_command_list.push_back(Motor_command({slave->getName(), command}));
+        motor_command_list.push_back( Motor_command({slave->getName(), command, std::chrono::steady_clock::now()}) );
         std::cout << slave->getName() << std::endl;
     }
 

@@ -1,5 +1,5 @@
 ethercat_master:
-  time_step:                          0.005
+  time_step:                          0.01
   update_rate_too_low_warn_threshold: 100
 
 ethercat_devices:
@@ -9,9 +9,9 @@ ethercat_devices:
     ethercat_bus:       eth0
     ethercat_address:   1
 
-  - type:               Maxon
-    name:               J2
-    configuration_file: device_configurations/maxon.yaml
-    ethercat_bus:       eth0
-    ethercat_address:   2
+  # - type:               Maxon
+  #   name:               J2
+  #   configuration_file: device_configurations/maxon.yaml
+  #   ethercat_bus:       eth0
+  #   ethercat_address:   2
 
