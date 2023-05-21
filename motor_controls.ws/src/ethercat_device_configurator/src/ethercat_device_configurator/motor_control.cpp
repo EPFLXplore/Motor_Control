@@ -5,6 +5,8 @@
 #include "rclcpp/rclcpp.hpp"
 #include "motor_control_interfaces/msg/motor_command.hpp"
 #include "motor_control_interfaces/msg/motor_data.hpp"
+#include "std_msgs/msg/float64_multi_array.hpp"
+#include "sensor_msgs/msg/joint_state.hpp"
 
 #include <iostream>
 #include <thread>
@@ -45,7 +47,7 @@ class Motor_controller : public rclcpp::Node
         Motor_controller()
         : Node("Motor_controller")
         {
-            subscription_motor_command_ = this->create_subscription<motor_control_interfaces::msg::MotorCommand>(
+            /*subscription_motor_command_ = this->create_subscription<motor_control_interfaces::msg::MotorCommand>(
                 "motor_command", 10, std::bind(&Motor_controller::motor_command_callback, this, _1)
                 );
 
@@ -53,8 +55,24 @@ class Motor_controller : public rclcpp::Node
 
             timer_motor_data_ = this->create_wall_timer(
                 10ms, std::bind(&Motor_controller::publish_motor_data_, this)
-            );
+            );*/
 
+
+            // MATTHIAS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+            subscription_velocity_command_ = this->create_subscription<std_msgs::msg::Float64MultiArray>(
+                "HD/fsm/joint_vel_cmd", 10, std::bind(&Motor_controller::velocity_command_callback, this, _1)
+                );
+            subscription_position_command_ = this->create_subscription<std_msgs::msg::Float64MultiArray>(
+                "HD/kinematics/joint_pos_cmd", 10, std::bind(&Motor_controller::position_command_callback, this, _1)
+                );
+            subscription_single_motor_command_ = this->create_subscription<motor_control_interfaces::msg::MotorCommand>(
+                "HD/kinematics/single_joint_cmd", 10, std::bind(&Motor_controller::motor_command_callback, this, _1)
+                );
+            publisher_state_ = this->create_publisher<sensor_msgs::msg::JointState>("HD/motor_control/joint_telemetry", 10);
+            timer_motor_data_ = this->create_wall_timer(
+                10ms, std::bind(&Motor_controller::publish_motor_data_, this)
+            );
+            // MATTHIAS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
         }
 
     private:
@@ -66,9 +84,55 @@ class Motor_controller : public rclcpp::Node
         // Ros related
         rclcpp::Subscription<motor_control_interfaces::msg::MotorCommand>::SharedPtr subscription_motor_command_;
         rclcpp::Publisher<motor_control_interfaces::msg::MotorData>::SharedPtr publisher_motor_data_;
+
+        // MATTHIAS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        rclcpp::Subscription<std_msgs::msg::Float64MultiArray>::SharedPtr subscription_velocity_command_;
+        rclcpp::Subscription<std_msgs::msg::Float64MultiArray>::SharedPtr subscription_position_command_;
+        rclcpp::Subscription<motor_control_interfaces::msg::MotorCommand>::SharedPtr subscription_single_motor_command_;
+        rclcpp::Publisher<sensor_msgs::msg::JointState>::SharedPtr publisher_state_;
+        // MATTHIAS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
         rclcpp::TimerBase::SharedPtr timer_motor_data_;
 
         /**                         fonction                              **/
+
+
+
+        // MATTHIAS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        void velocity_command_callback(const std_msgs::msg::Float64MultiArray::SharedPtr msg) {
+            for (uint i=0; i < motor_command_list.size(); i++) {
+                motor_command_list[i].command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousVelocityMode);
+                motor_command_list[i].command.setTargetVelocity(msg->data[i]);
+                motor_command_list[i].command_time = std::chrono::steady_clock::now();
+            }
+        }
+
+        void position_command_callback(const std_msgs::msg::Float64MultiArray::SharedPtr msg) {
+            for (uint i=0; i < motor_command_list.size(); i++) {
+                motor_command_list[i].command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousPositionMode);
+                motor_command_list[i].command.setTargetPosition(msg->data[i]);
+                motor_command_list[i].command_time = std::chrono::steady_clock::now();
+            }
+        }
+
+        void publish_state() {
+            sensor_msgs::msg::JointState msg;
+            for(auto & slave : configurator->getSlaves()){
+                std::shared_ptr<maxon::Maxon> maxon_slave_ptr = std::dynamic_pointer_cast<maxon::Maxon>(slave);
+
+                msg.name.push_back(slave->getName());
+
+                auto getReading = maxon_slave_ptr->getReading();
+                msg.position.push_back(getReading.getActualPosition());
+                msg.velocity.push_back(getReading.getActualVelocity());
+                msg.effort.push_back(getReading.getActualCurrent());
+                publisher_state_->publish(msg);
+            }
+        }
+        // MATTHIAS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
         void motor_command_callback(const motor_control_interfaces::msg::MotorCommand::SharedPtr msg){
             
             for(auto & motor_command : motor_command_list){

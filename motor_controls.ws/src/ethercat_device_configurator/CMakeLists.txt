@@ -36,6 +36,8 @@ find_package(soem_interface REQUIRED)
 find_package(ethercat_sdk_master REQUIRED)
 find_package(maxon_epos_ethercat_sdk REQUIRED)
 find_package(motor_control_interfaces REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
 find_package(soem REQUIRED)
 add_executable(motor_control  src/${PROJECT_NAME}/motor_control.cpp src/${PROJECT_NAME}/EthercatDeviceConfigurator.cpp)
 
@@ -71,6 +73,8 @@ ament_target_dependencies(motor_control
   message_logger
   soem_interface
   soem
+  std_msgs
+  sensor_msgs
 )
 
 #target_link_directories(motor_control motor_control_interfaces)
