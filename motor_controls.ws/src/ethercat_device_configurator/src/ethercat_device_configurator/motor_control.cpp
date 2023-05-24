@@ -175,8 +175,8 @@ void worker()
                     maxon_slave_ptr->getReading().getDriveState() == maxon::DriveState::OperationEnabled)
             {
                 if(std::chrono::steady_clock::now() - motor_command.command_time >= TIME_CONTDOWN){
-                    motor_command.command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousVelocityMode);
-                    motor_command.command.setTargetVelocity(0.0);
+                    motor_command.command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousTorqueMode);
+                    motor_command.command.setTargetTorque(0.0);
                 }
                 
                 maxon_slave_ptr->stageCommand(motor_command.command);

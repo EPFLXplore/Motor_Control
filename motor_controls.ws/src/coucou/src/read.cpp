@@ -8,6 +8,8 @@
 
 using std::placeholders::_1;
 
+#define S_CONST 60 * 1e6 / (2 * 3.1415)
+
 class MinimalSubscriber : public rclcpp::Node
 {
   public:
@@ -28,37 +30,36 @@ class MinimalSubscriber : public rclcpp::Node
 
       auto message = motor_control_interfaces::msg::MotorCommand();
 
-      if(msg->buttons[0] == 0){
-        message.name = "J1";
-        message.mode = 1;
-        message.commande = msg->axes[0]*0.837;
-      }
-      else{
-        message.name = "J1";
-        message.mode = 0;
-        message.commande = msg->axes[0]*2*3.1415;
-      }
-
+      message.name = "J1";
+      message.mode = 1;
+      message.commande = msg->axes[0]*800/S_CONST;
+      
       publisher_->publish(message);
+
 
       message.name = "J2";
-      message.mode = 2;
-      message.commande = msg->axes[1];
+      message.commande = msg->axes[1] * 2/S_CONST;
 
       publisher_->publish(message);
 
-      // message.name = "J3";
-      // message.mode = 1;
-      // message.commande = msg->axes[3];
-
-      // message.name = "J4";
-      // message.mode = 1;
-      // message.commande = msg->axes[0];
-
-      // message.name = "J5";
-      // message.mode = 1;
-      // message.commande = msg->axes[0];
+      message.name = "J3";
+      message.commande = msg->axes[3] * 1/S_CONST;
       
+      publisher_->publish(message);
+
+      message.name = "J4";
+      message.commande = msg->axes[4] * 2/S_CONST;
+
+      publisher_->publish(message);
+
+      message.name = "J5";
+      message.commande = (msg->buttons[4]==1? -1 : -1)(msg->axes[2] - 1)/2 * 2/S_CONST;
+
+      publisher_->publish(message);
+      
+      message.name = "J6";
+      message.commande = (msg->buttons[5]==1? -1 : -1)(msg->axes[5] - 1)/2 * 2/S_CONST;
+
       publisher_->publish(message);
 
     }
