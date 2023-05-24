@@ -31,33 +31,33 @@ class MinimalSubscriber : public rclcpp::Node
       if(msg->buttons[0] == 0){
         message.name = "J1";
         message.mode = 1;
-        message.commande = msg->axes[0]*0.837;
+        message.command = msg->axes[0]*0.837;
       }
       else{
         message.name = "J1";
         message.mode = 0;
-        message.commande = msg->axes[0]*2*3.1415;
+        message.command = msg->axes[0]*2*3.1415;
       }
 
       publisher_->publish(message);
 
       message.name = "J2";
       message.mode = 2;
-      message.commande = msg->axes[1];
+      message.command = msg->axes[1];
 
       publisher_->publish(message);
 
       // message.name = "J3";
       // message.mode = 1;
-      // message.commande = msg->axes[3];
+      // message.command = msg->axes[3];
 
       // message.name = "J4";
       // message.mode = 1;
-      // message.commande = msg->axes[0];
+      // message.command = msg->axes[0];
 
       // message.name = "J5";
       // message.mode = 1;
-      // message.commande = msg->axes[0];
+      // message.command = msg->axes[0];
       
       publisher_->publish(message);
 

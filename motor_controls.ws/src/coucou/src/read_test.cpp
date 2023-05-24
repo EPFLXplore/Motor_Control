@@ -20,7 +20,7 @@ class MinimalSubscriber : public rclcpp::Node
   private:
     void topic_callback(const motor_control_interfaces::msg::MotorCommand::SharedPtr msg) const
     {
-      std::cout << msg->name << " , " << msg->mode << " , " << msg->commande << std::endl;
+      std::cout << msg->name << " , " << msg->mode << " , " << msg->command << std::endl;
     }
     rclcpp::Subscription<motor_control_interfaces::msg::MotorCommand>::SharedPtr subscription_;
 };
