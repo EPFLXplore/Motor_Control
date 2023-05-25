@@ -8,6 +8,8 @@
 
 using std::placeholders::_1;
 
+#define S_CONST 60 * 1e6 / (2 * 3.1415)
+
 class MinimalSubscriber : public rclcpp::Node
 {
   public:
@@ -41,6 +43,7 @@ class MinimalSubscriber : public rclcpp::Node
 
       publisher_->publish(message);
 
+
       message.name = "J2";
       message.mode = 2;
       message.command = msg->axes[1];
@@ -59,6 +62,9 @@ class MinimalSubscriber : public rclcpp::Node
       // message.mode = 1;
       // message.command = msg->axes[0];
       
+      message.name = "J6";
+      message.commande = (msg->buttons[5]==1? -1 : -1)(msg->axes[5] - 1)/2 * 2/S_CONST;
+
       publisher_->publish(message);
 
     }
