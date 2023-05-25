@@ -40,7 +40,7 @@ struct Motor_command {
 
 double PI = 3.14159265359;
 double INF = 1e10;
-std::vector<std::string> DEVICE_NAMES = {"J1", "J2", "J3", "J4", "J5", "J6", "Gripper"};
+std::vector<std::string> DEVICE_NAMES = {"J1", "J2", "J3", "J4", "J5", "J6", "Gripper", "Rassor"};
 std::vector<double> MAX_VELOCITIES = {1, 1, 1, 1, 1, 1, 1};
 std::vector<double> POS_LOWER_LIMITS = {-PI, -PI/2, -PI/4, -PI, -PI/2, -PI, -INF};
 std::vector<double> POS_UPPER_LIMITS = {PI, PI/2, PI/4, PI, PI/2, PI, INF};
@@ -101,9 +101,16 @@ class Motor_controller : public rclcpp::Node
         // MATTHIAS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
         void velocity_command_callback(const std_msgs::msg::Float64MultiArray::SharedPtr msg) {
             for (uint i=0; i < motor_command_list.size(); i++) {
-                motor_command_list[i].command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousVelocityMode);
-                motor_command_list[i].command.setTargetVelocity(motor_command_list[i].max_velocity * msg->data[i]);
-                motor_command_list[i].command_time = std::chrono::steady_clock::now();
+                if (motor_command_list[i].name == "Gripper") {
+                    motor_command_list[i].command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousTorqueMode);
+                    motor_command_list[i].command.setTargetTorque(msg->data[i]);
+                    motor_command_list[i].command_time = std::chrono::steady_clock::now();
+                }
+                else {
+                    motor_command_list[i].command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousVelocityMode);
+                    motor_command_list[i].command.setTargetVelocity(motor_command_list[i].max_velocity * msg->data[i]);
+                    motor_command_list[i].command_time = std::chrono::steady_clock::now();
+                }
             }
         }
 
@@ -127,8 +134,8 @@ class Motor_controller : public rclcpp::Node
                 msg.position.push_back(getReading.getActualPosition());
                 msg.velocity.push_back(getReading.getActualVelocity());
                 msg.effort.push_back(getReading.getActualCurrent());
-                publisher_state_->publish(msg);
             }
+            publisher_state_->publish(msg);
         }
         // MATTHIAS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 

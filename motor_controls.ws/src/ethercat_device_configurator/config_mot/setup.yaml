@@ -19,29 +19,35 @@ ethercat_devices:
     name:               J3
     configuration_file: device_configurations/maxon.yaml
     ethercat_bus:       eth0
-    ethercat_address:   3
+    ethercat_address:   4
 
   - type:               Maxon
     name:               J4
     configuration_file: device_configurations/maxon.yaml
     ethercat_bus:       eth0
-    ethercat_address:   4
+    ethercat_address:   6
 
   - type:               Maxon
     name:               J5
     configuration_file: device_configurations/maxon.yaml
     ethercat_bus:       eth0
-    ethercat_address:   5
+    ethercat_address:   7
 
   - type:               Maxon
     name:               J6
     configuration_file: device_configurations/maxon.yaml
     ethercat_bus:       eth0
-    ethercat_address:   6
+    ethercat_address:   8
 
   - type:               Maxon
     name:               Gripper
     configuration_file: device_configurations/maxon.yaml
     ethercat_bus:       eth0
-    ethercat_address:   7
+    ethercat_address:   3
+
+  - type:               Maxon
+    name:               Rassor
+    configuration_file: device_configurations/maxon.yaml
+    ethercat_bus:       eth0
+    ethercat_address:   5
 
