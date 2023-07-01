@@ -6,6 +6,7 @@
 #include "motor_control_interfaces/msg/motor_command.hpp"
 #include "motor_control_interfaces/msg/motor_data.hpp"
 #include "std_msgs/msg/float64_multi_array.hpp"
+#include "std_msgs/msg/int8.hpp"
 #include "sensor_msgs/msg/joint_state.hpp"
 
 #include <iostream>
@@ -54,6 +55,8 @@ EthercatDeviceConfigurator::SharedPtr configurator;
 
 unsigned int counter = 0;
 
+void signal_handler(int sig);
+
 class Motor_controller : public rclcpp::Node
 {
     public:
@@ -69,6 +72,9 @@ class Motor_controller : public rclcpp::Node
                 );
             subscription_single_motor_command_ = this->create_subscription<motor_control_interfaces::msg::MotorCommand>(
                 "HD/kinematics/single_joint_cmd", 10, std::bind(&Motor_controller::motor_command_callback, this, _1)
+                );
+            subscription_shutdown_ = this->create_subscription<std_msgs::msg::Int8>(
+                "ROVER/shutdown", 10, std::bind(&Motor_controller::kill, this, _1)
                 );
             publisher_state_ = this->create_publisher<sensor_msgs::msg::JointState>("HD/motor_control/joint_telemetry", 10);
             timer_motor_data_ = this->create_wall_timer(
@@ -89,6 +95,7 @@ class Motor_controller : public rclcpp::Node
         rclcpp::Subscription<std_msgs::msg::Float64MultiArray>::SharedPtr subscription_velocity_command_;
         rclcpp::Subscription<std_msgs::msg::Float64MultiArray>::SharedPtr subscription_position_command_;
         rclcpp::Subscription<motor_control_interfaces::msg::MotorCommand>::SharedPtr subscription_single_motor_command_;
+        rclcpp::Subscription<std_msgs::msg::Int8>::SharedPtr subscription_shutdown_;
         rclcpp::Publisher<sensor_msgs::msg::JointState>::SharedPtr publisher_state_;
         // MATTHIAS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -136,6 +143,11 @@ class Motor_controller : public rclcpp::Node
                 msg.effort.push_back(getReading.getActualCurrent());
             }
             publisher_state_->publish(msg);
+        }
+
+        void kill(const std_msgs::msg::Int8::SharedPtr msg) {
+            signal_handler(0);
+            rclcpp::shutdown();
         }
         // MATTHIAS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
