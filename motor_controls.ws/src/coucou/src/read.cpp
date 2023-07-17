@@ -62,10 +62,10 @@ class MinimalSubscriber : public rclcpp::Node
       // message.mode = 1;
       // message.command = msg->axes[0];
       
-      message.name = "J6";
-      message.commande = (msg->buttons[5]==1? -1 : -1)(msg->axes[5] - 1)/2 * 2/S_CONST;
+      // message.name = "J6";
+      // message.command = (msg->buttons[5]==1? -1 : -1)(msg->axes[5] - 1)/2 * 2/S_CONST;
 
-      publisher_->publish(message);
+      // publisher_->publish(message);
 
     }
 
