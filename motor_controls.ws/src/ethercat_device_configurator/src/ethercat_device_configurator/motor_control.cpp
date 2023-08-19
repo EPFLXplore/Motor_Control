@@ -1,4 +1,3 @@
-
 #include "EthercatDeviceConfigurator.hpp"
 #include <maxon_epos_ethercat_sdk/Maxon.hpp>
 
@@ -108,9 +107,9 @@ class Motor_controller : public rclcpp::Node
         // MATTHIAS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
         void velocity_command_callback(const std_msgs::msg::Float64MultiArray::SharedPtr msg) {
             for (uint i=0; i < motor_command_list.size(); i++) {
-                if (motor_command_list[i].name == "Gripper") {
+                if (1 || motor_command_list[i].name == "Gripper") {
                     motor_command_list[i].command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousTorqueMode);
-                    motor_command_list[i].command.setTargetTorque(msg->data[i]);
+                    motor_command_list[i].command.setTargetTorque(msg->data[i]*0.1);
                     motor_command_list[i].command_time = std::chrono::steady_clock::now();
                 }
                 else {
