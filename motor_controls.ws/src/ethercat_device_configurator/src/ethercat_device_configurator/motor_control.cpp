@@ -38,12 +38,14 @@ struct Motor_command {
         name(name), command(command), command_time(command_time) {}
 };
 
-double PI = 3.14159265359;
-double INF = 1e10;
-std::vector<std::string> DEVICE_NAMES = {"J1", "J2", "J3", "J4", "J5", "J6", "Gripper", "Rassor"};
-std::vector<double> MAX_VELOCITIES = {1, 1, 1, 1, 1, 1, 1};
-std::vector<double> POS_LOWER_LIMITS = {-PI, -PI/2, -PI/4, -PI, -PI/2, -PI, -INF};
-std::vector<double> POS_UPPER_LIMITS = {PI, PI/2, PI/4, PI, PI/2, PI, INF};
+static const double PI = 3.14159265359;
+static const double INF = 1e10;
+static const std::vector<std::string> DEVICE_NAMES = {"J1", "J2", "J3", "J4", "J5", "J6", "Gripper", "Rassor"};
+static const std::vector<double> MAX_VELOCITIES = {1, 1, 1, 1, 1, 1, 1, 1};
+static const std::vector<double> POS_LOWER_LIMITS = {-PI, -PI/2, -PI/4, -PI, -PI/2, -PI, -INF};
+static const std::vector<double> POS_UPPER_LIMITS = {PI, PI/2, PI/4, PI, PI/2, PI, INF};
+
+static const double reductions[] = { 0.5, 16, 1, 128, 1, 1, 1, 1 };     // should all be zero but are not
 
 std::vector<Motor_command> motor_command_list;
 
@@ -107,7 +109,7 @@ class Motor_controller : public rclcpp::Node
         // MATTHIAS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
         void velocity_command_callback(const std_msgs::msg::Float64MultiArray::SharedPtr msg) {
             for (uint i=0; i < motor_command_list.size(); i++) {
-                if (1 || motor_command_list[i].name == "Gripper") {
+                if (1 || motor_command_list[i].name == "Gripper") {     // TODO: remove the 1 once motors are correctly tuned in velocity
                     motor_command_list[i].command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousTorqueMode);
                     motor_command_list[i].command.setTargetTorque(msg->data[i]*0.1);
                     motor_command_list[i].command_time = std::chrono::steady_clock::now();
@@ -123,7 +125,7 @@ class Motor_controller : public rclcpp::Node
         void position_command_callback(const std_msgs::msg::Float64MultiArray::SharedPtr msg) {
             for (uint i=0; i < motor_command_list.size(); i++) {
                 motor_command_list[i].command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousPositionMode);
-                motor_command_list[i].command.setTargetPosition(msg->data[i]);
+                motor_command_list[i].command.setTargetPosition(msg->data[i] / reductions[i]);
                 motor_command_list[i].command_time = std::chrono::steady_clock::now();
             }
         }
@@ -137,7 +139,7 @@ class Motor_controller : public rclcpp::Node
                 msg.name.push_back(slave->getName());
 
                 auto getReading = maxon_slave_ptr->getReading();
-                msg.position.push_back(getReading.getActualPosition());
+                msg.position.push_back(getReading.getActualPosition() * reductions[i]);
                 msg.velocity.push_back(getReading.getActualVelocity());
                 msg.effort.push_back(getReading.getActualCurrent());
             }
@@ -347,10 +349,7 @@ void signal_handler(int sig)
 
 
 
-
-/*
-** Program entry.
-** Pass the path to the setup.yaml file as first command line argument.
+spin file as first command line argument.
  */
 int main(int argc, char**argv)
 {
