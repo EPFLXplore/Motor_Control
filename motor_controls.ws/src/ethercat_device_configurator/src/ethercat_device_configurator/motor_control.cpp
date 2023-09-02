@@ -115,7 +115,7 @@ private:
 
     void position_command_callback(const std_msgs::msg::Float64MultiArray::SharedPtr msg)
     {
-        for (uint i = 0; i < motor_command_list.size(); i++)
+        for (uint i = 0; i < 6; i++)     // only accepting position commands for j1-6
         {
             motor_command_list[i].command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousPositionMode);
             motor_command_list[i].command.setTargetPosition(msg->data[i] / REDUCTIONS[i]);
