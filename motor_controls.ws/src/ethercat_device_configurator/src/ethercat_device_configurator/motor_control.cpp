@@ -41,7 +41,7 @@ struct Motor_command {
 static const double PI = 3.14159265359;
 static const double INF = 1e10;
 static const std::vector<std::string> DEVICE_NAMES = {"J1", "J2", "J3", "J4", "J5", "J6", "Gripper", "Rassor"};
-static const std::vector<double> MAX_VELOCITIES = {1, 1, 1, 1, 1, 1, 1, 1};
+static const std::vector<double> MAX_VELOCITIES = {0.2, 0.5, 0.3, 0.3, 0.15, 0.3, 4, 1};
 static const std::vector<double> POS_LOWER_LIMITS = {-PI, -PI/2, -PI/4, -PI, -PI/2, -PI, -INF};
 static const std::vector<double> POS_UPPER_LIMITS = {PI, PI/2, PI/4, PI, PI/2, PI, INF};
 
@@ -109,9 +109,9 @@ class Motor_controller : public rclcpp::Node
         // MATTHIAS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
         void velocity_command_callback(const std_msgs::msg::Float64MultiArray::SharedPtr msg) {
             for (uint i=0; i < motor_command_list.size(); i++) {
-                if (1 || motor_command_list[i].name == "Gripper") {     // TODO: remove the 1 once motors are correctly tuned in velocity
+                if (motor_command_list[i].name == "Gripper") {     // TODO: remove the 1 once motors are correctly tuned in velocity
                     motor_command_list[i].command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousTorqueMode);
-                    motor_command_list[i].command.setTargetTorque(msg->data[i]*0.1);
+                    motor_command_list[i].command.setTargetTorque(msg->data[i]*motor_command_list[i].max_velocity);//*0.1);     // a bit ugly to use max velocity here when really it is a max torque
                     motor_command_list[i].command_time = std::chrono::steady_clock::now();
                 }
                 else {
@@ -348,7 +348,7 @@ void signal_handler(int sig)
 }
 
 
-
+/*
 spin file as first command line argument.
  */
 int main(int argc, char**argv)
