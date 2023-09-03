@@ -46,7 +46,7 @@ static const std::vector<double> MAX_VELOCITIES = {0.2, 0.5, 0.3, 0.3, 0.15, 0.3
 static const std::vector<double> POS_LOWER_LIMITS = {-PI, -PI/2, -PI/4, -PI, -PI/2, -PI, -INF};
 static const std::vector<double> POS_UPPER_LIMITS = {PI, PI/2, PI/4, PI, PI/2, PI, INF};
 
-static const double REDUCTIONS[] = {-1.0/128, 1.0/2, 1.0, -4.0, 1.0, 1.0/64, 1.0, 1.0}; // should all be 1 but are not
+static const std::vector<double> REDUCTIONS = {-1.0/128, 1.0/2, 1.0, -4.0, 1.0, 1.0/64, 1.0, 1.0}; // should all be 1 but are not
 
 std::vector<Motor_command> motor_command_list;
 
@@ -118,7 +118,11 @@ private:
         for (uint i = 0; i < 6; i++)     // only accepting position commands for j1-6
         {
             motor_command_list[i].command.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousPositionMode);
-            motor_command_list[i].command.setTargetPosition(msg->data[i] / REDUCTIONS[i]);
+            double new_pos = msg->data[i];
+            //new_pos = std::min(std::max(new_pos, POS_LOWER_LIMITS[i]), POS_UPPER_LIMITS[i]);
+            if (new_pos < POS_LOWER_LIMITS[i]) new_pos = POS_LOWER_LIMITS[i];
+            if (new_pos > POS_UPPER_LIMITS[i]) new_pos = POS_UPPER_LIMITS[i];
+            motor_command_list[i].command.setTargetPosition(new_pos / REDUCTIONS[i]);
             motor_command_list[i].command_time = std::chrono::steady_clock::now();
         }
     }
